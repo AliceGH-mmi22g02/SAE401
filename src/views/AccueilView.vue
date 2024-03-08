@@ -1,9 +1,11 @@
 <script setup>
+import '/public/css/_layout.scss'
+import '/public/css/_accueil.scss'
 </script>
 <template>
   <main>
     <h1>Acceuil </h1>
-    <h2>Bienvenue sur GREENPLAY !</h2>
+    <h2>Bienvenue sur <strong>GREENPLAY</strong> !</h2>
     <p>Plongez dans notre jeu interactif et ludique où chaque quête nous rapproche d'un avenir plus vert. Apprenez, jouez, gagnez des récompenses et contribuez à la préservation de notre planète.</p>
     <br>
     <h2>Pourquoi s’inscrire ?</h2>
