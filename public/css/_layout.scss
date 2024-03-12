@@ -5,4 +5,20 @@
   font-family: $font-primary;
   font-weight: $font-regular;
 }
+header {
+  width: 100%;
+  padding: 0;
 
+  .link {
+    font-size: 23px;
+  }
+
+  img {
+    width: 15%;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+}

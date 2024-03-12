@@ -13,6 +13,11 @@ import Quete8View from "../views/Quete/Quete8View.vue";
 import Quete9View from "../views/Quete/Quete9View.vue";
 import Quete10View from "../views/Quete/Quete10View.vue";
 import Resultat from "../views/ResultatView.vue";
+import Inscription from "../views/InscriptionView.vue";
+import Connexion from "../views/ConnexionView.vue";
+import Contact from "../views/ContactView.vue";
+
+
 
 
 
@@ -102,8 +107,20 @@ const router = createRouter({
             props: (route) => ({ score: route.params.score }),
         },
 
+        {
+            path: "/Inscription",
+            component: Inscription,
+        },
 
+        {
+            path: "/Connexion",
+            component: Connexion,
+        },
 
+        {
+            path: "/Contact",
+            component: Contact,
+        },
 
     ],
 });

@@ -1,18 +1,33 @@
-<script setup>
-import { RouterLink, RouterView } from "vue-router";
+<script>
 import '/public/css/_layout.scss'
+import { RouterLink, RouterView } from "vue-router";
+import logo from '@/assets/logo.png';
+
+export default {
+  name: 'LogoComponent',
+  data() {
+    return {
+      logo: logo
+    }
+  }
+}
 </script>
 
 <template>
   <header>
-    <div class="wrapper">
+    <div class="nav">
       <nav>
         <hr />
-        <RouterLink class="menu" to="/">Accueil</RouterLink>｜
-        <RouterLink class="menu" to="/Quete">Quêtes</RouterLink>｜
-        <RouterLink class="menu" to="/Profil">Profil</RouterLink>｜
-
-
+        <img :src="logo" alt="Logo">
+        <div class="link">
+          <RouterLink to="/">Accueil</RouterLink>
+          <RouterLink to="/Quete">Quêtes</RouterLink>
+          <RouterLink to="/Profil">Profil</RouterLink>
+          <RouterLink to="/Contact">Contact</RouterLink>
+          <RouterLink to="/Inscription">Inscription</RouterLink>
+          /
+          <RouterLink to="/Connexion">Connexion</RouterLink>
+        </div>
         <hr />
       </nav>
     </div>
@@ -20,3 +35,5 @@ import '/public/css/_layout.scss'
 
   <RouterView />
 </template>
+
+<style scoped></style>
