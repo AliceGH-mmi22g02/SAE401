@@ -9,6 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.6.7",
+    "mysql": "^2.18.1",
+    "safe-buffer": "^5.2.1",
     "vue": "^3.4.15",
     "vue-i18n": "9",
     "vue-router": "^4.3.0",
@@ -18,7 +21,7 @@
     "@vitejs/plugin-vue": "^5.0.3",
     "less": "^4.2.0",
     "less-loader": "^12.2.0",
-    "sass": "^1.71.1",
+    "sass": "^1.72.0",
     "sass-loader": "^14.1.1",
     "stylus": "^0.63.0",
     "stylus-loader": "^8.1.0",
