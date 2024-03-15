@@ -15,10 +15,22 @@ header {
 
   img {
     width: 15%;
+    margin-right: 20%;
+
   }
 
   nav {
     display: flex;
     justify-content: space-between;
+    margin-right: 20%;
   }
+}
+
+
+footer {
+  background-color: #B9B8B8 ;
+  margin-top: 10%;
+  text-align: center;
+  color: white;
+  font-family: $font-primary;
 }

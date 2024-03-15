@@ -20,7 +20,7 @@
     "@vitejs/plugin-vue": "^5.0.3",
     "less": "^4.2.0",
     "less-loader": "^12.2.0",
-    "sass": "^1.71.1",
+    "sass": "^1.72.0",
     "sass-loader": "^14.1.1",
     "stylus": "^0.63.0",
     "stylus-loader": "^8.1.0",

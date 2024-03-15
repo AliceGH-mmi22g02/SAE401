@@ -17,7 +17,6 @@ export default {
   <header>
     <div class="nav">
       <nav>
-        <hr />
         <img :src="logo" alt="Logo">
         <div class="link">
           <RouterLink to="/">Accueil</RouterLink>
@@ -28,12 +27,18 @@ export default {
           /
           <RouterLink to="/Connexion">Connexion</RouterLink>
         </div>
-        <hr />
       </nav>
     </div>
   </header>
 
   <RouterView />
+
+  <footer>
+    <h3>Au-delà des récompenses virtuelles, votre participation contribue réellement à la protection de l'environnement.</h3>
+    <br>
+    <h3>Alors rejoignez l'aventure GREENPLAY ! Apprenez, agissez, et soyez récompensées :)</h3>
+  </footer>
+
 </template>
 
 <style scoped></style>
