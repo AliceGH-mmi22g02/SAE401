@@ -1,6 +1,6 @@
 <script setup>
 import '/public/css/_layout.scss'
-import '/public/css/_accueil.scss'
+import '/public/css/_global.scss'
 </script>
 <template>
   <main>
