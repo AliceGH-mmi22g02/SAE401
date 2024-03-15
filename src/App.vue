@@ -1,22 +1,21 @@
 <script setup>
-import { RouterLink, RouterView } from "vue-router";
-import '/public/css/_layout.scss'
+import LocaleChanger from "@/components/LocaleChanger.vue";
 </script>
 
 <template>
   <header>
-    <div class="wrapper">
+    <div>
       <nav>
         <hr />
         <RouterLink class="menu" to="/">Accueil</RouterLink>｜
         <RouterLink class="menu" to="/Quete">Quêtes</RouterLink>｜
-        <RouterLink class="menu" to="/Profil">Profil</RouterLink>｜
-
-
+        <RouterLink class="menu" to="/Profil">Profil</RouterLink>
         <hr />
       </nav>
     </div>
   </header>
-
+  <div>
+    <LocaleChanger/>
+  </div>
   <RouterView />
 </template>

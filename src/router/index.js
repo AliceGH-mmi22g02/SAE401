@@ -13,6 +13,7 @@ import Quete8View from "../views/Quete/Quete8View.vue";
 import Quete9View from "../views/Quete/Quete9View.vue";
 import Quete10View from "../views/Quete/Quete10View.vue";
 import Resultat from "../views/ResultatView.vue";
+import TestTrad from "../views/TestTrad.vue";
 
 
 

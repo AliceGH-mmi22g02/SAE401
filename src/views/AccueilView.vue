@@ -2,44 +2,67 @@
 import '/public/css/_layout.scss'
 import '/public/css/_accueil.scss'
 </script>
+
 <template>
+
+  <h1>SECTION TEST</h1>
+
+  <p>{{ $t("main.p3") }}</p>
+
+  <h1>FIN SECTION TEST</h1>
+
   <main>
-    <h1>Acceuil </h1>
-    <h2>Bienvenue sur <strong>GREENPLAY</strong> !</h2>
-    <p>Plongez dans notre jeu interactif et ludique où chaque quête nous rapproche d'un avenir plus vert. Apprenez, jouez, gagnez des récompenses et contribuez à la préservation de notre planète.</p>
+
+    <LocaleChanger/>
+    <h1>{{ $t("main.home") }}</h1>
+    <h2>{{ $t("main.welcome") }} <strong>{{ $t("special.gp")}}</strong> {{ $t("special.exclam")}}</h2>
+    <p>{{ $t("main.p1") }}</p>
     <br>
-    <h2>Pourquoi s’inscrire ?</h2>
-    <p>S'inscrire sur <strong>GREENPLAY</strong>, c'est rejoindre une communauté engagée dans la lutte pour un avenir durable. En créant un compte, vous pourrez suivre vos progrès, sauvegarder vos quêtes achevées et accumuler des récompenses exclusives.</p>
+    <h2>{{ $t("main.why") }}</h2>
+    <p>{{ $t("main.p2") }}</p>
     <br>
-    <h2>Pourquoi jouer ?</h2>
-    <p>Jouer sur <strong>GREENPLAY</strong> est une opportunité unique de combiner amusement et sensibilisation aux enjeux écologiques. C'est une manière engageante d'apprendre sur les défis environnementaux tout en découvrant des moyens concrets d'y répondre. À travers chaque quête, vous augmentez non seulement votre connaissance sur l'écologie, mais vous contribuez aussi activement à des initiatives de préservation de l'environnement.</p>
+    <h2>{{ $t("main.whyplay") }}</h2>
+    <p>{{ $t("main.p3") }}</p>
     <br>
-    <h2>Comment jouer ?</h2>
-    <p>1. Inscrivez-vous pour suivre vos progrès<br>
-      2. Explorez et sélectionnez une quête depuis le tableau des quêtes.<br>
-      3. Réalisez les objectifs de la quête, validez votre succès en répondant à un quizz,<br> et récoltez des récompenses depuis votre compte<br>
-    </p>
+    <h2>{{ $t("main.how") }}</h2>
+    <p>{{ $t("main.p4-1") }}</p>
+    <p>{{ $t("main.p4-2") }}</p>
+    <p>{{ $t("main.p4-3") }}</p>
     <br>
-    <h2>Sujet abordés des Quêtes</h2>
+    <h2>{{ $t("main.subject") }}</h2>
     <br>
-    <h2>A quoi ressemble une Quête ?</h2>
-    <p>- Dans le pop-up de quête, découvrez une courte description du problème environnemental.</p>
-    <p>- Découvrez la quête principale et une quête secondaire optionnelle à intégrer dans votre quotidien (la non-validation de celle-ci n’empêche pas la validation de la quête principale).</p>
-    <p>- Cliquez sur "Effectuer la Quête" pour accéder à la page d'information et commencez votre quête !</p>
+    <h2>{{ $t("main.what") }}</h2>
+    <p>{{ $t("main.p5") }}</p>
+    <p>{{ $t("main.p6") }}</p>
+    <p>{{ $t("main.p7") }}</p>
     <br>
-    <h2>Système de Récompense</h2>
-    <p><strong>Soyez récompensés à chaque fin de quête !</strong></p>
+    <h2>{{ $t("main.rewards") }}</h2>
+    <p>{{ $t("main.p8") }}</p>
     <br>
-    <p><strong>Badges de réussite :</strong> À l'issue de chaque quête, vous recevez un badge unique. Ces badges symbolisent les connaissances que vous avez acquises et votre participation active à la cause écologique.</p>
+    <p>{{ $t("main.p9") }}</p>
     <br>
-    <p><strong>Codes promotionnels :</strong> Profitez de codes promotionnels pour des jeux vidéo éco-responsables !</p>
+    <p>{{ $t("main.p10") }}</p>
     <br>
-    <p><strong>Une fois toutes les quêtes terminées, une <strong>surprise</strong> vous attend !</strong></p>
+    <p>{{ $t("main.p11") }}</p>
     <br>
-    <h2>Au-delà des récompenses virtuelles, votre participation contribue réellement à la protection de l'environnement.</h2>
+    <h2>{{ $t("main.more") }}</h2>
     <br>
-    <p>Toutes vos récompenses sont sauvegardées sur votre profil dès l'inscription.</p>
+    <p>{{ $t("main.p12") }}</p>
     <br>
-    <p>Rejoignez l'aventure <strong>GREENPLAY</strong> ! Apprenez, agissez, et soyez récompensés :)</p>
+    <p>{{ $t("main.p13") }}</p>
   </main>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      jsonData: { message: "Hello, World!" },
+    };
+  },
+  mounted() {
+    const innerHTML = this.$refs.myElement.innerHTML;
+    console.log(innerHTML);
+  },
+};
+</script>

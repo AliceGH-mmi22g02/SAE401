@@ -1,0 +1,35 @@
+{
+  "main": {
+    "hello": "Hello World!",
+    "home":"Homepage",
+    "welcome":"Welcome to ",
+    "p1":"Dive into our interactive and ludic game where every quest gets you closer to a greener future. Learn, play, earn rewards and contribute to saving our planet.",
+    "why":"Why register?",
+    "p2":"Joining <strong>GREENPLAY</strong>,  it’s joining a community invested in the fight for a sustainable tomorrow. By creating an account, you become able to follow your progress, save your completed quests and accumulate exclusive rewards.",
+    "whyplay":"Why play?",
+    "p3":"Playing on <strong>GREENPLAY</strong> is an unique opportunity to combine fun and sensibilization to ecological challenges. It is an engaging way to learn about environmental challenges as well as finding realistic ways to resolve them. Through every quest, you not only level up your knowledge on ecology, you also actively contribute to initiatives to preserve our world.",
+    "how":"How to play?",
+    "p4-1":"1. Create an account to follow your progress and collect your rewards",
+    "p4-2":"2. Explore and select a quest from the quest board",
+    "p4-3": "3. Follow the quest objectives, and validate by answering a quiz. Then, you can collect rewards from your account!",
+    "p4-4": "",
+    "subject":"Sujet abordés des Quêtes",
+    "what":"What are the Quests like?",
+    "p5":"- When clicking on a quest, you will see a pop-up describing the environmental challenge. The objectives of the quest will also be detailed.",
+    "p6":"- The main quest is required to complete the quest, but the secondary quest is something you will have to integrate in your daily life (it is not mandatory to be able to validate the main quest).",
+    "p7":"- Click on “Start Quest” to get redirected to the information page and start the Quest!",
+    "rewards":"Reward system",
+    "p8":"<strong>Be rewarded for every cleared quest!</strong>",
+    "p9":"<strong>Success Badges :</strong> When finishing a quest, you will be awarded a unique badge. These symbolize the knowledge you acquired and your participation to the ecological cause.",
+    "p10":"<strong>Promo codes :</strong>Enjoy promo codes for eco-responsible games!",
+    "p11":"And more importantly, make sure to clear every Quest. A <strong>surprise</strong> awaits you at the end!</strong>",
+    "more":"Beyond digital rewards, your participation really contributes to the protection of our environment.",
+    "p12":"All of your rewards will be saved on your profile as soon as you register.",
+    "p13":"Join the <strong>GREENPLAY</strong> adventure now! Learn, take action and be rewarded :)"
+
+  },
+  "special":{
+    "gp":"GREENPLAY",
+    "exclam": "!"
+  }
+}
