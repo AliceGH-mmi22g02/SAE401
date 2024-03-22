@@ -16,11 +16,7 @@ import Resultat from "../views/ResultatView.vue";
 import Inscription from "../views/InscriptionView.vue";
 import Connexion from "../views/ConnexionView.vue";
 import Contact from "../views/ContactView.vue";
-
-
-
-
-
+import Information from "../views/InformationView.vue";
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -121,6 +117,12 @@ const router = createRouter({
             path: "/Contact",
             component: Contact,
         },
+
+        {
+            path: "/Information",
+            component: Information,
+        },
+
 
     ],
 });
