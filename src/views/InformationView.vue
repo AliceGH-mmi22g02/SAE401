@@ -79,7 +79,7 @@
     <div class="grid-forme">
       <div class="grid-forme-fond">
       </div>
-      <h3>Exploitation minière</h3>
+      <h3>Perte de biodiversité</h3>
       <p>- Disparition d'espèces animales et végétales à un rythme alarmant.<br> - Destruction de l'habitat naturel de millions d'êtres vivants.<br> - Fragilisation de l'équilibre des écosystèmes.<br>- Destruction des forêts pour extraire des ressources naturelles.</p>
     </div>
 
