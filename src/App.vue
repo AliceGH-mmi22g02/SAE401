@@ -1,5 +1,5 @@
 <script>
-import '/public/css/_layout.scss'
+import '/public/css/_layout.scss';
 import { RouterLink, RouterView } from "vue-router";
 import logo from '@/assets/logo.png';
 

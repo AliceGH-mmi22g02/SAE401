@@ -3,7 +3,7 @@ import Accueil from "../views/AccueilView.vue";
 import Badges from "../views/Badges.vue";
 import Quete from "../views/QueteView.vue";
 import Profil from "../views/ProfilView.vue";
-import Quete1View from "../views/Quete/Quete1View.vue";
+import InformationView from "../views/InformationView.vue";
 import Quete2View from "../views/Quete/Quete2View.vue";
 import Quete3View from "../views/Quete/Quete3View.vue";
 import Quete4View from "../views/Quete/Quete4View.vue";
@@ -17,7 +17,6 @@ import Resultat from "../views/ResultatView.vue";
 import Inscription from "../views/InscriptionView.vue";
 import Connexion from "../views/ConnexionView.vue";
 import Contact from "../views/ContactView.vue";
-import Information from "../views/InformationView.vue";
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -43,9 +42,9 @@ const router = createRouter({
         },
 
         {
-            path: "/quete1",
-            name: 'Quete1',
-            component: Quete1View,
+            path: "/Information",
+            name: 'Information',
+            component: InformationView,
         },
 
         {
@@ -122,11 +121,6 @@ const router = createRouter({
         {
             path: "/Contact",
             component: Contact,
-        },
-
-        {
-            path: "/Information",
-            component: Information,
         },
 
 

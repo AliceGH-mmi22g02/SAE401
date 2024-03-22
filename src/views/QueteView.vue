@@ -11,15 +11,10 @@
 
     <div>
       <label>
-        <input type="radio" name="questSelection" value="/Quete1" v-model="questRoute"> Quête 1
+        <input type="radio" name="questSelection" value="/Information" v-model="questRoute"> Quête 1
       </label>
     </div>
     <h3>Quête secondaire :</h3>
-    <div>
-      <label>
-        <input type="radio" name="questSelection" value="/Information" v-model="questRoute"> Information
-      </label>
-    </div>
     <RouterLink :to="questRoute">Commencer la quête</RouterLink>
 </template>
 
