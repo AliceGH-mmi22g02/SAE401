@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Accueil from "../views/AccueilView.vue";
+import Badges from "../views/Badges.vue";
 import Quete from "../views/QueteView.vue";
 import Profil from "../views/ProfilView.vue";
 import Quete1View from "../views/Quete/Quete1View.vue";
@@ -29,6 +30,11 @@ const router = createRouter({
         {
             path: "/Quete",
             component: Quete,
+        },
+
+        {
+            path: "/Badges",
+            component: Badges,
         },
 
         {

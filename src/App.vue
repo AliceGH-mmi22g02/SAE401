@@ -21,6 +21,7 @@ export default {
         <div class="link">
           <RouterLink to="/">Accueil</RouterLink>
           <RouterLink to="/Quete">Quêtes</RouterLink>
+          <RouterLink to="/Badges">Badges</RouterLink>
           <RouterLink to="/Profil">Profil</RouterLink>
           <RouterLink to="/Contact">Contact</RouterLink>
           <RouterLink to="/Inscription">Inscription</RouterLink>
