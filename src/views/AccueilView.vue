@@ -1,7 +1,6 @@
-<script setup>
-import '/public/css/_layout.scss'
-import '/public/css/_global.scss'
-</script>
+<style lang="scss">
+@import "/public/css/scss_page/accueil";
+</style>
 <template>
   <main>
     <h1>Accueil</h1>

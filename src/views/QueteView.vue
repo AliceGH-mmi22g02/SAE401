@@ -1,3 +1,7 @@
+<style lang="scss">
+@import "/public/css/scss_page/quete";
+</style>
+
 <template>
     <div class="quete">
       <h1>Quêtes 1</h1>

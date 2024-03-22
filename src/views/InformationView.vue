@@ -1,3 +1,7 @@
+<style lang="scss">
+@import "/public/css/scss_page/information";
+</style>
+
 <template>
   <div class="titreinfo">
     <h1>La lutte contre la déforestation</h1>
@@ -97,11 +101,4 @@
       <p>- Remplacent les forêts tropicales, en particulier en Asie du Sud-Est. <br> - Exacerbent la perte de biodiversité et le changement climatique.</p>
     </div>
   </div>
-
-
-
-
 </template>
-
-<script setup>
-</script>
