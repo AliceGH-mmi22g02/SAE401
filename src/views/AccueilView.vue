@@ -4,7 +4,7 @@ import '/public/css/_global.scss'
 </script>
 <template>
   <main>
-    <h1>Acceuil </h1>
+    <h1>Accueil</h1>
     <section class="bienvenue">
     <h2>Bienvenue sur <strong>GREENPLAY</strong> !</h2>
       <p>Plongez dans notre jeu interactif et ludique où chaque quête nous rapproche d'un avenir plus vert. Apprenez, jouez, gagnez des récompenses et contribuez à la préservation de notre planète.</p>
@@ -50,7 +50,7 @@ import '/public/css/_global.scss'
       <p><strong>Une fois toutes les quêtes terminées, une <strong>surprise</strong> vous attend !</strong></p>
     <br>
     </section>
-    <section class="accueilfooter">
+    <section class="prevention">
     <h2>Au-delà des récompenses virtuelles, votre participation contribue réellement à la protection de l'environnement.</h2>
     <br>
       <p>Toutes vos récompenses sont sauvegardées sur votre profil dès l'inscription.</p>
