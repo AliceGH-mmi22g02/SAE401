@@ -1,1 +1,81 @@
 @import "../main";
+
+.titreinfo {
+  text-align: center;
+}
+
+.partieinfo {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 8%;
+
+  .grid-forme {
+    background-color: #D9D9D9;
+    padding: 20px;
+    width: 60%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+
+    h3 {
+      font-size: 16px;
+    }
+
+    p {
+      font-size: 10px;
+    }
+  }
+
+  .grid-forme-fond {
+    background-color: #B1B1B1;
+    width: 195px;
+    height: 100px;
+    border-radius: 15px;
+  }
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 20%;
+
+
+  .grid2-forme {
+    background-color: #D9D9D9;
+    padding: 20px;
+    width: 46%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+
+    h3 {
+      font-size: 17px;
+    }
+
+    p {
+      font-size: 10px;
+    }
+  }
+
+  .grid2-forme-fond {
+    background-color: #B1B1B1;
+    width: 195px;
+    height: 100px;
+    border-radius: 15px;
+  }
+}

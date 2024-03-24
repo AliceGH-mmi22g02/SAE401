@@ -16,13 +16,19 @@ header {
   img {
     width: 15%;
     margin-right: 20%;
-
   }
 
   nav {
     display: flex;
     justify-content: space-between;
     margin-right: 20%;
+
+    a {
+      color:$primary-color2;
+      font-family: $font-primary;
+      text-decoration: none;
+      margin-right: 10px;
+    }
   }
 }
 
