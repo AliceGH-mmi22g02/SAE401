@@ -1,20 +1,17 @@
-<style lang="scss">
-@import "/public/css/scss_page/connexion";
-</style>
 <template>
-  <main>
-    <h1>Connexion</h1>
-    <div class="form-container">
-      <div class="input-container">
-        <input v-model="email" type="email" placeholder="Adresse email" />
+  <div>
+    <div>
+      <h1>Connexion</h1>
+      <div>
+        <label for="email">Adresse Email:</label>
+        <input type="email" id="email" v-model="form.email" required>
       </div>
-      <div class="password-container">
-        <div class="input-container">
-          <input v-model="password" type="password" placeholder="Mot de passe" />
-        </div>
+      <div>
+        <label for="motdepasse">Mot de passe:</label>
+        <input type="password" id="motdepasse" v-model="form.motdepasse" required>
       </div>
-      <div class="connecter">
-        <button @click="login">Se connecter</button>
+      <div>
+        <button type="submit" @click="login">Se connecter</button>
       </div>
       <router-link to="/Inscription">
         <div>
@@ -23,32 +20,41 @@
       </router-link>
     </div>
 
-    <p class="error-message" v-if="message">{{ message }}</p>
-  </main>
+    <p v-if="errorMessage">{{ errorMessage }}</p>
+  </div>
 </template>
 
-<script setup>
-import { ref } from 'vue';
-import { useRouter } from 'vue-router';
-import axios from 'axios';
+<script>
+import { recupererUtilisateurs } from '../../indexedDB.js';
 
-const router = useRouter();
-
-const email = ref('');
-const password = ref('');
-const message = ref('');
-
-async function login() {
-  try {
-    const response = await axios.post('/api/login', { email: email.value, password: password.value });
-    if (response.data.success) {
-      router.push('/profil');
-    } else {
-      message.value = response.data.message;
+export default {
+  data() {
+    return {
+      form: {
+        email: '',
+        motdepasse: ''
+      },
+      errorMessage: ''
+    };
+  },
+  methods: {
+    async login() {
+      try {
+        const users = await recupererUtilisateurs();
+        const user = users.find(u => u.email === this.form.email && u.motdepasse === this.form.motdepasse);
+        if (user) {
+          alert('Connexion réussie !');
+          await this.$router.push('/'); //MISE EN PLACE D'UN AWAIT POUR PERMETTRE D'ACTUALISER ET DE DIRIGER VERS LA PAGE ACCUEIL EN MEME TEMPS
+        } else {
+          this.errorMessage = 'Adresse email ou mot de passe incorrect.';
+        }
+      } catch (error) {
+        console.error('Erreur lors de la connexion :', error);
+        this.errorMessage = 'Une erreur est survenue lors de la connexion.';
+      } finally { // VA PERMETTRE D'ACTUALISER ET DE DIRIGER VERS LA PAGE ACCUEIL EN MEME TEMPS
+        this.$router.go(0); // PERMET D'ACTUALISER LA PAGE POUR PRENDRE EN COMPTE LA CONNEXION
+      }
     }
-  } catch (error) {
-    console.error('Erreur lors de la connexion :', error);
-    message.value = 'Une erreur est survenue lors de la connexion.';
   }
-}
+};
 </script>
