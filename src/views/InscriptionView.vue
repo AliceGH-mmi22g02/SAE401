@@ -1,26 +1,36 @@
 <template>
-  <div>
+  <div class="inscription">
+    <div class="inscription-img">
+    </div>
+    <div class="inscription-formulaire">
     <h1>Inscription</h1>
     <form @submit.prevent="register">
-      <div>
+      <div class="inscription-formulaire-champ">
         <label for="nom">Nom:</label>
         <input type="text" id="nom" v-model="form.nom" required>
       </div>
-      <div>
+      <div class="inscription-formulaire-champ">
         <label for="prenom">Prénom:</label>
         <input type="text" id="prenom" v-model="form.prenom" required>
       </div>
-      <div>
+      <div class="inscription-formulaire-champ">
         <label for="email">Adresse Email:</label>
         <input type="email" id="email" v-model="form.email" required>
       </div>
-      <div>
+      <div class="inscription-formulaire-champ">
         <label for="motdepasse">Mot de passe:</label>
         <input type="password" id="motdepasse" v-model="form.motdepasse" required>
       </div>
-      <!-- Autres champs du formulaire -->
-      <button type="submit">S'inscrire</button>
+      <div  class="inscription-formulaire-inscrire">
+        <button type="submit">S'inscrire</button>
+      </div>
+      <router-link to="/Connexion">
+        <div class="inscription-formulaire-connectez">
+          <a>Vous avez déjà un compte ? Connectez-vous</a>
+        </div>
+      </router-link>
     </form>
+    </div>
   </div>
 </template>
 
@@ -41,6 +51,7 @@ export default {
       try {
         await this.writeDataToIndexedDB();
         alert('Inscription réussie !');
+        this.$router.push('/Connexion');
         this.resetForm();
       } catch (error) {
         console.error('Erreur lors de l\'inscription:', error);

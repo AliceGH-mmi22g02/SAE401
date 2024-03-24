@@ -1,26 +1,27 @@
 <template>
-  <div>
-    <div>
+  <div class="connexion">
+    <div class="connexion-img">
+    </div>
+    <div class="connexion-formulaire">
       <h1>Connexion</h1>
-      <div>
+      <div class="connexion-formulaire-champ">
         <label for="email">Adresse Email:</label>
         <input type="email" id="email" v-model="form.email" required>
       </div>
-      <div>
+      <div class="connexion-formulaire-champ">
         <label for="motdepasse">Mot de passe:</label>
         <input type="password" id="motdepasse" v-model="form.motdepasse" required>
       </div>
-      <div>
-        <button type="submit" @click="login">Se connecter</button>
+      <div class="connexion-formulaire-connecter">
+        <button type="submit" @click="login">Connexion</button>
       </div>
       <router-link to="/Inscription">
-        <div>
+        <div class="connexion-formulaire-inscrire">
           <a>Vous n'avez pas encore de compte ? Inscrivez-vous</a>
         </div>
       </router-link>
+      <p class="error-message" v-if="errorMessage">{{ errorMessage }}</p>
     </div>
-
-    <p v-if="errorMessage">{{ errorMessage }}</p>
   </div>
 </template>
 
@@ -58,3 +59,6 @@ export default {
   }
 };
 </script>
+<style lang="scss">
+@import "/public/css/scss_page/connexion";
+</style>
