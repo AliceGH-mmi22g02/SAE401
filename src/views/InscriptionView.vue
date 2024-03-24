@@ -6,19 +6,19 @@
     <h1>Inscription</h1>
     <form @submit.prevent="register">
       <div class="inscription-formulaire-champ">
-        <label for="nom">Nom:</label>
+        <label for="nom">Nom</label>
         <input type="text" id="nom" v-model="form.nom" required>
       </div>
       <div class="inscription-formulaire-champ">
-        <label for="prenom">Prénom:</label>
+        <label for="prenom">Prénom</label>
         <input type="text" id="prenom" v-model="form.prenom" required>
       </div>
       <div class="inscription-formulaire-champ">
-        <label for="email">Adresse Email:</label>
+        <label for="email">Email</label>
         <input type="email" id="email" v-model="form.email" required>
       </div>
       <div class="inscription-formulaire-champ">
-        <label for="motdepasse">Mot de passe:</label>
+        <label for="motdepasse">Mot de passe</label>
         <input type="password" id="motdepasse" v-model="form.motdepasse" required>
       </div>
       <div  class="inscription-formulaire-inscrire">

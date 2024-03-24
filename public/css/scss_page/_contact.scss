@@ -1,1 +1,84 @@
 @import "../main";
+
+.contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-img {
+  background-image: url("src/assets/logo.png");
+}
+
+.contact-formulaire {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  height: 600px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 3%;
+
+  h1 {
+    font-family: $font-primary;
+    font-weight: $font-bold;
+    color: $color-black;
+    font-weight: bold;
+  }
+}
+
+.contact-formulaire-champ {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 85%;
+
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  label {
+    font-weight: bold;
+    font-family: $font-primary;
+  }
+
+  .nom-prenom {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .nom, .prenom {
+    width: calc(45% - 5px);
+  }
+
+  .nom {
+    margin-right: 10px;
+  }
+}
+
+.contact-formulaire-envoyer button {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #111827;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: $font-secondary;
+  font-size: 20px;
+}
+
+.contact-formulaire-envoyer button:hover {
+  background-color: #0056b3;
+  color: $color-black;
+}
+
+.message {
+  height: 200px;
+}

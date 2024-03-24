@@ -5,11 +5,11 @@
     <div class="connexion-formulaire">
       <h1>Connexion</h1>
       <div class="connexion-formulaire-champ">
-        <label for="email">Adresse Email:</label>
+        <label for="email">Email</label>
         <input type="email" id="email" v-model="form.email" required>
       </div>
       <div class="connexion-formulaire-champ">
-        <label for="motdepasse">Mot de passe:</label>
+        <label for="motdepasse">Mot de passe</label>
         <input type="password" id="motdepasse" v-model="form.motdepasse" required>
       </div>
       <div class="connexion-formulaire-connecter">

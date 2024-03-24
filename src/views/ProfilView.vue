@@ -1,13 +1,12 @@
-<style lang="scss">
-@import "/public/css/scss_page/profile";
-</style>
+<template>
+  <main>
+    <h1>Profil</h1>
+  </main>
+</template>
 
 <script setup>
 </script>
 
-<template>
-  <main>
-    <h1>Profil </h1>
-    <p>Bienvenue sur GREENPLAY</p>
-  </main>
-</template>
+<style lang="scss">
+@import "/public/css/scss_page/profile";
+</style>

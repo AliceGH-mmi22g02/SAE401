@@ -17,6 +17,7 @@ import Resultat from "../views/ResultatView.vue";
 import Inscription from "../views/InscriptionView.vue";
 import Connexion from "../views/ConnexionView.vue";
 import Contact from "../views/ContactView.vue";
+import { recupererUtilisateurs } from '/indexedDB.js';
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -39,6 +40,7 @@ const router = createRouter({
         {
             path: "/Profil",
             component: Profil,
+            meta: { requiresAuth: true } // Indique que cette route nécessite une authentification
         },
 
         {
@@ -125,6 +127,38 @@ const router = createRouter({
 
 
     ],
+});
+
+
+// Navigation guard pour vérifier si l'utilisateur est connecté avant d'accéder à certaines routes
+router.beforeEach(async (to, from, next) => {
+    const requiresAuth = to.matched.some(record => record.meta.requiresAuth);
+
+    // Si la route nécessite une authentification
+    if (requiresAuth) {
+        try {
+            // Récupérer les utilisateurs depuis l'IndexedDB
+            const users = await recupererUtilisateurs();
+
+            // Vérifier si un utilisateur est connecté
+            const isLoggedIn = users.length > 0;
+
+            // Si l'utilisateur n'est pas connecté, le rediriger vers la page de connexion
+            if (!isLoggedIn) {
+                next('/Connexion');
+            } else {
+                // Sinon, autoriser l'accès à la route demandée
+                next();
+            }
+        } catch (error) {
+            console.error('Erreur lors de la vérification de la connexion :', error);
+            // En cas d'erreur, rediriger vers la page de connexion
+            next('/Connexion');
+        }
+    } else {
+        // Si la route n'exige pas d'authentification, autoriser l'accès
+        next();
+    }
 });
 
 export default router;
