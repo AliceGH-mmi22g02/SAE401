@@ -1,16 +1,10 @@
-<script setup>
-import '/public/css/_layout.scss'
-import '/public/css/_accueil.scss'
-</script>
-
 <template>
 
-  <h1>SECTION TEST</h1>
-
-  <p>{{ $t("main.p3") }}</p>
-
-  <h1>FIN SECTION TEST</h1>
-
+  <div ref="myElement">
+    <h1>SECTION TEST</h1>
+    <p>{{ $t("main.p3") }}</p>
+    <h1>FIN SECTION TEST</h1>
+  </div>
   <main>
 
     <LocaleChanger/>
@@ -54,10 +48,15 @@ import '/public/css/_accueil.scss'
 </template>
 
 <script>
+import LocaleChanger from '../components/LocaleChanger.vue';
+
 export default {
+  components: {
+    LocaleChanger
+  },
   data() {
     return {
-      jsonData: { message: "Hello, World!" },
+      jsonData: { message: "Hello, World!" }
     };
   },
   mounted() {
@@ -66,3 +65,8 @@ export default {
   },
 };
 </script>
+
+<style lang="scss">
+@import "/public/css/scss_page/accueil";
+/* Autres styles */
+</style>
