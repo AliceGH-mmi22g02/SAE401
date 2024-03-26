@@ -76,15 +76,70 @@
         <div class="grid-forme">
           <div class="grid-forme-fond">
           </div>
-          <h3>Commerce illégal du bois</h3>
-          <p>- Menace les efforts de conservation</p>
+          <h3>Changement climatique</h3>
+          <p>- Exacerbation du réchauffement climatique.<br> - Destruction des arbres, qui absorbent le carbone et luttent contre l'accumulation de gaz à effet de serre.<br> - Libération de CO2 dans l'atmosphère.</p>
         </div>
         <div class="grid-forme">
           <div class="grid-forme-fond">
           </div>
-          <h3>Plantations de palmiers à huile</h3>
-          <p>- Remplacent les forêts tropicales, en particulier en Asie du Sud-Est. <br> - Exacerbent la perte de biodiversité et le changement climatique.</p>
+          <h3>Perturbation du cycle de l'eau</h3>
+          <p>- Dérégulation du débit des rivières.<br>- Augmentation des risques d'inondations et de sécheresses.<br>- Déstabilisation des ressources hydriques.<br> - Remplacent les forêts tropicales, en particulier en Asie du Sud-Est. <br> - Exacerbent la perte de biodiversité et le changement climatique.</p>
         </div>
+      </div>
+      <div class="partieinfo">
+        <h3>Conséquences socio-économiques</h3>
+      </div>
+      <div class="grid2">
+        <div class="grid2-forme">
+          <div class="grid2-forme-fond">
+          </div>
+          <h3>Impact sur les populations locales</h3>
+          <p>- Perte de ressources naturelles et de moyens de subsistance.<br>- Pauvreté et insécurité alimentaire accrues.</p>
+        </div>
+        <div class="grid2-forme">
+          <div class="grid2-forme-fond">
+          </div>
+          <h3>Impact sur les industries</h3>
+          <p>- Menace pour les industries dépendantes des ressources forestières (bois, papier, etc.).<br>- Perturbation des chaînes d'approvisionnement.<br>- Pertes économiques.</p>
+        </div>
+      </div>
+      <div class="partieinfo">
+        <h1>Conseil et Recommandation</h1>
+        <p>La déforestation a des conséquences dévastatrices sur l'environnement et les sociétés. Il est crucial de prendre des mesures pour enrayer ce phénomène et protéger les forêts, qui sont des ressources vitales pour la planète.</p>
+      </div>
+      <div class="grid3">
+        <div class="grid3-forme">
+          <h3>Combattre la déforestation à la source : repenser l'agriculture</h3>
+          <p>- Transition vers des pratiques agricoles durables.<br>- Freiner l'expansion des cultures intensives.<br>- Promouvoir l'agroforesterie.</p>
+        </div>
+        <div class="grid3-forme">
+          <h3>Restaurer les écosystèmes forestiers, agir concrètement</h3>
+          <p>- Soutenir les initiatives de reforestation et de restauration.<br>- Replanter des arbres et régénérer les sols.<br>- Améliorer les conditions de vie des populations locales.</p>
+        </div>
+        <div class="grid3-forme">
+          <h3>Renforcer la gouvernance et la responsabilisation</h3>
+          <p>- Renforcer la législation sur l'exploitation forestière.<br>- Combattre le commerce illégal du bois.<br>- Encourager l'utilisation de produits certifiés FSC.</p>
+        </div>
+      </div>
+      <div class="grid3">
+        <div class="grid3-forme">
+          <h3>Agir au quotidien,  des gestes simples pour un impact collectif</h3>
+          <p>- Réduire sa consommation de produits liés à la déforestation (huile de palme).<br>- Privilégier les produits certifiés durables.<br>- Soutenir les initiatives de reforestation.</p>
+        </div>
+        <div class="grid3-forme">
+          <h3>Adopter un mode de vie durable</h3>
+          <p>- Réduire, réutiliser et recycler.<br>- Opter pour des plantes natives dans son jardin.</p>
+        </div>
+        <div class="grid3-forme">
+          <h3>Sensibiliser et mobiliser pour un avenir durable</h3>
+          <p>- Informer et sensibiliser le public sur l'importance des forêts.<br>- Partager ses connaissances et encourager son entourage à agir.</p>
+        </div>
+      </div>
+      <div class="partieinfo">
+        <h1>Conclusion</h1>
+        <p>La lutte contre la déforestation est un défi majeur qui nous concerne tous. En adoptant des pratiques durables, en soutenant les initiatives de restauration et en sensibilisant votre entourage, nous pouvons inverser la tendance et protéger les forêts, joyaux précieux de notre planète.</p>
+        <br>
+        <p>Pour valider cette quête et tester vos connaissances, nous vous invitons à répondre au questionnaire suivant.</p>
       </div>
     </div>
     <div v-else-if="currentQuestionIndex === 1">
