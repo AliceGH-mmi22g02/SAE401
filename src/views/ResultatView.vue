@@ -1,3 +1,7 @@
+<style lang="scss">
+@import "/public/css/scss_page/resultat";
+</style>
+
 <template>
   <main>
     <h1>Résultat</h1>

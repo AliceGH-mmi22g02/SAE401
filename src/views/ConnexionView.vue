@@ -1,99 +1,64 @@
 <template>
-  <main>
-    <h1>Connexion</h1>
-    <div class="form-container">
-      <div class="input-container">
-        <input v-model="email" type="email" placeholder="Adresse email" />
+  <div class="connexion">
+    <div class="connexion-img">
+    </div>
+    <div class="connexion-formulaire">
+      <h1>Connexion</h1>
+      <div class="connexion-formulaire-champ">
+        <label for="email">Email</label>
+        <input type="email" id="email" v-model="form.email" required>
       </div>
-      <div class="password-container">
-        <div class="input-container">
-          <input v-model="password" type="password" placeholder="Mot de passe" />
-        </div>
+      <div class="connexion-formulaire-champ">
+        <label for="motdepasse">Mot de passe</label>
+        <input type="password" id="motdepasse" v-model="form.motdepasse" required>
       </div>
-      <div class="connecter">
-        <button @click="login">Se connecter</button>
+      <div class="connexion-formulaire-connecter">
+        <button type="submit" @click="login">Connexion</button>
       </div>
       <router-link to="/Inscription">
-        <div>
+        <div class="connexion-formulaire-inscrire">
           <a>Vous n'avez pas encore de compte ? Inscrivez-vous</a>
         </div>
       </router-link>
+      <p class="error-message" v-if="errorMessage">{{ errorMessage }}</p>
     </div>
-
-    <p class="error-message" v-if="message">{{ message }}</p>
-  </main>
+  </div>
 </template>
 
-<script setup>
-import { ref } from 'vue';
-import { useRouter } from 'vue-router';
-import axios from 'axios';
+<script>
+import { recupererUtilisateurs } from '../../indexedDB.js';
 
-const router = useRouter();
-
-const email = ref('');
-const password = ref('');
-const message = ref('');
-
-async function login() {
-  try {
-    const response = await axios.post('/api/login', { email: email.value, password: password.value });
-    if (response.data.success) {
-      router.push('/profil');
-    } else {
-      message.value = response.data.message;
+export default {
+  data() {
+    return {
+      form: {
+        email: '',
+        motdepasse: ''
+      },
+      errorMessage: ''
+    };
+  },
+  methods: {
+    async login() {
+      try {
+        const users = await recupererUtilisateurs();
+        const user = users.find(u => u.email === this.form.email && u.motdepasse === this.form.motdepasse);
+        if (user) {
+          alert('Connexion réussie !');
+          await this.$router.push('/'); //MISE EN PLACE D'UN AWAIT POUR PERMETTRE D'ACTUALISER ET DE DIRIGER VERS LA PAGE ACCUEIL EN MEME TEMPS
+        } else {
+          this.errorMessage = 'Adresse email ou mot de passe incorrect.';
+        }
+      } catch (error) {
+        console.error('Erreur lors de la connexion :', error);
+        this.errorMessage = 'Une erreur est survenue lors de la connexion.';
+      } finally { // VA PERMETTRE D'ACTUALISER ET DE DIRIGER VERS LA PAGE ACCUEIL EN MEME TEMPS
+        this.$router.go(0); // PERMET D'ACTUALISER LA PAGE POUR PRENDRE EN COMPTE LA CONNEXION
+      }
     }
-  } catch (error) {
-    console.error('Erreur lors de la connexion :', error);
-    message.value = 'Une erreur est survenue lors de la connexion.';
   }
-}
+};
 </script>
-
-<style scoped>
-.main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.form-container {
-  width: 300px;
-  background-color: #f9f9f9;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.input-container {
-  margin-bottom: 15px;
-}
-
-.input-container input {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.connecter button {
-  width: 100%;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.connecter button:hover {
-  background-color: #0056b3;
-}
-
-.error-message {
-  color: red;
-  font-size: 14px;
-  margin-top: 10px;
-}
+<style lang="scss">
+@import "/public/css/scss_page/connexion";
 </style>
