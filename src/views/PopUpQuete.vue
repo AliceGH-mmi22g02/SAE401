@@ -9,6 +9,7 @@
       <VCheckbox v-model="quetePrincipaleComplete">{{ quetePrincipale }}</VCheckbox>
       <h3>Quête secondaire :</h3>
       <VCheckbox v-model="queteSecondaireComplete">{{ queteSecondaire }}</VCheckbox>
+      <a href="InformationView.vue">Commencer la quête</a>
     </div>
   </div>
 </template>
