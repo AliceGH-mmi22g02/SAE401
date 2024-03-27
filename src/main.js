@@ -5,6 +5,8 @@ import router from './router';
 import store from './store';
 import { initDB, recupererUtilisateurs } from '/indexedDB';
 
+
+
 // Importer les traductions
 import fr from './locales/fr.json';
 import en from './locales/en.json';

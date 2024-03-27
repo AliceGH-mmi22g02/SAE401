@@ -1,49 +1,32 @@
 <template>
   <div class="pop-up-quete">
     <div class="contenu-quete">
-      <h1>{{ titre }}</h1>
-      <h2>{{ description }}</h2>
-      <p>{{ contenu }}</p>
-      <h3>Objectif :</h3>
+      <h1>{{ quete.titre }}</h1>
+      <h2>{{ quete.description }}</h2>
+      <p>{{ quete.contenu }}</p>
+      <h3>Objectifs :</h3>
+      <ul>
+        <li v-for="objectif in quete.objectifs" :key="objectif">{{ objectif }}</li>
+      </ul>
       <h3>Quête principale :</h3>
-      <VCheckbox v-model="quetePrincipaleComplete">{{ quetePrincipale }}</VCheckbox>
+      <p>{{ Array.isArray(quete.quetePrincipale) ? quete.quetePrincipale.join(', ') : quete.quetePrincipale }}</p>
       <h3>Quête secondaire :</h3>
-      <VCheckbox v-model="queteSecondaireComplete">{{ queteSecondaire }}</VCheckbox>
+      <p>{{ Array.isArray(quete.queteSecondaire) ? quete.queteSecondaire.join(', ') : quete.queteSecondaire }}</p>
       <a href="InformationView.vue">Commencer la quête</a>
     </div>
   </div>
 </template>
-
-<script setup>
-import { defineProps } from 'vue';
-
-const props = defineProps({
-  titre: {
-    type: String,
-    required: true
+<script>
+export default {
+  props: {
+    quete: Object
   },
-  description: {
-    type: String,
-    required: true
-  },
-  contenu: {
-    type: String,
-    required: true
-  },
-  objectifs: {
-    type: Array,
-    required: true
-  },
-  quetePrincipale: {
-    type: String,
-    required: true
-  },
-  queteSecondaire: {
-    type: String,
-    required: true
+  mounted() {
+    console.log("Données de la quête reçues :", this.quete);
   }
-});
+};
 </script>
+
 
 <style scoped lang="scss">
 @import "/public/css/scss_page/_popupquete";
