@@ -10,7 +10,6 @@ const quetes = {
     titre: "Quête 1",
     description: "La lutte contre la déforestation",
     contenu: "Les forêts sont les poumons de notre planète, mais elles sont coupées à un rythme alarmant pour faire place à l'agriculture et à l'urbanisation. La déforestation menace la biodiversité et accentue le changement climatique. Chaque année, des millions d'hectares de forêts disparaissent.",
-    objectifs: ["Objectif 1", "Objectif 2", "Objectif 3"],
     quetePrincipale: "Ceci est la quête principale",
     queteSecondaire: "Ceci est la quête secondaire"
   },
@@ -18,7 +17,6 @@ const quetes = {
     titre: "Quête 2",
     description: "Ceci est la description de la quête 2",
     contenu: "Ceci est le contenu de la quête 2.",
-    objectifs: ["Objectif 1", "Objectif 2"],
     quetePrincipale: "Ceci est la quête principale",
     queteSecondaire: "Ceci est la quête secondaire"
   },
