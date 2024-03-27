@@ -23,12 +23,6 @@ export default {
 </style>
 
 <template>
-
-  <div ref="myElement">
-    <h1>SECTION TEST</h1>
-    <p>{{ $t("main.p3") }}</p>
-    <h1>FIN SECTION TEST</h1>
-  </div>
   <main>
 
     <LocaleChanger/>
@@ -64,16 +58,12 @@ export default {
     <p>{{ $t("main.p11") }}</p>
     <br>
     <h2>{{ $t("main.more") }}</h2>
-    <br>
-    <p>{{ $t("main.p12") }}</p>
-    <br>
-    <p>{{ $t("main.p13") }}</p>
 
     <section>
-      <h3>Au-delà des récompenses virtuelles, votre participation contribue réellement à la protection de l'environnement.</h3>
+      <h3>{{ $t("main.p12") }}</h3>
       <br>
-      <h3>Alors rejoignez l'aventure GREENPLAY ! Apprenez, agissez, et soyez récompensées :)</h3>
-    </section>
+      <h3>{{ $t("main.p13") }}</h3>
+    </section> 
 
   </main>
 </template>

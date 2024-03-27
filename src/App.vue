@@ -3,10 +3,12 @@ import { RouterLink, RouterView } from "vue-router";
 import logo from '@/assets/logowhite.svg';
 import logo2 from '@/assets/logocolor.svg';
 import { recupererUtilisateurs } from '/indexedDB.js';
+import LocaleChanger from "@/components/LocaleChanger.vue";
 
 export default {
   name: 'App',
   components: {
+    LocaleChanger,
     RouterLink,
     RouterView
   },
@@ -66,6 +68,7 @@ export default {
           <RouterLink v-if="isLoggedIn" to="/Badges">Badges</RouterLink>
           <RouterLink v-if="isLoggedIn" to="/Profil">Profil</RouterLink>
         </div>
+        <LocaleChanger/>
       </nav>
     </div>
   </header>
