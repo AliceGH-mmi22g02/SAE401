@@ -4,6 +4,7 @@ import Badges from "../views/Badges.vue";
 import Quete from "../views/QueteView.vue";
 import Profil from "../views/ProfilView.vue";
 import InformationView from "../views/InformationView.vue";
+import TableauQuête from '../views/TableauQueteView.vue';
 import Quete2View from "../views/Quete/Quete2View.vue";
 import Quete3View from "../views/Quete/Quete3View.vue";
 import Quete4View from "../views/Quete/Quete4View.vue";
@@ -18,6 +19,7 @@ import Inscription from "../views/InscriptionView.vue";
 import Connexion from "../views/ConnexionView.vue";
 import Contact from "../views/ContactView.vue";
 import { recupererUtilisateurs } from '/indexedDB.js';
+
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -48,6 +50,13 @@ const router = createRouter({
             name: 'Information',
             component: InformationView,
         },
+
+        {
+            path: "/TableauQuete",
+            name: 'TableauQuete',
+            component: TableauQuête,
+        },
+
 
         {
             path: "/quete2",
