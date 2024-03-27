@@ -5,7 +5,9 @@ h1, h2 {
   font-family: $font-primary;
   font-weight: $font-regular;
 }
-
+h3 {
+  margin: 0;
+}
 strong {
   color:$primary-color2;
   font-family: $font-primary;

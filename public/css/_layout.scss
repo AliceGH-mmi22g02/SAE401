@@ -1,42 +1,47 @@
 @import 'variables';
 
-.menu {
-  color: $color-white;
+body {
+
+  margin: 0;
   font-family: $font-primary;
   font-weight: $font-regular;
-}
-header {
-  width: 100%;
-  padding: 0;
 
-  .link {
-    font-size: 23px;
-  }
+  header {
+    width: 100%;
+    padding: 15px;
+    background-color: $primary-color2;
 
-  img {
-    width: 15%;
-    margin-right: 20%;
-  }
+    .link {
+      font-size: 23px;
+    }
 
-  nav {
-    display: flex;
-    justify-content: space-between;
-    margin-right: 20%;
+    img {
+      max-width: 200px;
+    }
 
-    a {
-      color:$primary-color2;
-      font-family: $font-primary;
-      text-decoration: none;
-      margin-right: 10px;
+    nav {
+      display: flex;
+      justify-content: center;
+
+      a {
+        color: $color-white;
+        font-family: $font-primary;
+        text-decoration: none;
+        margin-right: 10px;
+      }
     }
   }
-}
-
-
-footer {
-  background-color: #B9B8B8 ;
-  margin-top: 10%;
-  text-align: center;
-  color: white;
-  font-family: $font-primary;
+  footer {
+    background-color: $primary-color3 ;
+    text-align: center;
+    font-family: $font-primary;
+    padding: 15px;
+    img {
+      width: 150px;
+    }
+    p {
+      color: $color-white;
+      margin: 0;
+    }
+  }
 }

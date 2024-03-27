@@ -1,3 +1,27 @@
+<script>
+import LocaleChanger from '../components/LocaleChanger.vue';
+
+export default {
+  components: {
+    LocaleChanger
+  },
+  data() {
+    return {
+      jsonData: { message: "Hello, World!" }
+    };
+  },
+  mounted() {
+    const innerHTML = this.$refs.myElement.innerHTML;
+    console.log(innerHTML);
+  },
+};
+</script>
+
+<style lang="scss">
+@import "/public/css/scss_page/accueil";
+/* Autres styles */
+</style>
+
 <template>
 
   <div ref="myElement">
@@ -44,29 +68,12 @@
     <p>{{ $t("main.p12") }}</p>
     <br>
     <p>{{ $t("main.p13") }}</p>
+
+    <section>
+      <h3>Au-delà des récompenses virtuelles, votre participation contribue réellement à la protection de l'environnement.</h3>
+      <br>
+      <h3>Alors rejoignez l'aventure GREENPLAY ! Apprenez, agissez, et soyez récompensées :)</h3>
+    </section>
+
   </main>
 </template>
-
-<script>
-import LocaleChanger from '../components/LocaleChanger.vue';
-
-export default {
-  components: {
-    LocaleChanger
-  },
-  data() {
-    return {
-      jsonData: { message: "Hello, World!" }
-    };
-  },
-  mounted() {
-    const innerHTML = this.$refs.myElement.innerHTML;
-    console.log(innerHTML);
-  },
-};
-</script>
-
-<style lang="scss">
-@import "/public/css/scss_page/accueil";
-/* Autres styles */
-</style>
