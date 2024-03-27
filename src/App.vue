@@ -1,34 +1,7 @@
-<template>
-  <header>
-    <div class="nav">
-      <nav>
-        <img :src="logo" alt="Logo">
-        <div class="link">
-          <RouterLink to="/">Accueil</RouterLink>
-          <RouterLink v-if="!isLoggedIn" to="/Connexion">Connexion</RouterLink>
-          <RouterLink v-if="!isLoggedIn" to="/Inscription">Inscription</RouterLink>
-          <a v-if="isLoggedIn" @click="logout">Déconnexion</a>
-          <RouterLink to="/Contact">Contact</RouterLink>
-          <RouterLink v-if="isLoggedIn" to="/Quete">Quêtes</RouterLink>
-          <RouterLink v-if="isLoggedIn" to="/Badges">Badges</RouterLink>
-          <RouterLink v-if="isLoggedIn" to="/Profil">Profil</RouterLink>
-        </div>
-      </nav>
-    </div>
-  </header>
-
-  <RouterView />
-
-  <footer>
-    <h3>Au-delà des récompenses virtuelles, votre participation contribue réellement à la protection de l'environnement.</h3>
-    <br>
-    <h3>Alors rejoignez l'aventure GREENPLAY ! Apprenez, agissez, et soyez récompensées :)</h3>
-  </footer>
-</template>
-
 <script>
 import { RouterLink, RouterView } from "vue-router";
-import logo from '@/assets/logo.png';
+import logo from '@/assets/logowhite.svg';
+import logo2 from '@/assets/logocolor.svg';
 import { recupererUtilisateurs } from '/indexedDB.js';
 
 export default {
@@ -40,6 +13,7 @@ export default {
   data() {
     return {
       logo: logo,
+      logo2:logo2,
       isLoggedIn: false
     };
   },
@@ -75,3 +49,31 @@ export default {
   }
 }
 </script>
+
+<template>
+  <header>
+    <div class="nav">
+      <img :src="logo" alt="Logo">
+      <nav>
+        <div class="link">
+          <RouterLink to="/">Accueil</RouterLink>
+          <RouterLink v-if="!isLoggedIn" to="/Connexion">Connexion</RouterLink>
+          <RouterLink v-if="!isLoggedIn" to="/Inscription">Inscription</RouterLink>
+          <a v-if="isLoggedIn" @click="logout">Déconnexion</a>
+          <RouterLink to="/Contact">Contact</RouterLink>
+          <RouterLink v-if="isLoggedIn" to="/Quete">Quêtes</RouterLink>
+          <RouterLink v-if="isLoggedIn" to="/Badges">Badges</RouterLink>
+          <RouterLink v-if="isLoggedIn" to="/Profil">Profil</RouterLink>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <RouterView />
+
+  <footer>
+    <img :src="logo2" alt="Logo">
+    <p>©2023 - 2024 MMI Troyes | SAE401</p>
+  </footer>
+</template>
+
