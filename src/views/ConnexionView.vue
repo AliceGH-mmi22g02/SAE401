@@ -46,14 +46,14 @@ export default {
         if (user) {
           alert('Connexion réussie !');
           await this.$router.push('/'); //MISE EN PLACE D'UN AWAIT POUR PERMETTRE D'ACTUALISER ET DE DIRIGER VERS LA PAGE ACCUEIL EN MEME TEMPS
+          this.$router.go(0); // PERMET D'ACTUALISER LA PAGE POUR PRENDRE EN COMPTE LA CONNEXION
+
         } else {
           this.errorMessage = 'Adresse email ou mot de passe incorrect.';
         }
       } catch (error) {
         console.error('Erreur lors de la connexion :', error);
         this.errorMessage = 'Une erreur est survenue lors de la connexion.';
-      } finally { // VA PERMETTRE D'ACTUALISER ET DE DIRIGER VERS LA PAGE ACCUEIL EN MEME TEMPS
-        this.$router.go(0); // PERMET D'ACTUALISER LA PAGE POUR PRENDRE EN COMPTE LA CONNEXION
       }
     }
   }

@@ -21,6 +21,7 @@ export const initDB = () => {
             const store = db.createObjectStore('utilisateurs', { keyPath: 'id', autoIncrement: true });
             store.createIndex('nom', 'nom', { unique: false });
             store.createIndex('prenom', 'prenom', { unique: false });
+            store.createIndex('pseudo', 'pseudo', { unique: false });
             store.createIndex('email', 'email', { unique: true });
             store.createIndex('motDePasse', 'motDePasse', { unique: false });
             resolve('Base de données mise à niveau avec succès.');

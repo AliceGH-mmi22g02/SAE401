@@ -14,6 +14,10 @@
         <input type="text" id="prenom" v-model="form.prenom" required>
       </div>
       <div class="inscription-formulaire-champ">
+        <label for="pseudo">Pseudo</label>
+        <input type="text" id="pseudo" v-model="form.pseudo" required>
+      </div>
+      <div class="inscription-formulaire-champ">
         <label for="email">Email</label>
         <input type="email" id="email" v-model="form.email" required>
       </div>
@@ -41,6 +45,7 @@ export default {
       form: {
         nom: '',
         prenom: '',
+        pseudo: '',
         email: '',
         motdepasse: ''
       }
@@ -61,6 +66,7 @@ export default {
     resetForm() {
       this.form.nom = '';
       this.form.prenom = '';
+      this.form.pseudo ='';
       this.form.email = '';
       this.form.motdepasse = '';
     },
@@ -79,6 +85,7 @@ export default {
           const userData = {
             nom: this.form.nom,
             prenom: this.form.prenom,
+            pseudo: this.form.pseudo,
             email: this.form.email,
             motdepasse: this.form.motdepasse
           };
