@@ -32,30 +32,42 @@
     <!-- Zone des informations personnelles -->
     <div class="informations-section">
       <!-- Insérez ici le code pour les informations personnelles -->
-      <div class="personal-info">
-        <div class="info-item">
-          <label for="lastName">Nom :</label>
-          <input type="text" id="lastName" v-model="lastName" :disabled="!editing">
+      <div class="editable-info">
+        <div class="editable-info-item">
+          <div class="label">Nom :</div>
+          <div class="input-wrapper">
+            <input type="text" v-model="lastName" :disabled="!editing">
+          </div>
         </div>
-        <div class="info-item">
-          <label for="firstName">Prénom :</label>
-          <input type="text" id="firstName" v-model="firstName" :disabled="!editing">
+        <div class="editable-info-item">
+          <div class="label">Prénom :</div>
+          <div class="input-wrapper">
+            <input type="text" v-model="firstName" :disabled="!editing">
+          </div>
         </div>
-        <div class="info-item">
-          <label for="pseudo">Pseudo :</label>
-          <input type="text" id="pseudo" v-model="pseudo" :disabled="!editing">
+        <div class="editable-info-item">
+          <div class="label">Pseudo :</div>
+          <div class="input-wrapper">
+            <input type="text" v-model="pseudo" :disabled="!editing">
+          </div>
         </div>
-        <div class="info-item">
-          <label for="email">Email :</label>
-          <input type="email" id="email" v-model="email" :disabled="!editing">
+        <div class="editable-info-item">
+          <div class="label">Email :</div>
+          <div class="input-wrapper">
+            <input type="email" v-model="email" :disabled="!editing">
+          </div>
         </div>
-        <div class="info-item">
-          <label for="currentPassword">Mot de passe actuel :</label>
-          <input type="password" id="currentPassword" v-model="currentPassword" :disabled="!editing">
+        <div class="editable-info-item">
+          <div class="label">Mot de passe actuel :</div>
+          <div class="input-wrapper">
+            <input type="password" v-model="currentPassword" :disabled="!editing">
+          </div>
         </div>
-        <div class="info-item">
-          <label for="newPassword">Nouveau mot de passe :</label>
-          <input type="password" id="newPassword" v-model="newPassword" :disabled="!editing">
+        <div class="editable-info-item">
+          <div class="label">Nouveau mot de passe :</div>
+          <div class="input-wrapper">
+            <input type="password" v-model="newPassword" :disabled="!editing">
+          </div>
         </div>
       </div>
       <button class="edit-button" @click="toggleEditing">{{ editing ? 'Enregistrer' : 'Modifier' }}</button>
