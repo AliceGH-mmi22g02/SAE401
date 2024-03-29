@@ -23,11 +23,29 @@ $font-mid: 600;
 // Espacements
 $spacing-lr: 130px;
 $spacing-tb: 39px;
+$spacing-small: 10px;
+$spacing-medium: 20px;
+$spacing-large: 30px;
 
 // Transition
-
+$transition-duration: 0.3s;
 
 // Breakpoints
 $breakpoint-small: 576px;
 $breakpoint-medium: 768px;
 $breakpoint-large: 992px;
+
+// Taille de la police
+$font-size-small: 14px;
+$font-size-medium: 16px;
+$font-size-large: 18px;
+
+// Taille de la bordure
+$border-width-small: 1px;
+$border-width-medium: 2px;
+$border-width-large: 3px;
+
+// Rayon des coins arrondis
+$border-radius-small: 5px;
+$border-radius-medium: 10px;
+$border-radius-large: 15px;

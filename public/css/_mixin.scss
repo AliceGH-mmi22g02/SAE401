@@ -1,0 +1,26 @@
+@import "variables";
+
+@mixin rounded-box($background-color, $border-color, $border-radius, $padding) {
+  // Styles pour le bloc
+  background-color: $primary-color2;
+  border-radius: $border-radius-medium;
+  padding: $spacing-medium;
+  margin-left: $spacing-tb;
+  margin-right: $spacing-tb;
+  margin-bottom: $spacing-tb;
+
+  // Styles pour l'image
+  .rounded-image {
+    display: inline-block;
+    width: 100px;
+    margin-right:50px;
+  }
+
+  // Styles pour le texte
+  .text {
+    display: inline-block;
+    color: $color-white;
+    vertical-align: top;
+    width: calc(50% - 20px);
+  }
+}

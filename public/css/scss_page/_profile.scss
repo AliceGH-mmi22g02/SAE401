@@ -1,1 +1,31 @@
+@import "../variables";
 @import "../main";
+
+.experience-label {
+  font-weight: bold;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+.experience-bar {
+  display: inline-block;
+  width: 80%;
+  height: 20px;
+  background-color: $primary-color3;
+  border-radius: 10px;
+  margin-left: 100px;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: $secondary-color2;
+  border-radius: 10px;
+  width: 10%;
+}
+
+.experience-level {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 20px;
+}
+

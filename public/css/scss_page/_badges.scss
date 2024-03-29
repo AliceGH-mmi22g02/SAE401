@@ -1,2 +1,10 @@
-@import "../main";
+@import "../variables";
+@import "../mixin";
 
+.h1badges {
+  text-align: center;
+}
+
+.rounded-box {
+  @include rounded-box(#ffffff, #ccc, 10px, 10px);
+}
