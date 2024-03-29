@@ -1,4 +1,5 @@
 @import "../main";
+@import "../variables";
 
 .tableau {
   margin-top: 10px;
@@ -10,82 +11,68 @@
   position: relative;
 }
 
-.quete1 {
+.quete {
   position: absolute;
   cursor: pointer;
   width: 200px;
+}
+
+.quete1 {
+  @extend .quete;
   top: 220px;
   left: 200px;
 }
 
 .quete2 {
-  position: absolute;
-  cursor: pointer;
-  width: 200px;
+  @extend .quete;
   top: 250px;
   left: 510px;
 }
 
 .quete3 {
-  position: absolute;
-  cursor: pointer;
-  width: 200px;
+  @extend .quete;
   top: 230px;
   left: 820px;
 }
 
 .quete4 {
-  position: absolute;
-  cursor: pointer;
-  width: 200px;
+  @extend .quete;
   top: 280px;
   left: 1100px;
 }
 
 .quete5 {
-  position: absolute;
-  cursor: pointer;
-  width: 200px;
+  @extend .quete;
   top: 440px;
   left: 290px;
 }
 
 .quete6 {
-  position: absolute;
-  cursor: pointer;
-  width: 200px;
+  @extend .quete;
   top: 470px;
   left: 620px;
 }
 
 .quete7 {
-  position: absolute;
-  cursor: pointer;
-  width: 200px;
+  @extend .quete;
   top: 450px;
   left: 930px;
 }
 
 .quete8 {
-  position: absolute;
-  cursor: pointer;
-  width: 200px;
+  @extend .quete;
   top: 640px;
   left: 210px;
 }
 
 .quete9 {
-  position: absolute;
-  cursor: pointer;
-  width: 200px;
+  @extend .quete;
   top: 680px;
   left: 660px;
 }
 
 .quete10 {
-  position: absolute;
-  cursor: pointer;
-  width: 200px;
-  top:650px;
+  @extend .quete;
+  top: 650px;
   left: 1100px;
 }
