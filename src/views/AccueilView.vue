@@ -1,6 +1,4 @@
 <script>
-import LocaleChanger from '../components/LocaleChanger.vue';
-
 
 </script>
 
