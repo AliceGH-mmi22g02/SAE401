@@ -1,20 +1,59 @@
 @import "../main";
 
-h1, h2 {
-  color: $primary-color1;
-  font-family: $font-primary;
-  font-weight: $font-regular;
-}
-h3 {
-  margin: 0;
-}
-strong {
-  color:$primary-color2;
-  font-family: $font-primary;
-  font-weight: $font-bold;
-}
+main {
+  h1, h2 {
+    color: $primary-color1;
+    font-family: $font-primary;
+    font-weight: $font-regular;
+  }
 
-p {
-  color: $color_black;
-  font-weight: $font-regular;
+  h3 {
+    margin: 0;
+  }
+
+  strong {
+    color: $primary-color2;
+    font-family: $font-primary;
+    font-weight: $font-bold;
+  }
+
+  p {
+    color: $color_black;
+    font-weight: $font-regular;
+  }
+
+  .banniere{
+    margin-bottom: 30px;
+  }
+
+  .intro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    .wellcome {
+      p {
+        max-width: 700px;
+      }
+    }
+    .why {
+      margin: 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      p {
+        max-width: 527px;
+      }
+    }
+
+
+  }
+
+  .tuto {
+    padding: 15px;
+    .how {
+      display: flex;
+      gap: 50px;
+    }
+  }
 }
