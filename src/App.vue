@@ -63,7 +63,7 @@ export default {
           <RouterLink v-if="!isLoggedIn" to="/Inscription">Inscription</RouterLink>
           <a v-if="isLoggedIn" @click="logout">Déconnexion</a>
           <RouterLink to="/Contact">Contact</RouterLink>
-          <RouterLink v-if="isLoggedIn" to="/Quete">Quêtes</RouterLink>
+          <RouterLink v-if="isLoggedIn" to="/Quete">Pop Up Quêtes</RouterLink>
           <RouterLink v-if="isLoggedIn" to="/TableauQuete">Quêtes</RouterLink>
           <RouterLink v-if="isLoggedIn" to="/Badges">Badges</RouterLink>
           <RouterLink v-if="isLoggedIn" to="/Profil">Profil</RouterLink>
