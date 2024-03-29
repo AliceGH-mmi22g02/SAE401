@@ -1,20 +1,7 @@
 <script>
 import LocaleChanger from '../components/LocaleChanger.vue';
 
-export default {
-  components: {
-    LocaleChanger
-  },
-  data() {
-    return {
-      jsonData: { message: "Hello, World!" }
-    };
-  },
-  mounted() {
-    const innerHTML = this.$refs.myElement.innerHTML;
-    console.log(innerHTML);
-  },
-};
+
 </script>
 
 <style lang="scss">
@@ -29,8 +16,8 @@ export default {
 
     <div class="intro">
       <div class="wellcome">
-        <h1>{{ $t("main.welcome") }} <strong>{{ $t("special.gp")}}</strong> {{ $t("special.exclam")}}</h1>
-        <p>{{ $t("main.p1") }}</p>
+      <h1>{{ $t("main.welcome") }} <strong>{{ $t("special.gp")}}</strong> {{ $t("special.exclam")}}</h1>
+      <p>{{ $t("main.p1") }}</p>
       </div>
 
       <div class="why">
@@ -48,16 +35,16 @@ export default {
     <div class="tuto" style="background-color:#35e2a6">
       <h2>{{ $t("main.how") }}</h2>
       <div class="how" style="background-color: #5E807F">
-        <p>{{ $t("main.p4-1") }}</p>
-        <p>{{ $t("main.p4-2") }}</p>
-        <p>{{ $t("main.p4-3") }}</p>
+      <p>{{ $t("main.p4-1") }}</p>
+      <p>{{ $t("main.p4-2") }}</p>
+      <p>{{ $t("main.p4-3") }}</p>
       </div>
 
       <h2>{{ $t("main.what") }}</h2>
       <div class="what" style="background-color: #5E807F">
-        <p>{{ $t("main.p5") }}</p>
-        <p>{{ $t("main.p6") }}</p>
-        <p>{{ $t("main.p7") }}</p>
+      <p>{{ $t("main.p5") }}</p>
+      <p>{{ $t("main.p6") }}</p>
+      <p>{{ $t("main.p7") }}</p>
       </div>
     </div>
 
