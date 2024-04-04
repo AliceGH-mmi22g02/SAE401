@@ -11,5 +11,8 @@ export default createStore({ // CREATION D'UN STORE AFIN DE CONTENIR LE REPONSE
         updateScore(state, payload) {
             state.score += payload; // ENVOIE DU SCORE DE LA QUÊTE SUR LE SCORE GLOBAL
         },
+        setCurrentQuestions(state, payload) { // AJOUT DE LA SETUCURRENTQUESTIONS
+            state.currentQuestions = payload; // MIS A JOUR DES QUESTIONS
+        }
     },
 });
