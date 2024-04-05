@@ -18,8 +18,4 @@ const i18n = createI18n({
 });
 
 const app = createApp(App);
-
-
-            store.commit('setLoggedIn', true);
-
         app.use(store).use(router).use(i18n).mount('#app');
