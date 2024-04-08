@@ -1,47 +1,54 @@
-@import 'variables';
-
 body {
-
   margin: 0;
   font-family: $font-primary;
-  font-weight: $font-regular;
-
+  h1, h2, h3 {
+    margin: 0;
+  }
+  h2 {
+    font-size: $font-size-large;
+  }
+  p {
+    @extend %paragraphe_style;
+    margin: 0;
+  }
   header {
     width: 100%;
-    padding-bottom: 15px;
-    background-color: $primary-color2;
-
-    .link {
-      font-size: 23px;
-    }
-
+    height: 100px;
+    background-color: $primary-color1;
+    padding-top: 30px;
     img {
       max-width: 200px;
+      margin-left: 50px;
     }
-
+    .locale-changer {
+      margin-right: 50px;
+    }
+    .main_menue {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
     nav {
       display: flex;
       justify-content: center;
-
+      gap: 30px;
       a {
         color: $color-white;
         font-family: $font-primary;
         text-decoration: none;
-        margin-right: 10px;
+        font-size: 23px;
       }
     }
   }
   footer {
-    background-color: $primary-color3 ;
+    background-color: $primary-color3;
     text-align: center;
-    font-family: $font-primary;
     padding: 15px;
     img {
-      width: 150px;
+      width: 180px;
     }
     p {
-      color: $color-white;
-      margin: 0;
+      @extend %text_dark_background;
     }
   }
 }

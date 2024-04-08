@@ -1,59 +1,103 @@
 @import "../main";
 
 main {
-  h1, h2 {
-    color: $primary-color1;
-    font-family: $font-primary;
-    font-weight: $font-regular;
-  }
 
-  h3 {
-    margin: 0;
-  }
-
-  strong {
-    color: $primary-color2;
-    font-family: $font-primary;
-    font-weight: $font-bold;
-  }
-
-  p {
-    color: $color_black;
-    font-weight: $font-regular;
-  }
+  @extend %text_light_background;
 
   .banniere{
+
     margin-bottom: 30px;
   }
 
   .intro {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    @extend %display_flex1;
     .wellcome {
+      background-image: url("@/assets/photo/globe.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 600px;
+      @extend %display_flex1;
+      @extend %text_dark_background;
+      gap: 30px;
       p {
-        max-width: 700px;
+        max-width: 800px;
+      }
+      strong {
+        @extend %strong1;
       }
     }
     .why {
-      margin: 20px;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
+      margin-top: 100px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 50px;
       p {
         max-width: 527px;
       }
     }
-
-
   }
 
   .tuto {
-    padding: 15px;
-    .how {
-      display: flex;
-      gap: 50px;
+    @include background-image("@/assets/section_how.png");
+    padding-top: 250px;
+    padding-bottom: 150px;
+      @extend %display_flex2;
+      @extend %text_dark_background;
+      gap: 80px;
+      .how-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 50px;
+        p {
+          margin-top: 30px;
+          max-width: 350px;
+        }
+        img {
+          max-height: 250px;
+        }
+
+      }
+  }
+
+  .questsubject {
+    @extend %display_flex2;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    .questsubject-container {
+      @extend %display_flex3;
+      flex-wrap: wrap;
+      margin-top: 150px;
+      margin-bottom: 150px;
+      .questsubject-column {
+        @extend %display_flex3;
+        flex-direction: column;
+        height: 900px;
+        img {
+          height: 350px;
+        }
+      }
     }
   }
+
+  .recompense{
+    @include background-image("@/assets/section_recompenses.png");
+    padding-top: 150px;
+    padding-bottom: 100px;
+    margin-bottom: 80px;
+    gap: 50px;
+    @extend %display_flex2;
+    p{
+      max-width: 654px;
+      margin-bottom: 30px;
+    }
+  }
+
+  .message {
+    text-align: center;
+    margin-bottom: 80px;
+  }
+
 }

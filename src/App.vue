@@ -3,7 +3,6 @@ import { RouterLink, RouterView } from "vue-router";
 import logo from '@/assets/logowhite.svg';
 import logo2 from '@/assets/logocolor.svg';
 import LocaleChanger from "@/components/LocaleChanger.vue";
-
 export default {
   name: 'App',
   components: {
@@ -23,24 +22,24 @@ export default {
 
 <template>
   <header>
-    <div class="nav">
+    <div class="main_menue">
       <img :src="logo" alt="Logo">
-      <nav>
-        <div class="link">
-          <RouterLink to="/">Accueil</RouterLink>
-          <RouterLink to="/Quete">Pop Up Quêtes</RouterLink>
-          <RouterLink to="/TableauQuete">Quêtes</RouterLink>
-          <RouterLink to="/Badges">Badges</RouterLink>
-        </div>
-        <LocaleChanger/>
-      </nav>
+      <LocaleChanger/>
     </div>
+    <nav class="sub_menue">
+      <RouterLink to="/">Accueil</RouterLink>
+      <RouterLink to="/Quete">Pop Up Quêtes</RouterLink>
+      <RouterLink to="/TableauQuete">Quêtes</RouterLink>
+      <RouterLink to="/Badges">Badges</RouterLink>
+    </nav>
   </header>
-  <RouterView />
+
+  <RouterView/>
 
   <footer>
     <img :src="logo2" alt="Logo">
     <p>©2023 - 2024 MMI Troyes | SAE401</p>
   </footer>
 </template>
+
 

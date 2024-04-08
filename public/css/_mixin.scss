@@ -24,3 +24,12 @@
     width: calc(50% - 20px);
   }
 }
+
+/* mixins section*/
+
+@mixin background-image($src) {
+  background-image: url('#{$src}');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
