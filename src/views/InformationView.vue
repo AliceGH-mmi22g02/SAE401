@@ -30,8 +30,6 @@
           <p>{{ $t("info.partie1.p4") }}</p>
           <p>{{ $t("info.partie1.p4suite") }}</p>
         </div>
-      </div>
-      <div class="grid">
         <div class="grid-forme">
           <div class="grid-forme-fond">
           </div>
@@ -207,8 +205,6 @@
           <h3>{{ $t("info2.partie1.h3_3") }}</h3>
           <p>{{ $t("info2.partie1.p3") }}</p>
         </div>
-      </div>
-      <div class="grid">
         <div class="grid-forme">
           <div class="grid-forme-fond">
           </div>
@@ -262,8 +258,6 @@
           <h3>{{ $t("info2.partie3.h3_3") }}</h3>
           <p>{{ $t("info2.partie3.p4") }}</p>
         </div>
-      </div>
-      <div class="grid3">
         <div class="grid3-forme">
           <h3>{{ $t("info2.partie3.h3_4") }}</h3>
           <p>{{ $t("info2.partie3.p5") }}</p>
@@ -318,8 +312,6 @@
           <h3>{{ $t("info3.partie1.h3_3") }}</h3>
           <p>{{ $t("info3.partie1.p3") }}</p>
         </div>
-      </div>
-      <div class="grid">
         <div class="grid-forme">
           <div class="grid-forme-fond">
           </div>
@@ -373,14 +365,10 @@
           <h3>{{ $t("info3.partie3.h3_3") }}</h3>
           <p>{{ $t("info3.partie3.p4") }}</p>
         </div>
-      </div>
-      <div class="grid3">
         <div class="grid3-forme">
           <h3>{{ $t("info3.partie3.h3_4") }}</h3>
           <p>{{ $t("info3.partie3.p5") }}</p>
         </div>
-      </div>
-      <div class="grid3">
         <div class="grid3-forme">
           <h3>{{ $t("info3.partie3.h3_5") }}</h3>
           <p>{{ $t("info3.partie3.p6") }}</p>
@@ -433,16 +421,12 @@
           <h3>Pollution</h3>
           <p>- Contamination des sols et des eaux, pollution atmosphérique et marine, utilisation de pesticides et d'engrais chimiques.</p>
         </div>
-      </div>
-      <div class="grid">
         <div class="grid-forme">
           <div class="grid-forme-fond">
           </div>
           <h3>Chasse excessive</h3>
           <p>- Braconnage, surexploitation des ressources naturelles.</p>
         </div>
-      </div>
-      <div class="grid">
         <div class="grid-forme">
           <div class="grid-forme-fond">
           </div>
@@ -496,20 +480,14 @@
           <h3>Diminuer la pollution</h3>
           <p>- Adopter des modes de production et de consommation durables, réduire les émissions de gaz à effet de serre.</p>
         </div>
-      </div>
-      <div class="grid3">
         <div class="grid3-forme">
           <h3>Lutter contre le changement climatique</h3>
           <p>- Diminuer les émissions de gaz à effet de serre, investir dans les énergies renouvelables.</p>
         </div>
-      </div>
-      <div class="grid3">
         <div class="grid3-forme">
           <h3>Soutenir les efforts de conservation</h3>
           <p>-  Faire un don à une organisation de conservation des espèces, participer à des programmes de bénévolat, adopter un mode de vie plus respectueux de l'environnement.</p>
         </div>
-      </div>
-      <div class="grid3">
         <div class="grid3-forme">
           <h3>Changer ses comportements</h3>
           <p>- Réduire sa consommation de ressources naturelles, choisir des produits durables et éthiques, sensibiliser son entourage à la cause de la biodiversité.</p>
@@ -617,26 +595,18 @@
           <h3>Promouvoir l'efficacité énergétique</h3>
           <p>- Investir dans des technologies économes en énergie pour limiter l'exploitation des ressources fossiles.</p>
         </div>
-      </div>
-      <div class="grid3">
         <div class="grid3-forme">
           <h3>Utiliser des sources d'énergie renouvelable</h3>
           <p>- Privilégier le solaire, l'éolien et l'hydroélectricité pour réduire la dépendance aux combustibles fossiles.</p>
         </div>
-      </div>
-      <div class="grid3">
         <div class="grid3-forme">
           <h3>Sensibiliser et éduquer</h3>
           <p>- Informer sur les impacts de la surconsommation et promouvoir des comportements durables.</p>
         </div>
-      </div>
-      <div class="grid3">
         <div class="grid3-forme">
           <h3>Encourager la réglementation et la politique environnementale</h3>
           <p>- Responsabiliser les industries.</p>
         </div>
-      </div>
-      <div class="grid3">
         <div class="grid3-forme">
           <h3>Soutenir les initiatives locales et internationales</h3>
           <p>- Participer à des projets de développement durable et soutenir les accords internationaux pour préserver les ressources naturelles.</p>
@@ -756,20 +726,14 @@
           <h3>Améliorer les transports</h3>
           <p>- Favoriser les transports en commun, le covoiturage et les véhicules électriques pour réduire les émissions de polluants atmosphériques.<br>- Investir dans des infrastructures de transport durables et des aménagements urbains favorables aux modes de déplacement doux.</p>
         </div>
-      </div>
-      <div class="grid3">
         <div class="grid3-forme">
           <h3>Encourager la consommation responsable</h3>
           <p>- Réduire l'utilisation de plastiques et d'autres matériaux non durables en favorisant les alternatives écologiques et durables.<br>- Sensibiliser les consommateurs aux enjeux environnementaux et promouvoir des modes de vie plus durables et économes en ressources.</p>
         </div>
-      </div>
-      <div class="grid3">
         <div class="grid3-forme">
           <h3>Renforcer la législation et la gouvernance</h3>
           <p>- Mettre en place des réglementations strictes pour limiter les rejets de polluants et protéger les ressources naturelles.<br>- Renforcer les mécanismes de contrôle et de surveillance de la qualité de l'air, de l'eau et du sol, ainsi que des émissions industrielles et des pratiques agricoles.</p>
         </div>
-      </div>
-      <div class="grid3">
         <div class="grid3-forme">
           <h3>Sensibiliser et éduquer</h3>
           <p>- Informer le public sur les dangers de la pollution et les solutions pour y remédier.<br>- Impliquer les citoyens dans des initiatives de protection de l'environnement et de promotion du développement durable.</p>
