@@ -31,5 +31,44 @@
   "special":{
     "gp":"GREENPLAY",
     "exclam": "!"
+  },
+  "login": {
+    "h1":"Log in" ,
+    "label1":"Email" ,
+    "label2":"Password" ,
+    "button":"Log in" ,
+    "a":"You have not created an account yet? Sign in now!"
+  },
+  "register": {
+    "h1": "Sign in",
+    "label1": "Name",
+    "label2": "First name",
+    "label3": "Email",
+    "label4": "Password",
+    "button": "Sign in",
+    "a": "You already have an account? Log in now!"
+  },
+  "badges": {
+    "h1": "Badges List",
+    "p1": "1. Forest Guardian:",
+    "p1suite": "This badge can be obtained after completing quest number 1, \"The fight against deforestation\". It rewards those who contribute to the preservation of forests, which are essential to our planet's biodiversity and climate.",
+    "p2": "2. Climate Sentinel:",
+    "p2suite": "Obtained after quest number 2, \"The dangers of climate risks\". This badge rewards those who take action to mitigate the risks of climate change by improving the energy efficiency of their homes.",
+    "p3": "3. Climate Firefighter:",
+    "p3suite": "Awarded following quest number 3, \"The causes of global warming\". It honors a commitment to reducing greenhouse gas emissions and fighting global warming.",
+    "p4": "4. Knight of the Wilds:",
+    "p4suite": "This badge is awarded after quest number 4, \"The increase in the number of endangered species\". It recognizes efforts to protect endangered species and maintain biological diversity.",
+    "p5": "5. Protector of Earthly Wealth:",
+    "p5suite": "Obtained at the end of quest number 5, \"Overconsumption of natural resources\". This badge recognizes actions to conserve the Earth's resources and promote responsible use.",
+    "p6": "6. Atmospheric Purifier:",
+    "p6suite": "Awarded after quest number 6, \"The pollution crisis\". It rewards those who adopt practices that reduce pollution and contribute to a healthier environment.",
+    "p7": "7. Life protects life:",
+    "p7suite": "Awarded following quest number 7, \"Threats to biodiversity\". This badge recognizes those who are committed to preserving biodiversity through environmentally-friendly choices.",
+    "p8": "8. Planetary Cleaner:",
+    "p8suite": "Obtained after quest number 8, \"The challenge of waste management\". It highlights the importance of sorting and recycling to reduce the environmental impact of waste.",
+    "p9": "9. Ally of the Oceans:",
+    "p9suite": "This badge is awarded at the end of quest number 9, \"The overexploitation of marine resources\". It honors those who support marine life and sustainable fishing to protect the oceans.",
+    "p10": "10. Farmer of Fertile Lands:",
+    "p10suite": "Awarded after quest number 10,\"Soil degradation and depletion\". This badge recognizes support for sustainable agriculture and efforts to preserve soil fertility."
   }
 }
