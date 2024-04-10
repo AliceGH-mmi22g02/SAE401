@@ -4,7 +4,7 @@
       <div class="titreinfo">
         <h1>La lutte contre la déforestation</h1>
       </div>
-      <p>Véritables poumons de la planète, les forêts regorgent d'une vie foisonnante, abritant plus de la moitié des espèces terrestres connues et offrant à plus d'1,6 milliard d'habitants un abri et des ressources vitales. En tant que gardiens du climat, elles piègent 40% du carbone terrestre, luttant contre le réchauffement climatique. Mais cette précieuse ressource est menacée. La déforestation continue à un rythme effréné, fragilisant les écosystèmes et les populations qui en dépendent. Depuis des siècles, les forêts reculent pour laisser place à l'expansion humaine. Mais depuis les années 1970, ce phénomène s'est accéléré de manière alarmante. Chaque année, environ 15 millions d'hectares de forêt disparaissent, soit l'équivalent de la superficie de la Belgique. L'agriculture est le principal moteur de cette déforestation, avec l'expansion des cultures tropicales comme le soja et l'huile de palme. Les conséquences sont multiples et graves : perte de biodiversité, augmentation des émissions de gaz à effet de serre, et impact sur les populations locales qui dépendent des forêts pour leur survie. Entre 2004 et 2017, 43 millions d'hectares de forêt ont été perdus, un chiffre qui montre l'urgence d'agir pour freiner ce processus destructeur.</p>
+      <p>Les forêts, essentielles à la vie sur Terre, abritent une biodiversité riche et piègent 40% du carbone terrestre, jouant ainsi un rôle crucial dans la lutte contre le changement climatique. Cependant, la déforestation s'accélère depuis les années 1970, principalement due à l'expansion agricole, entraînant la perte de biodiversité, l'augmentation des émissions de gaz à effet de serre et affectant les populations locales. Les conséquences sont multiples et graves : perte de biodiversité, augmentation des émissions de gaz à effet de serre, et impact sur les populations locales qui dépendent des forêts pour leur survie. Entre 2004 et 2017, 43 millions d'hectares de forêt ont été perdus, soulignant l'urgence d'actions pour stopper ce processus destructeur.</p>
       <div class="partieinfo">
         <h1>Causes</h1>
       </div>
@@ -377,6 +377,136 @@
       </div>
     </section>
     <RouterLink v-if="questionnaireCompleted(1) && questionnaireCompleted(2) && questionnaireCompleted(3)" to="/Resultat">Voir le Résultat</RouterLink>
+
+    <section id="info4">
+      <div class="titreinfo">
+        <h1>L’augmentation du nombre d’espèces en voie de disparition</h1>
+      </div>
+      <p>Dans un monde en constante évolution, l'augmentation du nombre d'espèces en voie de disparition est devenue une préoccupation majeure. La combinaison de divers facteurs tels que la perte d'habitat due à l'expansion humaine, la chasse excessive, la pollution généralisée et les effets dévastateurs du changement climatique a conduit à une accélération alarmante de l'extinction de nombreuses espèces animales et végétales à travers le globe. Cette crise de la biodiversité a des répercussions profondes sur l'équilibre écologique de notre planète, menaçant non seulement la survie des espèces en danger, mais également la stabilité de l'ensemble des écosystèmes.</p>
+      <div class="partieinfo">
+        <h1>Causes</h1>
+      </div>
+      <div class="grid">
+        <div class="grid-forme">
+          <div class="grid-forme-fond">
+          </div>
+          <h3>Perte d'habitat</h3>
+          <p>- Expansion humaine via déforestation, urbanisation, développement d'infrastructures et expansion des terres agricoles.</p>
+        </div>
+        <div class="grid-forme">
+          <div class="grid-forme-fond">
+          </div>
+          <h3>Changement climatique</h3>
+          <p>- Augmentation des températures, changements de précipitations, élévation du niveau de la mer.</p>
+        </div>
+        <div class="grid-forme">
+          <div class="grid-forme-fond">
+          </div>
+          <h3>Pollution</h3>
+          <p>- Contamination des sols et des eaux, pollution atmosphérique et marine, utilisation de pesticides et d'engrais chimiques.</p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="grid-forme">
+          <div class="grid-forme-fond">
+          </div>
+          <h3>Chasse excessive</h3>
+          <p>- Braconnage, surexploitation des ressources naturelles.</p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="grid-forme">
+          <div class="grid-forme-fond">
+          </div>
+          <h3>Autres facteurs</h3>
+          <p>- Introduction d'espèces invasives, maladies et épidémies, fragmentation des habitats.</p>
+        </div>
+      </div>
+      <div class="partieinfo">
+        <h1>Conséquences</h1>
+      </div>
+      <div class="grid">
+        <div class="grid-forme">
+          <div class="grid-forme-fond">
+          </div>
+          <h3>Conséquences écologiques</h3>
+          <p>- Perte de biodiversité, perturbation des chaînes alimentaires, dégradation des habitats naturels, augmentation des risques de catastrophes naturelles.</p>
+        </div>
+        <div class="grid-forme">
+          <div class="grid-forme-fond">
+          </div>
+          <h3>Conséquences économiques et sociales</h3>
+          <p>- Perte de ressources naturelles, impact sur les industries, perte de moyens de subsistance, augmentation des conflits.</p>
+        </div>
+        <div class="grid-forme">
+          <div class="grid-forme-fond">
+          </div>
+          <h3>Conséquences sur la santé humaine</h3>
+          <p>- Augmentation des maladies, dégradation de la qualité de l'air et de l'eau, impact sur la santé mentale.</p>
+        </div>
+        <div class="grid-forme">
+          <div class="grid-forme-fond">
+          </div>
+          <h3>Conséquences sur le climat</h3>
+          <p>- Réduction du puits de carbone, augmentation des émissions de gaz à effet de serre, exacerbation du changement climatique.</p>
+        </div>
+      </div>
+      <div class="partieinfo">
+        <h1>Conseil et Recommandation</h1>
+        <p>La disparition croissante d'espèces animales et végétales est un signal alarmant de l'urgence à protéger notre biodiversité. Voici quelques recommandations pour agir contre cette menace.</p>
+      </div>
+      <div class="grid3">
+        <div class="grid3-forme">
+          <h3>Réduire la perte d'habitat</h3>
+          <p>- Protéger les habitats naturels, lutter contre la déforestation et l'urbanisation.</p>
+        </div>
+        <div class="grid3-forme">
+          <h3>Combattre la chasse excessive</h3>
+          <p>- Renforcer les lois et les sanctions <br>- Sensibiliser les populations locales.</p>
+        </div>
+        <div class="grid3-forme">
+          <h3>Diminuer la pollution</h3>
+          <p>- Adopter des modes de production et de consommation durables <br>- Réduire les émissions de gaz à effet de serre.</p>
+        </div>
+      </div>
+      <div class="grid3">
+        <div class="grid3-forme">
+          <h3>Lutter contre le changement climatique</h3>
+          <p>- Diminuer les émissions de gaz à effet de serre <br>- Investir dans les énergies renouvelables.</p>
+        </div>
+      </div>
+      <div class="grid3">
+        <div class="grid3-forme">
+          <h3>Soutenir les efforts de conservation</h3>
+          <p>- Faire un don à une organisation de conservation des espèces <br>- Participer à des programmes de bénévolat <br>- Adopter un mode de vie plus respectueux de l'environnement</p>
+        </div>
+      </div>
+      <div class="grid3">
+        <div class="grid3-forme">
+          <h3>Changer ses comportements</h3>
+          <p>- Réduire sa consommation de ressources naturelles, choisir des produits durables et éthiques, sensibiliser son entourage à la cause de la biodiversité.</p>
+        </div>
+      </div>
+      <div class="partieinfo">
+        <h1>Conclusion</h1>
+        <p>En conclusion, la lutte contre l'augmentation du nombre d'espèces en voie de disparition est un défi global qui nécessite une mobilisation de tous. En agissant à la source, en soutenant les efforts de conservation et en changeant nos comportements, nous pouvons contribuer à protéger la biodiversité et garantir un avenir durable pour la planète.</p>
+        <br>
+        <p>Pour valider cette quête et tester vos connaissances, nous vous invitons à répondre au questionnaire suivant.</p>
+      </div>
+      <button @click="startQuestionnaire4">Commencer le questionnaire</button>
+    </section>
+    <section v-if="showQuestionnaire4 && currentQuestions && currentQuestions[currentQuestionIndex] && !questionnaireCompleted(4)">
+      <div>
+        <h1>{{ currentQuestions[currentQuestionIndex].title }}</h1>
+        <p>{{ currentQuestions[currentQuestionIndex].description }}</p>
+        <div v-for="(option, optionIndex) in currentQuestions[currentQuestionIndex].options" :key="optionIndex">
+          <input type="radio" :id="`option-${optionIndex}`" :value="option" :name="`question-${currentQuestionIndex}`" v-model="selectedOption">
+          <label :for="`option-${optionIndex}`">{{ option }}</label>
+        </div>
+        <button @click="envoyerScore" :disabled="!selectedOption">Envoyer</button>
+      </div>
+    </section>
+
   </div>
 
 </template>
@@ -393,6 +523,7 @@ const store = useStore();
 let showQuestionnaire1 = ref(false);
 let showQuestionnaire2 = ref(false);
 let showQuestionnaire3 = ref(false);
+let showQuestionnaire4 = ref(false);
 let selectedOption = ref(null);
 let currentQuestions = null;
 let currentQuestionIndex = ref(0);
@@ -460,6 +591,33 @@ const questionsInfo2 = [
 ];
 
 const questionsInfo3 = [
+  {
+    title: "Quête 1/4",
+    description: "Description de la première question de la section 3.",
+    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    correctAnswer: "Option 1"
+  },
+  {
+    title: "Quête 2/4",
+    description: "Description de la deuxième question de la section 3.",
+    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    correctAnswer: "Option 2"
+  },
+  {
+    title: "Quête 3/4",
+    description: "Description de la troisième question de la section 3.",
+    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    correctAnswer: "Option 3"
+  },
+  {
+    title: "Quête 4/4",
+    description: "Description de la quatrième question de la section 3.",
+    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    correctAnswer: "Option 4"
+  }
+];
+
+const questionsInfo4 = [
   {
     title: "Quête 1/4",
     description: "Description de la première question de la section 3.",
