@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main @click="handleClick">
     <img src="/src/assets/tableau_quete2.png" class="tableau" alt="Logo">
     <a href="Information#info1"><img id="quete1" class="quete1" src="/src/assets/quete1.png" alt="Quête 1" data-quete="0" @click="handleClick($event.target)"></a>
     <a href="Information#info2"><img id="quete2" class="quete2" src="/src/assets/quete2.png" alt="Quête 2" data-quete="1" @click="handleClick($event.target)"></a>
@@ -16,7 +16,16 @@
 </template>
 
 <script setup>
+import { ref } from 'vue';
 
+const isPopUpVisible = ref(false);
+const selectedQuete = ref(null);
+
+const handleClick = (event) => {
+  if (event.target.tagName.toLowerCase() === 'a') {
+    window.location.reload();
+  }
+};
 </script>
 
 <style scoped lang="scss">

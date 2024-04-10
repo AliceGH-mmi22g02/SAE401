@@ -38,6 +38,7 @@ export default {
   <footer>
     <img :src="logo2" alt="Logo">
     <p>©2023 - 2024 MMI Troyes | SAE401</p>
+    <RouterLink to="/Mention">Mentions légals</RouterLink>
   </footer>
 </template>
 

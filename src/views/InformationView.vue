@@ -465,7 +465,7 @@ const questionsInfo2 = [
     title: "Quête 1/4",
     description: "Description de la première question de la section 2.",
     options: ["Ecole", "Maison", "Bonjour", "Test"],
-    correctAnswer: "Maison"
+    correctAnswer: "Ecole"
   },
   {
     title: "Quête 2/4",
@@ -477,13 +477,13 @@ const questionsInfo2 = [
     title: "Quête 3/4",
     description: "Description de la troisième question de la section 2.",
     options: ["Ecole", "Maison", "Bonjour", "Test"],
-    correctAnswer: "Bonjour"
+    correctAnswer: "Ecole"
   },
   {
     title: "Quête 4/4",
     description: "Description de la quatrième question de la section 2.",
     options: ["Ecole", "Maison", "Bonjour", "Test"],
-    correctAnswer: "Test"
+    correctAnswer: "Ecole"
   }
 ];
 
