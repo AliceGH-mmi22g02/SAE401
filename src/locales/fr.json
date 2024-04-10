@@ -163,5 +163,53 @@
       "p2": "Pour validier cette quête et tester vos connaissances, nous vous invitons à répondre au questionnaire suivant.",
       "button": " Commencer le questionnaire"
     }
+  },
+  "info2": {
+    "titre": {
+      "h1": "Les dangers des risques climatiques",
+      "p": "Les risques climatiques, exacerbés par les changements anthropogéniques dans la composition de l'atmosphère terrestre, représentent une menace croissante pour notre planète. L'accroissement des émissions de gaz à effet de serre, issus principalement de la combustion des énergies fossiles, de la déforestation, et de l'agriculture intensive, a modifié de manière significative les modèles climatiques globaux. Ces perturbations entraînent une fréquence et une intensité accrues de phénomènes météorologiques extrêmes, tels que des tempêtes violentes, des inondations dévastatrices, des canicules insoutenables, et des sécheresses prolongées. Ces événements climatiques extrêmes mettent en danger les écosystèmes vitaux, menacent les habitations et les infrastructures, et compromettent la sécurité alimentaire mondiale."
+    },
+    "partie1": {
+      "h1": "Causes",
+      "h3": "Émissions de gaz à effet de serre",
+      "p": " - L'activité humaine, notamment l'utilisation d'énergies fossiles, contribue massivement à l'augmentation des gaz à effet de serre dans l'atmosphère.",
+      "h3_2": "Déforestation",
+      "p2": " - La réduction des forêts diminue la capacité de la Terre à absorber le CO2, aggravant l'effet de serre.",
+      "h3_3": "Agriculture intensive",
+      "p3": " - Les pratiques agricoles non durables augmentent les émissions de méthane et de protoxyde d'azote.",
+      "h3_4": "Urbanisation",
+      "p4": " - L'expansion des zones urbaines modifie les paysages naturels, affectant les modèles climatiques locaux."
+    },
+    "partie2": {
+      "h1": "Conséquences",
+      "h3": "Phénomènes météorologiques extrêmes",
+      "p": " - Une augmentation de la fréquence et de l'intensité des tempêtes, inondations, canicules, et sécheresses.",
+      "h3_2": "Menace pour la biodiversité",
+      "p2": " - Perturbation des habitats naturels, entraînant une perte de biodiversité.",
+      "h3_3": "Insécurité alimentaire",
+      "p3": " - Destruction des terres agricoles et perturbation des chaînes d'approvisionnement alimentaire.",
+      "h3_4": "Déplacements de population",
+      "p4": " - Les événements extrêmes et la montée des eaux forcent les populations à se déplacer, créant des crises humanitaires."
+    },
+    "partie3": {
+      "h1": "Conseils et Recommandations",
+      "p": "Pour faire face aux dangers des risques climatiques, il est impératif d'adopter des mesures préventives et correctives.",
+      "h3": "Réduction des émissions de gaz à effet de serre",
+      "p2": " - Opter pour des sources d'énergie renouvelables, améliorer l'efficacité énergétique, et encourager la mobilité durable.",
+      "h3_2": "Pratiques agricoles durables",
+      "p3": " - Adopter l'agroécologie et l'agroforesterie pour réduire l'impact de l'agriculture sur le climat.",
+      "h3_3": "Restauration des écosystèmes",
+      "p4": " - Participer à des programmes de reforestation et de conservation des habitats naturels.",
+      "h3_4": "Préparation et adaptation",
+      "p5": " - Renforcer les infrastructures et les habitations pour les rendre résilientes aux événements climatiques extrêmes.",
+      "p5suite": " - Privilégier les produits certifiés durables.",
+      "p5suite2": " - Soutenir les initiatives de reforestation."
+    },
+    "partie4": {
+      "h1": "Conclusion",
+      "p": "La lutte contre les risques climatiques est un enjeu majeur qui nécessite une action collective et des changements profonds dans notre manière de vivre et de consommer. En prenant des mesures pour réduire notre impact sur le climat et en nous préparant aux changements inévitables, nous pouvons protéger notre planète pour les générations futures.",
+      "p2": "Pour valider cette quête et tester vos connaissances, nous vous invitons à répondre au questionnaire suivant.",
+      "button": "Commencer le questionnaire"
+    }
   }
 }

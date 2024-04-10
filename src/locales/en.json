@@ -1,46 +1,45 @@
 {
   "main": {
     "hello": "Hello World!",
-    "home":"Homepage",
-    "welcome":"Welcome to ",
-    "p1":"Dive into our interactive and ludic game where every quest gets you closer to a greener future. Learn, play, earn rewards and contribute to saving our planet.",
-    "why":"Why register?",
-    "p2":"Joining GREENPLAY,  it’s joining a community invested in the fight for a sustainable tomorrow. By creating an account, you become able to follow your progress, save your completed quests and accumulate exclusive rewards.",
-    "whyplay":"Why play?",
-    "p3":"Playing on GREENPLAY is an unique opportunity to combine fun and sensibilization to ecological challenges. It is an engaging way to learn about environmental challenges as well as finding realistic ways to resolve them. Through every quest, you not only level up your knowledge on ecology, you also actively contribute to initiatives to preserve our world.",
-    "how":"How to play?",
-    "p4-1":"1. Create an account to follow your progress and collect your rewards",
-    "p4-2":"2. Explore and select a quest from the quest board",
+    "home": "Homepage",
+    "welcome": "Welcome to ",
+    "p1": "Dive into our interactive and ludic game where every quest gets you closer to a greener future. Learn, play, earn rewards and contribute to saving our planet.",
+    "why": "Why register?",
+    "p2": "Joining GREENPLAY,  it’s joining a community invested in the fight for a sustainable tomorrow. By creating an account, you become able to follow your progress, save your completed quests and accumulate exclusive rewards.",
+    "whyplay": "Why play?",
+    "p3": "Playing on GREENPLAY is an unique opportunity to combine fun and sensibilization to ecological challenges. It is an engaging way to learn about environmental challenges as well as finding realistic ways to resolve them. Through every quest, you not only level up your knowledge on ecology, you also actively contribute to initiatives to preserve our world.",
+    "how": "How to play?",
+    "p4-1": "1. Create an account to follow your progress and collect your rewards",
+    "p4-2": "2. Explore and select a quest from the quest board",
     "p4-3": "3. Follow the quest objectives, and validate by answering a quiz. Then, you can collect rewards from your account!",
     "p4-4": "",
-    "subject":"Subjects of Quests",
-    "what":"What are the Quests like?",
-    "p5":"- When clicking on a quest, you will see a pop-up describing the environmental challenge. The objectives of the quest will also be detailed.",
-    "p6":"- The main quest is required to complete the quest, but the secondary quest is something you will have to integrate in your daily life (it is not mandatory to be able to validate the main quest).",
-    "p7":"- Click on “Start Quest” to get redirected to the information page and start the Quest!",
-    "rewards":"Reward system",
-    "p8":"Be rewarded for every cleared quest!",
-    "p9":"Success Badges : When finishing a quest, you will be awarded a unique badge. These symbolize the knowledge you acquired and your participation to the ecological cause.",
-    "p10":"Promo codes : Enjoy promo codes for eco-responsible games!",
-    "p11":"And more importantly, make sure to clear every Quest. A surprise awaits you at the end!",
-    "more":"Beyond digital rewards, your participation really contributes to the protection of our environment.",
-    "p12":"All of your rewards will be saved on your profile as soon as you register.",
-    "p13":"Join the GREENPLAY adventure now! Learn, take action and be rewarded :)"
-
+    "subject": "Subjects of Quests",
+    "what": "What are the Quests like?",
+    "p5": "- When clicking on a quest, you will see a pop-up describing the environmental challenge. The objectives of the quest will also be detailed.",
+    "p6": "- The main quest is required to complete the quest, but the secondary quest is something you will have to integrate in your daily life (it is not mandatory to be able to validate the main quest).",
+    "p7": "- Click on “Start Quest” to get redirected to the information page and start the Quest!",
+    "rewards": "Reward system",
+    "p8": "Be rewarded for every cleared quest!",
+    "p9": "Success Badges : When finishing a quest, you will be awarded a unique badge. These symbolize the knowledge you acquired and your participation to the ecological cause.",
+    "p10": "Promo codes : Enjoy promo codes for eco-responsible games!",
+    "p11": "And more importantly, make sure to clear every Quest. A surprise awaits you at the end!",
+    "more": "Beyond digital rewards, your participation really contributes to the protection of our environment.",
+    "p12": "All of your rewards will be saved on your profile as soon as you register.",
+    "p13": "Join the GREENPLAY adventure now! Learn, take action and be rewarded :)"
   },
   "img": {
     "risques_climatiques": "consommation_des_ressources"
   },
-  "special":{
-    "gp":"GREENPLAY",
+  "special": {
+    "gp": "GREENPLAY",
     "exclam": "!"
   },
   "login": {
-    "h1":"Log in" ,
-    "label1":"Email" ,
-    "label2":"Password" ,
-    "button":"Log in" ,
-    "a":"You have not created an account yet? Sign in now!"
+    "h1": "Log in",
+    "label1": "Email",
+    "label2": "Password",
+    "button": "Log in",
+    "a": "You have not created an account yet? Sign in now!"
   },
   "register": {
     "h1": "Sign in",
@@ -77,7 +76,7 @@
   "info": {
     "titre": {
       "h1": "The fight against deforestation",
-      "p1":"Forests, essential to life on Earth, are home to a rich biodiversity and store 40% of the Earth's carbon, playing a crucial role in the fight against climate change. However, deforestation has been accelerating since the 1970s, mainly due to agricultural expansion, leading to loss of biodiversity, increasing greenhouse gas emissions and affecting local populations. The consequences are multiple and serious: loss of biodiversity, increased greenhouse gas emissions, and impact on local populations who depend on forests for their survival. Between 2004 and 2017, 43 million hectares of forest were lost, underscoring the urgent need for action to halt this destructive process."
+      "p1": "Forests, essential to life on Earth, are home to a rich biodiversity and store 40% of the Earth's carbon, playing a crucial role in the fight against climate change. However, deforestation has been accelerating since the 1970s, mainly due to agricultural expansion, leading to loss of biodiversity, increasing greenhouse gas emissions and affecting local populations. The consequences are multiple and serious: loss of biodiversity, increased greenhouse gas emissions, and impact on local populations who depend on forests for their survival. Between 2004 and 2017, 43 million hectares of forest were lost, underscoring the urgent need for action to halt this destructive process."
     },
     "partie1": {
       "h2": "Causes",
@@ -163,6 +162,54 @@
       "p": "The fight against deforestation is a major challenge by which we are all involved in. By adopting durable practices, by supporting restoration initiatives and by raising awareness amongst your acquaintances, we can all invert the trend and protect forests, the precious jewels of our planet.",
       "p2": "To validate this quest and test your knowledge, we invite you to answer the following questions.",
       "button": " Start the quizz"
+    }
+  },
+  "info2": {
+    "titre": {
+      "h1": "The dangers of climate risks",
+      "p": "Climate risks, exacerbated by anthropogenic changes in the composition of the Earth's atmosphere, represent a growing threat to our planet. Increasing greenhouse gas emissions, mainly from fossil fuel combustion, deforestation and intensive agriculture, have significantly altered global climate patterns. These disruptions are leading to an increased frequency and intensity of extreme weather events, such as violent storms, devastating floods, unbearable heatwaves and prolonged droughts. These extreme weather events endanger vital ecosystems, threaten homes and infrastructure, and compromise global food security."
+    },
+    "partie1": {
+      "h1": "Causes",
+      "h3": "Greenhouse gas emissions",
+      "p": " - Human activity, in particular the use of fossil fuels, contributes massively to the increase in greenhouse gases in the atmosphere.",
+      "h3_2": "Deforestation",
+      "p2": " - The reduction of forests reduces the Earth's capacity to absorb CO2, aggravating the greenhouse effect.",
+      "h3_3": "Intensive agriculture",
+      "p3": "- Unsustainable agricultural practices increase methane and nitrous oxide emissions.",
+      "h3_4": "Urbanization",
+      "p4": " - The expansion of urban areas is altering natural landscapes, affecting local climate patterns."
+    },
+    "partie2": {
+      "h1": "Consequences",
+      "h3": "Extreme weather phenomena",
+      "p": " - An increase in the frequency and intensity of storms, floods, heatwaves, and droughts.",
+      "h3_2": "Threat to biodiversity",
+      "p2": "- Disruption of natural habitats, leading to a loss of biodiversity.",
+      "h3_3": "Food insecurity",
+      "p3": " - Destruction of agricultural land and disruption of food supply chains.",
+      "h3_4": "Population displacement",
+      "p4": " - Extreme events and rising waters force populations to move, creating humanitarian crises."
+    },
+    "partie3": {
+      "h1": "Advice and Recommendations",
+      "p": "To face the dangers of climate risks, it is imperative to adopt preventive and corrective measures.",
+      "h3": "Reducing greenhouse gas emissions",
+      "p2": "- Opt for renewable energy sources, improve energy efficiency, and encourage sustainable mobility.",
+      "h3_2": "Sustainable agricultural practices",
+      "p3": " - Adopt agroecology and agroforestry to reduce the impact of agriculture on the climate.",
+      "h3_3": "Ecosystem restoration",
+      "p4": "- Participate in reforestation and natural habitat conservation programs.",
+      "h3_4": "Preparedness and adaptation",
+      "p5": " - Strengthen infrastructure and housing to make them resilient to extreme climatic events.",
+      "p5suite": "- Give priority to certified sustainable products.",
+      "p5suite2": " - Support reforestation initiatives."
+    },
+    "partie4": {
+      "h1": "Conclusion",
+      "p": "Combating climate risks is a major challenge that requires collective action and profound changes in the way we live and consume. By taking steps to reduce our impact on the climate and preparing for inevitable changes, we can protect our planet for future generations.",
+      "p2": "To validate this quest and test your knowledge, we invite you to answer the following questionnaire.",
+      "button": "Start the questionnaire"
     }
   }
 }

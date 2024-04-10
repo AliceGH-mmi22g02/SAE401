@@ -182,100 +182,102 @@
     </section>
     <section id="info2">
       <div class="titreinfo">
-        <h1>Les dangers des risques climatiques</h1>
+        <h1>{{ $t("info2.titre.h1") }}</h1>
       </div>
-      <p>Les risques climatiques, exacerbés par les changements anthropogéniques dans la composition de l'atmosphère terrestre, représentent une menace croissante pour notre planète. L'accroissement des émissions de gaz à effet de serre, issus principalement de la combustion des énergies fossiles, de la déforestation, et de l'agriculture intensive, a modifié de manière significative les modèles climatiques globaux. Ces perturbations entraînent une fréquence et une intensité accrues de phénomènes météorologiques extrêmes, tels que des tempêtes violentes, des inondations dévastatrices, des canicules insoutenables, et des sécheresses prolongées. Ces événements climatiques extrêmes mettent en danger les écosystèmes vitaux, menacent les habitations et les infrastructures, et compromettent la sécurité alimentaire mondiale.</p>
+      <p>{{ $t("info2.titre.p") }}</p>
       <div class="partieinfo">
-        <h1>Causes</h1>
+        <h1>{{ $t("info2.partie1.h1") }}</h1>
       </div>
       <div class="grid">
         <div class="grid-forme">
           <div class="grid-forme-fond">
           </div>
-          <h3>Émissions de gaz à effet de serre</h3>
-          <p>- L'activité humaine, notamment l'utilisation d'énergies fossiles, contribue massivement à l'augmentation des gaz à effet de serre dans l'atmosphère.</p>
+          <h3>{{ $t("info2.partie1.h3") }}</h3>
+          <p>{{ $t("info2.partie1.p") }}</p>
         </div>
         <div class="grid-forme">
           <div class="grid-forme-fond">
           </div>
-          <h3>Déforestation</h3>
-          <p>- La réduction des forêts diminue la capacité de la Terre à absorber le CO2, aggravant l'effet de serre.</p>
+          <h3>{{ $t("info2.partie1.h3_2") }}</h3>
+          <p>{{ $t("info2.partie1.p2") }}</p>
         </div>
         <div class="grid-forme">
           <div class="grid-forme-fond">
           </div>
-          <h3>Agriculture intensive</h3>
-          <p>- Les pratiques agricoles non durables augmentent les émissions de méthane et de protoxyde d'azote.</p>
+          <h3>{{ $t("info2.partie1.h3_3") }}</h3>
+          <p>{{ $t("info2.partie1.p3") }}</p>
         </div>
       </div>
       <div class="grid">
         <div class="grid-forme">
           <div class="grid-forme-fond">
           </div>
-          <h3>Urbanisation</h3>
-          <p>- L'expansion des zones urbaines modifie les paysages naturels, affectant les modèles climatiques locaux.</p>
+          <h3>{{ $t("info2.partie1.h3_4") }}</h3>
+          <p>{{ $t("info2.partie1.p4") }}</p>
         </div>
       </div>
       <div class="partieinfo">
-        <h1>Conséquences</h1>
+        <h1>{{ $t("info2.partie2.h1") }}</h1>
       </div>
       <div class="grid">
         <div class="grid-forme">
           <div class="grid-forme-fond">
           </div>
-          <h3>Phénomènes météorologiques extrêmes</h3>
-          <p>- Une augmentation de la fréquence et de l'intensité des tempêtes, inondations, canicules, et sécheresses.</p>
+          <h3>{{ $t("info2.partie2.h3") }}</h3>
+          <p>{{ $t("info2.partie2.p") }}</p>
         </div>
         <div class="grid-forme">
           <div class="grid-forme-fond">
           </div>
-          <h3>Menace pour la biodiversité</h3>
-          <p>- Perturbation des habitats naturels, entraînant une perte de biodiversité.</p>
+          <h3>{{ $t("info2.partie2.h3_2") }}</h3>
+          <p>{{ $t("info2.partie2.p2") }}</p>
         </div>
         <div class="grid-forme">
           <div class="grid-forme-fond">
           </div>
-          <h3>Insécurité alimentaire</h3>
-          <p>- Destruction des terres agricoles et perturbation des chaînes d'approvisionnement alimentaire.</p>
+          <h3>{{ $t("info2.partie2.h3_3") }}</h3>
+          <p>{{ $t("info2.partie2.p3") }}</p>
         </div>
         <div class="grid-forme">
           <div class="grid-forme-fond">
           </div>
-          <h3>Déplacements de population</h3>
-          <p>- Les événements extrêmes et la montée des eaux forcent les populations à se déplacer, créant des crises humanitaires.</p>
+          <h3>{{ $t("info2.partie2.h3_4") }}</h3>
+          <p>{{ $t("info2.partie2.p4") }}</p>
         </div>
       </div>
       <div class="partieinfo">
-        <h1>Conseil et Recommandation</h1>
-        <p>Pour faire face aux dangers des risques climatiques, il est impératif d'adopter des mesures préventives et correctives.</p>
+        <h1>{{ $t("info2.partie3.h1") }}</h1>
+        <p>{{ $t("info2.partie3.p") }}</p>
       </div>
       <div class="grid3">
         <div class="grid3-forme">
-          <h3>Réduction des émissions de gaz à effet de serre</h3>
-          <p>- Opter pour des sources d'énergie renouvelables, améliorer l'efficacité énergétique, et encourager la mobilité durable.</p>
+          <h3>{{ $t("info2.partie3.h3") }}</h3>
+          <p>{{ $t("info2.partie3.p2") }}</p>
         </div>
         <div class="grid3-forme">
-          <h3>Pratiques agricoles durables</h3>
-          <p>- Adopter l'agroécologie et l'agroforesterie pour réduire l'impact de l'agriculture sur le climat.</p>
+          <h3>{{ $t("info2.partie3.h3_2") }}</h3>
+          <p>{{ $t("info2.partie3.p3") }}</p>
         </div>
         <div class="grid3-forme">
-          <h3>Restauration des écosystèmes</h3>
-          <p>- Participer à des programmes de reforestation et de conservation des habitats naturels.</p>
+          <h3>{{ $t("info2.partie3.h3_3") }}</h3>
+          <p>{{ $t("info2.partie3.p4") }}</p>
         </div>
       </div>
       <div class="grid3">
         <div class="grid3-forme">
-          <h3>Préparation et adaptation</h3>
-          <p>- Renforcer les infrastructures et les habitations pour les rendre résilientes aux événements climatiques extrêmes.<br>- Privilégier les produits certifiés durables.<br>- Soutenir les initiatives de reforestation.</p>
+          <h3>{{ $t("info2.partie3.h3_4") }}</h3>
+          <p>{{ $t("info2.partie3.p5") }}</p>
+          <p>{{ $t("info2.partie3.p5suite") }}</p>
+          <p>{{ $t("info2.partie3.p5suite2") }}</p>
         </div>
       </div>
       <div class="partieinfo">
-        <h1>Conclusion</h1>
-        <p>La lutte contre les risques climatiques est un enjeu majeur qui nécessite une action collective et des changements profonds dans notre manière de vivre et de consommer. En prenant des mesures pour réduire notre impact sur le climat et en nous préparant aux changements inévitables, nous pouvons protéger notre planète pour les générations futures.</p>
+        <h1>{{ $t("info2.partie4.h1") }}</h1>
+        <p>{{ $t("info2.partie4.p") }}</p>
         <br>
-        <p>Pour valider cette quête et tester vos connaissances, nous vous invitons à répondre au questionnaire suivant.</p>
+        <p>{{ $t("info2.partie4.p2") }}</p>
       </div>
-      <button @click="startQuestionnaire2">Commencer le questionnaire</button>
+      <button @click="startQuestionnaire2">{{ $t("info2.partie4.button") }}</button>
     </section>
     <section v-if="showQuestionnaire2 && currentQuestions && currentQuestions[currentQuestionIndex] && !questionnaireCompleted(2)">
       <div>
