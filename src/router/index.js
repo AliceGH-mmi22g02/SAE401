@@ -14,6 +14,8 @@ import Quete8View from "../views/Quete/Quete8View.vue";
 import Quete9View from "../views/Quete/Quete9View.vue";
 import Quete10View from "../views/Quete/Quete10View.vue";
 import Resultat from "../views/ResultatView.vue";
+import MentionView from "../views/MentionView.vue";
+
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -106,6 +108,13 @@ const router = createRouter({
             name: 'Resultat',
             component: Resultat,
         },
+
+        {
+            path: "/Mention",
+            name: 'Mention',
+            component: MentionView,
+        },
+
     ],
 });
 export default router;
