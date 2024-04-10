@@ -4,7 +4,6 @@ import Badges from "../views/Badges.vue";
 import Quete from "../views/QueteView.vue";
 import InformationView from "../views/InformationView.vue";
 import TableauQuête from '../views/TableauQueteView.vue';
-import PopUpQuete from '../views/PopUpQuete.vue';
 import Quete2View from "../views/Quete/Quete2View.vue";
 import Quete3View from "../views/Quete/Quete3View.vue";
 import Quete4View from "../views/Quete/Quete4View.vue";
@@ -45,12 +44,6 @@ const router = createRouter({
             path: "/TableauQuete",
             name: 'TableauQuete',
             component: TableauQuête,
-        },
-
-        {
-            path: '/pop-up-quete',
-            name: 'PopUpQuete',
-            component: PopUpQuete
         },
 
 
