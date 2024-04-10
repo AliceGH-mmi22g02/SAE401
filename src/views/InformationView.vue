@@ -292,106 +292,106 @@
     </section>
     <section id="info3">
       <div class="titreinfo">
-        <h1>Le réchauffement climatique</h1>
+        <h1>{{ $t("info3.titre.h1") }}</h1>
       </div>
-      <p>Le réchauffement climatique est un phénomène global caractérisé par une augmentation des températures moyennes de la Terre, résultant principalement de l'accumulation des gaz à effet de serre (GES) dans l'atmosphère. Ces gaz, tels que le dioxyde de carbone (CO2), le méthane (CH4) et le protoxyde d'azote (N2O), piègent la chaleur du soleil dans l'atmosphère, provoquant ainsi une hausse des températures à la surface de la planète. La combustion des combustibles fossiles, l'agriculture intensive, la déforestation, et diverses autres activités humaines contribuent à cette accumulation, entraînant des changements climatiques dangereux et imprévisibles.</p>
+      <p>{{ $t("info3.titre.p") }}</p>
       <div class="partieinfo">
-        <h1>Causes</h1>
+        <h1>{{ $t("info3.partie1.h1") }}</h1>
       </div>
       <div class="grid">
         <div class="grid-forme">
           <div class="grid-forme-fond">
           </div>
-          <h3>Combustion des combustibles fossiles</h3>
-          <p>- L'utilisation de pétrole, de charbon, et de gaz naturel pour l'énergie libère d'énormes quantités de CO2.</p>
+          <h3>{{ $t("info3.partie1.h3") }}</h3>
+          <p>{{ $t("info3.partie1.p") }}</p>
         </div>
         <div class="grid-forme">
           <div class="grid-forme-fond">
           </div>
-          <h3>Déforestation</h3>
-          <p>- L'abattage des forêts réduit la capacité de la Terre à absorber le CO2 de l'atmosphère.</p>
+          <h3>{{ $t("info3.partie1.h3_2") }}</h3>
+          <p>{{ $t("info3.partie1.p2") }}</p>
         </div>
         <div class="grid-forme">
           <div class="grid-forme-fond">
           </div>
-          <h3>Agriculture</h3>
-          <p>- Les pratiques agricoles produisent du méthane et du protoxyde d'azote, deux puissants gaz à effet de serre.</p>
+          <h3>{{ $t("info3.partie1.h3_3") }}</h3>
+          <p>{{ $t("info3.partie1.p3") }}</p>
         </div>
       </div>
       <div class="grid">
         <div class="grid-forme">
           <div class="grid-forme-fond">
           </div>
-          <h3>Industrie</h3>
-          <p>- Les procédés industriels émettent une grande variété de gaz à effet de serre.</p>
+          <h3>{{ $t("info3.partie1.h3_4") }}</h3>
+          <p>{{ $t("info3.partie1.p4") }}</p>
         </div>
       </div>
       <div class="partieinfo">
-        <h1>Conséquences</h1>
+        <h1>{{ $t("info3.partie2.h1") }}</h1>
       </div>
       <div class="grid">
         <div class="grid-forme">
           <div class="grid-forme-fond">
           </div>
-          <h3>Changements climatiques extrêmes</h3>
-          <p>- Augmentation de la fréquence et de l'intensité des tempêtes, inondations, sécheresses et canicules.</p>
+          <h3>{{ $t("info3.partie2.h3") }}</h3>
+          <p>{{ $t("info3.partie2.p") }}</p>
         </div>
         <div class="grid-forme">
           <div class="grid-forme-fond">
           </div>
-          <h3>Montée du niveau des mers</h3>
-          <p>- La fonte des glaces polaires et des glaciers entraîne une élévation du niveau des mers, menaçant les zones côtières.</p>
+          <h3>{{ $t("info3.partie2.h3_2") }}</h3>
+          <p>{{ $t("info3.partie2.p2") }}</p>
         </div>
         <div class="grid-forme">
           <div class="grid-forme-fond">
           </div>
-          <h3>Perturbations des écosystèmes</h3>
-          <p>- Modification des habitats naturels, mettant en danger la survie de nombreuses espèces.</p>
+          <h3>{{ $t("info3.partie2.h3_3") }}</h3>
+          <p>{{ $t("info3.partie2.p3") }}</p>
         </div>
         <div class="grid-forme">
           <div class="grid-forme-fond">
           </div>
-          <h3>Insécurité alimentaire</h3>
-          <p>- Les changements climatiques affectent la production agricole, menaçant la sécurité alimentaire mondiale.</p>
+          <h3>{{ $t("info3.partie2.h3_4") }}</h3>
+          <p>{{ $t("info3.partie2.p4") }}</p>
         </div>
       </div>
       <div class="partieinfo">
-        <h1>Conseil et Recommandation</h1>
-        <p>Pour lutter contre le réchauffement climatique, des actions individuelles et collectives sont nécessaires.</p>
+        <h1>{{ $t("info3.partie3.h1") }}</h1>
+        <p>{{ $t("info3.partie3.p") }}</p>
       </div>
       <div class="grid3">
         <div class="grid3-forme">
-          <h3>Réduction de la consommation d'énergie</h3>
-          <p>- Améliorer l'efficacité énergétique des habitations, des transports et des appareils.</p>
+          <h3>{{ $t("info3.partie3.h3") }}</h3>
+          <p>{{ $t("info3.partie3.p2") }}</p>
         </div>
         <div class="grid3-forme">
-          <h3>Utilisation d'énergies renouvelables</h3>
-          <p>- Favoriser le solaire, l'éolien, l'hydroélectricité et la biomasse.</p>
+          <h3>{{ $t("info3.partie3.h3_2") }}</h3>
+          <p>{{ $t("info3.partie3.p3") }}</p>
         </div>
         <div class="grid3-forme">
-          <h3>Transports écologiques</h3>
-          <p>- Privilégier les transports en commun, le vélo, ou la marche, et envisager les véhicules électriques.</p>
-        </div>
-      </div>
-      <div class="grid3">
-        <div class="grid3-forme">
-          <h3>Pratiques alimentaires durables</h3>
-          <p>- Réduire la consommation de viande, privilégier les produits locaux et de saison.</p>
+          <h3>{{ $t("info3.partie3.h3_3") }}</h3>
+          <p>{{ $t("info3.partie3.p4") }}</p>
         </div>
       </div>
       <div class="grid3">
         <div class="grid3-forme">
-          <h3>Sensibilisation et éducation</h3>
-          <p>- Informer sur l'importance du réchauffement climatique et encourager les actions pour le combattre.</p>
+          <h3>{{ $t("info3.partie3.h3_4") }}</h3>
+          <p>{{ $t("info3.partie3.p5") }}</p>
+        </div>
+      </div>
+      <div class="grid3">
+        <div class="grid3-forme">
+          <h3>{{ $t("info3.partie3.h3_5") }}</h3>
+          <p>{{ $t("info3.partie3.p6") }}</p>
         </div>
       </div>
       <div class="partieinfo">
-        <h1>Conclusion</h1>
-        <p>Le réchauffement climatique est un défi majeur pour notre génération. Il exige une transformation profonde de nos modes de vie et de nos économies. En devenant un Pompier du climat, à travers des gestes quotidiens et des décisions éclairées, vous pouvez contribuer à la lutte contre le réchauffement climatique et œuvrer pour un avenir plus durable pour tous.</p>
+        <h1>{{ $t("info3.partie4.h1") }}</h1>
+        <p>{{ $t("info3.partie4.p") }}</p>
         <br>
-        <p>Pour valider cette quête et tester vos connaissances, nous vous invitons à répondre au questionnaire suivant.</p>
+        <p>{{ $t("info3.partie4.p2") }}</p>
       </div>
-      <button @click="startQuestionnaire3">Commencer le questionnaire</button>
+      <button @click="startQuestionnaire3">{{ $t("info3.partie4.button") }}</button>
     </section>
     <section v-if="showQuestionnaire3 && currentQuestions && currentQuestions[currentQuestionIndex] && !questionnaireCompleted(3)">
       <div>

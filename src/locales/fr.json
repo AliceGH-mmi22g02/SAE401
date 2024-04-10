@@ -211,5 +211,53 @@
       "p2": "Pour valider cette quête et tester vos connaissances, nous vous invitons à répondre au questionnaire suivant.",
       "button": "Commencer le questionnaire"
     }
+  },
+  "info3": {
+    "titre":{
+      "h1": "Le réchauffement climatique",
+      "p": "Le réchauffement climatique est un phénomène global caractérisé par une augmentation des températures moyennes de la Terre, résultant principalement de l'accumulation des gaz à effet de serre (GES) dans l'atmosphère. Ces gaz, tels que le dioxyde de carbone (CO2), le méthane (CH4) et le protoxyde d'azote (N2O), piègent la chaleur du soleil dans l'atmosphère, provoquant ainsi une hausse des températures à la surface de la planète. La combustion des combustibles fossiles, l'agriculture intensive, la déforestation, et diverses autres activités humaines contribuent à cette accumulation, entraînant des changements climatiques dangereux et imprévisibles."
+    },
+    "partie1": {
+      "h1": "Causes",
+      "h3": "Combustion d'énergies fossiles",
+      "p": " - L'utilisation de pétrole, de charbon, et de gaz naturel pour l'énergie libère d'énormes quantités de CO2.",
+      "h3_2": "Déforestation",
+      "p2": "- L'abattage des forêts réduit la capacité de la Terre à absorber le CO2 de l'atmosphère.",
+      "h3_3": "Agriculture",
+      "p3": " - Les pratiques agricoles produisent du méthane et du protoxyde d'azote, deux puissants gaz à effet de serre.",
+      "h3_4": "Industrie",
+      "p4": " - Les procédés industriels émettent une grande variété de gaz à effet de serre."
+    },
+    "partie2": {
+      "h1": "Conséquences",
+      "h3": "Changements climatiques extrêmes",
+      "p": " - Augmentation de la fréquence et de l'intensité des tempêtes, inondations, sécheresses et canicules.",
+      "h3_2": "Hausse du niveau des mers",
+      "p2": " - La fonte des glaces polaires et des glaciers entraîne une élévation du niveau des mers, menaçant les zones côtières.",
+      "h3_3": "Perturbations des écosystèmes",
+      "p3": " - Modification des habitats naturels, mettant en danger la survie de nombreuses espèces.",
+      "h3_4": "Insécurité alimentaire",
+      "p4":" - Les changements climatiques affectent la production agricole, menaçant la sécurité alimentaire mondiale."
+    },
+    "partie3": {
+      "h1": "Conseils et Recommandations",
+      "p": "Pour lutter contre le réchauffement climatique, des actions individuelles et collectives sont nécessaires.",
+      "h3": "Réduction de la consommation d'énergie",
+      "p2": " - Améliorer l'efficacité énergétique des habitations, des transports et des appareils.",
+      "h3_2": "Utilisation d'énergies renouvelables",
+      "p3": " - Favoriser le solaire, l'éolien, l'hydroélectricité et la biomasse.",
+      "h3_3": "Transports écologiques",
+      "p4": " - Privilégier les transports en commun, le vélo, ou la marche, et envisager les véhicules électriques.",
+      "h3_4": "Pratiques alimentaires durables",
+      "p5": " - Réduire la consommation de viande, privilégier les produits locaux et de saison.",
+      "h3_5": "Sensibilisation et éducation",
+      "p6": " - Informer sur l'importance du réchauffement climatique et encourager les actions pour le combattre."
+    },
+    "partie4": {
+      "h1": "Conclusion",
+      "p": "Le réchauffement climatique est un défi majeur pour notre génération. Il exige une transformation profonde de nos modes de vie et de nos économies. En devenant un Pompier du climat, à travers des gestes quotidiens et des décisions éclairées, vous pouvez contribuer à la lutte contre le réchauffement climatique et œuvrer pour un avenir plus durable pour tous.",
+      "p2": "Pour valider cette quête et tester vos connaissances, nous vous invitons à répondre au questionnaire suivant.",
+      "button": "Commencer le questionnaire"
+    }
   }
 }

@@ -211,5 +211,53 @@
       "p2": "To validate this quest and test your knowledge, we invite you to answer the following questionnaire.",
       "button": "Start the questionnaire"
     }
+  },
+  "info3": {
+    "titre": {
+      "h1": "Global warming",
+      "p": "Global warming is a global phenomenon characterized by an increase in the Earth's average temperature, resulting mainly from the accumulation of greenhouse gases (GHGs) in the atmosphere. These gases, such as carbon dioxide (CO2), methane (CH4) and nitrous oxide (N2O), trap the sun's heat in the atmosphere, causing temperatures on the planet's surface to rise. The burning of fossil fuels, intensive agriculture, deforestation and various other human activities contribute to this build-up, leading to dangerous and unpredictable climate change."
+    },
+    "partie1": {
+      "h1": "Causes",
+      "h3": "Combustion of fossil fuels",
+      "p": " - The use of oil, coal, and natural gas for energy releases huge amounts of CO2.",
+      "h3_2": "Deforestation",
+      "p2": "- Cutting down forests reduces the Earth's capacity to absorb CO2 from the atmosphere.",
+      "h3_3": "Agriculture",
+      "p3": "- Agricultural practices produce methane and nitrous oxide, two powerful greenhouse gases.",
+      "h3_4": "Industry",
+      "p4": " - Industrial processes emit a wide variety of greenhouse gases."
+    },
+    "partie2": {
+      "h1": "Consequences",
+      "h3": "Extreme climate change",
+      "p": "- Increased frequency and intensity of storms, floods, droughts and heat waves",
+      "h3_2": "Sea level rise",
+      "p2": " - Melting polar ice and glaciers are causing sea levels to rise, threatening coastal areas.",
+      "h3_3": "Ecosystem disruption",
+      "p3": "- Modification of natural habitats, endangering the survival of many species",
+      "h3_4": "Food insecurity",
+      "p4":" - Climate change affects agricultural production, threatening global food security."
+    },
+    "partie3": {
+      "h1": "Tips and Recommendations",
+      "p": "To combat global warming, individual and collective action is needed.",
+      "h3": "Reducing energy consumption",
+      "p2": "- Improve the energy efficiency of homes, transport and appliances.",
+      "h3_2": "Use of renewable energies",
+      "p3": "- Promote solar, wind, hydroelectric and biomass power.",
+      "h3_3": "Ecological transport",
+      "p4": " - Give priority to public transport, cycling or walking, and consider electric vehicles.",
+      "h3_4": "Sustainable food practices",
+      "p5": " - Reduce meat consumption, favor local and seasonal products.",
+      "h3_5": "Awareness-raising and education",
+      "p6": " - Inform about the importance of global warming and encourage action to combat it."
+    },
+    "partie4": {
+      "h1": "Conclusion",
+      "p": "Global warming is a major challenge for our generation. It demands a profound transformation of our lifestyles and economies. By becoming a Climate Firefighter, through everyday gestures and informed decisions, you can contribute to the fight against global warming and work towards a more sustainable future for all.",
+      "p2": "To validate this quest and test your knowledge, we invite you to answer the following questionnaire.",
+      "button": "Start the questionnaire"
+    }
   }
 }
