@@ -2,146 +2,172 @@
   <div>
     <section id="info1">
       <div class="titreinfo">
-        <h1>La lutte contre la déforestation</h1>
+        <h1>{{ $t("info.titre.h1") }}</h1>
       </div>
-      <p>Véritables poumons de la planète, les forêts regorgent d'une vie foisonnante, abritant plus de la moitié des espèces terrestres connues et offrant à plus d'1,6 milliard d'habitants un abri et des ressources vitales. En tant que gardiens du climat, elles piègent 40% du carbone terrestre, luttant contre le réchauffement climatique. Mais cette précieuse ressource est menacée. La déforestation continue à un rythme effréné, fragilisant les écosystèmes et les populations qui en dépendent. Depuis des siècles, les forêts reculent pour laisser place à l'expansion humaine. Mais depuis les années 1970, ce phénomène s'est accéléré de manière alarmante. Chaque année, environ 15 millions d'hectares de forêt disparaissent, soit l'équivalent de la superficie de la Belgique. L'agriculture est le principal moteur de cette déforestation, avec l'expansion des cultures tropicales comme le soja et l'huile de palme. Les conséquences sont multiples et graves : perte de biodiversité, augmentation des émissions de gaz à effet de serre, et impact sur les populations locales qui dépendent des forêts pour leur survie. Entre 2004 et 2017, 43 millions d'hectares de forêt ont été perdus, un chiffre qui montre l'urgence d'agir pour freiner ce processus destructeur.</p>
+      <p>{{ $t("info.titre.p1") }}</p>
       <div class="partieinfo">
-        <h1>Causes</h1>
+        <h1>{{ $t("info.partie1.h2") }}</h1>
       </div>
       <div class="grid">
         <div class="grid-forme">
           <div class="grid-forme-fond">
           </div>
-          <h3>Expansion agricole</h3>
-          <p>- Réponse à la croissance des besoins alimentaires et à la production de biocarburants.<br> - Transformation des forêts en terres cultivables.</p>
+          <h3>{{ $t("info.partie1.h3_1") }}</h3>
+          <p>{{ $t("info.partie1.p2") }}</p>
+          <p>{{ $t("info.partie1.p2suite") }}</p>
         </div>
         <div class="grid-forme">
           <div class="grid-forme-fond">
           </div>
-          <h3>Exploitation forestière</h3>
-          <p>- Alimentée par la demande en bois et en papier. <br> - Destruction des arbres.</p>
+          <h3>{{ $t("info.partie1.h3_2") }}</h3>
+          <p>{{ $t("info.partie1.p3") }}</p>
+          <p>{{ $t("info.partie1.p3suite") }}</p>
         </div>
         <div class="grid-forme">
           <div class="grid-forme-fond">
           </div>
-          <h3>Urbanisation et développement d'infrastructures</h3>
-          <p>- Envahissement de l'espace forestier pour la croissance des villes et la construction de routes.<br> - Pression accrue sur les forêts.</p>
+          <h3>{{ $t("info.partie1.h3_3") }}</h3>
+          <p>{{ $t("info.partie1.p4") }}</p>
+          <p>{{ $t("info.partie1.p4suite") }}</p>
         </div>
       </div>
       <div class="grid">
         <div class="grid-forme">
           <div class="grid-forme-fond">
           </div>
-          <h3>Exploitation minière</h3>
-          <p>- Destruction des forêts pour extraire des ressources naturelles.</p>
+          <h3>{{ $t("info.partie1.h3_4") }}</h3>
+          <p>{{ $t("info.partie1.p5") }}</p>
         </div>
         <div class="grid-forme">
           <div class="grid-forme-fond">
           </div>
-          <h3>Commerce illégal du bois</h3>
-          <p>- Menace les efforts de conservation</p>
+          <h3>{{ $t("info.partie1.h3_5") }}</h3>
+          <p>{{ $t("info.partie1.p6") }}</p>
         </div>
         <div class="grid-forme">
           <div class="grid-forme-fond">
           </div>
-          <h3>Plantations de palmiers à huile</h3>
-          <p>- Remplacent les forêts tropicales, en particulier en Asie du Sud-Est. <br> - Exacerbent la perte de biodiversité et le changement climatique.</p>
+          <h3>{{ $t("info.partie1.h3_6") }}</h3>
+          <p>{{ $t("info.partie1.p7") }}</p>
+          <p>{{ $t("info.partie1.p7suite") }}</p>
         </div>
       </div>
       <div class="grid2">
         <div class="grid2-forme">
           <div class="grid2-forme-fond">
           </div>
-          <h3>Facteurs aggravant</h3>
-          <p>- Demande globale croissante en produits forestiers et agricoles.<br> - Urgence de développer des stratégies durables pour la gestion des forêts.</p>
+          <h3>{{ $t("info.partie1.h3_7") }}</h3>
+          <p>{{ $t("info.partie1.p8") }}</p>
+          <p>{{ $t("info.partie1.p8suite") }}</p>
         </div>
         <div class="grid2-forme">
           <div class="grid2-forme-fond">
           </div>
-          <h3>Le Cercle vicieux</h3>
-          <p>Destruction des forêts -> Affecte l'environnement et la biodiversité -> Fragilise les populations qui en dépendent -> Accentue la pression sur les ressources naturelles.</p>
+          <h3>{{ $t("info.partie1.h3_8") }}</h3>
+          <p>{{ $t("info.partie1.p9") }}</p>
         </div>
       </div>
       <div class="partieinfo">
-        <h1>Conséquences</h1>
-        <h3>Conséquences environnementales</h3>
+        <h1>{{ $t("info.partie2.h2") }}</h1>
+        <h3>{{ $t("info.partie2.h3_1") }}</h3>
       </div>
       <div class="grid">
         <div class="grid-forme">
           <div class="grid-forme-fond">
           </div>
-          <h3>Perte de biodiversité</h3>
-          <p>- Disparition d'espèces animales et végétales à un rythme alarmant.<br> - Destruction de l'habitat naturel de millions d'êtres vivants.<br> - Fragilisation de l'équilibre des écosystèmes.<br>- Destruction des forêts pour extraire des ressources naturelles.</p>
+          <h3>{{ $t("info.partie2.h3_2") }}</h3>
+          <p>{{ $t("info.partie2.p1") }}</p>
+          <p>{{ $t("info.partie2.p1suite") }}</p>
+          <p>{{ $t("info.partie2.p1suite2") }}</p>
+          <p>{{ $t("info.partie2.p1suite3") }}</p>
         </div>
         <div class="grid-forme">
           <div class="grid-forme-fond">
           </div>
-          <h3>Changement climatique</h3>
-          <p>- Exacerbation du réchauffement climatique.<br> - Destruction des arbres, qui absorbent le carbone et luttent contre l'accumulation de gaz à effet de serre.<br> - Libération de CO2 dans l'atmosphère.</p>
+          <h3>{{ $t("info.partie2.h3_3") }}</h3>
+          <p>{{ $t("info.partie2.p2") }}</p>
+          <p>{{ $t("info.partie2.p2suite") }}</p>
+          <p>{{ $t("info.partie2.p2suite2") }}</p>
         </div>
         <div class="grid-forme">
           <div class="grid-forme-fond">
           </div>
-          <h3>Perturbation du cycle de l'eau</h3>
-          <p>- Dérégulation du débit des rivières.<br>- Augmentation des risques d'inondations et de sécheresses.<br>- Déstabilisation des ressources hydriques.<br> - Remplacent les forêts tropicales, en particulier en Asie du Sud-Est. <br> - Exacerbent la perte de biodiversité et le changement climatique.</p>
+          <h3>{{ $t("info.partie2.h3_4") }}</h3>
+          <p>{{ $t("info.partie2.p3") }}</p>
+          <p>{{ $t("info.partie2.p3suite") }}</p>
+          <p>{{ $t("info.partie2.p3suite2") }}</p>
+          <p>{{ $t("info.partie2.p3suite3") }}</p>
+          <p>{{ $t("info.partie2.p3suite4") }}</p>
         </div>
       </div>
       <div class="partieinfo">
-        <h3>Conséquences socio-économiques</h3>
+        <h3>{{ $t("info.partie3.h3_1") }}</h3>
       </div>
       <div class="grid2">
         <div class="grid2-forme">
           <div class="grid2-forme-fond">
           </div>
-          <h3>Impact sur les populations locales</h3>
-          <p>- Perte de ressources naturelles et de moyens de subsistance.<br>- Pauvreté et insécurité alimentaire accrues.</p>
+          <h3>{{ $t("info.partie3.h3_2") }}</h3>
+          <p>{{ $t("info.partie3.p1") }}</p>
+          <p>{{ $t("info.partie3.p1suite") }}</p>
         </div>
         <div class="grid2-forme">
           <div class="grid2-forme-fond">
           </div>
-          <h3>Impact sur les industries</h3>
-          <p>- Menace pour les industries dépendantes des ressources forestières (bois, papier, etc.).<br>- Perturbation des chaînes d'approvisionnement.<br>- Pertes économiques.</p>
+          <h3>{{ $t("info.partie3.h3_3") }}</h3>
+          <p>{{ $t("info.partie3.p2") }}</p>
+          <p>{{ $t("info.partie3.p2suite") }}</p>
+          <p>{{ $t("info.partie3.p2suite2") }}</p>
         </div>
       </div>
       <div class="partieinfo">
-        <h1>Conseil et Recommandation</h1>
-        <p>La déforestation a des conséquences dévastatrices sur l'environnement et les sociétés. Il est crucial de prendre des mesures pour enrayer ce phénomène et protéger les forêts, qui sont des ressources vitales pour la planète.</p>
+        <h1>{{ $t("info.partie4.h2") }}</h1>
+        <p>{{ $t("info.partie4.p1") }}</p>
       </div>
       <div class="grid3">
         <div class="grid3-forme">
-          <h3>Combattre la déforestation à la source : repenser l'agriculture</h3>
-          <p>- Transition vers des pratiques agricoles durables.<br>- Freiner l'expansion des cultures intensives.<br>- Promouvoir l'agroforesterie.</p>
+          <h3>{{ $t("info.partie4.h3_1") }}</h3>
+          <p>{{ $t("info.partie4.p2") }}</p>
+          <p>{{ $t("info.partie4.p2suite") }}</p>
+          <p>{{ $t("info.partie4.p2suite2") }}</p>
         </div>
         <div class="grid3-forme">
-          <h3>Restaurer les écosystèmes forestiers, agir concrètement</h3>
-          <p>- Soutenir les initiatives de reforestation et de restauration.<br>- Replanter des arbres et régénérer les sols.<br>- Améliorer les conditions de vie des populations locales.</p>
+          <h3>{{ $t("info.partie4.h3_2") }}</h3>
+          <p>{{ $t("info.partie4.p3") }}</p>
+          <p>{{ $t("info.partie4.p3suite") }}</p>
+          <p>{{ $t("info.partie4.p3suite2") }}</p>
         </div>
         <div class="grid3-forme">
-          <h3>Renforcer la gouvernance et la responsabilisation</h3>
-          <p>- Renforcer la législation sur l'exploitation forestière.<br>- Combattre le commerce illégal du bois.<br>- Encourager l'utilisation de produits certifiés FSC.</p>
+          <h3>{{ $t("info.partie4.h3_3") }}</h3>
+          <p>{{ $t("info.partie4.p4") }}</p>
+          <p>{{ $t("info.partie4.p4suite") }}</p>
+          <p>{{ $t("info.partie4.p4suite2") }}</p>
         </div>
       </div>
       <div class="grid3">
         <div class="grid3-forme">
-          <h3>Agir au quotidien,  des gestes simples pour un impact collectif</h3>
-          <p>- Réduire sa consommation de produits liés à la déforestation (huile de palme).<br>- Privilégier les produits certifiés durables.<br>- Soutenir les initiatives de reforestation.</p>
+          <h3>{{ $t("info.partie4.h3_4") }}</h3>
+          <p>{{ $t("info.partie4.p5") }}</p>
+          <p>{{ $t("info.partie4.p5suite") }}</p>
+          <p>{{ $t("info.partie4.p5suite2") }}</p>
         </div>
         <div class="grid3-forme">
-          <h3>Adopter un mode de vie durable</h3>
-          <p>- Réduire, réutiliser et recycler.<br>- Opter pour des plantes natives dans son jardin.</p>
+          <h3>{{ $t("info.partie4.h3_5") }}</h3>
+          <p>{{ $t("info.partie4.p6") }}</p>
+          <p>{{ $t("info.partie4.p6suite") }}</p>
         </div>
         <div class="grid3-forme">
-          <h3>Sensibiliser et mobiliser pour un avenir durable</h3>
-          <p>- Informer et sensibiliser le public sur l'importance des forêts.<br>- Partager ses connaissances et encourager son entourage à agir.</p>
+          <h3>{{ $t("info.partie4.h3_6") }}</h3>
+          <p>{{ $t("info.partie4.p7") }}</p>
+          <p>{{ $t("info.partie4.p7suite") }}</p>
         </div>
       </div>
       <div class="partieinfo">
-        <h1>Conclusion</h1>
-        <p>La lutte contre la déforestation est un défi majeur qui nous concerne tous. En adoptant des pratiques durables, en soutenant les initiatives de restauration et en sensibilisant votre entourage, nous pouvons inverser la tendance et protéger les forêts, joyaux précieux de notre planète.</p>
-        <br>
-        <p>Pour valider cette quête et tester vos connaissances, nous vous invitons à répondre au questionnaire suivant.</p>
+        <h1>{{ $t("info.partie5.h2") }}</h1>
+        <p>{{ $t("info.partie5.p") }}</p>
+        <p>{{ $t("info.partie5.p2") }}</p>
       </div>
-      <button @click="startQuestionnaire1">Commencer le questionnaire</button>
+      <button @click="startQuestionnaire1">{{ $t("info.partie5.button") }}</button>
     </section>
     <section v-if="showQuestionnaire1 && currentQuestions && currentQuestions[currentQuestionIndex] && !questionnaireCompleted(1)">
       <div>

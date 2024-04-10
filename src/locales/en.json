@@ -28,6 +28,9 @@
     "p13":"Join the GREENPLAY adventure now! Learn, take action and be rewarded :)"
 
   },
+  "img": {
+    "risques_climatiques": "consommation_des_ressources"
+  },
   "special":{
     "gp":"GREENPLAY",
     "exclam": "!"
@@ -70,5 +73,96 @@
     "p9suite": "This badge is awarded at the end of quest number 9, \"The overexploitation of marine resources\". It honors those who support marine life and sustainable fishing to protect the oceans.",
     "p10": "10. Farmer of Fertile Lands:",
     "p10suite": "Awarded after quest number 10,\"Soil degradation and depletion\". This badge recognizes support for sustainable agriculture and efforts to preserve soil fertility."
+  },
+  "info": {
+    "titre": {
+      "h1": "The fight against deforestation",
+      "p1":"Forests, essential to life on Earth, are home to a rich biodiversity and store 40% of the Earth's carbon, playing a crucial role in the fight against climate change. However, deforestation has been accelerating since the 1970s, mainly due to agricultural expansion, leading to loss of biodiversity, increasing greenhouse gas emissions and affecting local populations. The consequences are multiple and serious: loss of biodiversity, increased greenhouse gas emissions, and impact on local populations who depend on forests for their survival. Between 2004 and 2017, 43 million hectares of forest were lost, underscoring the urgent need for action to halt this destructive process."
+    },
+    "partie1": {
+      "h2": "Causes",
+      "h3_1": "Agricultural expansion",
+      "p2": " - A response to the growing alimentary need and to biofuels production.",
+      "p2suite": " - Transformation of forests into cultivable lands.",
+      "h3_2": "Lumbering",
+      "p3": " - Fed by the need for paper and wood.",
+      "p3suite": " - Destruction of trees.",
+      "h3_3": "Urbanization and infrastructure development",
+      "p4": " - Invasion of forest areas for the growth of cities and building of roads.",
+      "p4suite": " - Increasing burden on forests.",
+      "h3_4": "Extreme mining",
+      "p5": " - Destruction of forests to extract natural resources.",
+      "h3_5": "Illegal wood business",
+      "p6": " - Threatens the conservation measures.",
+      "h3_6": "Palm trees planting",
+      "p7": " - Replacing tropical forests, especially in South-East Asia.",
+      "p7suite": " - Exacerbates the loss of biodiversity and climate change.",
+      "h3_7": "Aggravating factors",
+      "p8": "- Growing demand for wood and agricultural products.",
+      "p8suite": " - Urgency to develop efficient strategies for forest management.",
+      "h3_8": "Vicious Loop",
+      "p9": "Destruction of forests -> Impacts the environment and biodiversity -> weakens the populations that rely on it -> Puts more pressure on natural resources."
+    },
+    "partie2": {
+      "h2": "Consequences",
+      "h3_1": "Environmental consequences",
+      "h3_2": "Loss of biodiversity",
+      "p1": " - Extinction of animal and vegetal species at an alarming rate.",
+      "p1suite": " - Destruction of the natural habitat of thousands of living beings",
+      "p1suite2": " - The balance of ecosystems is weakened.",
+      "p1suite3": "Destruction of forests to extract natural resources.",
+      "h3_3": "Climate change",
+      "p2": " - High surge of climate change",
+      "p2suite": " - Destruction of trees, which absorb carbon and fight the accumulation of greenhouse .",
+      "p2sutie2": " - Release of CO² in the atmosphere.",
+      "h3_4": "Disturbance in the cycle of water",
+      "p3": " - The flow of rivers are changing.",
+      "p3suite": " - Augmentation of flood and drought risks.",
+      "p3suite2": " - Destabilization of hydraulic ressources.",
+      "p3suite3": " - Replaces tropical forests, especially in Southeast Asia.",
+      "p3suite4": " - Surge in the loss of biodiversity and climate change."
+    },
+    "partie3": {
+      "h3_1": "Socio-economical consequences",
+      "h3_2": "Impact on local fauna",
+      "p1": " - Loss of natural resources and livelihood.",
+      "p1suite": " - Poverty and insecurity of the food chain.",
+      "h3_3": "Impact on industries",
+      "p2": " - Threat for industries which are reliant on forest resources (wood, paper…)",
+      "p2suite": " - Disturbances in supply chains.",
+      "p2suite2": " - Economical losses."
+    },
+    "partie4": {
+      "h2": "Advices and Recommendations",
+      "p1": "Deforestation has devastating consequences on the environment and societies. It is crucial to take measures to jam this process and protect forests, which are vital resources to our planet.",
+      "h3_1": "Fighting deforestation at source: rethinking agriculture.",
+      "p2": " - Transition to sustainable agricultural practices",
+      "p2suite": " - Curb the expansion of intensive farming",
+      "p2suite2": " - Promote agroforestry",
+      "h3_2": "Restoring forest ecosystems, taking concrete action",
+      "p3": " - Support reforestation and restoration initiatives.",
+      "p3suite": " - Replant trees and regenerate soils.",
+      "p3suite2": " - Improve living conditions for local populations.",
+      "h3_3": "Strengthen governance and accountability",
+      "p4": " - Strengthen forestry legislation.",
+      "p4suite": " - Combat the illegal timber trade.",
+      "p4suite2": " - Encourage the use of FSC-certified products.",
+      "h3_4": "Everyday action, simple gestures for a collective impact",
+      "p5": " - Reduce consumption of products linked to deforestation (palm oil)",
+      "p5suite": " - Choose certified sustainable products.",
+      "p5suite2": " - Support reforestation initiatives.",
+      "h3_5": "Adopt a sustainable lifestyle",
+      "p6": " - Reduce, reuse and recycle.",
+      "p6suite": " - Opt for native plants in your garden.",
+      "h3_6": "Inform and raise public awareness of the importance of forests",
+      "p7": " - Informer et sensibiliser le public sur l'importance des forêts.",
+      "p7suite": " - Share knowledge and encourage others to take action."
+    },
+    "partie5": {
+      "h2": "Conclusion",
+      "p": "The fight against deforestation is a major challenge by which we are all involved in. By adopting durable practices, by supporting restoration initiatives and by raising awareness amongst your acquaintances, we can all invert the trend and protect forests, the precious jewels of our planet.",
+      "p2": "To validate this quest and test your knowledge, we invite you to answer the following questions.",
+      "button": " Start the quizz"
+    }
   }
 }

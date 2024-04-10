@@ -65,7 +65,7 @@
       <div class="questsubject-column">
         <img src="@/assets/picto/risques_climatique.svg" alt="picto risques climatiques"/>
         <img src="@/assets/picto/consommation_des_ressources.svg" alt="picto consommation des ressources"/>
-      </div>
+      </div>  
       <div class="questsubject-column">
         <img src="@/assets/picto/deforestation.svg" alt="picto déforestation"/>
         <img src="@/assets/picto/especes_en_voie_de_disparition.svg" alt="picto espèce en voie de disparition"/>

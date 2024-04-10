@@ -26,6 +26,9 @@
     "p13":"Rejoignez l'aventure GREENPLAY ! Apprenez, agissez, et soyez récompensés :)"
 
   },
+  "img": {
+    "risques_climatiques": "risques_climatiques"
+  },
   "special":{
     "gp":"GREENPLAY",
     "exclam": " !"
@@ -70,6 +73,95 @@
     "p10suite": "Décerné après la quête n°10, \"La dégradation et l'épuisement des sols\". Ce badge valorise le soutien à l'agriculture durable et les efforts pour préserver la fertilité des sols."
   },
   "info": {
+    "titre": {
+      "h1": "La lutte contre la déforestation",
+      "p1": "Les forêts, essentielles à la vie sur Terre, abritent une biodiversité riche et piègent 40% du carbone terrestre, jouant ainsi un rôle crucial dans la lutte contre le changement climatique. Cependant, la déforestation s'accélère depuis les années 1970, principalement due à l'expansion agricole, entraînant la perte de biodiversité, l'augmentation des émissions de gaz à effet de serre et affectant les populations locales. Les conséquences sont multiples et graves : perte de biodiversité, augmentation des émissions de gaz à effet de serre, et impact sur les populations locales qui dépendent des forêts pour leur survie. Entre 2004 et 2017, 43 millions d'hectares de forêt ont été perdus, soulignant l'urgence d'actions pour stopper ce processus destructeur."
+    },
 
+    "partie1": {
+      "h2": "Causes",
+      "h3_1": "Expansion agricole",
+      "p2": " - Réponse à la croissance des besoins alimentaires et à la production de biocarburants.",
+      "p2suite": " - Transformation des forêts en terres cultivables.",
+      "h3_2": "Exploitation forestière",
+      "p3": " - Alimentée par la demande en bois et en papier.",
+      "p3suite": " - Destruction des arbres.",
+      "h3_3": "Urbanisation et développement d'infrastructures",
+      "p4": " - Envahissement de l'espace forestier pour la croissance des villes et la construction de routes.",
+      "p4suite": " - Pression accrue sur les forêts.",
+      "h3_4": "Exploitation minière",
+      "p5": " - Destruction des forêts pour extraire des ressources naturelles.",
+      "h3_5": "Commerce illégal du bois",
+      "p6": " - Menace les efforts de conservation",
+      "h3_6": "Plantation de palmiers à huile",
+      "p7": " - Remplacent les forêts tropicales, en particulier en Asie du Sud-Est",
+      "p7suite": " - Exacerbent la perte de biodiversité et le changement climatique",
+      "h3_7": "Facteurs aggravants",
+      "p8": "- Demande globale croissante en produits forestiers et agricoles.",
+      "p8suite": " - Urgence de développer des stratégies durables pour la gestion des forêts",
+      "h3_8": "Le Cercle vicieux",
+      "p9": "Destruction des forêts -> Affecte l'environnement et la biodiversité -> Fragilise les populations qui en dépendent -> Accentue la pression sur les ressources naturelles."
+    },
+    "partie2": {
+      "h2": "Conséquences",
+      "h3_1": "Conséquences environmentales",
+      "h3_2": "Perte de la biodiversité",
+      "p1": " - Disparition d'espèces animales et végétales à un rythme alarmant.",
+      "p1suite": " - Destruction de l'habitat naturel de millions d'être vivants",
+      "p1suite2": " - Fragilisation de l'équilibre des écosystèmes.",
+      "p1suite3": "Destruction des forêts pour extraire des ressources naturelles.",
+      "h3_3": "Changement climatique",
+      "p2": " - Exacerbation du réchauffement climatique",
+      "p2suite": " - Destruction des arbres, qui absorbent le carbone et luttent contre l'accumulation de gaz à effet de serre.",
+      "p2sutie2": " - Libération de CO² dans l'atmosphère.",
+      "h3_4": "Perturbation du cycle de l'eau",
+      "p3": " - Dérégulation du débit des rivières.",
+      "p3suite": " - Augmentation des risques d'inondation et de sécheresses.",
+      "p3suite2": " - Déstabilisation des ressources hydriques.",
+      "p3suite3": " - Remplacent les forêts tropicales, en particulier en Asie du Sud-est.",
+      "p3suite4": " - Exacerbent la perte de la biodiversité et le changement climatique."
+    },
+    "partie3": {
+      "h3_1": "Conséquences socio-économiques",
+      "h3_2": "Impact sur les populations locales",
+      "p1": " - Perte de ressources naturelles et de moyens de subsistance.",
+      "p1suite": " - Pauvreté et insécurité alimentaire accrues.",
+      "h3_3": "Impact sur les industries",
+      "p2": " - Menace pour les industries dépendantes des ressources forestières (bois, papier, etc.)",
+      "p2suite": " - Perturbation des chaînes d'approvisionnement.",
+      "p2suite2": " - Pertes économiques."
+    },
+    "partie4": {
+      "h2": "Conseils et Recommandations",
+      "p1": "La déforestation a des conséquences dévastatrices sur l'environnement et sur les sociétés. Il est crucial de prendre des mesures pour enrayer ce phénomène et protéger des forêts, qui sont des ressources vitales pour la planlète.",
+      "h3_1": "Combattre la déforestation à la source : repenser l'agriculture.",
+      "p2": " - Transition vers des pratiques agricoles durables",
+      "p2suite": " - Freiner l'expansion des cultures intensives",
+      "p2suite2": " - Promouvoir l'agroforesterie.",
+      "h3_2": "Restaurer les écosystèmes forestiers, agir concrètement",
+      "p3": " - Soutenir les initiatives de reforestation et de restauration.",
+      "p3suite": " - Replanter les arbres et régénérer les sols.",
+      "p3suite2": " - Améliorer les conditions de vie des populations locales.",
+      "h3_3": "Renforcer la gouvernance et la responsabilisation",
+      "p4": " - Renforcer la législation sur l'exploitation forestière.",
+      "p4suite": " - Combattre le commerce illégal du bois.",
+      "p4suite2": " - Encourager l'utilisation de produits certifiés FSC.",
+      "h3_4": "Agir au quotidien, des gestes simples pour un impact collectif",
+      "p5": " - Réduire sa consommation de produits liés à la déforestation (huile de palme)",
+      "p5suite": " - Privilégier les produits certifiés durables.",
+      "p5suite2": " - Soutenir les initiatives de reforestation.",
+      "h3_5": "Adopter un mode de vie durable",
+      "p6": " - Réduire, réutiliser et recycler.",
+      "p6suite": " - Opter pour des plantes natives dans son jardin.",
+      "h3_6": "Sensibiliser et mobiliser pour un avenir durable",
+      "p7": " - Informer et sensibiliser le public sur l'importance des forêts.",
+      "p7suite": " - Partager ses connaissances et encourager son entourage à agir."
+    },
+    "partie5": {
+      "h2": "Conclusion",
+      "p": "La lutte pour la déforestation est un défi majeur qui nous concerne tous. En adoptant des pratiques durables, en soutenant les initiatives de restauration et en sensibilisant votre entourage, nous pouvons inverser la tendance et protéger les forêts, joyaux précieux de notre planète.",
+      "p2": "Pour validier cette quête et tester vos connaissances, nous vous invitons à répondre au questionnaire suivant.",
+      "button": " Commencer le questionnaire"
+    }
   }
 }
