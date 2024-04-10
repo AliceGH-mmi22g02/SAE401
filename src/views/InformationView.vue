@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="info1">
+    <section id="info1">
       <div class="titreinfo">
         <h1>La lutte contre la déforestation</h1>
       </div>
@@ -154,7 +154,7 @@
         <button @click="envoyerScore" :disabled="!selectedOption">Envoyer</button>
       </div>
     </section>
-    <section class="info2">
+    <section id="info2">
       <div class="titreinfo">
         <h1>Les dangers des risques climatiques</h1>
       </div>
@@ -262,7 +262,7 @@
         <button @click="envoyerScore" :disabled="!selectedOption">Envoyer</button>
       </div>
     </section>
-    <section class="info3">
+    <section id="info3">
       <div class="titreinfo">
         <h1>Le réchauffement climatique</h1>
       </div>
@@ -434,25 +434,25 @@ const questionsInfo1 = [
 
 const questionsInfo2 = [
   {
-    title: "Quête 5/4",
+    title: "Quête 1/4",
     description: "Description de la première question de la section 2.",
     options: ["Ecole", "Maison", "Bonjour", "Test"],
     correctAnswer: "Maison"
   },
   {
-    title: "Quête 6/4",
+    title: "Quête 2/4",
     description: "Description de la deuxième question de la section 2.",
     options: ["Ecole", "Maison", "Bonjour", "Test"],
     correctAnswer: "Ecole"
   },
   {
-    title: "Quête 7/4",
+    title: "Quête 3/4",
     description: "Description de la troisième question de la section 2.",
     options: ["Ecole", "Maison", "Bonjour", "Test"],
     correctAnswer: "Bonjour"
   },
   {
-    title: "Quête 8/4",
+    title: "Quête 4/4",
     description: "Description de la quatrième question de la section 2.",
     options: ["Ecole", "Maison", "Bonjour", "Test"],
     correctAnswer: "Test"
@@ -461,25 +461,25 @@ const questionsInfo2 = [
 
 const questionsInfo3 = [
   {
-    title: "Quête 9/4",
+    title: "Quête 1/4",
     description: "Description de la première question de la section 3.",
     options: ["Option 1", "Option 2", "Option 3", "Option 4"],
     correctAnswer: "Option 1"
   },
   {
-    title: "Quête 10/4",
+    title: "Quête 2/4",
     description: "Description de la deuxième question de la section 3.",
     options: ["Option 1", "Option 2", "Option 3", "Option 4"],
     correctAnswer: "Option 2"
   },
   {
-    title: "Quête 11/4",
+    title: "Quête 3/4",
     description: "Description de la troisième question de la section 3.",
     options: ["Option 1", "Option 2", "Option 3", "Option 4"],
     correctAnswer: "Option 3"
   },
   {
-    title: "Quête 12/4",
+    title: "Quête 4/4",
     description: "Description de la quatrième question de la section 3.",
     options: ["Option 1", "Option 2", "Option 3", "Option 4"],
     correctAnswer: "Option 4"

@@ -28,7 +28,6 @@ export default {
     </div>
     <nav class="sub_menue">
       <RouterLink to="/">Accueil</RouterLink>
-      <RouterLink to="/Quete">Pop Up Quêtes</RouterLink>
       <RouterLink to="/TableauQuete">Quêtes</RouterLink>
       <RouterLink to="/Badges">Badges</RouterLink>
     </nav>
