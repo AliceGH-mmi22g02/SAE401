@@ -29,7 +29,6 @@ export default {
     <nav class="sub_menue">
       <RouterLink to="/">Accueil</RouterLink>
       <RouterLink to="/TableauQuete">Quêtes</RouterLink>
-      <RouterLink to="/Badges">Badges</RouterLink>
     </nav>
   </header>
 
