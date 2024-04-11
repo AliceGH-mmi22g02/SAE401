@@ -1261,7 +1261,8 @@
         <button @click="envoyerScore" :disabled="!selectedOption">Envoyer</button>
       </div>
     </section>
-    <RouterLink v-if="questionnaireCompleted(1) && questionnaireCompleted(2) && questionnaireCompleted(3)" to="/Resultat">Voir le Résultat</RouterLink>
+
+    <RouterLink v-if="questionnaireCompleted(1) && questionnaireCompleted(2) && questionnaireCompleted(3) && questionnaireCompleted(4) && questionnaireCompleted(5) && questionnaireCompleted(6) && questionnaireCompleted(7) && questionnaireCompleted(8) && questionnaireCompleted(9) && questionnaireCompleted(10)" to="/Resultat">Voir le Résultat</RouterLink>
   </div>
 
 </template>
@@ -1278,6 +1279,13 @@ const store = useStore();
 let showQuestionnaire1 = ref(false);
 let showQuestionnaire2 = ref(false);
 let showQuestionnaire3 = ref(false);
+let showQuestionnaire4 = ref(false);
+let showQuestionnaire5 = ref(false);
+let showQuestionnaire6 = ref(false);
+let showQuestionnaire7 = ref(false);
+let showQuestionnaire8 = ref(false);
+let showQuestionnaire9 = ref(false);
+let showQuestionnaire10 = ref(false);
 let selectedOption = ref(null);
 let currentQuestions = null;
 let currentQuestionIndex = ref(0);
@@ -1319,25 +1327,25 @@ const questionsInfo1 = [
 
 const questionsInfo2 = [
   {
-    title: "Quête 1/4",
+    title: "Quête 1/8",
     description: "Description de la première question de la section 2.",
     options: ["Ecole", "Maison", "Bonjour", "Test"],
     correctAnswer: "Ecole"
   },
   {
-    title: "Quête 2/4",
+    title: "Quête 2/8",
     description: "Description de la deuxième question de la section 2.",
     options: ["Ecole", "Maison", "Bonjour", "Test"],
     correctAnswer: "Ecole"
   },
   {
-    title: "Quête 3/4",
+    title: "Quête 3/8",
     description: "Description de la troisième question de la section 2.",
     options: ["Ecole", "Maison", "Bonjour", "Test"],
     correctAnswer: "Ecole"
   },
   {
-    title: "Quête 4/4",
+    title: "Quête 4/8",
     description: "Description de la quatrième question de la section 2.",
     options: ["Ecole", "Maison", "Bonjour", "Test"],
     correctAnswer: "Ecole"
@@ -1346,30 +1354,222 @@ const questionsInfo2 = [
 
 const questionsInfo3 = [
   {
-    title: "Quête 1/4",
+    title: "Quête 1/12",
     description: "Description de la première question de la section 3.",
     options: ["Option 1", "Option 2", "Option 3", "Option 4"],
     correctAnswer: "Option 1"
   },
   {
-    title: "Quête 2/4",
+    title: "Quête 2/12",
     description: "Description de la deuxième question de la section 3.",
     options: ["Option 1", "Option 2", "Option 3", "Option 4"],
     correctAnswer: "Option 2"
   },
   {
-    title: "Quête 3/4",
+    title: "Quête 3/12",
     description: "Description de la troisième question de la section 3.",
     options: ["Option 1", "Option 2", "Option 3", "Option 4"],
     correctAnswer: "Option 3"
   },
   {
-    title: "Quête 4/4",
+    title: "Quête 4/12",
     description: "Description de la quatrième question de la section 3.",
     options: ["Option 1", "Option 2", "Option 3", "Option 4"],
     correctAnswer: "Option 4"
   }
 ];
+
+const questionsInfo4 = [
+  {
+    title: "Quête 1/16",
+    description: "Description de la première question de la section 3.",
+    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    correctAnswer: "Option 1"
+  },
+  {
+    title: "Quête 2/16",
+    description: "Description de la deuxième question de la section 3.",
+    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    correctAnswer: "Option 2"
+  },
+  {
+    title: "Quête 3/16",
+    description: "Description de la troisième question de la section 3.",
+    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    correctAnswer: "Option 3"
+  },
+  {
+    title: "Quête 4/16",
+    description: "Description de la quatrième question de la section 3.",
+    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    correctAnswer: "Option 4"
+  }
+];
+
+const questionsInfo5 = [
+  {
+    title: "Quête 1/20",
+    description: "Description de la première question de la section 3.",
+    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    correctAnswer: "Option 1"
+  },
+  {
+    title: "Quête 2/20",
+    description: "Description de la deuxième question de la section 3.",
+    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    correctAnswer: "Option 2"
+  },
+  {
+    title: "Quête 3/20",
+    description: "Description de la troisième question de la section 3.",
+    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    correctAnswer: "Option 3"
+  },
+  {
+    title: "Quête 4/20",
+    description: "Description de la quatrième question de la section 3.",
+    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    correctAnswer: "Option 4"
+  }
+];
+
+const questionsInfo6 = [
+  {
+    title: "Quête 1/24",
+    description: "Description de la première question de la section 3.",
+    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    correctAnswer: "Option 1"
+  },
+  {
+    title: "Quête 2/24",
+    description: "Description de la deuxième question de la section 3.",
+    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    correctAnswer: "Option 2"
+  },
+  {
+    title: "Quête 3/24",
+    description: "Description de la troisième question de la section 3.",
+    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    correctAnswer: "Option 3"
+  },
+  {
+    title: "Quête 4/24",
+    description: "Description de la quatrième question de la section 3.",
+    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    correctAnswer: "Option 4"
+  }
+];
+
+const questionsInfo7 = [
+  {
+    title: "Quête 1/28",
+    description: "Description de la première question de la section 3.",
+    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    correctAnswer: "Option 1"
+  },
+  {
+    title: "Quête 2/28",
+    description: "Description de la deuxième question de la section 3.",
+    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    correctAnswer: "Option 2"
+  },
+  {
+    title: "Quête 3/28",
+    description: "Description de la troisième question de la section 3.",
+    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    correctAnswer: "Option 3"
+  },
+  {
+    title: "Quête 4/28",
+    description: "Description de la quatrième question de la section 3.",
+    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    correctAnswer: "Option 4"
+  }
+];
+
+const questionsInfo8 = [
+  {
+    title: "Quête 1/32",
+    description: "Description de la première question de la section 3.",
+    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    correctAnswer: "Option 1"
+  },
+  {
+    title: "Quête 2/32",
+    description: "Description de la deuxième question de la section 3.",
+    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    correctAnswer: "Option 2"
+  },
+  {
+    title: "Quête 3/32",
+    description: "Description de la troisième question de la section 3.",
+    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    correctAnswer: "Option 3"
+  },
+  {
+    title: "Quête 4/32",
+    description: "Description de la quatrième question de la section 3.",
+    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    correctAnswer: "Option 4"
+  }
+];
+
+const questionsInfo9 = [
+  {
+    title: "Quête 1/36",
+    description: "Description de la première question de la section 3.",
+    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    correctAnswer: "Option 1"
+  },
+  {
+    title: "Quête 2/36",
+    description: "Description de la deuxième question de la section 3.",
+    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    correctAnswer: "Option 2"
+  },
+  {
+    title: "Quête 3/36",
+    description: "Description de la troisième question de la section 3.",
+    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    correctAnswer: "Option 3"
+  },
+  {
+    title: "Quête 4/36",
+    description: "Description de la quatrième question de la section 3.",
+    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    correctAnswer: "Option 4"
+  }
+];
+
+const questionsInfo10 = [
+  {
+    title: "Quête 1/40",
+    description: "Description de la première question de la section 3.",
+    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    correctAnswer: "Option 1"
+  },
+  {
+    title: "Quête 2/40",
+    description: "Description de la deuxième question de la section 3.",
+    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    correctAnswer: "Option 2"
+  },
+  {
+    title: "Quête 3/40",
+    description: "Description de la troisième question de la section 3.",
+    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    correctAnswer: "Option 3"
+  },
+  {
+    title: "Quête 4/40",
+    description: "Description de la quatrième question de la section 3.",
+    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    correctAnswer: "Option 4"
+  }
+];
+
+
+
 
 const currentQuestion = computed(() => getCurrentQuestion());
 
@@ -1378,7 +1578,14 @@ function getCurrentQuestion() {
   const questionIndexInSection = currentQuestionIndex.value % 4;
   const questions = currentQuestionSet.value === 1 ? questionsInfo1 :
       currentQuestionSet.value === 2 ? questionsInfo2 :
-          questionsInfo3;
+          currentQuestionSet.value === 3 ? questionsInfo3 :
+              currentQuestionSet.value === 4 ? questionsInfo4 :
+                  currentQuestionSet.value === 5 ? questionsInfo5 :
+                      currentQuestionSet.value === 6 ? questionsInfo6 :
+                          currentQuestionSet.value === 7 ? questionsInfo7 :
+                              currentQuestionSet.value === 8 ? questionsInfo8 :
+                                  currentQuestionSet.value === 9 ? questionsInfo9 :
+                                      questionsInfo10;
 
   // Vérifier si la question actuelle existe dans la liste des questions
   if (Array.isArray(questions) && questionIndexInSection < questions.length) {
@@ -1408,23 +1615,72 @@ function nextQuestionOrSection() {
       currentQuestions = ref(questionsInfo3); // Mettre à jour currentQuestions avec les questions de la troisième section
       currentQuestionSet.value = 3;
     } else if (sectionIndex + 1 === 3) {
+      showQuestionnaire3.value = false;
+      showQuestionnaire4.value = true;
+      currentQuestionIndex.value = 0;
+      currentQuestions = ref(questionsInfo4); // Mettre à jour currentQuestions avec les questions de la troisième section
+      currentQuestionSet.value = 4;
+    } else if (sectionIndex + 1 === 4) {
+      showQuestionnaire4.value = false;
+      showQuestionnaire5.value = true;
+      currentQuestionIndex.value = 0;
+      currentQuestions = ref(questionsInfo5); // Mettre à jour currentQuestions avec les questions de la troisième section
+      currentQuestionSet.value = 5;
+    } else if (sectionIndex + 1 === 5) {
+      showQuestionnaire5.value = false;
+      showQuestionnaire6.value = true;
+      currentQuestionIndex.value = 0;
+      currentQuestions = ref(questionsInfo6); // Mettre à jour currentQuestions avec les questions de la troisième section
+      currentQuestionSet.value = 6;
+    } else if (sectionIndex + 1 === 6) {
+      showQuestionnaire6.value = false;
+      showQuestionnaire7.value = true;
+      currentQuestionIndex.value = 0;
+      currentQuestions = ref(questionsInfo7); // Mettre à jour currentQuestions avec les questions de la troisième section
+      currentQuestionSet.value = 7;
+    } else if (sectionIndex + 1 === 7) {
+      showQuestionnaire7.value = false;
+      showQuestionnaire8.value = true;
+      currentQuestionIndex.value = 0;
+      currentQuestions = ref(questionsInfo8); // Mettre à jour currentQuestions avec les questions de la troisième section
+      currentQuestionSet.value = 8;
+    } else if (sectionIndex + 1 === 8) {
+      showQuestionnaire8.value = false;
+      showQuestionnaire9.value = true;
+      currentQuestionIndex.value = 0;
+      currentQuestions = ref(questionsInfo9); // Mettre à jour currentQuestions avec les questions de la troisième section
+      currentQuestionSet.value = 9;
+    } else if (sectionIndex + 1 === 9) {
+      showQuestionnaire9.value = false;
+      showQuestionnaire10.value = true;
+      currentQuestionIndex.value = 0;
+      currentQuestions = ref(questionsInfo10); // Mettre à jour currentQuestions avec les questions de la troisième section
+      currentQuestionSet.value = 10;
+    } else if (sectionIndex + 1 === 10) {
       // Rediriger vers la page "Résultat"
-      router.push({ name: 'Resultat', params: { responses: userResponses } });
+      router.push({name: 'Resultat', params: {responses: userResponses}});
+    } else {
+      // Passer à la question suivante dans la même section
+      currentQuestionIndex.value++;
     }
-  } else {
-    // Passer à la question suivante dans la même section
-    currentQuestionIndex.value++;
   }
 }
 
 function isLastQuestionInSet() {
-  return currentQuestionSet.value === 3 && currentQuestionIndex.value === questionsInfo3.length - 1;
+  return currentQuestionSet.value === 4 && currentQuestionIndex.value === questionsInfo10.length - 1;
 }
 
 function questionnaireCompleted(section) {
   const questions = section === 1 ? questionsInfo1 :
       section === 2 ? questionsInfo2 :
-          questionsInfo3;
+          section === 3 ? questionsInfo3 :
+              section === 4 ? questionsInfo4 :
+                  section === 5 ? questionsInfo5 :
+                      section === 6 ? questionsInfo6 :
+                          section === 7 ? questionsInfo7 :
+                              section === 8 ? questionsInfo8 :
+                                  section === 9 ? questionsInfo9 :
+                                      questionsInfo10;
 
   return questions.every(question => question.answered);
 }
@@ -1479,10 +1735,25 @@ function envoyerScore() {
     showQuestionnaire2.value = false;
   } else if (currentQuestionSet.value === 3 && currentQuestionIndex.value === questionsInfo3.length) {
     showQuestionnaire3.value = false;
+  } else if (currentQuestionSet.value === 4 && currentQuestionIndex.value === questionsInfo4.length) {
+    showQuestionnaire4.value = false;
+  } else if (currentQuestionSet.value === 5 && currentQuestionIndex.value === questionsInfo5.length) {
+    showQuestionnaire5.value = false;
+  } else if (currentQuestionSet.value === 6 && currentQuestionIndex.value === questionsInfo6.length) {
+    showQuestionnaire6.value = false;
+  } else if (currentQuestionSet.value === 7 && currentQuestionIndex.value === questionsInfo7.length) {
+    showQuestionnaire7.value = false;
+  } else if (currentQuestionSet.value === 8 && currentQuestionIndex.value === questionsInfo8.length) {
+    showQuestionnaire8.value = false;
+  } else if (currentQuestionSet.value === 9 && currentQuestionIndex.value === questionsInfo9.length) {
+    showQuestionnaire9.value = false;
+  } else if (currentQuestionSet.value === 10 && currentQuestionIndex.value === questionsInfo10.length) {
+    showQuestionnaire10.value = false;
   }
 
+
   // Rediriger vers la page "Résultat" une fois que l'utilisateur a terminé de répondre à toutes les questions
-  if (currentQuestionSet.value === 3 && currentQuestionIndex.value === questionsInfo3.length - 1 && unansweredQuestions.length === 0) {
+  if (currentQuestionSet.value === 10 && currentQuestionIndex.value === questionsInfo10.length - 1 && unansweredQuestions.length === 0) {
     router.push({ name: 'Resultat', params: { responses: userResponses } });
   }
 }
@@ -1492,6 +1763,13 @@ function startQuestionnaire1() {
   showQuestionnaire1.value = true;
   showQuestionnaire2.value = false;
   showQuestionnaire3.value = false;
+  showQuestionnaire4.value = false;
+  showQuestionnaire5.value = false;
+  showQuestionnaire6.value = false;
+  showQuestionnaire7.value = false;
+  showQuestionnaire8.value = false;
+  showQuestionnaire9.value = false;
+  showQuestionnaire10.value = false;
   currentQuestionIndex.value = 0;
   currentQuestions = ref(questionsInfo1);
   currentQuestionSet.value = 1;
@@ -1501,6 +1779,13 @@ function startQuestionnaire2() {
   showQuestionnaire1.value = false;
   showQuestionnaire2.value = true;
   showQuestionnaire3.value = false;
+  showQuestionnaire4.value = false;
+  showQuestionnaire5.value = false;
+  showQuestionnaire6.value = false;
+  showQuestionnaire7.value = false;
+  showQuestionnaire8.value = false;
+  showQuestionnaire9.value = false;
+  showQuestionnaire10.value = false;
   currentQuestionIndex.value = 0;
   currentQuestions = ref(questionsInfo2);
   currentQuestionSet.value = 2;
@@ -1510,13 +1795,129 @@ function startQuestionnaire3() {
   showQuestionnaire1.value = false;
   showQuestionnaire2.value = false;
   showQuestionnaire3.value = true;
+  showQuestionnaire4.value = false;
+  showQuestionnaire5.value = false;
+  showQuestionnaire6.value = false;
+  showQuestionnaire7.value = false;
+  showQuestionnaire8.value = false;
+  showQuestionnaire9.value = false;
+  showQuestionnaire10.value = false;
   currentQuestionIndex.value = 0;
   currentQuestions = ref(questionsInfo3);
   currentQuestionSet.value = 3;
 }
 
-</script>
+function startQuestionnaire4() {
+  showQuestionnaire1.value = false;
+  showQuestionnaire2.value = false;
+  showQuestionnaire3.value = false;
+  showQuestionnaire4.value = true;
+  showQuestionnaire5.value = false;
+  showQuestionnaire6.value = false;
+  showQuestionnaire7.value = false;
+  showQuestionnaire8.value = false;
+  showQuestionnaire9.value = false;
+  showQuestionnaire10.value = false;
+  currentQuestionIndex.value = 0;
+  currentQuestions = ref(questionsInfo4);
+  currentQuestionSet.value = 4;
+}
 
+function startQuestionnaire5() {
+  showQuestionnaire1.value = false;
+  showQuestionnaire2.value = false;
+  showQuestionnaire3.value = false;
+  showQuestionnaire4.value = false;
+  showQuestionnaire5.value = true;
+  showQuestionnaire6.value = false;
+  showQuestionnaire7.value = false;
+  showQuestionnaire8.value = false;
+  showQuestionnaire9.value = false;
+  showQuestionnaire10.value = false;
+  currentQuestionIndex.value = 0;
+  currentQuestions = ref(questionsInfo5);
+  currentQuestionSet.value = 5;
+}
+function startQuestionnaire6() {
+  showQuestionnaire1.value = false;
+  showQuestionnaire2.value = false;
+  showQuestionnaire3.value = false;
+  showQuestionnaire4.value = false;
+  showQuestionnaire5.value = false;
+  showQuestionnaire6.value = true;
+  showQuestionnaire7.value = false;
+  showQuestionnaire8.value = false;
+  showQuestionnaire9.value = false;
+  showQuestionnaire10.value = false;
+  currentQuestionIndex.value = 0;
+  currentQuestions = ref(questionsInfo6);
+  currentQuestionSet.value = 6;
+}
+
+function startQuestionnaire7() {
+  showQuestionnaire1.value = false;
+  showQuestionnaire2.value = false;
+  showQuestionnaire3.value = false;
+  showQuestionnaire4.value = false;
+  showQuestionnaire5.value = false;
+  showQuestionnaire6.value = false;
+  showQuestionnaire7.value = true;
+  showQuestionnaire8.value = false;
+  showQuestionnaire9.value = false;
+  showQuestionnaire10.value = false;
+  currentQuestionIndex.value = 0;
+  currentQuestions = ref(questionsInfo7);
+  currentQuestionSet.value = 7;
+}
+
+function startQuestionnaire8 () {
+  showQuestionnaire1.value = false;
+  showQuestionnaire2.value = false;
+  showQuestionnaire3.value = false;
+  showQuestionnaire4.value = false;
+  showQuestionnaire5.value = false;
+  showQuestionnaire6.value = false;
+  showQuestionnaire7.value = false;
+  showQuestionnaire8.value = true;
+  showQuestionnaire9.value = false;
+  showQuestionnaire10.value = false;
+  currentQuestionIndex.value = 0;
+  currentQuestions = ref(questionsInfo8);
+  currentQuestionSet.value = 8;
+}
+
+function startQuestionnaire9() {
+  showQuestionnaire1.value = false;
+  showQuestionnaire2.value = false;
+  showQuestionnaire3.value = false;
+  showQuestionnaire4.value = false;
+  showQuestionnaire5.value = false;
+  showQuestionnaire6.value = false;
+  showQuestionnaire7.value = false;
+  showQuestionnaire8.value = false;
+  showQuestionnaire9.value = true;
+  showQuestionnaire10.value = false;
+  currentQuestionIndex.value = 0;
+  currentQuestions = ref(questionsInfo9);
+  currentQuestionSet.value = 9;
+}
+
+function startQuestionnaire10() {
+  showQuestionnaire1.value = false;
+  showQuestionnaire2.value = false;
+  showQuestionnaire3.value = false;
+  showQuestionnaire4.value = false;
+  showQuestionnaire5.value = false;
+  showQuestionnaire6.value = false;
+  showQuestionnaire7.value = false;
+  showQuestionnaire8.value = false;
+  showQuestionnaire9.value = false;
+  showQuestionnaire10.value = true;
+  currentQuestionIndex.value = 0;
+  currentQuestions = ref(questionsInfo10);
+  currentQuestionSet.value = 10;
+}
+</script>
 <style lang="scss">
 @import "/public/css/scss_page/information";
 </style>

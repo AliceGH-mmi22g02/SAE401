@@ -1,9 +1,9 @@
 <template>
   <main>
     <h1>Résultat</h1>
-    <p>Votre score est : {{ score }}/12</p>
+    <p>Votre score est : {{ score }}/40</p>
 
-    <div v-if="score === 12">
+    <div v-if="score === 40">
       <p>Félicitations, vous venez de remporter un badge !</p>
       <img src="@/assets/badge/Badge1.svg" alt="Badge">
     </div>
