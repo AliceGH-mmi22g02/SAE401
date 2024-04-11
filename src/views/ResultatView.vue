@@ -4,12 +4,12 @@
     <p>Votre score est : {{ score }}/40</p>
 
     <div v-if="score === 40">
-      <p>Félicitations, vous venez de remporter un badge !</p>
-      <img src="@/assets/badge/Badge1.svg" alt="Badge">
+      <p>Félicitations, vous venez de remporter les badges !</p>
+      <RouterLink to="/Badges">Vos Badges</RouterLink>
     </div>
 
     <div v-else>
-      <p>Courage, vous pouvez arriver à remporter le badge !</p>
+      <p>Courage, vous pouvez arriver à remporter les badge !</p>
     </div>
     <div v-if="score >= 4">
       <p>Vous avez gagné ces codes promo :</p>
