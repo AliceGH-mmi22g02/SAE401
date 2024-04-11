@@ -687,7 +687,7 @@
         <div class="grid-forme">
           <div class="grid-forme-fond">
           </div>
-          <h3>{{ $t("info6.partie2.h3_3") }}/h3>
+          <h3>{{ $t("info6.partie2.h3_3") }}</h3>
           <p>{{ $t("info6.partie2.p3") }}</p>
         </div>
         <div class="grid-forme">
