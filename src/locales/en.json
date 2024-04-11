@@ -259,5 +259,429 @@
       "p2": "To validate this quest and test your knowledge, we invite you to answer the following questionnaire.",
       "button": "Start the questionnaire"
     }
+  },
+  "info4": {
+    "titre": {
+      "h1": "The increase in the number of endangered species",
+      "p": "In an ever-changing world, the increase in the number of endangered species has become a major concern. The combination of factors such as habitat loss due to human expansion, over-hunting, widespread pollution and the devastating effects of climate change has led to an alarming acceleration in the extinction of many animal and plant species across the globe. This biodiversity crisis is having profound repercussions on the ecological balance of our planet, threatening not only the survival of endangered species, but also the stability of ecosystems as a whole"
+    },
+    "partie1": {
+      "h1": "Causes",
+      "h3": "Habitat loss",
+      "p": " - Human expansion via deforestation, urbanization, infrastructure development and expansion of agricultural land.",
+      "h3_2": "Climate change",
+      "p2": " - Rising temperatures, changes in precipitation, rising sea levels.",
+      "h3_3": "Pollution",
+      "p3": " - Soil and water contamination, air and marine pollution, use of pesticides and chemical fertilizers.",
+      "h3_4": "Excessive hunting",
+      "p4": "- Poaching, overexploitation of natural resources",
+      "h3_5": "Other factors",
+      "p5": " - Introduction of invasive species, diseases and epidemics, habitat fragmentation."
+    },
+    "partie2": {
+      "h1": "Consequences",
+      "h3": "Ecological consequences",
+      "p": "- Loss of biodiversity, disruption of food chains, degradation of natural habitats, increased risk of natural disasters",
+      "h3_2": "Economic and social consequences",
+      "p2": " - Loss of natural resources, impact on industries, loss of livelihoods, increase in conflicts.",
+      "h3_3": "Consequences on human health",
+      "p3": " - Increase in disease, degradation of air and water quality, impact on mental health.",
+      "h3_4": "Consequences for the climate",
+      "p4": " - Reduced carbon sink, increased greenhouse gas emissions, exacerbation of climate change."
+    },
+    "partie3": {
+      "h1": "Advice and recommendations",
+      "p": "The increasing disappearance of animal and plant species is an alarming sign of the urgent need to protect our biodiversity. Here are a few recommendations for taking action against this threat.",
+      "h3": "Reduce habitat loss",
+      "p2": "- Protect natural habitats, combat deforestation and urbanization",
+      "h3_2": "Combat excessive hunting",
+      "p3": "- Strengthen laws and penalties, raise awareness among local populations",
+      "h3_3": "Reduce pollution",
+      "p4": "- Adopt sustainable production and consumption patterns, reduce greenhouse gas emissions",
+      "h3_4": "Combat climate change",
+      "p5": "- Reduce greenhouse gas emissions, invest in renewable energies",
+      "h3_5": "Support conservation efforts",
+      "p6": " - Make a donation to a species conservation organization, participate in volunteer programs, adopt a more environmentally friendly lifestyle.",
+      "h3_6": "Change your behavior",
+      "p7": " - Reduce your consumption of natural resources, choose sustainable and ethical products, raise awareness of the cause of biodiversity among those around you."
+    },
+    "partie4":{
+      "h1": "Conclusion",
+      "p": "In conclusion, the fight against the increase in the number of endangered species is a global challenge that requires the mobilization of everyone. By acting at source, supporting conservation efforts and changing our behavior, we can help protect biodiversity and ensure a sustainable future for the planet.",
+      "p2": "To validate this quest and test your knowledge, we invite you to answer the following questionnaire.",
+      "button": "Start the questionnaire"
+    }
+  },
+  "info5": {
+    "titre": {
+      "h1": "Overconsumption of natural resources",
+      "p": "The over-consumption of natural resources is a major problem resulting from the excessive and unsustainable use of the Earth's available resources. This phenomenon is fuelled by population growth, urbanization, unsustainable consumption patterns and intensive exploitation of natural resources. It leads to overexploitation of ecosystems, loss of biodiversity, degradation of natural habitats, and contributes to climate change. The over-consumption of natural resources jeopardizes the planet's ecological stability and compromises the possibilities of sustainable development for future generations."
+    },
+    "partie1": {
+      "h1": "Causes",
+      "h3": "Population growth",
+      "p": "- Increased demand for resources to meet human needs",
+      "h3_2": "Urbanization",
+      "p2": " - Expansion of urban areas, increased need for resources for construction, food, water and energy.",
+      "h3_3": "Unsustainable consumption patterns",
+      "p3": " - Culture of over-consumption, disposable products, non-durable goods.",
+      "h3_4": "Intensive exploitation of natural resources",
+      "p4": " - Unsustainable extractive practices (mining, forestry), overexploitation."
+    },
+    "partie2": {
+      "h1": "Consequences",
+      "h3": "Overexploitation of ecosystems",
+      "p": "Unsustainable use, depletion of regeneration capacity",
+      "h3_2": "Loss of biodiversity",
+      "p2": "- Destruction of natural habitats, threat to animal and plant species",
+      "h3_3": "Degradation of natural habitats",
+      "p3": "- Land transformation, destruction of fragile ecosystems (forests, wetlands, coral reefs).",
+      "h3_4": "Contribution to climate change",
+      "p4": " - Exploitation of natural resources (fossil fuels), increase in greenhouse gas emissions, worsening of climate change."
+    },
+    "partie3": {
+      "h1": "Tips and recommendations",
+      "p": "To effectively combat the over-consumption of natural resources, we need to adopt responsible behavior and implement sustainable practices. Here are a few simple but essential recommendations to help preserve our environment.",
+      "h3": "Adopt sustainable lifestyles",
+      "p2": " - Reduce, reuse and recycle to minimize waste and demand on resources.",
+      "h3_2": "Encourage the circular economy",
+      "p3": "- Encourage the design of sustainable and recyclable products to reduce the need to use new resources.",
+      "h3_3": "Promote energy efficiency",
+      "p4": "- Invest in energy-efficient technologies to limit the exploitation of fossil resources.",
+      "h3_4": "Use renewable energy sources",
+      "p5": "- Favoring solar, wind and hydroelectric power to reduce dependence on fossil fuels.",
+      "h3_5": "Raise awareness and educate",
+      "p6": "- Inform about the impacts of over-consumption and promote sustainable behavior.",
+      "h3_6": "Encourage environmental regulation and policy",
+      "p7": "- Empower industries",
+      "h3_7": "Support local and international initiatives",
+      "p8": " - Participate in sustainable development projects and support international agreements to preserve natural resources."
+    },
+    "partie4": {
+      "h1": "Conclusion",
+      "p": "The over-consumption of natural resources is a major threat to our planet. To reverse this trend, let's adopt sustainable lifestyles, promote the circular economy and support local and international initiatives. Acting now is essential to preserve our environment and guarantee a sustainable future.",
+      "p2": "To validate this quest and test your knowledge, we invite you to answer the following questionnaire.",
+      "button": "Start the questionnaire."
+    }
+  },
+  "info6": {
+    "titre": {
+      "h1": "The pollution crisis",
+      "p": "The pollution crisis is characterized by the deterioration of air, water and soil quality due to the excessive and often uncontrolled introduction of harmful substances into the environment. This pollution, largely caused by human activities such as industry, intensive agriculture, transport and the consumption of unsustainable resources, has harmful repercussions on human health, biodiversity and ecosystems. The pollution crisis therefore threatens public health, food security, biodiversity and society's overall well-being."
+    },
+    "partie1": {
+      "h1": "Causes",
+      "h3": "Industrial activities",
+      "p": "- Air and water pollution due to emissions of air pollutants from industries, exhaust gases, fine particles, toxic chemicals, industrial waste",
+      "h3_2": "Intensive agriculture",
+      "p2": "- Excessive use of pesticides, chemical fertilizers and other agrochemicals contaminate soil and groundwater, leading to pollution of rivers and water tables.",
+      "h3_3": "Transport",
+      "p3": "- Air pollution by emissions of nitrogen oxides, fine particles and greenhouse gases from motor vehicles, aircraft and ships.",
+      "h3_4": "Consumption of unsustainable resources",
+      "p4": " - Excessive use of plastics and other non-biodegradable materials, contributing to air, water and soil pollution."
+    },
+    "partie2": {
+      "h1": "Consequences",
+      "h3": "Impact on human health",
+      "p": " - Air and water pollution causes respiratory and cardiovascular problems, and increases the risk of cancer.",
+      "h3_2": "Loss of biodiversity",
+      "p2": " - Pollution disrupts ecosystems, causing the disappearance of plant and animal species, and the degradation of natural habitats.",
+      "h3_3": "Soil degradation",
+      "p3": " - Toxic chemicals and industrial waste pollute soils, reducing their fertility and threatening food security.",
+      "h3_4": "Climate change",
+      "p4": " - Greenhouse gas emissions from pollution contribute to global warming, with consequences such as extreme weather events and rising sea levels.",
+      "h3_5": "Economic costs",
+      "p5": " - Pollution leads to high healthcare costs, deteriorates infrastructure, and decreases productivity, thus generating considerable economic losses.",
+      "h3_6": "Social impact",
+      "p6": " - Vulnerable populations, especially children and poor communities, are most affected, exacerbating social and economic inequalities."
+    },
+    "partie3":{
+      "h1": "Tips and recommendations",
+      "p": "To effectively combat the pollution crisis, we need to adopt responsible and sustainable practices. Here are some simple but crucial recommendations to protect our environment.",
+      "h3": "Reduce industrial emissions",
+      "p2": " - Strengthen environmental standards and encourage the adoption of clean technologies in industries.",
+      "p2suite": " - Invest in sustainable production practices and renewable energies to reduce pollutant emissions.",
+      "h3_2": "Promote sustainable agriculture",
+      "p3": "- Encourage the adoption of environmentally-friendly farming practices, such as agroecology and permaculture.",
+      "p3suite": "- Reduce the use of chemical pesticides and fertilizers by promoting alternative methods of controlling crop pests and diseases.",
+      "h3_3": "Improve transport",
+      "p4": " - Encourage public transport, car-sharing and electric vehicles to reduce emissions of atmospheric pollutants.",
+      "p4suite": "- Invest in sustainable transport infrastructure and urban development to promote soft modes of transport.",
+      "h3_4": "Encourage responsible consumption",
+      "p5": " - Reduce the use of plastics and other unsustainable materials by promoting ecological and sustainable alternatives.",
+      "p5suite": " - Raise consumer awareness of environmental issues and promote more sustainable and resource-efficient lifestyles.",
+      "h3_5": "Strengthen legislation and governance",
+      "p6": "- Implement strict regulations to limit pollutant discharges and protect natural resources.",
+      "p6suite": "- Strengthen control and monitoring mechanisms for air, water and soil quality, as well as industrial emissions and agricultural practices.",
+      "h3_6": "Raise awareness and educate",
+      "p7": "- Inform the public about the dangers of pollution and the solutions for dealing with it.",
+      "p7suite": " - Involve citizens in initiatives to protect the environment and promote sustainable development."
+    },
+    "partie4": {
+      "h1": "Conclusion",
+      "p": "The pollution crisis is one of the major challenges of our time, threatening human health, biodiversity and the ecological balance of the planet. To reverse this trend and preserve our environment, it is imperative that we act collectively and in a coordinated fashion. By adopting sustainable practices, we can mitigate the effects of pollution and work together for a healthier, more sustainable future.",
+      "p2": "To validate this quest and test your knowledge, we invite you to answer the following questionnaire.",
+      "button": "Start the questionnaire"
+    }
+  },
+  "info7": {
+    "titre": {
+      "h1": "Threats to biodiversity",
+      "p": "Threats to biodiversity represent a set of pressures and factors that compromise the variety and abundance of life forms on Earth, as well as the proper functioning of ecosystems. These threats result mainly from human activities such as deforestation, urbanization, pollution, overexploitation of natural resources, invasive species and climate change. They are leading to an alarming decline in biological diversity, jeopardizing the stability of ecosystems, the resilience of animal and plant populations, and human well-being."
+    },
+    "partie1": {
+      "h1": "Causes",
+      "h3": "Déforestation",
+      "p": " - Conversion des forêts en terres agricoles, zones urbaines, ou pour l'exploitation forestière.<br>- Perte d'habitats pour de nombreuses espèces végétales et animales.",
+      "h3_2": "Urbanisation",
+      "p2": " - Expansion des zones urbaines fragmentant les habitats naturels.",
+      "p2suite": " - Isolation des populations animales et réduction de la connectivité écologique.",
+      "h3_3": "Pollution",
+      "p3": "- Discharges of toxic substances into aquatic and terrestrial ecosystems",
+      "p3suite": "- Contamination of habitats and threat to species survival",
+      "h3_4": "Overexploitation of natural resources",
+      "p4": " - Overfishing, excessive hunting, unsustainable harvesting of plants, collection of animals for trade.",
+      "p4suite": " - Contribution to biodiversity loss.",
+      "h3_5": "Invasive species",
+      "p5": "- Introduction of non-native species disrupting ecological balances",
+      "p5suite": "- Endangerment of local species",
+      "h3_6": "Climate change",
+      "p6": " - Rising temperatures, changes in precipitation, extreme weather events.",
+      "p6suite": "- Affectation of natural habitats and species distribution."
+    },
+    "partie2": {
+      "h1": "Consequences",
+      "h3": "Loss of biodiversity",
+      "p": "- Reduction in genetic diversity, compromising ecosystem resilience",
+      "h3_2": "Imbalance of ecosystems",
+      "p2": "- Decrease in populations of key species, leading to ecological disruption",
+      "h3_3": "Risks to food security",
+      "p3": " - Decreased availability of food resources, affecting livelihoods.",
+      "h3_4": "Loss of ecosystem services",
+      "p4": "- Compromise of services such as pollination, air and water purification, climate regulation.",
+      "h3_5": "Impact on human health",
+      "p5": "- Increased risk of emerging diseases and spread of disease vectors, affecting human health."
+    },
+    "partie3":{
+      "h1": "Advice and Recommendations",
+      "p": "To effectively counter the threat to biodiversity, it is imperative to adopt measures for the conservation and sustainable management of ecosystems. Here are some basic guidelines for protecting our planet's natural wealth.",
+      "h3": "Conservation of natural habitats",
+      "p2": " - Preserve wilderness areas and fragile ecosystems by establishing nature reserves and protected areas.",
+      "p2suite": "- Restore degraded habitats by planting native species and reintroducing threatened animal populations.",
+      "h3_2": "Sustainable management of natural resources",
+      "p3": " - Promote the rational exploitation of forestry, fisheries and wildlife resources by establishing quotas and strict regulations.",
+      "p3suite": "- Encourage the adoption of biodiversity-friendly agricultural practices, such as agroecology and permaculture.",
+      "h3_3": "Fight against invasive species",
+      "p4": "- Monitor and control invasive species that threaten native ecosystems, particularly in sensitive areas.",
+      "p4suite": " - Implement targeted eradication programs to limit the spread of harmful species.",
+      "h3_4": "Promote awareness and education",
+      "p5": " - Raise public awareness of the importance of biodiversity and the threats it faces, through information campaigns and educational programs.",
+      "p5suite": "- Involve local communities in the conservation and sustainable management of natural resources, making the most of their traditional knowledge.",
+      "h3_5": "Strengthening international cooperation",
+      "p6": " - Strengthen collaboration between countries for the conservation of migratory species and the protection of transboundary ecosystems.",
+      "p6suite": "- Exchange knowledge and best practices for effective biodiversity management on a global scale."
+    },
+    "partie4": {
+      "h1": "Conclusion",
+      "p": "Preserving biodiversity is essential to ensure the ecological balance of our planet and guarantee a sustainable future. By adopting conservation practices and raising public awareness, we can help reverse the current decline in biodiversity. It is by protecting biological diversity that we preserve our environment for future generations.",
+      "p2": "To validate this quest and test your knowledge, we invite you to answer the following questionnaire.",
+      "button": "Start the questionnaire."
+    }
+  },
+  "info8": {
+    "titre": {
+      "h1": "The challenge of waste management",
+      "p": "Waste management refers to all activities aimed at collecting, treating, transporting and disposing of waste in an efficient and environmentally responsible manner. It concerns the way in which companies manage the waste generated by their day-to-day activities, be it household, industrial, commercial or other types of waste. Inadequate waste management can have harmful consequences for the environment, public health and people's quality of life."
+    },
+    "partie1":{
+      "h1": "Causes",
+      "h3": "Overproduction of waste",
+      "p": "- Overconsumption due to modern lifestyles leads to excessive waste production.",
+      "psuite": " - The programmed obsolescence of products encourages frequent replacement of goods, thus generating more waste.",
+      "psuite2": " - The widespread use of disposable packaging contributes to increasing the amount of waste produced.",
+      "h3_2": "Lack of waste management infrastructure",
+      "p2": "- In many regions, facilities for collecting, transporting, treating and disposing of waste are inadequate.",
+      "p2suite":"- Lack of investment in waste management infrastructure limits the ability to meet growing waste management needs.",
+      "h3_3": "Poor management practices",
+      "p3": "- Fly-tipping, where waste is abandoned in unauthorized locations, is a common practice where waste management infrastructure is limited.",
+      "p3suite": " - Open burning of waste, often practiced in areas where adequate treatment facilities are lacking, leads to polluting emissions and health risks.",
+      "h3_4": "Lack of awareness and education",
+      "p4": " - A lack of public awareness of the importance of reducing, reusing and recycling waste maintains unsustainable consumption and management habits.",
+      "p4suite": " - A lack of effective educational programs limits understanding of waste management issues."
+    },
+    "partie2": {
+      "h1": "Consequences",
+      "h3": "Environmental pollution",
+      "p": " - Poor waste management leads to air, water and soil pollution, endangering the health of ecosystems and living species.",
+      "psuite": " - Untreated waste can contaminate soil and groundwater, affecting essential natural resources.",
+      "h3_2": "Risks to public health",
+      "p2": " - Decrease in populations of key species leading to ecological disruption.",
+      "h3_3": "Food health risks",
+      "p3": " - Poorly managed waste can contaminate drinking water, spread infectious diseases and cause respiratory problems from landfill smoke and waste burning.",
+      "p3suite":"- Exposure to toxic waste can lead to serious health problems, including cancers, respiratory diseases and infections.",
+      "h3_4": "Impact on biodiversity",
+      "p4":"- Pollution caused by waste can threaten biodiversity by contaminating natural habitats and disrupting populations of animal and plant species.",
+      "p4suite": " - Plastic waste, in particular, can have devastating effects on marine wildlife, leading to the ingestion of plastics and the silting up of marine ecosystems.",
+      "h3_5": "Aesthetic damage",
+      "p5": " - Landfills, uncontrolled dumps and abandoned waste contribute to the visual degradation of landscapes, reducing the quality of life of local populations and harming tourism.",
+      "p5suite": " - The presence of waste in the environment creates a negative image of affected areas, impacting their attractiveness and economic value."
+    },
+    "partie3": {
+      "h1": "Advice and recommendations",
+      "p": "To effectively solve the problem of waste management, it is necessary to adopt measures at different levels, ranging from reduction to responsible waste management. Here are some tips and recommendations for improving waste management.",
+      "h3": "Reduction at source",
+      "p2": " - Encourage reduced consumption and reuse of products to limit waste production.",
+      "p2suite": "- Make consumers aware of the environmental impacts of their consumption choices.",
+      "h3_2": "Selective sorting and recycling",
+      "p3": "- Set up selective collection systems to enable the recycling of recoverable materials.",
+      "p3suite": "- Raise public awareness of selective sorting and facilitate access to appropriate collection points.",
+      "h3_3": "Energy recovery and composting",
+      "p4": "- Encourage energy recovery from non-recyclable waste through incineration with energy recovery.",
+      "p4suite": "- Promote composting of organic waste to reduce the quantity of waste destined for landfill.",
+      "h3_4": "Awareness-raising and education",
+      "p5": " - Organize awareness campaigns on the importance of reducing, reusing and recycling waste.",
+      "p5suite": " - Involve schools, businesses and local communities in waste management education programs.",
+      "h3_5": "Strengthen infrastructure",
+      "p6": "- Implement regular waste collection programs in all areas.",
+      "h3_6": "Legislation and regulations",
+      "p7": " - Adopt and enforce effective waste management laws to ensure compliance with environmental standards.",
+      "p7suite": " - Establish economic incentives to encourage sustainable waste management practices.",
+      "h3_7": "Collaboration and partnerships",
+      "p8":"- Encourage collaboration between governments, businesses, NGOs and local communities to develop sustainable solutions.",
+      "p8suite": " - Establish public-private partnerships to develop innovative waste management initiatives."
+    },
+    "partie4": {
+      "h1": "Conclusion",
+      "p": "Waste management is crucial to preserving the environment and public health. The causes, ranging from overproduction to a lack of adequate infrastructure, have serious consequences, such as pollution and risks to biodiversity. To meet this challenge, it is essential to promote reduction at source, recycling, public awareness and collaboration between stakeholders. By acting together, we can improve waste management and create a cleaner, more sustainable future.",
+      "p2": "To validate this quest and test your knowledge, we invite you to answer the following questionnaire.",
+      "button": "Start the questionnaire"
+    },
+  "info9": {
+    "titre": {
+      "h1": "Overexploitation of marine resources",
+      "p": "Overexploitation of marine resources refers to the practice of harvesting marine resources (fish, crustaceans, molluscs, etc.) at a rate greater than their natural regeneration capacity. This problem arises when demand for seafood exceeds the capacity of fish and other marine organisms to renew themselves. Overexploitation can lead to a rapid decline in fish stocks, damage to marine ecosystems and socio-economic consequences for fishing-dependent communities."
+    },
+    "partie1": {
+      "h1": "Causes",
+      "h3": "Overfishing",
+      "p": " - Growing demand for seafood products, leading to intensive fishing and overexploitation of fish stocks.",
+      "h3_2": "Unsustainable fishing practices",
+      "p2": " - Use of destructive techniques such as dynamite, electric or illegal fishing, contributing to overexploitation.",
+      "h3_3": "Ineffective management",
+      "p3": " - Lack of appropriate quotas, marine protected areas or adequate regulations favoring overexploitation."
+    },
+    "partie2": {
+      "h1": "Consequences",
+      "h3": "Collapse of fish stocks",
+      "p": "- Rapid decline, even collapse, threatening the sustainability of fisheries.",
+      "h3_2": "Imbalance of marine ecosystems",
+      "p2": "- Disruption of the ecological balance, affecting the biodiversity and health of the oceans.",
+      "h3_3": "Impact on fishing communities",
+      "p3": " - Serious socio-economic repercussions such as loss of jobs, reduced income and deterioration in living conditions.",
+      "h3_4": "Threat to food security",
+      "p4": " - Risks compromising the food security of millions of fish-dependent people.",
+      "h3_5": "Loss of marine biodiversity",
+      "p5": " - Decrease in fish populations and other marine organisms endangering marine ecosystems and species."
+    },
+    "partie3": {
+      "h1": "Advice and recommendations",
+      "p": "To effectively combat the overexploitation of marine resources, it is imperative to adopt both individual and collective measures. The preservation of the oceans and the sustainability of marine ecosystems require mobilization at all levels of society. Here, then, are some key recommendations for taking action in this direction.",
+      "h3": "Sustainable fishing quotas",
+      "p2": " - Establish catch limits for each species to prevent overfishing and ensure the sustainability of fish stocks.",
+      "h3_2": "Sustainable fishing practices",
+      "p3": "- Encourage the use of selective and environmentally-friendly fishing techniques, as well as the prohibition of destructive fishing methods.",
+      "h3_3": "Monitoring and enforcement",
+      "p4": " - Increase surveillance efforts to combat illegal, unreported and unregulated (IUU) fishing, and apply dissuasive sanctions against offenders.Reinforcement to counter illegal fishing.",
+      "h3_4": "Marine protected areas",
+      "p5": "- Establish marine reserves to enable the regeneration of fish populations and the restoration of marine ecosystems.",
+      "h3_5": "Participatory fisheries management",
+      "p6":"- Involve fishing communities, scientists and managers in decision-making concerning the management of marine resources to ensure a balanced and sustainable approach.",
+      "h3_6": "Raising public awareness",
+      "p7": "- Inform consumers about the impacts of overexploitation of marine resources and encourage responsible consumption of seafood from sustainable sources.",
+      "h3_7": "Economic diversification",
+      "p8": " - Develop viable economic alternatives for fishing communities."
+    },
+    "partie4": {
+      "h1": "Conclusion",
+      "p": "Overexploitation of marine resources represents a serious threat to ocean ecosystems and the communities that depend on them. By taking concrete measures such as setting sustainable quotas, promoting environmentally-friendly fishing practices and creating marine protected areas, we can reverse this harmful trend. By committing to support responsible management of marine resources, you become a steward of the oceans, helping to preserve marine biodiversity and ensure sustainable fisheries for future generations.",
+      "p2": "To validate this quest and test your knowledge, we invite you to answer the following questionnaire.",
+      "button": "Start the questionnaire"
+    }
+  },
+    "info10": {
+      "titre": {
+        "h1": "Soil degradation and depletion",
+        "p": "Soil degradation and depletion refers to the process by which soil quality and fertility progressively decline, often as a result of unsustainable human activities and agricultural practices. This problem occurs when soils lose their ability to provide essential plant nutrients, retain water and maintain a stable structure. Degradation can result from erosion, deforestation, pollution, over-farming, salinization and other factors that compromise the productivity of agricultural land and make it less able to support crop growth."
+      },
+      "partie1": {
+        "h1": "Causes",
+        "h3": "Unsustainable agricultural practices",
+        "p": " - The intensive use of pesticides, chemical fertilizers and excessive tillage techniques can disrupt the biological balance of the soil and reduce its fertility in the long term.",
+        "h3_2": "Deforestation",
+        "p2": " - The destruction of forests exposes soils to water and wind erosion, making them vulnerable to nutrient loss and structural deterioration",
+        "h3_3": "Agricultural overexploitation",
+        "p3": " - The practice of intensive monoculture and lack of crop rotation can impoverish soils by depleting essential nutrients and promoting soil compaction.",
+        "h3_4": "Erosion",
+        "p4": " - Soil erosion, whether caused by water or wind, washes away the top fertile layer of the soil, reducing its productivity and ability to support plant growth.",
+        "h3_5": "Pollution",
+        "p5":"- Soil contamination by toxic chemicals, such as heavy metals or chemicals from industrial waste, can lead to a deterioration in soil quality and a reduction in its ability to support plant life."
+      },
+      "partie2": {
+        "h1": "Consequences",
+        "h3": "Decrease in agricultural productivity",
+        "p": "- Reduced yields may affect food security",
+        "h3_2": "Desertification",
+        "p2": " - Soil depletion and continued degradation can lead to desertification, where once-fertile land becomes arid and unproductive.",
+        "h3_3": "Increased erosion",
+        "p3": " - Increased flooding, landslides and river sedimentation.",
+        "h3_4": "Loss of biodiversity",
+        "p4": " - Loss of natural habitats and biological diversity, affecting terrestrial ecosystems and their ability to provide ecosystem services.",
+        "h3_5": "Increase in agricultural production costs",
+        "p5": " - Increased use of fertilizers and pesticides, impacting farmers economically.",
+        "h3_6": "Degradation of water quality",
+        "p6": " - Soil erosion can lead to increased water turbidity and contamination by chemical substances, harming drinking water quality and affecting aquatic ecosystems."
+      },
+      "partie3": {
+        "h1": "Advice and recommendations",
+        "p": "To effectively combat soil degradation and depletion, it is crucial to adopt both individual and collective measures. The preservation of soil fertility and the sustainability of terrestrial ecosystems require mobilization at all levels of society.",
+        "h3": "Sustainable agricultural practices",
+        "p2": " - Encourage agroecology and permaculture",
+        "p2suite": " - Promote crop rotation and permanent plant cover.",
+        "p2suite2": " - Reduce the use of pesticides and chemical fertilizers.",
+        "p2suite3": " - Promote minimum tillage and integrated pest management.",
+        "h3_2": "Sustainable land management",
+        "p3": " - Sustainable land planning and management",
+        "p3suite": "- Soil erosion and salinization control",
+        "p3suite2": "- Improvement of soil structure and fertility",
+        "p3suite3": " - Conservation of biodiversity and ecosystem services",
+        "h3_3": "Ecosystem restoration",
+        "p4": "- Reforestation and restoration of degraded land",
+        "p4suite": "- Tree planting and agroforestry",
+        "p4suite2": "- Remediation techniques for contaminated soils",
+        "p4suite3": "- Protection of wetlands and natural ecosystems",
+        "h3_4": "Water management",
+        "p5": "- Drip irrigation and rainwater harvesting",
+        "p5suite": "- Water conservation and waste reduction",
+        "p5suite2": " - Protection of watersheds and water sources.",
+        "h3_5": "Pollution reduction",
+        "p6": "- Controlling agricultural and industrial pollution",
+        "p6suite": "- Limiting the use of toxic chemicals",
+        "p6suite2": "- Waste treatment and recycling",
+        "h3_6": "Education and awareness",
+        "p7": " - Information and training for farmers and the general public",
+        "p7suite": " - Education and awareness-raising programs on environmental issues.",
+        "p7suite2": " - Promotion of sustainable practices and local initiatives",
+        "h3_7": "Soil conservation policies",
+        "p8": "- Development and implementation of conservation policies",
+        "p8suite": " - Financial incentives and regulations for responsible land management.",
+        "p8suite2": " - International cooperation and knowledge sharing."
+      },
+      "partie4": {
+        "h1": "Conclusion",
+        "p": "Combating soil degradation and depletion requires a multidimensional and concerted approach. The adoption of sustainable practices, ecosystem restoration, water management, pollution reduction, education and awareness, and soil conservation policies are key elements in preserving soil quality and fertility for current and future generations.",
+        "p2": "To validate this quest and test your knowledge, we invite you to answer the following questionnaire.",
+        "button": "Start the questionnaire"
+      }
+    }
   }
 }
