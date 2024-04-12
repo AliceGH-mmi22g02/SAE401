@@ -1341,31 +1341,31 @@ let userResponses = [];
 const questionsInfo1 = [
   {
     title: "Quête 1/4",
-    description: "Description de la première question de la section 1.",
-    options: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
-    correctAnswer: "Réponse A",
+    description: "1. Quelle est la principale cause de la déforestation ?",
+    options: ["A. La culture biologique", "B. L'expansion agricole", "C. La construction de parcs éoliens", "D. Toutes les réponses ci-dessus"],
+    correctAnswer: "B. L'expansion agricole",
     answered: false
   },
   {
     title: "Quête 2/4",
-    description: "Description de la deuxième question de la section 1.",
-    options: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
-    correctAnswer: "Réponse A",
+    description: "2. Quelle conséquence de la déforestation affecte directement les populations locales ?",
+    options: ["A. Amélioration des services écosystémiques", "B. Augmentation de la production de biocarburants", "C. Perte de ressources naturelles", "D. Toutes les réponses ci-dessus"],
+    correctAnswer: "C. Perte de ressources naturelles",
     answered: false
   },
   {
     title: "Quête 3/4",
-    description: "Description de la troisième question de la section 1.",
-    options: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
-    correctAnswer: "Réponse A",
+    description: "3. Quelle solution est proposée pour lutter contre la déforestation ?",
+    options: ["A. Pratiques agricoles durables", "B. Augmenter les surfaces de monoculture", "C. Exploitation forestière accrue", "D. Toutes les réponses ci-dessus"],
+    correctAnswer: "A. Pratiques agricoles durables",
     answered: false
 
   },
   {
     title: "Quête 4/4",
-    description: "Description de la quatrième question de la section 1.",
-    options: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
-    correctAnswer: "Réponse A",
+    description: "4. Comment pouvez-vous contribuer à la protection des forêts ?",
+    options: ["A. Réduire ma consommation de produits liés à la déforestation", "B. Utiliser plus de papier et de bois", "C. Ignorer les labels environnementaux", "D. Toutes les réponses ci-dessus"],
+    correctAnswer: "A. Réduire ma consommation de produits liés à la déforestation",
     answered: false
 
   }
@@ -1374,129 +1374,129 @@ const questionsInfo1 = [
 const questionsInfo2 = [
   {
     title: "Quête 1/8",
-    description: "Description de la première question de la section 2.",
-    options: ["Ecole", "Maison", "Bonjour", "Test"],
-    correctAnswer: "Ecole"
+    description: "1. Quel facteur contribue le plus au changement climatique ?",
+    options: ["A. L'énergie solaire", "B. Les émissions de gaz à effet de serre", "C. La plantation d'arbres", "D. Toutes les réponses ci-dessus"],
+    correctAnswer: "B. Les émissions de gaz à effet de serre"
   },
   {
     title: "Quête 2/8",
-    description: "Description de la deuxième question de la section 2.",
-    options: ["Ecole", "Maison", "Bonjour", "Test"],
-    correctAnswer: "Ecole"
+    description: "2. Quelle est une conséquence directe des risques climatiques sur l'environnement ?",
+    options: ["A. Diminution des phénomènes météorologiques extrêmes", "B. Augmentation de la diversité des espèces", "C. Perte de biodiversité", "D. Toutes les réponses ci-dessus"],
+    correctAnswer: "C. Perte de biodiversité"
   },
   {
     title: "Quête 3/8",
-    description: "Description de la troisième question de la section 2.",
-    options: ["Ecole", "Maison", "Bonjour", "Test"],
-    correctAnswer: "Ecole"
+    description: "3. Quelle mesure est recommandée pour réduire les risques climatiques ?",
+    options: ["A. Augmentation de l'utilisation des énergies fossiles", "B. Pratiques agricoles durables", "C. Déforestation accrue pour l'urbanisation", "D. Toutes les réponses ci-dessus"],
+    correctAnswer: "B. Pratiques agricoles durables"
   },
   {
     title: "Quête 4/8",
-    description: "Description de la quatrième question de la section 2.",
-    options: ["Ecole", "Maison", "Bonjour", "Test"],
-    correctAnswer: "Ecole"
+    description: "4. Comment pouvez-vous personnellement contribuer à la lutte contre les risques climatiques ?",
+    options: ["A. Augmenter ma consommation d'énergies renouvelables", "B. Utiliser des véhicules à haute consommation de carburant", "C. Ignorer les recommandations sur l'économie d'énergie", "D. Toutes les réponses ci-dessus"],
+    correctAnswer: "A. Augmenter ma consommation d'énergies renouvelables"
   }
 ];
 
 const questionsInfo3 = [
   {
     title: "Quête 1/12",
-    description: "Description de la première question de la section 3.",
-    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
-    correctAnswer: "Option 1"
+    description: "1. Quelle est la principale source d'émission des gaz à effet de serre contribuant au réchauffement climatique ?",
+    options: ["A. L'énergie solaire", "B. La combustion des combustibles fossiles", "C. La photosynthèse", "D. Toutes les réponses ci-dessus"],
+    correctAnswer: "B. La combustion des combustibles fossiles"
   },
   {
     title: "Quête 2/12",
-    description: "Description de la deuxième question de la section 3.",
-    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
-    correctAnswer: "Option 2"
+    description: "2. Quel impact le réchauffement climatique a-t-il sur le niveau des mers ?",
+    options: ["A. Diminution constante du niveau des mers", "B. Aucun impact significatif", "C. Augmentation du niveau des mers", "D. Toutes les réponses ci-dessus"],
+    correctAnswer: "C. Augmentation du niveau des mers"
   },
   {
     title: "Quête 3/12",
-    description: "Description de la troisième question de la section 3.",
-    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
-    correctAnswer: "Option 3"
+    description: "3. Quelle stratégie est efficace pour lutter contre le réchauffement climatique ?",
+    options: ["A. Augmenter la production de charbon", "B. Réduire la consommation de viande", "C. Diminuer les efforts de recyclage", "D. Toutes les réponses ci-dessus"],
+    correctAnswer: "B. Réduire la consommation de viande"
   },
   {
     title: "Quête 4/12",
-    description: "Description de la quatrième question de la section 3.",
-    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
-    correctAnswer: "Option 4"
+    description: "4. Comment pouvez-vous personnellement contribuer à réduire le réchauffement climatique ?",
+    options: ["A. Utiliser les transports en commun au lieu de votre voiture", "B. Augmenter votre consommation d'énergies fossiles", "C. Réduire le recyclage et la réutilisation des produits", "D. Toutes les réponses ci-dessus"],
+    correctAnswer: "A. Utiliser les transports en commun au lieu de votre voiture"
   }
 ];
 
 const questionsInfo4 = [
   {
     title: "Quête 1/16",
-    description: "Description de la première question de la section 3.",
-    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
-    correctAnswer: "Option 1"
+    description: "1. Quels sont les facteurs qui contribuent à l'augmentation du nombre d'espèces en voie de disparition ?",
+    options: ["A. La croissance démographique mondiale", "B. L'urbanisation et la déforestation", "C. Le changement climatique et la pollution", "D. Toutes les réponses ci-dessus"],
+    correctAnswer: "D. Toutes les réponses ci-dessus"
   },
   {
     title: "Quête 2/16",
-    description: "Description de la deuxième question de la section 3.",
-    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
-    correctAnswer: "Option 2"
+    description: "2. Quelles sont les conséquences écologiques de l'augmentation du nombre d'espèces en voie de disparition ?",
+    options: ["A. Augmentation de la biodiversité", "B. Perturbation des chaînes alimentaires", "C. Amélioration des habitats naturels", "D. Toutes les réponses ci-dessus"],
+    correctAnswer: "B. Perturbation des chaînes alimentaires"
   },
   {
     title: "Quête 3/16",
-    description: "Description de la troisième question de la section 3.",
-    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
-    correctAnswer: "Option 3"
+    description: "3. Quelle recommandation est proposée pour lutter contre l'augmentation du nombre d'espèces en voie de disparition ?",
+    options: ["A. Encourager la déforestation", "B. Renforcer les lois sur la chasse excessive", "C. Augmenter les émissions de gaz à effet de serre", "D. Toutes les réponses ci-dessus"],
+    correctAnswer: "B. Renforcer les lois sur la chasse excessive"
   },
   {
     title: "Quête 4/16",
-    description: "Description de la quatrième question de la section 3.",
-    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
-    correctAnswer: "Option 4"
+    description: "4. Comment pouvez-vous contribuer à la protection de la biodiversité selon les recommandations ?",
+    options: ["A. Réduire sa consommation de ressources naturelles", "B. Encourager la déforestation", "C. Ignorer les problèmes environnementaux", "D. Toutes les réponses ci-dessus"],
+    correctAnswer: "A. Réduire sa consommation de ressources naturelles"
   }
 ];
 
 const questionsInfo5 = [
   {
     title: "Quête 1/20",
-    description: "Description de la première question de la section 3.",
-    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
-    correctAnswer: "Option 1"
+    description: "1. Quelles sont les principales causes de la surconsommation des ressources naturelles ?",
+    options: ["A. Diminution de la demande en ressources due à la croissance démographique.", "B. Expansion des zones urbaines.", "C. Promotion des modes de vie durables.", "D. Toutes les réponses ci-dessus."],
+    correctAnswer: "D. Toutes les réponses ci-dessus."
   },
   {
     title: "Quête 2/20",
-    description: "Description de la deuxième question de la section 3.",
-    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
-    correctAnswer: "Option 2"
+    description: "2. Quel est l'impact de la surconsommation des ressources naturelles sur les écosystèmes ?",
+    options: ["A. Augmentation de la biodiversité.", "B. Régénération accrue des habitats naturels.", "C. Surexploitation des écosystèmes.", "D. Toutes les réponses ci-dessus."],
+    correctAnswer: "C. Surexploitation des écosystèmes."
   },
   {
     title: "Quête 3/20",
-    description: "Description de la troisième question de la section 3.",
-    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
-    correctAnswer: "Option 3"
+    description: "3. Quelle recommandation est proposée pour lutter contre la surconsommation des ressources naturelles ?",
+    options: ["A. Favoriser l'expansion des zones urbaines.", "B. Adopter des modes de vie durables.", "C. Promouvoir l'utilisation intensive des ressources naturelles.", "D. Ignorer les politiques environnementales."],
+    correctAnswer: "B. Adopter des modes de vie durables."
   },
   {
     title: "Quête 4/20",
-    description: "Description de la quatrième question de la section 3.",
-    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
-    correctAnswer: "Option 4"
+    description: "4. Comment pouvez-vous contribuer à la protection des ressources naturelles ?",
+    options: ["A. Augmenter ma consommation de produits jetables.", "B. Utiliser davantage de ressources non renouvelables.", "C. Adopter des pratiques de consommation responsables.", "D. Toutes les réponses ci-dessus."],
+    correctAnswer: "C. Adopter des pratiques de consommation responsables."
   }
 ];
 
 const questionsInfo6 = [
   {
     title: "Quête 1/24",
-    description: "Description de la première question de la section 3.",
-    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
-    correctAnswer: "Option 1"
+    description: "1. Quelles sont les principales activités humaines responsables de la crise de la pollution ?",
+    options: ["A. L'exploitation minière", "B. La construction de parcs naturels", "C. L'agriculture intensive", "D. Toutes les réponses ci-dessus"],
+    correctAnswer: "C. L'agriculture intensive"
   },
   {
     title: "Quête 2/24",
-    description: "Description de la deuxième question de la section 3.",
-    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
-    correctAnswer: "Option 2"
+    description: "2. Quel est l'impact de la pollution sur la santé humaine ?",
+    options: ["A. Augmentation de la fertilité", "B. Réduction du risque de maladies respiratoires", "C. Accroissement du risque de cancer", "D. Toutes les réponses ci-dessus"],
+    correctAnswer: "C. Accroissement du risque de cancer"
   },
   {
     title: "Quête 3/24",
-    description: "Description de la troisième question de la section 3.",
-    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
-    correctAnswer: "Option 3"
+    description: "3. Comment peut-on réduire les émissions industrielles pour lutter contre la pollution ?",
+    options: ["A. En renforçant les normes environnementales et en adoptant des technologies propres", "B. En augmentant la production industrielle sans contrainte", "Option 3", "Option 4"],
+    correctAnswer: "A. En renforçant les normes environnementales et en adoptant des technologies propres"
   },
   {
     title: "Quête 4/24",

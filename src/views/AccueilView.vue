@@ -80,11 +80,12 @@
 
     <div class="recompense">
       <h2>{{ $t("main.p8") }}</h2>
+      <h3>{{ $t("main.p9") }}</h3>
       <img src="@/assets/screenshot.png">
       <div>
-        <p v-html="$t('main.p9')"></p>
         <p v-html="$t('main.p10')"></p>
-        <p>{{ $t("main.p11") }}</p>
+        <p v-html="$t('main.p11')"></p>
+        <p>{{ $t("main.p12") }}</p>
       </div>
     </div>
 
