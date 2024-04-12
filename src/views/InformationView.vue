@@ -852,7 +852,7 @@
         </div>
       </div>
       <div class="partieinfo">
-        <h1>{{ $t("info7.partie3.") }}</h1>
+        <h1>{{ $t("info7.partie3.h1") }}</h1>
         <p>{{ $t("info7.partie3.p") }}</p>
       </div>
       <div class="grid3">
@@ -1139,7 +1139,7 @@
       </div>
       <div class="partieinfo">
         <h1>{{ $t("info9.partie4.h1") }}</h1>
-        <p>{{ $t("info9.partie4.p1") }}</p>
+        <p>{{ $t("info9.partie4.p") }}</p>
         <p>{{ $t("info9.partie4.p2") }}</p>
       </div>
       <button @click="startQuestionnaire9">{{ $t("info9.partie4.button") }}</button>
