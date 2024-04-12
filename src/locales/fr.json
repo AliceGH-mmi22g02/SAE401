@@ -1,44 +1,40 @@
 {
   "main": {
     "hello": "Bonjour Monde !",
-    "home":"Accueil",
-    "welcome":"Bienvenue sur ",
-    "p1":"Plongez dans notre jeu interactif et ludique où chaque quête nous rapproche d'un avenir plus vert. Apprenez, jouez, gagnez des récompenses et contribuez à la préservation de notre planète.",
-    "why":"Pourquoi participer ?",
-    "p2":"Rejoingez une communauté engagée dans la lutte pour un avenir durable. Vous pourrez suivre vos progrès et accumuler des récompenses exclusives.",
-    "whyplay":"Pourquoi jouer ?",
-    "p3":"Jouer sur GREENPLAY est une opportunité unique de combiner amusement et sensibilisation aux enjeux écologiques. C'est une manière engageante d'apprendre sur les défis environnementaux tout en découvrant des moyens concrets d'y répondre. À travers chaque quête, vous augmentez non seulement votre connaissance sur l'écologie, mais vous contribuez aussi activement à des initiatives de préservation de l'environnement.",
-    "how":"Comment jouer ?",
-    "p4-2":"1. Explorez et sélectionnez une quête depuis le tableau des quêtes.",
-    "p4-3":"2. Réalisez les objectifs de la quête, validez votre succès en répondant à un questionnaire, et récoltez des récompenses !",
-    "subject":"Sujet abordés des Quêtes",
-    "what":"A quoi ressemble une Quête ?",
-    "p5":"- Rendez-vous sur le tableau des quêtes afin de sélectionner une quête.",
-    "p6":"- Sur la page d'information, vous trouverez plusieurs problèmes environnementaux, chacun présenté avec un titre, une courte définition du problème, ses causes, ses conséquences, et des conseils ou recommandations. Lisez attentivement cette page d'information.",
-    "p7":"- À la fin de chaque catégorie, complétez le questionnaire associé, puis continuez sur les prochaines quêtes jusqu'à ce que le bouton \"résultat\" apparaisse. Ensuite, cliquez dessus pour voir votre résultat et vos récompenses.",
-    "rewards":"Système de Récompense",
-    "p8":"Soyez récompensés à la fin des quêtes !",
-    "p9":"À la fin de tout les questionnaires (composé de 4 questions, valant 1 point chacune), vous obtenez un nombre de points sur un total de 40 points en fonction de vos réponses.",
-    "p10":"<strong>Badges de réussite : </strong> Le nombre de points détermine le nombre de badges que vous obtenez (vous pouvez gagner jusqu'à 10 badges). Ces badges représentent les connaissances que vous avez acquises et votre engagement envers la cause écologique.",
-    "p11":"<strong>Codes promotionnels :</strong> En fonction du nombre de points accumulés à la fin du questionnaire, vous pouvez profiter de codes promotionnels pour des jeux vidéo éco-responsables ! (Vous pouvez obtenir jusqu'à 10 codes promotionnels).",
-    "p12":"Une fois que vous avez terminé les 10 questionnaires et atteint un total de 40 points, vous débloquez toutes les récompenses, y compris les badges et les codes promotionnels !",
-    "more":"Au-delà des récompenses virtuelles, votre participation contribue réellement à la protection de l'environnement.",
-    "p13":"Rejoignez l'aventure GREENPLAY ! Apprenez, agissez, et soyez récompensés :)"
-
+    "home": "Accueil",
+    "welcome": "Bienvenue sur ",
+    "p1": "Plongez dans notre jeu interactif et ludique où chaque quête nous rapproche d'un avenir plus vert. Apprenez, jouez, gagnez des récompenses et contribuez à la préservation de notre planète.",
+    "why": "Pourquoi participer ?",
+    "p2": "Rejoingez une communauté engagée dans la lutte pour un avenir durable. Vous pourrez suivre vos progrès et accumuler des récompenses exclusives.",
+    "whyplay": "Pourquoi jouer ?",
+    "p3": "Jouer sur GREENPLAY est une opportunité unique de combiner amusement et sensibilisation aux enjeux écologiques. C'est une manière engageante d'apprendre sur les défis environnementaux tout en découvrant des moyens concrets d'y répondre. À travers chaque quête, vous augmentez non seulement votre connaissance sur l'écologie, mais vous contribuez aussi activement à des initiatives de préservation de l'environnement.",
+    "how": "Comment jouer ?",
+    "p4-2": "1. Explorez et sélectionnez une quête depuis le tableau des quêtes.",
+    "p4-3": "2. Réalisez les objectifs de la quête, validez votre succès en répondant à un questionnaire, et récoltez des récompenses !",
+    "subject": "Sujet abordés des Quêtes",
+    "what": "A quoi ressemble une Quête ?",
+    "p5": "- Rendez-vous sur le tableau des quêtes afin de sélectionner une quête.",
+    "p6": "- Sur la page d'information, vous trouverez plusieurs problèmes environnementaux, chacun présenté avec un titre, une courte définition du problème, ses causes, ses conséquences, et des conseils ou recommandations. Lisez attentivement cette page d'information.",
+    "p7": "- À la fin de chaque catégorie, complétez le questionnaire associé, puis continuez sur les prochaines quêtes jusqu'à ce que le bouton \"résultat\" apparaisse. Ensuite, cliquez dessus pour voir votre résultat et vos récompenses.",
+    "rewards": "Système de Récompense",
+    "p8": "Soyez récompensés à la fin des quêtes !",
+    "p9": "À la fin de tout les questionnaires (composé de 4 questions, valant 1 point chacune), vous obtenez un nombre de points sur un total de 40 points en fonction de vos réponses.",
+    "p10": "<strong>Badges de réussite : </strong> Le nombre de points détermine le nombre de badges que vous obtenez (vous pouvez gagner jusqu'à 10 badges). Ces badges représentent les connaissances que vous avez acquises et votre engagement envers la cause écologique.",
+    "p11": "<strong>Codes promotionnels :</strong> En fonction du nombre de points accumulés à la fin du questionnaire, vous pouvez profiter de codes promotionnels pour des jeux vidéo éco-responsables ! (Vous pouvez obtenir jusqu'à 10 codes promotionnels).",
+    "p12": "Une fois que vous avez terminé les 10 questionnaires et atteint un total de 40 points, vous débloquez toutes les récompenses, y compris les badges et les codes promotionnels !",
+    "more": "Au-delà des récompenses virtuelles, votre participation contribue réellement à la protection de l'environnement.",
+    "p13": "Rejoignez l'aventure GREENPLAY ! Apprenez, agissez, et soyez récompensés :)"
   },
-  "img": {
-    "risques_climatiques": "risques_climatiques"
-  },
-  "special":{
-    "gp":"GREENPLAY",
+  "special": {
+    "gp": "GREENPLAY",
     "exclam": " !"
   },
   "login": {
-    "h1":"Connexion" ,
-    "label1":"Email" ,
-    "label2":"Mot de Passe" ,
-    "button":"Se connecter" ,
-    "a":"Vous n'avez pas encore de compte ? Inscrivez-vous !"
+    "h1": "Connexion",
+    "label1": "Email",
+    "label2": "Mot de Passe",
+    "button": "Se connecter",
+    "a": "Vous n'avez pas encore de compte ? Inscrivez-vous !"
   },
   "register": {
     "h1": "Inscription",
@@ -72,192 +68,639 @@
     "p10": "10. Cultivateur des Terres Fertiles",
     "p10suite": "Décerné après la quête n°10, \"La dégradation et l'épuisement des sols\". Ce badge valorise le soutien à l'agriculture durable et les efforts pour préserver la fertilité des sols."
   },
-  "info": {
-    "titre": {
-      "h1": "La lutte contre la déforestation",
-      "p1": "Les forêts, essentielles à la vie sur Terre, abritent une biodiversité riche et piègent 40% du carbone terrestre, jouant ainsi un rôle crucial dans la lutte contre le changement climatique. Cependant, la déforestation s'accélère depuis les années 1970, principalement due à l'expansion agricole, entraînant la perte de biodiversité, l'augmentation des émissions de gaz à effet de serre et affectant les populations locales. Les conséquences sont multiples et graves : perte de biodiversité, augmentation des émissions de gaz à effet de serre, et impact sur les populations locales qui dépendent des forêts pour leur survie. Entre 2004 et 2017, 43 millions d'hectares de forêt ont été perdus, soulignant l'urgence d'actions pour stopper ce processus destructeur."
-    },
 
-    "partie1": {
-      "h2": "Causes",
-      "h3_1": "Expansion agricole",
-      "p2": " - Réponse à la croissance des besoins alimentaires et à la production de biocarburants.",
-      "p2suite": " - Transformation des forêts en terres cultivables.",
-      "h3_2": "Exploitation forestière",
-      "p3": " - Alimentée par la demande en bois et en papier.",
-      "p3suite": " - Destruction des arbres.",
-      "h3_3": "Urbanisation et développement d'infrastructures",
-      "p4": " - Envahissement de l'espace forestier pour la croissance des villes et la construction de routes.",
-      "p4suite": " - Pression accrue sur les forêts.",
-      "h3_4": "Exploitation minière",
-      "p5": " - Destruction des forêts pour extraire des ressources naturelles.",
-      "h3_5": "Commerce illégal du bois",
-      "p6": " - Menace les efforts de conservation",
-      "h3_6": "Plantation de palmiers à huile",
-      "p7": " - Remplacent les forêts tropicales, en particulier en Asie du Sud-Est",
-      "p7suite": " - Exacerbent la perte de biodiversité et le changement climatique",
-      "h3_7": "Facteurs aggravants",
-      "p8": "- Demande globale croissante en produits forestiers et agricoles.",
-      "p8suite": " - Urgence de développer des stratégies durables pour la gestion des forêts",
-      "h3_8": "Le Cercle vicieux",
-      "p9": "Destruction des forêts -> Affecte l'environnement et la biodiversité -> Fragilise les populations qui en dépendent -> Accentue la pression sur les ressources naturelles."
+    "info": {
+      "titre": {
+        "h1": "La lutte contre la déforestation",
+        "p1": "Les forêts, essentielles à la vie sur Terre, abritent une biodiversité riche et piègent 40% du carbone terrestre, jouant ainsi un rôle crucial dans la lutte contre le changement climatique. Cependant, la déforestation s'accélère depuis les années 1970, principalement due à l'expansion agricole, entraînant la perte de biodiversité, l'augmentation des émissions de gaz à effet de serre et affectant les populations locales. Les conséquences sont multiples et graves : perte de biodiversité, augmentation des émissions de gaz à effet de serre, et impact sur les populations locales qui dépendent des forêts pour leur survie. Entre 2004 et 2017, 43 millions d'hectares de forêt ont été perdus, soulignant l'urgence d'actions pour stopper ce processus destructeur."
+      },
+      "partie1": {
+        "h2": "Causes",
+        "h3_1": "Expansion agricole",
+        "p2": " - Réponse à la croissance des besoins alimentaires et à la production de biocarburants.",
+        "p2suite": " - Transformation des forêts en terres cultivables.",
+        "h3_2": "Exploitation forestière",
+        "p3": " - Alimentée par la demande en bois et en papier.",
+        "p3suite": " - Destruction des arbres.",
+        "h3_3": "Urbanisation et développement d'infrastructures",
+        "p4": " - Envahissement de l'espace forestier pour la croissance des villes et la construction de routes.",
+        "p4suite": " - Pression accrue sur les forêts.",
+        "h3_4": "Exploitation minière",
+        "p5": " - Destruction des forêts pour extraire des ressources naturelles.",
+        "h3_5": "Commerce illégal du bois",
+        "p6": " - Menace les efforts de conservation",
+        "h3_6": "Plantation de palmiers à huile",
+        "p7": " - Remplacent les forêts tropicales, en particulier en Asie du Sud-Est",
+        "p7suite": " - Exacerbent la perte de biodiversité et le changement climatique",
+        "h3_7": "Facteurs aggravants",
+        "p8": "- Demande globale croissante en produits forestiers et agricoles.",
+        "p8suite": " - Urgence de développer des stratégies durables pour la gestion des forêts",
+        "h3_8": "Le Cercle vicieux",
+        "p9": "Destruction des forêts -> Affecte l'environnement et la biodiversité -> Fragilise les populations qui en dépendent -> Accentue la pression sur les ressources naturelles."
+      },
+      "partie2": {
+        "h2": "Conséquences",
+        "h3_1": "Conséquences environmentales",
+        "h3_2": "Perte de la biodiversité",
+        "p1": " - Disparition d'espèces animales et végétales à un rythme alarmant.",
+        "p1suite": " - Destruction de l'habitat naturel de millions d'être vivants",
+        "p1suite2": " - Fragilisation de l'équilibre des écosystèmes.",
+        "p1suite3": "Destruction des forêts pour extraire des ressources naturelles.",
+        "h3_3": "Changement climatique",
+        "p2": " - Exacerbation du réchauffement climatique",
+        "p2suite": " - Destruction des arbres, qui absorbent le carbone et luttent contre l'accumulation de gaz à effet de serre.",
+        "p2sutie2": " - Libération de CO² dans l'atmosphère.",
+        "h3_4": "Perturbation du cycle de l'eau",
+        "p3": " - Dérégulation du débit des rivières.",
+        "p3suite": " - Augmentation des risques d'inondation et de sécheresses.",
+        "p3suite2": " - Déstabilisation des ressources hydriques.",
+        "p3suite3": " - Remplacent les forêts tropicales, en particulier en Asie du Sud-est.",
+        "p3suite4": " - Exacerbent la perte de la biodiversité et le changement climatique."
+      },
+      "partie3": {
+        "h3_1": "Conséquences socio-économiques",
+        "h3_2": "Impact sur les populations locales",
+        "p1": " - Perte de ressources naturelles et de moyens de subsistance.",
+        "p1suite": " - Pauvreté et insécurité alimentaire accrues.",
+        "h3_3": "Impact sur les industries",
+        "p2": " - Menace pour les industries dépendantes des ressources forestières (bois, papier, etc.)",
+        "p2suite": " - Perturbation des chaînes d'approvisionnement.",
+        "p2suite2": " - Pertes économiques."
+      },
+      "partie4": {
+        "h2": "Conseils et Recommandations",
+        "p1": "La déforestation a des conséquences dévastatrices sur l'environnement et sur les sociétés. Il est crucial de prendre des mesures pour enrayer ce phénomène et protéger des forêts, qui sont des ressources vitales pour la planlète.",
+        "h3_1": "Combattre la déforestation à la source : repenser l'agriculture.",
+        "p2": " - Transition vers des pratiques agricoles durables",
+        "p2suite": " - Freiner l'expansion des cultures intensives",
+        "p2suite2": " - Promouvoir l'agroforesterie.",
+        "h3_2": "Restaurer les écosystèmes forestiers, agir concrètement",
+        "p3": " - Soutenir les initiatives de reforestation et de restauration.",
+        "p3suite": " - Replanter les arbres et régénérer les sols.",
+        "p3suite2": " - Améliorer les conditions de vie des populations locales.",
+        "h3_3": "Renforcer la gouvernance et la responsabilisation",
+        "p4": " - Renforcer la législation sur l'exploitation forestière.",
+        "p4suite": " - Combattre le commerce illégal du bois.",
+        "p4suite2": " - Encourager l'utilisation de produits certifiés FSC.",
+        "h3_4": "Agir au quotidien, des gestes simples pour un impact collectif",
+        "p5": " - Réduire sa consommation de produits liés à la déforestation (huile de palme)",
+        "p5suite": " - Privilégier les produits certifiés durables.",
+        "p5suite2": " - Soutenir les initiatives de reforestation.",
+        "h3_5": "Adopter un mode de vie durable",
+        "p6": " - Réduire, réutiliser et recycler.",
+        "p6suite": " - Opter pour des plantes natives dans son jardin.",
+        "h3_6": "Sensibiliser et mobiliser pour un avenir durable",
+        "p7": " - Informer et sensibiliser le public sur l'importance des forêts.",
+        "p7suite": " - Partager ses connaissances et encourager son entourage à agir."
+      },
+      "partie5": {
+        "h2": "Conclusion",
+        "p": "La lutte pour la déforestation est un défi majeur qui nous concerne tous. En adoptant des pratiques durables, en soutenant les initiatives de restauration et en sensibilisant votre entourage, nous pouvons inverser la tendance et protéger les forêts, joyaux précieux de notre planète.",
+        "p2": "Pour validier cette quête et tester vos connaissances, nous vous invitons à répondre au questionnaire suivant.",
+        "button": " Commencer le questionnaire"
+      }
     },
-    "partie2": {
-      "h2": "Conséquences",
-      "h3_1": "Conséquences environmentales",
-      "h3_2": "Perte de la biodiversité",
-      "p1": " - Disparition d'espèces animales et végétales à un rythme alarmant.",
-      "p1suite": " - Destruction de l'habitat naturel de millions d'être vivants",
-      "p1suite2": " - Fragilisation de l'équilibre des écosystèmes.",
-      "p1suite3": "Destruction des forêts pour extraire des ressources naturelles.",
-      "h3_3": "Changement climatique",
-      "p2": " - Exacerbation du réchauffement climatique",
-      "p2suite": " - Destruction des arbres, qui absorbent le carbone et luttent contre l'accumulation de gaz à effet de serre.",
-      "p2sutie2": " - Libération de CO² dans l'atmosphère.",
-      "h3_4": "Perturbation du cycle de l'eau",
-      "p3": " - Dérégulation du débit des rivières.",
-      "p3suite": " - Augmentation des risques d'inondation et de sécheresses.",
-      "p3suite2": " - Déstabilisation des ressources hydriques.",
-      "p3suite3": " - Remplacent les forêts tropicales, en particulier en Asie du Sud-est.",
-      "p3suite4": " - Exacerbent la perte de la biodiversité et le changement climatique."
+    "info2": {
+      "titre": {
+        "h1": "Les dangers des risques climatiques",
+        "p": "Les risques climatiques, exacerbés par les changements anthropogéniques dans la composition de l'atmosphère terrestre, représentent une menace croissante pour notre planète. L'accroissement des émissions de gaz à effet de serre, issus principalement de la combustion des énergies fossiles, de la déforestation, et de l'agriculture intensive, a modifié de manière significative les modèles climatiques globaux. Ces perturbations entraînent une fréquence et une intensité accrues de phénomènes météorologiques extrêmes, tels que des tempêtes violentes, des inondations dévastatrices, des canicules insoutenables, et des sécheresses prolongées. Ces événements climatiques extrêmes mettent en danger les écosystèmes vitaux, menacent les habitations et les infrastructures, et compromettent la sécurité alimentaire mondiale."
+      },
+      "partie1": {
+        "h1": "Causes",
+        "h3": "Émissions de gaz à effet de serre",
+        "p": " - L'activité humaine, notamment l'utilisation d'énergies fossiles, contribue massivement à l'augmentation des gaz à effet de serre dans l'atmosphère.",
+        "h3_2": "Déforestation",
+        "p2": " - La réduction des forêts diminue la capacité de la Terre à absorber le CO2, aggravant l'effet de serre.",
+        "h3_3": "Agriculture intensive",
+        "p3": " - Les pratiques agricoles non durables augmentent les émissions de méthane et de protoxyde d'azote.",
+        "h3_4": "Urbanisation",
+        "p4": " - L'expansion des zones urbaines modifie les paysages naturels, affectant les modèles climatiques locaux."
+      },
+      "partie2": {
+        "h1": "Conséquences",
+        "h3": "Phénomènes météorologiques extrêmes",
+        "p": " - Une augmentation de la fréquence et de l'intensité des tempêtes, inondations, canicules, et sécheresses.",
+        "h3_2": "Menace pour la biodiversité",
+        "p2": " - Perturbation des habitats naturels, entraînant une perte de biodiversité.",
+        "h3_3": "Insécurité alimentaire",
+        "p3": " - Destruction des terres agricoles et perturbation des chaînes d'approvisionnement alimentaire.",
+        "h3_4": "Déplacements de population",
+        "p4": " - Les événements extrêmes et la montée des eaux forcent les populations à se déplacer, créant des crises humanitaires."
+      },
+      "partie3": {
+        "h1": "Conseils et Recommandations",
+        "p": "Pour faire face aux dangers des risques climatiques, il est impératif d'adopter des mesures préventives et correctives.",
+        "h3": "Réduction des émissions de gaz à effet de serre",
+        "p2": " - Opter pour des sources d'énergie renouvelables, améliorer l'efficacité énergétique, et encourager la mobilité durable.",
+        "h3_2": "Pratiques agricoles durables",
+        "p3": " - Adopter l'agroécologie et l'agroforesterie pour réduire l'impact de l'agriculture sur le climat.",
+        "h3_3": "Restauration des écosystèmes",
+        "p4": " - Participer à des programmes de reforestation et de conservation des habitats naturels.",
+        "h3_4": "Préparation et adaptation",
+        "p5": " - Renforcer les infrastructures et les habitations pour les rendre résilientes aux événements climatiques extrêmes.",
+        "p5suite": " - Privilégier les produits certifiés durables.",
+        "p5suite2": " - Soutenir les initiatives de reforestation."
+      },
+      "partie4": {
+        "h1": "Conclusion",
+        "p": "La lutte contre les risques climatiques est un enjeu majeur qui nécessite une action collective et des changements profonds dans notre manière de vivre et de consommer. En prenant des mesures pour réduire notre impact sur le climat et en nous préparant aux changements inévitables, nous pouvons protéger notre planète pour les générations futures.",
+        "p2": "Pour valider cette quête et tester vos connaissances, nous vous invitons à répondre au questionnaire suivant.",
+        "button": "Commencer le questionnaire"
+      }
     },
-    "partie3": {
-      "h3_1": "Conséquences socio-économiques",
-      "h3_2": "Impact sur les populations locales",
-      "p1": " - Perte de ressources naturelles et de moyens de subsistance.",
-      "p1suite": " - Pauvreté et insécurité alimentaire accrues.",
-      "h3_3": "Impact sur les industries",
-      "p2": " - Menace pour les industries dépendantes des ressources forestières (bois, papier, etc.)",
-      "p2suite": " - Perturbation des chaînes d'approvisionnement.",
-      "p2suite2": " - Pertes économiques."
+    "info3": {
+      "titre": {
+        "h1": "Le réchauffement climatique",
+        "p": "Le réchauffement climatique est un phénomène global caractérisé par une augmentation des températures moyennes de la Terre, résultant principalement de l'accumulation des gaz à effet de serre (GES) dans l'atmosphère. Ces gaz, tels que le dioxyde de carbone (CO2), le méthane (CH4) et le protoxyde d'azote (N2O), piègent la chaleur du soleil dans l'atmosphère, provoquant ainsi une hausse des températures à la surface de la planète. La combustion des combustibles fossiles, l'agriculture intensive, la déforestation, et diverses autres activités humaines contribuent à cette accumulation, entraînant des changements climatiques dangereux et imprévisibles."
+      },
+      "partie1": {
+        "h1": "Causes",
+        "h3": "Combustion d'énergies fossiles",
+        "p": " - L'utilisation de pétrole, de charbon, et de gaz naturel pour l'énergie libère d'énormes quantités de CO2.",
+        "h3_2": "Déforestation",
+        "p2": "- L'abattage des forêts réduit la capacité de la Terre à absorber le CO2 de l'atmosphère.",
+        "h3_3": "Agriculture",
+        "p3": " - Les pratiques agricoles produisent du méthane et du protoxyde d'azote, deux puissants gaz à effet de serre.",
+        "h3_4": "Industrie",
+        "p4": " - Les procédés industriels émettent une grande variété de gaz à effet de serre."
+      },
+      "partie2": {
+        "h1": "Conséquences",
+        "h3": "Changements climatiques extrêmes",
+        "p": " - Augmentation de la fréquence et de l'intensité des tempêtes, inondations, sécheresses et canicules.",
+        "h3_2": "Hausse du niveau des mers",
+        "p2": " - La fonte des glaces polaires et des glaciers entraîne une élévation du niveau des mers, menaçant les zones côtières.",
+        "h3_3": "Perturbations des écosystèmes",
+        "p3": " - Modification des habitats naturels, mettant en danger la survie de nombreuses espèces.",
+        "h3_4": "Insécurité alimentaire",
+        "p4": " - Les changements climatiques affectent la production agricole, menaçant la sécurité alimentaire mondiale."
+      },
+      "partie3": {
+        "h1": "Conseils et Recommandations",
+        "p": "Pour lutter contre le réchauffement climatique, des actions individuelles et collectives sont nécessaires.",
+        "h3": "Réduction de la consommation d'énergie",
+        "p2": " - Améliorer l'efficacité énergétique des habitations, des transports et des appareils.",
+        "h3_2": "Utilisation d'énergies renouvelables",
+        "p3": " - Favoriser le solaire, l'éolien, l'hydroélectricité et la biomasse.",
+        "h3_3": "Transports écologiques",
+        "p4": " - Privilégier les transports en commun, le vélo, ou la marche, et envisager les véhicules électriques.",
+        "h3_4": "Pratiques alimentaires durables",
+        "p5": " - Réduire la consommation de viande, privilégier les produits locaux et de saison.",
+        "h3_5": "Sensibilisation et éducation",
+        "p6": " - Informer sur l'importance du réchauffement climatique et encourager les actions pour le combattre."
+      },
+      "partie4": {
+        "h1": "Conclusion",
+        "p": "Le réchauffement climatique est un défi majeur pour notre génération. Il exige une transformation profonde de nos modes de vie et de nos économies. En devenant un Pompier du climat, à travers des gestes quotidiens et des décisions éclairées, vous pouvez contribuer à la lutte contre le réchauffement climatique et œuvrer pour un avenir plus durable pour tous.",
+        "p2": "Pour valider cette quête et tester vos connaissances, nous vous invitons à répondre au questionnaire suivant.",
+        "button": "Commencer le questionnaire"
+      }
     },
-    "partie4": {
-      "h2": "Conseils et Recommandations",
-      "p1": "La déforestation a des conséquences dévastatrices sur l'environnement et sur les sociétés. Il est crucial de prendre des mesures pour enrayer ce phénomène et protéger des forêts, qui sont des ressources vitales pour la planlète.",
-      "h3_1": "Combattre la déforestation à la source : repenser l'agriculture.",
-      "p2": " - Transition vers des pratiques agricoles durables",
-      "p2suite": " - Freiner l'expansion des cultures intensives",
-      "p2suite2": " - Promouvoir l'agroforesterie.",
-      "h3_2": "Restaurer les écosystèmes forestiers, agir concrètement",
-      "p3": " - Soutenir les initiatives de reforestation et de restauration.",
-      "p3suite": " - Replanter les arbres et régénérer les sols.",
-      "p3suite2": " - Améliorer les conditions de vie des populations locales.",
-      "h3_3": "Renforcer la gouvernance et la responsabilisation",
-      "p4": " - Renforcer la législation sur l'exploitation forestière.",
-      "p4suite": " - Combattre le commerce illégal du bois.",
-      "p4suite2": " - Encourager l'utilisation de produits certifiés FSC.",
-      "h3_4": "Agir au quotidien, des gestes simples pour un impact collectif",
-      "p5": " - Réduire sa consommation de produits liés à la déforestation (huile de palme)",
-      "p5suite": " - Privilégier les produits certifiés durables.",
-      "p5suite2": " - Soutenir les initiatives de reforestation.",
-      "h3_5": "Adopter un mode de vie durable",
-      "p6": " - Réduire, réutiliser et recycler.",
-      "p6suite": " - Opter pour des plantes natives dans son jardin.",
-      "h3_6": "Sensibiliser et mobiliser pour un avenir durable",
-      "p7": " - Informer et sensibiliser le public sur l'importance des forêts.",
-      "p7suite": " - Partager ses connaissances et encourager son entourage à agir."
+    "info4": {
+      "titre": {
+        "h1": "L’augmentation du nombre d’espèces en voie de disparition",
+        "p": "Dans un monde en constante évolution, l'augmentation du nombre d'espèces en voie de disparition est devenue une préoccupation majeure. La combinaison de divers facteurs tels que la perte d'habitat due à l'expansion humaine, la chasse excessive, la pollution généralisée et les effets dévastateurs du changement climatique a conduit à une accélération alarmante de l'extinction de nombreuses espèces animales et végétales à travers le globe. Cette crise de la biodiversité a des répercussions profondes sur l'équilibre écologique de notre planète, menaçant non seulement la survie des espèces en danger, mais également la stabilité de l'ensemble des écosystèmes."
+      },
+      "partie1": {
+        "h1": "Causes",
+        "h3": "Perte d'habitat",
+        "p": " - Expansion humaine via déforestation, urbanisation, développement d'infrastructures et expansion des terres agricoles.",
+        "h3_2": "Changement climatique",
+        "p2": " - Augmentation des températures, changements de précipitations, élévation du niveau de la mer.",
+        "h3_3": "Pollution",
+        "p3": " - Contamination des sols et des eaux, pollution atmosphérique et marine, utilisation de pesticides et d'engrais chimiques.",
+        "h3_4": "Chasse excessive",
+        "p4": " - Braconnage, surexploitation des ressources naturelles.",
+        "h3_5": "Autres facteurs",
+        "p5": " - Introduction d'espèces invasives, maladies et épidémies, fragmentation des habitats."
+      },
+      "partie2": {
+        "h1": "Conséquences",
+        "h3": "Conséquences écologiques",
+        "p": " - Perte de biodiversité, perturbation des chaînes alimentaires, dégradation des habitats naturels, augmentation des risques de catastrophes naturelles.",
+        "h3_2": "Conséquences économiques et sociales",
+        "p2": " - Perte de ressources naturelles, impact sur les industries, perte de moyens de subsistance, augmentation des conflits.",
+        "h3_3": "Conséquences sur la santé humaine",
+        "p3": " - Augmentation des maladies, dégradation de la qualité de l'air et de l'eau, impact sur la santé mentale.",
+        "h3_4": "Conséquences sur le climat",
+        "p4": " - Réduction du puits de carbone, augmentation des émissions de gaz à effet de serre, exacerbation du changement climatique."
+      },
+      "partie3": {
+        "h1": "Conseils et recommandations",
+        "p": "La disparition croissante d'espèces animales et végétales est un signal alarmant de l'urgence à protéger notre biodiversité. Voici quelques recommandations pour agir contre cette menace.",
+        "h3": "Réduire la perte d'habitat",
+        "p2": " - Protéger les habitats naturels, lutter contre la déforestation et l'urbanisation.",
+        "h3_2": "Combattre la chasse excessive",
+        "p3": " - Renforcer les lois et les sanctions, sensibiliser les populations locales.",
+        "h3_3": "Diminuer la pollution",
+        "p4": " - Adopter des modes de production et de consommation durables, réduire les émissions de gaz à effet de serre.",
+        "h3_4": "Lutter contre le changement climatique",
+        "p5": " - Diminuer les émissions de gaz à effet de serre, investir dans les énergies renouvelables.",
+        "h3_5": "Soutenir les efforts de conservation",
+        "p6": " -  Faire un don à une organisation de conservation des espèces, participer à des programmes de bénévolat, adopter un mode de vie plus respectueux de l'environnement.",
+        "h3_6": "Changer ses comportements",
+        "p7": " - Réduire sa consommation de ressources naturelles, choisir des produits durables et éthiques, sensibiliser son entourage à la cause de la biodiversité."
+      },
+      "partie4": {
+        "h1": "Conclusion",
+        "p": "En conclusion, la lutte contre l'augmentation du nombre d'espèces en voie de disparition est un défi global qui nécessite une mobilisation de tous. En agissant à la source, en soutenant les efforts de conservation et en changeant nos comportements, nous pouvons contribuer à protéger la biodiversité et garantir un avenir durable pour la planète.",
+        "p2": "Pour valider cette quête et tester vos connaissances, nous vous invitons à répondre au questionnaire suivant.",
+        "button": "Commencer le questionnaire"
+      }
     },
-    "partie5": {
-      "h2": "Conclusion",
-      "p": "La lutte pour la déforestation est un défi majeur qui nous concerne tous. En adoptant des pratiques durables, en soutenant les initiatives de restauration et en sensibilisant votre entourage, nous pouvons inverser la tendance et protéger les forêts, joyaux précieux de notre planète.",
-      "p2": "Pour validier cette quête et tester vos connaissances, nous vous invitons à répondre au questionnaire suivant.",
-      "button": " Commencer le questionnaire"
-    }
-  },
-  "info2": {
-    "titre": {
-      "h1": "Les dangers des risques climatiques",
-      "p": "Les risques climatiques, exacerbés par les changements anthropogéniques dans la composition de l'atmosphère terrestre, représentent une menace croissante pour notre planète. L'accroissement des émissions de gaz à effet de serre, issus principalement de la combustion des énergies fossiles, de la déforestation, et de l'agriculture intensive, a modifié de manière significative les modèles climatiques globaux. Ces perturbations entraînent une fréquence et une intensité accrues de phénomènes météorologiques extrêmes, tels que des tempêtes violentes, des inondations dévastatrices, des canicules insoutenables, et des sécheresses prolongées. Ces événements climatiques extrêmes mettent en danger les écosystèmes vitaux, menacent les habitations et les infrastructures, et compromettent la sécurité alimentaire mondiale."
+    "info5": {
+      "titre": {
+        "h1": "Surconsommation des ressources naturelles",
+        "p": "La surconsommation des ressources naturelles est un problème majeur résultant de l'utilisation excessive et non durable des ressources disponibles sur Terre. Ce phénomène est alimenté par la croissance démographique, l'urbanisation, les modes de consommation non durables et l'exploitation intensive des ressources naturelles. Il entraîne une surexploitation des écosystèmes, la perte de biodiversité, la dégradation des habitats naturels, et contribue au changement climatique. La surconsommation des ressources naturelles met en péril la stabilité écologique de la planète et compromet les possibilités de développement durable pour les générations futures."
+      },
+      "partie1": {
+        "h1": "Causes",
+        "h3": "Croissance démographique",
+        "p": " - Augmentation de la demande en ressources pour répondre aux besoins humains.",
+        "h3_2": "Urbanisation",
+        "p2": " - Expansion des zones urbaines, besoin accru en ressources pour la construction, l'alimentation, l'eau et l'énergie.",
+        "h3_3": "Modes de consommation non durables",
+        "p3": " - Culture de la surconsommation, produits jetables, biens non durables.",
+        "h3_4": "Exploitation intensive des ressources naturelles",
+        "p4": " - Pratiques extractives non durables (mines, forêts), surexploitation."
+      },
+      "partie2": {
+        "h1": "Conséquences",
+        "h3": "Surexploitation des écosystèmes",
+        "p": " - Utilisation non durable, épuisement des capacités de régénération.",
+        "h3_2": "Perte de biodiversité",
+        "p2": " - Destruction des habitats naturels, menace sur les espèces animales et végétales.",
+        "h3_3": "Dégradation des habitats naturels",
+        "p3": " - Transformation des terres, destruction des écosystèmes fragiles (forêts, zones humides, récifs coralliens).",
+        "h3_4": "Contribution au changement climatique",
+        "p4": " - Exploitation des ressources naturelles (combustibles fossiles), augmentation des émissions de gaz à effet de serre, aggravation du changement climatique."
+      },
+      "partie3": {
+        "h1": "Conseils et recommandations",
+        "p": "Pour lutter efficacement contre la surconsommation des ressources naturelles, nous devons adopter des comportements responsables et mettre en œuvre des pratiques durables. Voici quelques recommandations simples mais essentielles pour contribuer à préserver notre environnement.",
+        "h3": "Adopter des modes de vie durables",
+        "p2": " - Réduire, réutiliser et recycler pour minimiser le gaspillage et la demande en ressources.",
+        "h3_2": "Favoriser l'économie circulaire",
+        "p3": " - Encourager la conception de produits durables et recyclables pour réduire la nécessité d'utiliser de nouvelles ressources.",
+        "h3_3": "Promouvoir l'éfficacité énergétique",
+        "p4": " - Investir dans des technologies économes en énergie pour limiter l'exploitation des ressources fossiles.",
+        "h3_4": "Utiliser des sources d'énergie renouvelable",
+        "p5": " - Privilégier le solaire, l'éolien et l'hydroélectricité pour réduire la dépendance aux combustibles fossiles.",
+        "h3_5": "Sensibiliser et éduquer",
+        "p6": " - Informer sur les impacts de la surconsommation et promouvoir des comportements durables.",
+        "h3_6": "Encourager la réglementation et la politique environnementale",
+        "p7": " - Responsabiliser les industries.",
+        "h3_7": "Soutenir les initiatives locales et internationales",
+        "p8": " - Participer à des projets de développement durable et soutenir les accords internationaux pour préserver les ressources naturelles."
+      },
+      "partie4": {
+        "h1": "Conclusion",
+        "p": "La surconsommation des ressources naturelles est une menace majeure pour notre planète. Pour inverser cette tendance, adoptons des modes de vie durables, favorisons l'économie circulaire et soutenons les initiatives locales et internationales. Agir dès maintenant est essentiel pour préserver notre environnement et garantir un avenir durable.",
+        "p2": "Pour valider cette quête et tester vos connaissances, nous vous invitons à répondre au questionnaire suivant.",
+        "button": "Commencer le questionnaire"
+      }
     },
-    "partie1": {
-      "h1": "Causes",
-      "h3": "Émissions de gaz à effet de serre",
-      "p": " - L'activité humaine, notamment l'utilisation d'énergies fossiles, contribue massivement à l'augmentation des gaz à effet de serre dans l'atmosphère.",
-      "h3_2": "Déforestation",
-      "p2": " - La réduction des forêts diminue la capacité de la Terre à absorber le CO2, aggravant l'effet de serre.",
-      "h3_3": "Agriculture intensive",
-      "p3": " - Les pratiques agricoles non durables augmentent les émissions de méthane et de protoxyde d'azote.",
-      "h3_4": "Urbanisation",
-      "p4": " - L'expansion des zones urbaines modifie les paysages naturels, affectant les modèles climatiques locaux."
+    "info6": {
+      "titre": {
+        "h1": "La crise de la pollution",
+        "p": "La crise de la pollution est caractérisée par la détérioration de la qualité de l'air, de l'eau et du sol due à l'introduction excessive et souvent non contrôlée de substances nocives dans l'environnement. Cette pollution, largement causée par les activités humaines telles que l'industrie, l'agriculture intensive, les transports et la consommation de ressources non durables, a des répercussions néfastes sur la santé humaine, la biodiversité et les écosystèmes. La crise de la pollution menace donc la santé publique, la sécurité alimentaire, la biodiversité et le bien-être global de la société."
+      },
+      "partie1": {
+        "h1": "Causes",
+        "h3": "Activités industrielles",
+        "p": " - Pollution de l'air et de l'eau dû à l’émissions de polluants atmosphériques provenant des industries, gaz d'échappement, particules fines, produits chimiques toxiques, déchets industriels",
+        "h3_2": "Agriculture intensive",
+        "p2": " - L'utilisation excessive de pesticides, d'engrais chimiques et d'autres produits agrochimiques contaminent les sols et les eaux souterraines, entraînant la pollution des cours d'eau et des nappes phréatiques.",
+        "h3_3": "Transports",
+        "p3": " - Pollution de l'air par les émissions d’oxydes d'azote, de particules fines, et de gaz à effet de serre des véhicules automobiles, des avions et des navires.",
+        "h3_4": "Consommation de ressources non durables",
+        "p4": " - Utilisation excessive de plastiques et d'autres matériaux non biodégradables, contribuent à la pollution de l'air, de l'eau et du sol."
+      },
+      "partie2": {
+        "h1": "Conséquences",
+        "h3": "Impact sur la santé humaine",
+        "p": " - La pollution de l'air et de l'eau entraîne des problèmes respiratoires, cardiovasculaires, et accroît le risque de cancer.",
+        "h3_2": "Perte de la biodiversité",
+        "p2": " - La pollution perturbe les écosystèmes, provoquant la disparition d'espèces végétales et animales, et la dégradation des habitats naturels.",
+        "h3_3": "Dégradation des sols",
+        "p3": " - Les produits chimiques toxiques et les déchets industriels polluent les sols, réduisant leur fertilité et menaçant la sécurité alimentaire.",
+        "h3_4": "Changements climatiques",
+        "p4": " - Les émissions de gaz à effet de serre issues de la pollution contribuent au réchauffement climatique, avec des conséquences comme les phénomènes météorologiques extrêmes et la montée du niveau de la mer.",
+        "h3_5": "Coûts économiques",
+        "p5": " - La pollution entraîne des dépenses de santé élevées, détériore les infrastructures, et diminue la productivité, générant ainsi des pertes économiques considérables.",
+        "h3_6": "Impact social",
+        "p6": " - Les populations vulnérables, notamment les enfants et les communautés pauvres, sont les plus touchées, aggravant les inégalités sociales et économiques."
+      },
+      "partie3": {
+        "h1": "Conseils et recommandations",
+        "p": "Pour combattre efficacement la crise de la pollution, nous devons adopter des pratiques responsables et durables. Voici quelques recommandations simples mais cruciales pour protéger notre environnement.",
+        "h3": "Réduire les émissions industrielles",
+        "p2": " - Renforcer les normes environnementales et encourager l'adoption de technologies propres dans les industries.",
+        "p2suite": " - Investir dans des pratiques de production durables et des énergies renouvelables pour réduire les émissions de polluants.",
+        "h3_2": "Promouvoir une agriculture durable",
+        "p3": " - Encourager l'adoption de pratiques agricoles respectueuses de l'environnement, telles que l'agroécologie et la permaculture.",
+        "p3suite": " - Réduire l'utilisation de pesticides et d'engrais chimiques en favorisant des méthodes alternatives de lutte contre les ravageurs et les maladies des cultures.",
+        "h3_3": "Améliorer les transports",
+        "p4": " - Favoriser les transports en commun, le covoiturage et les véhicules électriques pour réduire les émissions de polluants atmosphériques.",
+        "p4suite": " - Investir dans des infrastructures de transport durables et des aménagements urbains favorables aux modes de déplacement doux.",
+        "h3_4": "Encourager la consommation responsable",
+        "p5": " - Réduire l'utilisation de plastiques et d'autres matériaux non durables en favorisant les alternatives écologiques et durables.",
+        "p5suite": " - Sensibiliser les consommateurs aux enjeux environnementaux et promouvoir des modes de vie plus durables et économes en ressources.",
+        "h3_5": "Renforcer la législation et la gouvernance",
+        "p6": " - Mettre en place des réglementations strictes pour limiter les rejets de polluants et protéger les ressources naturelles.",
+        "p6suite": " - Renforcer les mécanismes de contrôle et de surveillance de la qualité de l'air, de l'eau et du sol, ainsi que des émissions industrielles et des pratiques agricoles.",
+        "h3_6": "Sensibiliser et éduquer",
+        "p7": " - Informer le public sur les dangers de la pollution et les solutions pour y remédier.",
+        "p7suite": " - Impliquer les citoyens dans des initiatives de protection de l'environnement et de promotion du développement durable."
+      },
+      "partie4": {
+        "h1": "Conclusion",
+        "p": "La crise de la pollution constitue l'un des défis majeurs de notre époque, menaçant la santé humaine, la biodiversité, et l'équilibre écologique de la planète. Pour inverser cette tendance et préserver notre environnement, il est impératif d'agir de manière collective et coordonnée. En adoptant des pratiques durables, nous pouvons atténuer les effets de la pollution et œuvrer ensemble pour un avenir plus sain et plus durable.",
+        "p2": "Pour valider cette quête et tester vos connaissances, nous vous invitons à répondre au questionnaire suivant.",
+        "button": "Commencer le questionnaire"
+      }
     },
-    "partie2": {
-      "h1": "Conséquences",
-      "h3": "Phénomènes météorologiques extrêmes",
-      "p": " - Une augmentation de la fréquence et de l'intensité des tempêtes, inondations, canicules, et sécheresses.",
-      "h3_2": "Menace pour la biodiversité",
-      "p2": " - Perturbation des habitats naturels, entraînant une perte de biodiversité.",
-      "h3_3": "Insécurité alimentaire",
-      "p3": " - Destruction des terres agricoles et perturbation des chaînes d'approvisionnement alimentaire.",
-      "h3_4": "Déplacements de population",
-      "p4": " - Les événements extrêmes et la montée des eaux forcent les populations à se déplacer, créant des crises humanitaires."
+    "info7": {
+      "titre": {
+        "h1": "Menaces sur la biodiversité",
+        "p": "Les menaces sur la biodiversité représentent un ensemble de pressions et de facteurs qui compromettent la variété et l'abondance des formes de vie sur Terre, ainsi que le bon fonctionnement des écosystèmes. Ces menaces résultent principalement des activités humaines telles que la déforestation, l'urbanisation, la pollution, la surexploitation des ressources naturelles, les espèces invasives et le changement climatique. Elles entraînent une diminution alarmante de la diversité biologique, mettant en péril la stabilité des écosystèmes, la résilience des populations animales et végétales, ainsi que le bien-être humain."
+      },
+      "partie1": {
+        "h1": "Causes",
+        "h3": "Déforestation",
+        "p": " - Conversion des forêts en terres agricoles, zones urbaines, ou pour l'exploitation forestière.<br>- Perte d'habitats pour de nombreuses espèces végétales et animales.",
+        "h3_2": "Urbanisation",
+        "p2": " - Expansion des zones urbaines fragmentant les habitats naturels.",
+        "p2suite": " - Isolation des populations animales et réduction de la connectivité écologique.",
+        "h3_3": "Pollution",
+        "p3": " - Déversements de substances toxiques dans les écosystèmes aquatiques et terrestres.",
+        "p3suite": " - Contamination des habitats et menace pour la survie des espèces.",
+        "h3_4": "Surexploitation des ressources naturelles",
+        "p4": " - Surpêche, chasse excessive, récolte non durable de plantes, collecte d'animaux pour le commerce.",
+        "p4suite": " - Contribution à l'appauvrissement de la biodiversité.",
+        "h3_5": "Espèces invasives",
+        "p5": " - Introduction d'espèces non indigènes perturbant les équilibres écologiques.",
+        "p5suite": " - Mise en danger des espèces locales.",
+        "h3_6": "Changements climatiques",
+        "p6": " - Élévation des températures, modifications des précipitations, phénomènes météorologiques extrêmes.",
+        "p6suite": " - Affectation des habitats naturels et distribution des espèces."
+      },
+      "partie2": {
+        "h1": "Conséquences",
+        "h3": "Perte de biodiversité",
+        "p": " - Réduction de la diversité génétique, compromettant la résilience des écosystèmes.",
+        "h3_2": "Déséquilibre des écosystèmes",
+        "p2": " - Diminution des populations d'espèces clés entraînant des perturbations écologiques.",
+        "h3_3": "Risques pour la sécurité alimentaire",
+        "p3": " - Diminution de la disponibilité des ressources alimentaires, affectant les moyens de subsistance.",
+        "h3_4": "Perte de services écosystémiques",
+        "p4": "- Compromission des services tels que la pollinisation, la purification de l'air et de l'eau, la régulation du climat.",
+        "h3_5": "Impact sur la santé humaine",
+        "p5": "- Augmentation du risque de maladies émergentes et propagation de vecteurs de maladies, affectant la santé humaine."
+      },
+      "partie3": {
+        "h1": "Conseils et Recommandations",
+        "p": "Pour contrer efficacement la menace qui pèse sur la biodiversité, il est impératif d'adopter des mesures de conservation et de gestion durable des écosystèmes. Voici quelques directives fondamentales pour protéger la richesse naturelle de notre planète.",
+        "h3": "Conservation des habitats naturels",
+        "p2": " - Préserver les zones sauvages et les écosystèmes fragiles en établissant des réserves naturelles et des aires protégées.",
+        "p2suite": "- Restaurer les habitats dégradés en plantant des espèces indigènes et en réintroduisant des populations animales menacées.",
+        "h3_2": "Gestion durable des ressources naturelles",
+        "p3": " - Favoriser une exploitation raisonnée des ressources forestières, halieutiques et fauniques en mettant en place des quotas et des réglementations strictes.",
+        "p3suite": " - Encourager l'adoption de pratiques agricoles respectueuses de la biodiversité, telles que l'agroécologie et la permaculture.",
+        "h3_3": " Lutte contre les espèces invasives",
+        "p4": " - Surveiller et contrôler les espèces envahissantes qui menacent les écosystèmes indigènes, en particulier dans les zones sensibles.",
+        "p4suite": " - Mettre en œuvre des programmes d'éradication ciblés pour limiter la propagation des espèces nuisibles.",
+        "h3_4": "Promotionn de la sensibilisation et de l'éducation",
+        "p5": " - Sensibiliser le grand public à l'importance de la biodiversité et aux menaces qui pèsent sur elle, à travers des campagnes d'information et des programmes éducatifs.",
+        "p5suite": " - Impliquer les communautés locales dans la conservation et la gestion durable des ressources naturelles, en valorisant leurs connaissances traditionnelles.",
+        "h3_5": "Renforcement de la coopération internationale",
+        "p6": " - Renforcer la collaboration entre les pays pour la conservation des espèces migratrices et la protection des écosystèmes transfrontaliers.",
+        "p6suite": " - Échanger des connaissances et des bonnes pratiques pour une gestion efficace de la biodiversité à l'échelle mondiale."
+      },
+      "partie4": {
+        "h1": "Conclusion",
+        "p": "La préservation de la biodiversité est essentielle pour assurer l'équilibre écologique de notre planète et garantir un avenir durable. En adoptant des pratiques de conservation et en sensibilisant le public, nous pouvons contribuer à inverser le déclin actuel de la biodiversité. C'est en protégeant la diversité biologique que nous préservons notre environnement pour les générations à venir.",
+        "p2": "Pour valider cette quête et tester vos connaissances, nous vous invitons à répondre au questionnaire suivant.",
+        "button": "Commencer le questionnaire"
+      }
     },
-    "partie3": {
-      "h1": "Conseils et Recommandations",
-      "p": "Pour faire face aux dangers des risques climatiques, il est impératif d'adopter des mesures préventives et correctives.",
-      "h3": "Réduction des émissions de gaz à effet de serre",
-      "p2": " - Opter pour des sources d'énergie renouvelables, améliorer l'efficacité énergétique, et encourager la mobilité durable.",
-      "h3_2": "Pratiques agricoles durables",
-      "p3": " - Adopter l'agroécologie et l'agroforesterie pour réduire l'impact de l'agriculture sur le climat.",
-      "h3_3": "Restauration des écosystèmes",
-      "p4": " - Participer à des programmes de reforestation et de conservation des habitats naturels.",
-      "h3_4": "Préparation et adaptation",
-      "p5": " - Renforcer les infrastructures et les habitations pour les rendre résilientes aux événements climatiques extrêmes.",
-      "p5suite": " - Privilégier les produits certifiés durables.",
-      "p5suite2": " - Soutenir les initiatives de reforestation."
+    "info8": {
+      "titre": {
+        "h1": "Le défi de la gestion des déchets",
+        "p": "La gestion des déchets désigne l'ensemble des activités visant à collecter, traiter, transporter et éliminer les déchets de manière efficace et respectueuse de l'environnement. Elle concerne la manière dont les entreprises gèrent les déchets générés par leurs activités quotidiennes, qu'il s'agisse de déchets ménagers, industriels, commerciaux ou autres. Une gestion inadéquate des déchets peut avoir des conséquences néfastes sur l'environnement, la santé publique et la qualité de vie des citoyens."
+      },
+      "partie1": {
+        "h1": "Causes",
+        "h3": "Surproduction de déchets",
+        "p": "- La surconsommation due au mode de vie moderne entraîne une production excessive de déchets.",
+        " psuite ": " - L'obsolescence programmée des produits incite à un remplacement fréquent des biens, générant ainsi plus de déchets. ",
+        "psuite2": " - L'utilisation généralisée d'emballages jetables contribue à augmenter la quantité de déchets produits.",
+        "h3_2": "Manque d'infrastructures de gestion des déchets",
+        "p2": "- Dans de nombreuses régions, les installations de collecte, de transport, de traitement et d'élimination des déchets sont insuffisantes.",
+        "p2suite": "- Le manque d'investissement dans les infrastructures de gestion des déchets limite la capacité à répondre aux besoins croissants en matière de gestion des déchets.",
+        "h3_3": "Poor management practices",
+        "p3": "- Le fly-tipping, où les déchets sont abandonnés dans des endroits non autorisés, est une pratique courante là où l'infrastructure de gestion des déchets est limitée.",
+        "p3suite": " - Le brûlage à l'air libre des déchets, souvent pratiqué dans des zones où les installations de traitement adéquates font défaut, entraîne des émissions polluantes et des risques pour la santé.",
+        "h3_4": "Manque de sensibilisation et d'éducation",
+        "p4": " - Le manque de sensibilisation du public à l'importance de la réduction, de la réutilisation et du recyclage des déchets maintient des habitudes de consommation et de gestion non durables. ",
+        "p4suite": " - Le manque de programmes éducatifs efficaces limite la compréhension des problèmes de gestion des déchets."
+      },
+      "partie2": {
+        "h1": "Conséquences",
+        "h3": "Pollution de l'environnement",
+        "p": " - La mauvaise gestion des déchets entraîne une pollution de l'air, de l'eau et du sol, mettant en danger la santé des écosystèmes et des espèces vivantes ",
+        "psuite": " - Les déchets non traités peuvent contaminer le sol et les eaux souterraines, affectant ainsi des ressources naturelles essentielles.",
+        "h3_2": "Risques pour la santé publique",
+        "p2": " - Diminution des populations d'espèces clés entraînant des perturbations écologiques.",
+        "h3_3": "Risques pour la santé alimentaire",
+        "p3": " - Les déchets mal gérés peuvent contaminer l'eau potable, propager des maladies infectieuses et provoquer des problèmes respiratoires dus à la fumée des décharges et à l'incinération des déchets",
+        "p3suite": "- L'exposition à des déchets toxiques peut entraîner de graves problèmes de santé, notamment des cancers, des maladies respiratoires et des infections.",
+        "h3_4": "Impact sur la biodiversité",
+        "p4": "- La pollution causée par les déchets peut menacer la biodiversité en contaminant les habitats naturels et en perturbant les populations d'espèces animales et végétales.",
+        "p4suite": " - Les déchets plastiques, en particulier, peuvent avoir des effets dévastateurs sur la faune marine, entraînant l'ingestion de plastiques et l'envasement des écosystèmes marins.",
+        "h3_5": "Dommages esthétiques",
+        "p5": " - Les décharges, les dépotoirs sauvages et les déchets abandonnés contribuent à la dégradation visuelle des paysages, réduisant la qualité de vie des populations locales et nuisant au tourisme.",
+        "p5suite": " - La présence de déchets dans l'environnement crée une image négative des zones concernées, impactant le tourisme et l'économie"
+      },
+      "partie3": {
+        "h1": "Conseils et recommandations",
+        "p": "Pour résoudre efficacement le problème de la gestion des déchets, il est nécessaire d'adopter des mesures à différents niveaux, allant de la réduction à la gestion responsable des déchets. Voici quelques conseils et recommandations pour améliorer la gestion des déchets",
+        "h3": "Réduction à la source",
+        "p2": " - Encourager la réduction de la consommation et la réutilisation des produits pour limiter la production de déchets. ",
+        "p2suite": "- Sensibiliser les consommateurs aux impacts environnementaux de leurs choix de consommation.",
+        "h3_2": " Tri sélectif et recyclage ",
+        "p3": "- Mettre en place des systèmes de collecte sélective pour permettre le recyclage des matériaux valorisables.",
+        "p3suite": "- Sensibiliser le public au tri sélectif et faciliter l'accès aux points de collecte appropriés.",
+        "h3_3": "Valorisation énergétique et compostage",
+        "p4": "- Encourager la valorisation énergétique des déchets non recyclables par l'incinération avec récupération d'énergie.",
+        "p4suite": "- Promouvoir le compostage des déchets organiques pour réduire la quantité de déchets destinés à la mise en décharge.",
+        "h3_4": "Sensibilisation et éducation",
+        "p5": " - Organiser des campagnes de sensibilisation sur l'importance de la réduction, de la réutilisation et du recyclage des déchets.",
+        "p5suite": " - Impliquer les écoles, les entreprises et les communautés locales dans des programmes d'éducation à la gestion des déchets.",
+        "h3_5": "Renforcer les infrastructures",
+        "p6": "- Mettre en œuvre des programmes de collecte régulière des déchets dans toutes les zones.",
+        "h3_6": "Législation et réglementation",
+        "p7": " - Adopter et appliquer des lois efficaces en matière de gestion des déchets afin de garantir le respect des normes environnementales. ",
+        "p7suite": " - Mettre en place des incitations économiques pour encourager les pratiques de gestion durable des déchets.",
+        "h3_7": "Collaboration et partenariats",
+        "p8": "- Encourager la collaboration entre les gouvernements, les entreprises, les ONG et les communautés locales pour développer des solutions durables.",
+        "p8suite": " - Établir des partenariats public-privé pour développer des initiatives innovantes en matière de gestion des déchets."
+      },
+      "partie4": {
+        "h1": "Conclusion",
+        "p": "La gestion des déchets est cruciale pour la préservation de l'environnement et de la santé publique. Les causes, qui vont de la surproduction au manque d'infrastructures adéquates, ont des conséquences graves, telles que la pollution et les risques pour la biodiversité. Pour relever ce défi, il est essentiel de promouvoir la réduction à la source, le recyclage, la sensibilisation du public et la collaboration entre les parties prenantes. En agissant ensemble, nous pouvons améliorer la gestion des déchets et créer un avenir plus propre et plus durable",
+        "p2": "Pour valider cette quête et tester vos connaissances, nous vous invitons à répondre au questionnaire suivant.",
+        "bouton": "Démarrer le questionnaire"
+      }
     },
-    "partie4": {
-      "h1": "Conclusion",
-      "p": "La lutte contre les risques climatiques est un enjeu majeur qui nécessite une action collective et des changements profonds dans notre manière de vivre et de consommer. En prenant des mesures pour réduire notre impact sur le climat et en nous préparant aux changements inévitables, nous pouvons protéger notre planète pour les générations futures.",
-      "p2": "Pour valider cette quête et tester vos connaissances, nous vous invitons à répondre au questionnaire suivant.",
-      "button": "Commencer le questionnaire"
-    }
-  },
-  "info3": {
-    "titre":{
-      "h1": "Le réchauffement climatique",
-      "p": "Le réchauffement climatique est un phénomène global caractérisé par une augmentation des températures moyennes de la Terre, résultant principalement de l'accumulation des gaz à effet de serre (GES) dans l'atmosphère. Ces gaz, tels que le dioxyde de carbone (CO2), le méthane (CH4) et le protoxyde d'azote (N2O), piègent la chaleur du soleil dans l'atmosphère, provoquant ainsi une hausse des températures à la surface de la planète. La combustion des combustibles fossiles, l'agriculture intensive, la déforestation, et diverses autres activités humaines contribuent à cette accumulation, entraînant des changements climatiques dangereux et imprévisibles."
+    "info9": {
+      "titre": {
+        "h1": "La surexploitation des ressources marines",
+        "p": "La surexploitation des ressources marines fait référence à la pratique de prélever des ressources marines (poissons, crustacés, mollusques, etc.) à un rythme supérieur à leur capacité de régénération naturelle. Ce problème survient lorsque la demande de produits de la mer dépasse la capacité des populations de poissons et d'autres organismes marins à se renouveler. La surexploitation peut entraîner un déclin rapide des stocks de poissons, des dommages aux écosystèmes marins et des conséquences socio-économiques pour les communautés dépendantes de la pêche."
+      },
+      "partie1": {
+        "h1": "Causes",
+        "h3": "Surpêche",
+        "p": " - Demande croissante de produits de la mer, entraînant une pêche intensive et la surexploitation des stocks de poissons.",
+        "h3_2": "Pratiques de pêche non durables",
+        "p2": " - Utilisation de techniques destructrices comme la pêche à la dynamite, électrique ou illégale, contribuant à la surexploitation.",
+        "h3_3": "Gestion inefficace",
+        "p3": " - Absence de quotas appropriés, de zones de protection marine ou de réglementations adéquates favorisant la surexploitation."
+      },
+      "partie2": {
+        "h1": "Conséquences",
+        "h3": "Effondrement des stocks de poisson",
+        "p": " - Déclin rapide, voire effondrement, menaçant la durabilité des pêcheries.",
+        "h3_2": "Déséquilibre des écosystèmes marins",
+        "p2": " - Perturbation de l'équilibre écologique, affectant la biodiversité et la santé des océans.",
+        "h3_3": "Impact sur les communautés de pêcheurs",
+        "p3": " - Répercussions socio-économiques graves telles que la perte d'emplois, la diminution des revenus et la détérioration des conditions de vie.",
+        "h3_4": "Menace pour la sécurité alimentaire",
+        "p4": " - Risque de compromettre la sécurité alimentaire de millions de personnes dépendant des poissons.",
+        "h3_5": "Perte de la biodiversité marine",
+        "p5": " - Diminution des populations de poissons et d'autres organismes marins mettant en danger les écosystèmes et les espèces marines."
+      },
+      "partie3": {
+        "h1": "Conseils et recommandations",
+        "p": "Pour lutter efficacement contre la surexploitation des ressources marines, il est impératif d'adopter des mesures à la fois individuelles et collectives. La préservation des océans et la durabilité des écosystèmes marins exigent une mobilisation à tous les niveaux de la société. Voici donc quelques recommandations clés pour agir dans ce sens.",
+        "h3": "Quotas de pêche durable",
+        "p2": " - Établir des limites de capture pour chaque espèce afin de prévenir la surpêche et garantir la durabilité des stocks de poissons.",
+        "h3_2": "Pratiques de pêche durables",
+        "p3": " - Encourager l'utilisation de techniques de pêche sélectives et respectueuses de l'environnement, ainsi que l'interdiction des méthodes de pêche destructrices.",
+        "h3_3": "Surveillance et application des lois",
+        "p4": " - Accroître les efforts de surveillance pour lutter contre la pêche illégale, non déclarée et non réglementée (INN), et appliquer des sanctions dissuasives contre les contrevenants.Renforcement pour contrer la pêche illégale.",
+        "h3_4": "Zones marines protégées",
+        "p5": " - Établir des réserves marines afin de permettre la régénération des populations de poissons et la restauration des écosystèmes marins.",
+        "h3_5": "Gestion participative de pêcheries",
+        "p6": " - Impliquer les communautés de pêcheurs, les scientifiques et les gestionnaires dans la prise de décisions concernant la gestion des ressources marines pour garantir une approche équilibrée et durable.",
+        "h3_6": "Sensibilisation du public",
+        "p7": " - Informer les consommateurs sur les impacts de la surexploitation des ressources marines et encourager une consommation responsable de produits de la mer provenant de sources durables.",
+        "h3_7": "Diversification économique",
+        "p8": " - Développer des alternatives économiques viables pour les communautés de pêcheurs."
+      },
+      "partie4": {
+        "h1": " Conclusion",
+        "p": "La surexploitation des ressources marines représente une menace sérieuse pour les écosystèmes océaniques et les communautés qui en dépendent. En prenant des mesures concrètes telles que l'établissement de quotas durables, la promotion de pratiques de pêche respectueuses de l'environnement et la création de zones marines protégées, nous pouvons inverser cette tendance néfaste. En vous engageant à soutenir une gestion responsable des ressources marines, vous devenez un gardien des océans, contribuant ainsi à préserver la biodiversité marine et à assurer la durabilité des pêcheries pour les générations futures.",
+        "p2": "Pour valider cette quête et tester vos connaissances, nous vous invitons à répondre au questionnaire suivant.",
+        "button": "Commencer le questionnaire"
+      }
     },
-    "partie1": {
-      "h1": "Causes",
-      "h3": "Combustion d'énergies fossiles",
-      "p": " - L'utilisation de pétrole, de charbon, et de gaz naturel pour l'énergie libère d'énormes quantités de CO2.",
-      "h3_2": "Déforestation",
-      "p2": "- L'abattage des forêts réduit la capacité de la Terre à absorber le CO2 de l'atmosphère.",
-      "h3_3": "Agriculture",
-      "p3": " - Les pratiques agricoles produisent du méthane et du protoxyde d'azote, deux puissants gaz à effet de serre.",
-      "h3_4": "Industrie",
-      "p4": " - Les procédés industriels émettent une grande variété de gaz à effet de serre."
+    "info10": {
+      "titre": {
+        "h1": "La dégradation et l'épuisement des sols",
+        "p": "La dégradation et l'épuisement des sols désignent le processus par lequel la qualité et la fertilité des sols diminuent progressivement, souvent à cause d'activités humaines et de pratiques agricoles non durables. Ce problème survient lorsque les sols perdent leur capacité à fournir des nutriments essentiels aux plantes, à retenir l'eau et à maintenir une structure stable. La dégradation peut résulter de l'érosion, de la déforestation, de la pollution, de la surexploitation agricole, de la salinisation et d'autres facteurs qui compromettent la productivité des terres agricoles et les rendent moins aptes à soutenir la croissance des cultures."
+      },
+      "partie1": {
+        "h1": "Causes",
+        "h3": "Pratiques agricoles non durables",
+        "p": " - L'utilisation intensive de pesticides, d'engrais chimiques et de techniques de labourage excessif peut perturber l'équilibre biologique du sol et réduire sa fertilité à long terme.",
+        "h3_2": "Déforestation",
+        "p2": " - La destruction des forêts entraîne l'exposition des sols à l'érosion hydrique et éolienne, les rendant vulnérables à la perte de nutriments et à la détérioration de leur structure",
+        "h3_3": "Surexploitation agricole",
+        "p3": " - La pratique de la monoculture intensive et l'absence de rotation des cultures peuvent appauvrir les sols en épuisant les nutriments essentiels et en favorisant la compactation du sol.",
+        "h3_4": "Érosion",
+        "p4": " - L'érosion du sol, qu'elle soit causée par l'eau ou le vent, emporte la couche fertile supérieure du sol, réduisant ainsi sa productivité et sa capacité à soutenir la croissance des plantes.",
+        "h3_5": "Pollution",
+        "p5": " - La contamination des sols par des produits chimiques toxiques, tels que les métaux lourds ou les substances chimiques provenant des déchets industriels, peut entraîner une détérioration de la qualité du sol et une diminution de sa capacité à soutenir la vie végétale."
+      },
+      "partie2": {
+        "h1": "Conséquences",
+        "h3": "Baisse de la productivité agrocle",
+        "p": " - Diminution des rendements pouvant affecter la sécurité alimentaire.",
+        "h3_2": "Désertification",
+        "p2": " - L'épuisement des sols et la dégradation continue peuvent conduire à la désertification, où les terres autrefois fertiles deviennent arides et improductives.",
+        "h3_3": "Érosion accrue",
+        "p3": " - Augmentation des inondations, glissements de terrain et sédimentation des cours d'eau.",
+        "h3_4": "Perte de la biodiversité",
+        "p4": " - Perte d'habitats naturels et de diversité biologique, affectant les écosystèmes terrestres et leur capacité à fournir des services écosystémiques.",
+        "h3_5": "Augmentation des coûts de production agricole",
+        "p5": " - Utilisation accrue d'engrais et pesticides, impactant économiquement les agriculteurs.",
+        "h3_6": "Dégradation de la qualité de l'eau",
+        "p6": " - L'érosion des sols peut entraîner une augmentation de la turbidité de l'eau et une contamination par des substances chimiques, ce qui nuit à la qualité de l'eau potable et affecte les écosystèmes aquatiques."
+      },
+      "partie3": {
+        "h1": "Conseils et recommandations",
+        "p": "Pour lutter efficacement contre la dégradation et l'épuisement des sols, il est crucial d'adopter des mesures à la fois individuelles et collectives. La préservation de la fertilité des sols et la durabilité des écosystèmes terrestres nécessitent une mobilisation à tous les niveaux de la société.",
+        "h3": "Pratiques agricoles durables",
+        "p2": " - Encourager l'agroécologie et la permaculture.",
+        "p2suite": " - Favoriser la rotation des cultures et la couverture végétale permanente.",
+        "p2suite2": " - Réduire l'utilisation de pesticides et d'engrais chimiques.",
+        "p2suite3": " - Promouvoir le labour minimal et la gestion intégrée des ravageurs.",
+        "h3_2": "Gestion durable des terres",
+        "p3": " - Planification et gestion durables des terres.",
+        "p3suite": "  - Lutte contre l'érosion et la salinisation des sols.",
+        "p3suite2": " - Amélioration de la structure et de la fertilité du sol.",
+        "p3suite3": " - Conservation de la biodiversité et des services écosystémiques.",
+        "h3_3": "Restauration des écosystèmes",
+        "p4": " - Reforestation et restauration des terres dégradées.",
+        "p4suite": " - Plantations d'arbres et agroforesterie.",
+        "p4suite2": " - Techniques de remédiation pour les sols contaminés.",
+        "p4suite3": " - Protection des zones humides et des écosystèmes naturels.",
+        "h3_4": "Gestion de l'eau",
+        "p5": " - Irrigation au goutte-à-goutte et collecte des eaux de pluie.",
+        "p5suite": " - Conservation de l'eau et réduction du gaspillage.",
+        "p5suite2": " - Protection des bassins versants et des sources d'eau.",
+        "h3_5": "Réduction de la pollution",
+        "p6": " - Contrôle de la pollution agricole et industrielle.",
+        "p6suite": " - Limiter l'utilisation de produits chimiques toxiques.",
+        "p6suite2": " - Traitement et recyclage des déchets.",
+        "h3_6": "Éducation et sensibilisation",
+        "p7": " - Information et formation des agriculteurs et du grand public.",
+        "p7suite": " - Programmes d'éducation et de sensibilisation aux enjeux environnementaux.",
+        "p7suite2": " - Valorisation des pratiques durables et des initiatives locales.",
+        "h3_7": "Politiques de conservation des sols",
+        "p8": " - Élaboration et mise en œuvre de politiques de conservation.",
+        "p8suite": " - Incitations financières et réglementations pour la gestion responsable des terres.",
+        "p8suite2": " - Coopération internationale et partage des connaissances."
+      },
+      "partie4": {
+        "h1": "Conclusion",
+        "p": "La lutte contre la dégradation et l'épuisement des sols nécessite une approche multidimensionnelle et concertée. L'adoption de pratiques durables, la restauration des écosystèmes, la gestion de l'eau, la réduction de la pollution, l'éducation et la sensibilisation, ainsi que des politiques de conservation des sols sont des éléments clés pour préserver la qualité et la fertilité des sols pour les générations actuelles et futures.",
+        "p2": "Pour valider cette quête et tester vos connaissances, nous vous invitons à répondre au questionnaire suivant.",
+        "button": "Commencer le questionnaire"
+      }
     },
-    "partie2": {
-      "h1": "Conséquences",
-      "h3": "Changements climatiques extrêmes",
-      "p": " - Augmentation de la fréquence et de l'intensité des tempêtes, inondations, sécheresses et canicules.",
-      "h3_2": "Hausse du niveau des mers",
-      "p2": " - La fonte des glaces polaires et des glaciers entraîne une élévation du niveau des mers, menaçant les zones côtières.",
-      "h3_3": "Perturbations des écosystèmes",
-      "p3": " - Modification des habitats naturels, mettant en danger la survie de nombreuses espèces.",
-      "h3_4": "Insécurité alimentaire",
-      "p4":" - Les changements climatiques affectent la production agricole, menaçant la sécurité alimentaire mondiale."
-    },
-    "partie3": {
-      "h1": "Conseils et Recommandations",
-      "p": "Pour lutter contre le réchauffement climatique, des actions individuelles et collectives sont nécessaires.",
-      "h3": "Réduction de la consommation d'énergie",
-      "p2": " - Améliorer l'efficacité énergétique des habitations, des transports et des appareils.",
-      "h3_2": "Utilisation d'énergies renouvelables",
-      "p3": " - Favoriser le solaire, l'éolien, l'hydroélectricité et la biomasse.",
-      "h3_3": "Transports écologiques",
-      "p4": " - Privilégier les transports en commun, le vélo, ou la marche, et envisager les véhicules électriques.",
-      "h3_4": "Pratiques alimentaires durables",
-      "p5": " - Réduire la consommation de viande, privilégier les produits locaux et de saison.",
-      "h3_5": "Sensibilisation et éducation",
-      "p6": " - Informer sur l'importance du réchauffement climatique et encourager les actions pour le combattre."
-    },
-    "partie4": {
-      "h1": "Conclusion",
-      "p": "Le réchauffement climatique est un défi majeur pour notre génération. Il exige une transformation profonde de nos modes de vie et de nos économies. En devenant un Pompier du climat, à travers des gestes quotidiens et des décisions éclairées, vous pouvez contribuer à la lutte contre le réchauffement climatique et œuvrer pour un avenir plus durable pour tous.",
-      "p2": "Pour valider cette quête et tester vos connaissances, nous vous invitons à répondre au questionnaire suivant.",
-      "button": "Commencer le questionnaire"
+    "images": {
+      "accueil": {
+        "8": "<img src=\"src/assets/picto/risques_climatique.svg\" alt=\"picto risques climatiques\"/>",
+        "9": "<img src=\"src/assets/picto/consommation_des_ressources.svg\" alt=\"picto consommation des ressources\"/>",
+        "10": "<img src=\"src/assets/picto/deforestation.svg\" alt=\"picto déforestation\"/>",
+        "11": "<img src=\"src/assets/picto/especes_en_voie_de_disparition.svg\" alt=\"picto espèce en voie de disparition\"/>",
+        "12": "<img src=\"src/assets/picto/atteinte_a_la_biodiversite.svg\" alt=\"picto atteinte à la biodiversité\"/>",
+        "13": "<img src=\"src/assets/picto/rechauffement_climatique.svg\" alt=\"picto réchauffement climatique\"/>",
+        "14": "<img src=\"src/assets/picto/pollution.svg\" alt=\"picto pollution\"/>"
+      },
+      "quetes": {
+        "1": "<img id=\"quete1\" class=\"quete1\" src=\"/src/assets/quete1.png\" alt=\"Quête 1\" data-quete=\"0\" @click=\"handleClick($event.target)\">",
+        "2": "<img id=\"quete2\" class=\"quete2\" src=\"/src/assets/quete2.png\" alt=\"Quête 2\" data-quete=\"1\" @click=\"handleClick($event.target)\">",
+        "3": "<img id=\"quete3\" class=\"quete3\" src=\"/src/assets/quete3.png\" alt=\"Quête 3\" data-quete=\"2\" @click=\"handleClick($event.target)\">",
+        "4": "<img id=\"quete4\" class=\"quete4\" src=\"/src/assets/quete4.png\" alt=\"Quête 4\" data-quete=\"3\" @click=\"handleClick($event.target)\">",
+        "5": "<img id=\"quete5\" class=\"quete5\" src=\"/src/assets/quete5.png\" alt=\"Quête 5\" data-quete=\"4\" @click=\"handleClick($event.target)\">",
+        "6": "<img id=\"quete6\" class=\"quete6\" src=\"/src/assets/quete6.png\" alt=\"Quête 6\" data-quete=\"5\" @click=\"handleClick($event.target)\">",
+        "7": "<img id=\"quete7\" class=\"quete7\" src=\"/src/assets/quete7.png\" alt=\"Quête 7\" data-quete=\"6\" @click=\"handleClick($event.target)\">",
+        "8": "<img id=\"quete8\" class=\"quete8\" src=\"/src/assets/quete8.png\" alt=\"Quête 8\" data-quete=\"7\" @click=\"handleClick($event.target)\">",
+        "9": "<img id=\"quete9\" class=\"quete9\" src=\"/src/assets/quete9.png\" alt=\"Quête 9\" data-quete=\"8\" @click=\"handleClick($event.target)\">",
+        "10": "<img id=\"quete10\" class=\"quete10\" src=\"/src/assets/quete10.png\" alt=\"Quête 10\" data-quete=\"9\" @click=\"handleClick($event.target)\">"
+      }
     }
   }
-}

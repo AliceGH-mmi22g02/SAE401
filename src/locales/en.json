@@ -5,7 +5,7 @@
     "welcome": "Welcome to ",
     "p1": "Dive into our interactive and ludic game where every quest gets you closer to a greener future. Learn, play, earn rewards and contribute to saving our planet.",
     "why": "Why participate?",
-    "p2": "Joining GREENPLAY,  it’s joining a community invested in the fight for a sustainable tomorrow. By creating an account, you become able to follow your progress, save your completed quests and accumulate exclusive rewards.",
+    "p2": "Joining <strong>GREENPLAY</strong>,  it’s joining a community invested in the fight for a sustainable tomorrow. By creating an account, you become able to follow your progress, save your completed quests and accumulate exclusive rewards.",
     "whyplay": "Why play?",
     "p3": "Playing on GREENPLAY is an unique opportunity to combine fun and sensibilization to ecological challenges. It is an engaging way to learn about environmental challenges as well as finding realistic ways to resolve them. Through every quest, you not only level up your knowledge on ecology, you also actively contribute to initiatives to preserve our world.",
     "how": "How to play?",
@@ -682,6 +682,29 @@
       "p": "Combating soil degradation and depletion requires a multidimensional and concerted approach. The adoption of sustainable practices, ecosystem restoration, water management, pollution reduction, education and awareness, and soil conservation policies are key elements in preserving soil quality and fertility for current and future generations.",
       "p2": "To validate this quest and test your knowledge, we invite you to answer the following questionnaire.",
       "button": "Start the questionnaire"
+    }
+  },
+  "images": {
+    "accueil": {
+      "8": "<img src=\"src/assets/picto/risques_climatiqueen.svg\" alt=\"picto risques climatiques\"/>",
+      "9": "<img src=\"src/assets/picto/consommation_des_ressourcesen.svg\" alt=\"picto consommation des ressources\"/>",
+      "10": "<img src=\"src/assets/picto/deforestationen.svg\" alt=\"picto déforestation\"/>",
+      "11": "<img src=\"src/assets/picto/especes_en_voie_de_disparitionen.svg\" alt=\"picto espèce en voie de disparition\"/>",
+      "12": "<img src=\"src/assets/picto/atteinte_a_la_biodiversiteen.svg\" alt=\"picto atteinte à la biodiversité\"/>",
+      "13": "<img src=\"src/assets/picto/rechauffement_climatiqueen.svg\" alt=\"picto réchauffement climatique\"/>",
+      "14": "<img src=\"src/assets/picto/pollutionen.svg\" alt=\"picto pollution\"/>"
+    },
+    "quetes": {
+      "1": "<img id=\"quete1\" class=\"quete1\" src=\"/src/assets/quete1en.png\" alt=\"Quête 1\" data-quete=\"0\" @click=\"handleClick($event.target)\">",
+      "2": "<img id=\"quete2\" class=\"quete2\" src=\"/src/assets/quete2en.png\" alt=\"Quête 2\" data-quete=\"1\" @click=\"handleClick($event.target)\">",
+      "3": "<img id=\"quete3\" class=\"quete3\" src=\"/src/assets/quete3en.png\" alt=\"Quête 3\" data-quete=\"2\" @click=\"handleClick($event.target)\">",
+      "4": "<img id=\"quete4\" class=\"quete4\" src=\"/src/assets/quete4en.png\" alt=\"Quête 4\" data-quete=\"3\" @click=\"handleClick($event.target)\">",
+      "5": "<img id=\"quete5\" class=\"quete5\" src=\"/src/assets/quete5en.png\" alt=\"Quête 5\" data-quete=\"4\" @click=\"handleClick($event.target)\">",
+      "6": "<img id=\"quete6\" class=\"quete6\" src=\"/src/assets/quete6en.png\" alt=\"Quête 6\" data-quete=\"5\" @click=\"handleClick($event.target)\">",
+      "7": "<img id=\"quete7\" class=\"quete7\" src=\"/src/assets/quete7en.png\" alt=\"Quête 7\" data-quete=\"6\" @click=\"handleClick($event.target)\">",
+      "8": "<img id=\"quete8\" class=\"quete8\" src=\"/src/assets/quete8en.png\" alt=\"Quête 8\" data-quete=\"7\" @click=\"handleClick($event.target)\">",
+      "9": "<img id=\"quete9\" class=\"quete9\" src=\"/src/assets/quete9en.png\" alt=\"Quête 9\" data-quete=\"8\" @click=\"handleClick($event.target)\">",
+      "10": "<img id=\"quete10\" class=\"quete10\" src=\"/src/assets/quete10en.png\" alt=\"Quête 10\" data-quete=\"9\" @click=\"handleClick($event.target)\">"
     }
   }
 }

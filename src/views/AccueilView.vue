@@ -17,7 +17,7 @@
 
       <div class="why">
         <div class="why-sign">
-          <img src="@/assets/icon.png" alt="pictogramme s'inscrire"/>
+          <img src="@/assets/icon.png" alt="pictogramme participer"/>
           <h2>{{ $t("main.why") }}</h2>
           <p>{{ $t("main.p2") }}</p>
         </div>
@@ -63,17 +63,17 @@
       <h2>{{ $t("main.subject") }}</h2>
       <div class="questsubject-container">
       <div class="questsubject-column">
-        <img src="@/assets/picto/risques_climatique.svg" alt="picto risques climatiques"/>
-        <img src="@/assets/picto/consommation_des_ressources.svg" alt="picto consommation des ressources"/>
+        <a v-html="$t('images.accueil.8')"></a>
+        <a v-html="$t('images.accueil.9')"></a>
       </div>  
       <div class="questsubject-column">
-        <img src="@/assets/picto/deforestation.svg" alt="picto déforestation"/>
-        <img src="@/assets/picto/especes_en_voie_de_disparition.svg" alt="picto espèce en voie de disparition"/>
-        <img src="@/assets/picto/atteinte_a_la_biodiversite.svg" alt="picto atteinte à la biodiversité"/>
+        <a v-html="$t('images.accueil.10')"></a>
+        <a v-html="$t('images.accueil.11')"></a>
+        <a v-html="$t('images.accueil.12')"></a>
       </div>
       <div class="questsubject-column">
-        <img src="@/assets/picto/rechauffement_climatique.svg" alt="picto réchauffement climatique"/>
-        <img src="@/assets/picto/pollution.svg" alt="picto pollution"/>
+        <a v-html="$t('images.accueil.13')"></a>
+        <a v-html="$t('images.accueil.14')"></a>
       </div>
       </div>
     </div>
