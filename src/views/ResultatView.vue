@@ -58,5 +58,5 @@ function generatePromoCode() {
 </script>
 
 <style lang="scss">
-@import "/public/css/scss_page/resultat";
+@import "../assets/css/scss_page/resultat";
 </style>

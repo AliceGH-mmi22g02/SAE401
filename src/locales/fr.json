@@ -259,5 +259,8 @@
       "p2": "Pour valider cette quête et tester vos connaissances, nous vous invitons à répondre au questionnaire suivant.",
       "button": "Commencer le questionnaire"
     }
+  },
+  "images": {
+    "1": "<img src=\"src/assets/picto/risques_climatique.svg\" alt=\"picto risques climatiques\"/>"
   }
 }

@@ -5,7 +5,7 @@
     "welcome": "Welcome to ",
     "p1": "Dive into our interactive and ludic game where every quest gets you closer to a greener future. Learn, play, earn rewards and contribute to saving our planet.",
     "why": "Why participate?",
-    "p2": "Joining GREENPLAY,  it’s joining a community invested in the fight for a sustainable tomorrow. By creating an account, you become able to follow your progress, save your completed quests and accumulate exclusive rewards.",
+    "p2": "Joining <strong>GREENPLAY</strong>,  it’s joining a community invested in the fight for a sustainable tomorrow. By creating an account, you become able to follow your progress, save your completed quests and accumulate exclusive rewards.",
     "whyplay": "Why play?",
     "p3": "Playing on GREENPLAY is an unique opportunity to combine fun and sensibilization to ecological challenges. It is an engaging way to learn about environmental challenges as well as finding realistic ways to resolve them. Through every quest, you not only level up your knowledge on ecology, you also actively contribute to initiatives to preserve our world.",
     "how": "How to play?",
@@ -683,6 +683,9 @@
       "p2": "To validate this quest and test your knowledge, we invite you to answer the following questionnaire.",
       "button": "Start the questionnaire"
     }
+  },
+  "images": {
+    "1": "<img src=\"src/assets/picto/consommation_des_ressources.svg\" alt=\"climate risks picto\"/>"
   }
 }
 
