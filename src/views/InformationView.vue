@@ -1495,122 +1495,122 @@ const questionsInfo6 = [
   {
     title: "Quête 3/24",
     description: "3. Comment peut-on réduire les émissions industrielles pour lutter contre la pollution ?",
-    options: ["A. En renforçant les normes environnementales et en adoptant des technologies propres", "B. En augmentant la production industrielle sans contrainte", "Option 3", "Option 4"],
+    options: ["A. En renforçant les normes environnementales et en adoptant des technologies propres", "B. En augmentant la production industrielle sans contrainte", "C. En ignorant les réglementations environnementales", "D. Aucune des réponses ci-dessus"],
     correctAnswer: "A. En renforçant les normes environnementales et en adoptant des technologies propres"
   },
   {
     title: "Quête 4/24",
-    description: "Description de la quatrième question de la section 3.",
-    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
-    correctAnswer: "Option 4"
+    description: "4. Quelle mesure peut contribuer à promouvoir une agriculture durable ?",
+    options: ["A. L'utilisation excessive de pesticides et d'engrais chimiques", "B. L'adoption de pratiques agricoles respectueuses de l'environnement", "C. La déforestation massive", "D. Aucune des réponses ci-dessus"],
+    correctAnswer: "B. L'adoption de pratiques agricoles respectueuses de l'environnement"
   }
 ];
 
 const questionsInfo7 = [
   {
     title: "Quête 1/28",
-    description: "Description de la première question de la section 3.",
-    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
-    correctAnswer: "Option 1"
+    description: "1. Quelles sont les principales causes des menaces sur la biodiversité ?",
+    options: ["A. La promotion de la sensibilisation et de l'éducation", "B. L'urbanisation", "C. La conservation des habitats naturels", "D. Toutes les réponses ci-dessus"],
+    correctAnswer: "B. L'urbanisation"
   },
   {
     title: "Quête 2/28",
-    description: "Description de la deuxième question de la section 3.",
-    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
-    correctAnswer: "Option 2"
+    description: "2. Quelle mesure peut contribuer à une gestion durable des ressources naturelles ?",
+    options: ["A. Favoriser une exploitation raisonnée des ressources forestières, halieutiques et fauniques en mettant en place des quotas et des réglementations strictes.", "B. Encourager l'adoption de pratiques agricoles non respectueuses de la biodiversité.", "C. Ignorer les espèces invasives pour minimiser leur impact.", "D. Aucune des réponses ci-dessus"],
+    correctAnswer: "A. Favoriser une exploitation raisonnée des ressources forestières, halieutiques et fauniques en mettant en place des quotas et des réglementations strictes."
   },
   {
     title: "Quête 3/28",
-    description: "Description de la troisième question de la section 3.",
-    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
-    correctAnswer: "Option 3"
+    description: "3. Quel est l'impact de la perte de biodiversité sur la sécurité alimentaire ?",
+    options: ["A. Augmentation de la disponibilité des ressources alimentaires", "B. Aucun impact sur la sécurité alimentaire", "C. Diminution de la disponibilité des ressources alimentaires", "D. Toutes les réponses ci-dessus"],
+    correctAnswer: "C. Diminution de la disponibilité des ressources alimentaires"
   },
   {
     title: "Quête 4/28",
-    description: "Description de la quatrième question de la section 3.",
-    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
-    correctAnswer: "Option 4"
+    description: "4. Quelle est l'une des recommandations pour lutter contre les espèces invasives ?",
+    options: ["A. Encourager leur propagation dans les écosystèmes indigènes", "B. Mettre en œuvre des programmes d'éradication ciblés pour limiter leur propagation", "C. Ignorer leur présence pour éviter toute intervention", "D. Aucune des réponses ci-dessus"],
+    correctAnswer: "B. Mettre en œuvre des programmes d'éradication ciblés pour limiter leur propagation"
   }
 ];
 
 const questionsInfo8 = [
   {
     title: "Quête 1/32",
-    description: "Description de la première question de la section 3.",
-    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
-    correctAnswer: "Option 1"
+    description: "1. Quelles sont les principales causes de la surproduction de déchets ?",
+    options: ["A. La promotion de la sensibilisation et de l'éducation", "B. L'utilisation généralisée d'emballages jetables", "C. L'investissement dans les infrastructures de gestion des déchets", "D. Toutes les réponses ci-dessus"],
+    correctAnswer: "B. L'utilisation généralisée d'emballages jetables"
   },
   {
     title: "Quête 2/32",
-    description: "Description de la deuxième question de la section 3.",
-    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
-    correctAnswer: "Option 2"
+    description: "2. Comment la mauvaise gestion des déchets peut-elle affecter la santé publique ?",
+    options: ["A. En améliorant la qualité de l'air", "B. En contribuant à la propagation des maladies infectieuses", "C. En favorisant la sécurité alimentaire", "D. Aucune des réponses ci-dessus"],
+    correctAnswer: "B. En contribuant à la propagation des maladies infectieuses"
   },
   {
     title: "Quête 3/32",
-    description: "Description de la troisième question de la section 3.",
-    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
-    correctAnswer: "Option 3"
+    description: "3. Quelle mesure peut contribuer à réduire la quantité de déchets destinés à l'enfouissement ?",
+    options: ["A. Encourager la valorisation énergétique des déchets non recyclables", "B. Promouvoir le dépôt sauvage des déchets", "C. Ignorer le tri sélectif", "D. Aucune des réponses ci-dessus"],
+    correctAnswer: "A. Encourager la valorisation énergétique des déchets non recyclables"
   },
   {
     title: "Quête 4/32",
-    description: "Description de la quatrième question de la section 3.",
-    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
-    correctAnswer: "Option 4"
+    description: "4. Pourquoi la sensibilisation du public est-elle importante dans la gestion des déchets ?",
+    options: ["A. Pour encourager le dépôt sauvage des déchets", "B. Pour promouvoir la réduction à la source et le recyclage", "C. Pour limiter l'accès aux points de collecte appropriés", "D. Aucune des réponses ci-dessus"],
+    correctAnswer: "B. Pour promouvoir la réduction à la source et le recyclage"
   }
 ];
 
 const questionsInfo9 = [
   {
     title: "Quête 1/36",
-    description: "Description de la première question de la section 3.",
-    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
-    correctAnswer: "Option 1"
+    description: "1. Qu'est-ce que la surexploitation des ressources marines ?",
+    options: ["A. La pratique de prélever des ressources marines à un rythme inférieur à leur capacité de régénération naturelle.", "B. La pratique de prélever des ressources marines à un rythme supérieur à leur capacité de régénération naturelle.", "C. La pratique de prélever des ressources marines uniquement à des fins de recherche scientifique.", "D. Aucune des réponses ci-dessus."],
+    correctAnswer: "B. La pratique de prélever des ressources marines à un rythme supérieur à leur capacité de régénération naturelle."
   },
   {
     title: "Quête 2/36",
-    description: "Description de la deuxième question de la section 3.",
-    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
-    correctAnswer: "Option 2"
+    description: "2. Quelle est l'une des principales causes de la surexploitation des ressources marines ?",
+    options: ["A. La mise en place de quotas de pêche durables.", "B. L'utilisation de techniques de pêche respectueuses de l'environnement.", "C. La surpêche due à une demande croissante de produits de la mer.", "D. La création de zones marines protégées."],
+    correctAnswer: "C. La surpêche due à une demande croissante de produits de la mer."
   },
   {
     title: "Quête 3/36",
-    description: "Description de la troisième question de la section 3.",
-    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
-    correctAnswer: "Option 3"
+    description: "3. Quelle est l'une des conséquences de la surexploitation des ressources marines ?",
+    options: ["A. La préservation de la biodiversité marine.", "B. L'augmentation des populations de poissons.", "C. La réduction des répercussions socio-économiques sur les communautés de pêcheurs.", "D. L'effondrement des stocks de poissons."],
+    correctAnswer: "D. L'effondrement des stocks de poissons."
   },
   {
     title: "Quête 4/36",
-    description: "Description de la quatrième question de la section 3.",
-    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
-    correctAnswer: "Option 4"
+    description: "4. Quelle mesure pourrait contribuer à prévenir la surexploitation des ressources marines ?",
+    options: ["A. Encourager l'utilisation de techniques de pêche destructrices.", "B. Établir des quotas de pêche durables.", "C. Réduire la surveillance et l'application des lois concernant la pêche.", "D. Ignorer les impacts de la surexploitation des ressources marines."],
+    correctAnswer: "B. Établir des quotas de pêche durables."
   }
 ];
 
 const questionsInfo10 = [
   {
     title: "Quête 1/40",
-    description: "Description de la première question de la section 3.",
-    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
-    correctAnswer: "Option 1"
+    description: "1. Qu'est-ce que la dégradation et l'épuisement des sols ?",
+    options: ["A. Le processus par lequel la qualité et la fertilité des sols augmentent progressivement.", "B. Le processus par lequel la qualité et la fertilité des sols diminuent progressivement.", "C. La pratique de restaurer les écosystèmes naturels.", "D. Aucune des réponses ci-dessus."],
+    correctAnswer: "B. Le processus par lequel la qualité et la fertilité des sols diminuent progressivement."
   },
   {
     title: "Quête 2/40",
-    description: "Description de la deuxième question de la section 3.",
-    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
-    correctAnswer: "Option 2"
+    description: "2. Quelle est l'une des principales causes de la dégradation et de l'épuisement des sols ?",
+    options: ["A. La promotion de pratiques agricoles durables.", "B. La gestion durable des terres.", "C. L'éducation et la sensibilisation.", "D. La pollution agricole et industrielle."],
+    correctAnswer: "D. La pollution agricole et industrielle."
   },
   {
     title: "Quête 3/40",
-    description: "Description de la troisième question de la section 3.",
-    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
-    correctAnswer: "Option 3"
+    description: "3. Quelle est l'une des conséquences de la dégradation et de l'épuisement des sols ?",
+    options: ["A. Augmentation de la productivité agricole.", "B. Désertification des terres fertiles.", "C. Réduction des coûts de production agricole.", "D. Amélioration de la qualité de l'eau."],
+    correctAnswer: "B. Désertification des terres fertiles."
   },
   {
     title: "Quête 4/40",
-    description: "Description de la quatrième question de la section 3.",
-    options: ["Option 1", "Option 2", "Option 3", "Option 4"],
-    correctAnswer: "Option 4"
+    description: "4. Quelle mesure pourrait contribuer à prévenir la dégradation et l'épuisement des sols ?",
+    options: ["A. Encourager l'usage intensif de pesticides.", "B. Favoriser la rotation des cultures et la couverture végétale permanente.", "C. Augmenter l'utilisation de produits chimiques toxiques.", "D. Ignorer les pratiques agricoles non durables."],
+    correctAnswer: "B. Favoriser la rotation des cultures et la couverture végétale permanente."
   }
 ];
 
@@ -1965,5 +1965,5 @@ function startQuestionnaire10() {
 }
 </script>
 <style lang="scss">
-@import "/public/css/scss_page/information";
+@import "src/assets/css/scss_page/information";
 </style>

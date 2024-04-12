@@ -1,7 +1,7 @@
 <script>
 import { RouterLink, RouterView } from "vue-router";
-import logo from '@/assets/logowhite.svg';
-import logo2 from '@/assets/logocolor.svg';
+import logo from '../public/logowhite.svg'
+import logo2 from '../public/logocolor.svg';
 import LocaleChanger from "@/components/LocaleChanger.vue";
 export default {
   name: 'App',

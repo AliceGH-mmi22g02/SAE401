@@ -1,0 +1,42 @@
+%display_flex1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+%display_flex2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+%display_flex3 {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+}
+
+%text_dark_background {
+  color: $color-white;
+}
+
+%text_light_background {
+  color: $color-black;
+}
+
+%paragraphe_style {
+  font-weight: $font-regular;
+  font-size: $font-size-medium;
+}
+
+%strong1 {
+  color: $primary-color2;
+  font-family: $font-primary;
+  font-weight: $font-bold;
+}
+
+%strong2{
+  font-weight: $font-bold;
+}

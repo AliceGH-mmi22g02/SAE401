@@ -703,4 +703,7 @@
         "10": "<img id=\"quete10\" class=\"quete10\" src=\"/src/assets/quete10.png\" alt=\"Quête 10\" data-quete=\"9\" @click=\"handleClick($event.target)\">"
       }
     }
+  },
+  "images": {
+    "1": "<img src=\"src/assets/picto/risques_climatique.svg\" alt=\"picto risques climatiques\"/>"
   }
