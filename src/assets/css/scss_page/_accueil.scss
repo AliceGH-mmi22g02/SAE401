@@ -12,7 +12,7 @@ main {
   .intro {
     @extend %display_flex1;
     .wellcome {
-      background-image: url("public/photo/globe.jpg");
+      background-image: url("../../public/photo/globe.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       width: 100%;
@@ -40,7 +40,7 @@ main {
   }
 
   .tuto {
-    @include background-image("public/section_how.png");
+    @include background-image("../../section_how.png");
     padding-top: 250px;
     padding-bottom: 150px;
       @extend %display_flex2;
@@ -83,7 +83,7 @@ main {
   }
 
   .recompense{
-    @include background-image("public/section_recompenses.png");
+    @include background-image("../../section_recompenses.png");
     padding-top: 150px;
     padding-bottom: 100px;
     margin-bottom: 80px;
