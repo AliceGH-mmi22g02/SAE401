@@ -109,7 +109,7 @@
         "h3_3": "Changement climatique",
         "p2": " - Exacerbation du réchauffement climatique",
         "p2suite": " - Destruction des arbres, qui absorbent le carbone et luttent contre l'accumulation de gaz à effet de serre.",
-        "p2sutie2": " - Libération de CO² dans l'atmosphère.",
+        "p2suite2": " - Libération de CO² dans l'atmosphère.",
         "h3_4": "Perturbation du cycle de l'eau",
         "p3": " - Dérégulation du débit des rivières.",
         "p3suite": " - Augmentation des risques d'inondation et de sécheresses.",
@@ -550,7 +550,7 @@
         "h1": "Conclusion",
         "p": "La gestion des déchets est cruciale pour la préservation de l'environnement et de la santé publique. Les causes, qui vont de la surproduction au manque d'infrastructures adéquates, ont des conséquences graves, telles que la pollution et les risques pour la biodiversité. Pour relever ce défi, il est essentiel de promouvoir la réduction à la source, le recyclage, la sensibilisation du public et la collaboration entre les parties prenantes. En agissant ensemble, nous pouvons améliorer la gestion des déchets et créer un avenir plus propre et plus durable",
         "p2": "Pour valider cette quête et tester vos connaissances, nous vous invitons à répondre au questionnaire suivant.",
-        "bouton": "Démarrer le questionnaire"
+        "button": "Démarrer le questionnaire"
       }
     },
     "info9": {
