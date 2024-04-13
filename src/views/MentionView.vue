@@ -2,6 +2,7 @@
   <h1>{{ $t("mentions.h1") }}</h1>
   <h2>{{ $t("mentions.h2") }}</h2>
   <p v-html="$t('mentions.p')"></p>
+  <p>{{ $t("mentions.green")}}@{{ $t("mentions.mail") }}.{{ $t("mentions.mail2") }}</p>
   <h2>{{ $t("mentions.h2_2") }}</h2>
   <p v-html="$t('mentions.p2')"></p>
   <h2>{{ $t("mentions.h2_3") }}</h2>

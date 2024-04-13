@@ -720,7 +720,10 @@
   "mentions": {
     "h1": "Legal Notice",
     "h2": "Publisher identification",
-    "p": "Website name: GREENPLAY<br>\n Company name: GREENPLAY<br>\n Website publisher: GREENPLAY INC. <br>Website owner and manager: TAYE Yanis, BASQUE Maëve, GAULARD Faust, GHANIMI Alice<br>Head office: 9 Rue Québec, 10430 Rosières-Près-Troyes<br>Telephone number: +33 1 23 45 67 89<br>Email address: greenplay@gmail.com<br>",
+    "p": "Website name: GREENPLAY<br>\n Company name: GREENPLAY<br>\n Website publisher: GREENPLAY INC. <br>Website owner and manager: TAYE Yanis, BASQUE Maëve, GAULARD Faust, GHANIMI Alice<br>Head office: 9 Rue Québec, 10430 Rosières-Près-Troyes<br>Telephone number: +33 1 23 45 67 89",
+    "green": "Email address : greenplay",
+    "mail": "gmail",
+    "mail2": "com",
     "h2_2": "Intellectual property",
     "p2": "All contents of this application (text, images, logos, etc.) are the property of GREENPLAY or used with the permission of the rights holders.<br> Any unauthorized reproduction or use is strictly prohibited.",
     "h2_3": "Hosting",
