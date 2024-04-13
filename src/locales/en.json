@@ -706,6 +706,16 @@
       "9": "<img id=\"quete9\" class=\"quete9\" src=\"/public/quete9en.png\" alt=\"Quest 9\" data-quete=\"8\" @click=\"handleClick($event.target)\">",
       "10": "<img id=\"quete10\" class=\"quete10\" src=\"/public/quete10en.png\" alt=\"Quest 10\" data-quete=\"9\" @click=\"handleClick($event.target)\">"
     }
+  },
+  "result": {
+    "h1": "Result",
+    "p": "Your score is: ",
+    "psuite": "/40",
+    "win": "You have won these badges:",
+    "lose": "Keep it up, you'll manage to win these badges!",
+    "code": "Congratulations! You've won this promotional code for Terra Nil! <br>Restore the ecological balance by rebuilding ecosystems in this environmental strategy game for PC.",
+    "almost": "Well done! All you need is ",
+    "almost2": "point(s) to get this promo code and a new badge. That's a Score of : "
   }
 }
 

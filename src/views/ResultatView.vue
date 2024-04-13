@@ -1,11 +1,11 @@
 <template>
   <main>
-    <h1>Résultat</h1>
-    <p>Votre score est : {{ score }}/40</p>
+    <h1>{{ $t("result.h1") }}</h1>
+    <p>{{ $t("result.p") }}{{ score }}{{ $t("result.psuite") }}</p>
 
 
     <div v-if="getBadgeCount() > 0">
-      <p>Vous avez gagné ces badges :</p>
+      <p>{{ $t("result.win") }}</p>
     </div>
     <main id="main-badges">
       <div class="badge-container">
@@ -22,14 +22,11 @@
     </div>
 
     <div v-else>
-      <p>Courage, vous allez y arriver à remporter les badges !</p>
+      <p>{{ $t("result.lose") }}</p>
     </div>
 
     <div v-if="score >= 4">
-      <p>
-        “Félicitations ! Vous avez gagné ces code promo pour le jeu Terra Nil !<br>
-        Rétablissez l'équilibre écologique en reconstruisant des écosystèmes dans ce jeu de stratégie environnementale sur PC.”
-      </p>
+      <p v-html="$t('result.code')"></p>
     </div>
 
     <div v-for="(promo, index) in promos" :key="index">
@@ -37,7 +34,7 @@
         <p v-if="promo.code">{{ promo.code }}</p>
       </div>
       <div v-else-if="index === getNextPromoIndex()">
-        <p>Bien joué ! Il vous manque seulement  {{ promo.requiredScore - score }} point(s) pour obtenir ce code promo ainsi qu'un nouveau badge. Soit un Score de : {{ promo.requiredScore }}</p>
+        <p>{{ $t("result.almost") }}{{ promo.requiredScore - score }} {{ $t("result.almost2") }} {{ promo.requiredScore }}</p>
       </div>
     </div>
 

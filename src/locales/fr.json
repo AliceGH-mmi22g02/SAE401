@@ -702,5 +702,15 @@
         "9": "<img id=\"quete9\" class=\"quete9\" src=\"/public/quete9.png\" alt=\"Quête 9\" data-quete=\"8\" @click=\"handleClick($event.target)\">",
         "10": "<img id=\"quete10\" class=\"quete10\" src=\"/public/quete10.png\" alt=\"Quête 10\" data-quete=\"9\" @click=\"handleClick($event.target)\">"
       }
-    }
+    },
+  "result": {
+    "h1": "Résultat",
+    "p": "Votre score est : ",
+    "psuite": "/40",
+    "win": "Vous avez remporté ces badges :",
+    "lose": "Courage, vous arriverez à remporter ces badges !",
+    "code": " “Félicitations ! Vous avez gagné ces code promo pour le jeu Terra Nil !<br>\n        Rétablissez l'équilibre écologique en reconstruisant des écosystèmes dans ce jeu de stratégie environnementale sur PC.”",
+    "almost": "Bien joué ! Il vous manque seulement  ",
+    "almost2": "point(s) pour obtenir ce code promo ainsi qu'un nouveau badge. Soit un Score de : "
   }
+}
