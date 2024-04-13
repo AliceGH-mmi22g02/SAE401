@@ -712,5 +712,18 @@
     "code": " “Félicitations ! Vous avez gagné ces code promo pour le jeu Terra Nil !<br>\n        Rétablissez l'équilibre écologique en reconstruisant des écosystèmes dans ce jeu de stratégie environnementale sur PC.”",
     "almost": "Bien joué ! Il vous manque seulement  ",
     "almost2": "point(s) pour obtenir ce code promo ainsi qu'un nouveau badge. Soit un Score de : "
+  },
+  "mentions": {
+    "h1": "Mentions Légales",
+    "h2": "Identification de l'éditeur",
+    "p": "Nom du site web : GREENPLAY<br>\n    Nom de l'entreprise : GREENPLAY<br>\n    Editeur du site web : GREENPLAY INC.<br>\n    Propriétaire et responsable du site : TAYE Yanis, BASQUE Maëve, GAULARD Faust, GHANIMI Alice<br>\n    Siège social : 9 Rue Québec, 10430 Rosières-Près-Troyes<br>\n    Numéro de téléphone : +33 1 23 45 67 89<br>\n    Adresse email : greenplay@gmail.com<br>",
+    "h2_2": "Propriété intellectuelle",
+    "p2": "    Tous les contenus de cette application (textes, images, logos, etc.) sont la propriété de GREENPLAY ou utilisés avec l'autorisation des détenteurs des droits.<br>\n    Toute reproduction ou utilisation non autorisée est strictement interdite.",
+    "h2_3": "Hébergement",
+    "p3": "    Société d'hébergement : PulseHeberg<br>\n    Siège social : 9 Boulevard de Strasbourg 83000 Toulon<br>\n    Site web : www.pulseheberg.com<br>",
+    "h2_4": "Accès au site web",
+    "p4": "    L'accès au site web est gratuit et ouvert à tout utilisateur du réseau Internet. L'utilisateur est responsable de son équipement informatique et de son accès à Internet.<br>\n    L'éditeur s'efforce de maintenir le site web accessible 24 heures sur 24, 7 jours sur 7. En cas d'interruption d'accès, l'éditeur s'engage à mettre tout en œuvre pour rétablir l'accès dans les meilleurs délais.<br>\n    L'utilisateur est informé que l'accès au site web peut être suspendu ou interrompu à tout moment, notamment en cas de maintenance, de panne ou de force majeure.<br>",
+    "h2_5": "Loi Applicable",
+    "p5": "Ces mentions légales sont régies par la loi en vigueur en France, et tout litige relatif à ce site sera soumis à la juridiction exclusive des tribunaux compétents en France."
   }
 }
