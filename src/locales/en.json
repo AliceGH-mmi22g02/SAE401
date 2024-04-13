@@ -686,13 +686,13 @@
   },
   "images": {
     "accueil": {
-      "8": "<img src=\"src/assets/picto/risques_climatiqueen.svg\" alt=\"picto risques climatiques\"/>",
-      "9": "<img src=\"src/assets/picto/consommation_des_ressourcesen.svg\" alt=\"picto consommation des ressources\"/>",
-      "10": "<img src=\"src/assets/picto/deforestationen.svg\" alt=\"picto déforestation\"/>",
-      "11": "<img src=\"src/assets/picto/especes_en_voie_de_disparitionen.svg\" alt=\"picto espèce en voie de disparition\"/>",
-      "12": "<img src=\"src/assets/picto/atteinte_a_la_biodiversiteen.svg\" alt=\"picto atteinte à la biodiversité\"/>",
-      "13": "<img src=\"src/assets/picto/rechauffement_climatiqueen.svg\" alt=\"picto réchauffement climatique\"/>",
-      "14": "<img src=\"src/assets/picto/pollutionen.svg\" alt=\"picto pollution\"/>"
+      "1": "<img src=\"../../public/picto/risques_climatique_en.svg\" alt=\"picto risques climatiques\"/>",
+      "2": "<img src=\"../../public/picto/consommation_des_ressources_en.svg\" alt=\"picto consommation des ressources\"/>",
+      "3": "<img src=\"../../public/picto/deforestation_en.svg\" alt=\"picto déforestation\"/>",
+      "4": "<img src=\"../../public/picto/especes_en_voie_de_disparition_en.svg\" alt=\"picto espèce en voie de disparition\"/>",
+      "5": "<img src=\"../../public/picto/atteinte_a_la_biodiversite_en.svg\" alt=\"picto atteinte à la biodiversité\"/>",
+      "6": "<img src=\"../../public/picto/rechauffement_climatique_en.svg\" alt=\"picto réchauffement climatique\"/>",
+      "7": "<img src=\"../../public/picto/pollution_en.svg\" alt=\"picto pollution\"/>"
     },
     "quetes": {
       "1": "<img id=\"quete1\" class=\"quete1\" src=\"/public/quete1en.png\" alt=\"Quest 1\" data-quete=\"0\" @click=\"handleClick($event.target)\">",

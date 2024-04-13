@@ -63,17 +63,17 @@
       <h2>{{ $t("main.subject") }}</h2>
       <div class="questsubject-container">
         <div class="questsubject-column">
-          <img src="../../public/picto/risques_climatique.svg" alt="picto risques climatiques"/>
-          <img src="../../public/picto/consommation_des_ressources.svg" alt="picto consommation des ressources"/>
+          <a v-html="$t('images.accueil.1')"></a>
+          <a v-html="$t('images.accueil.2')"></a>
         </div>
         <div class="questsubject-column">
-          <img src="../../public/picto/deforestation.svg" alt="picto déforestation"/>
-          <img src="../../public/picto/especes_en_voie_de_disparition.svg" alt="picto espèce en voie de disparition"/>
-          <img src="../../public/picto/atteinte_a_la_biodiversite.svg" alt="picto atteinte à la biodiversité"/>
+          <a v-html="$t('images.accueil.3')"></a>
+          <a v-html="$t('images.accueil.4')"></a>
+          <a v-html="$t('images.accueil.5')"></a>
         </div>
         <div class="questsubject-column">
-          <img src="../../public/picto/rechauffement_climatique.svg" alt="picto réchauffement climatique"/>
-          <img src="../../public/picto/pollution.svg" alt="picto pollution"/>
+          <a v-html="$t('images.accueil.6')"></a>
+          <a v-html="$t('images.accueil.7')"></a>
         </div>
       </div>
     </div>
