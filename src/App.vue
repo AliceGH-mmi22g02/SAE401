@@ -22,14 +22,12 @@ export default {
 
 <template>
   <header>
-    <div class="main_menue">
       <img :src="logo" alt="Logo">
-      <LocaleChanger/>
-    </div>
     <nav class="sub_menue">
       <RouterLink to="/">Accueil</RouterLink>
       <RouterLink to="/TableauQuete">Quêtes</RouterLink>
     </nav>
+    <LocaleChanger/>
   </header>
 
   <RouterView/>

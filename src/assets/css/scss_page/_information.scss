@@ -1,110 +1,115 @@
 @import "../main";
 
-.titreinfo {
+main {
   text-align: center;
-}
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 
-.partieinfo {
-  margin-top: 5%;
-  text-align: center;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  text-align: center;
-  margin-top: 5%;
-  margin-left: 8%;
-
-  .grid-forme {
-    background-color: $primary-color2;
-    padding: 20px;
-    width: 60%;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 15px;
-
-    h3 {
-      font-size: 16px;
+  section {
+    margin-top:150px;
+    .intro {
+      max-width: 1000px;
+      text-align: center;
+      margin: 0 auto;
+      padding: 20px;
     }
 
-    p {
-      font-size: 10px;
-    }
-  }
-
-  .grid-forme-fond {
-    background-color: #B1B1B1;
-    width: 195px;
-    height: 100px;
-    border-radius: 15px;
-  }
-}
-
-.grid2 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  text-align: center;
-  margin-top: 5%;
-  margin-left: 20%;
-
-
-  .grid2-forme {
-    background-color: #D9D9D9;
-    padding: 20px;
-    width: 46%;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 15px;
-
-    h3 {
-      font-size: 17px;
+    .titreinfo {
+      text-align: center;
+      margin: 20px;
     }
 
-    p {
-      font-size: 10px;
-    }
-  }
-
-  .grid2-forme-fond {
-    background-color: #B1B1B1;
-    width: 195px;
-    height: 100px;
-    border-radius: 15px;
-  }
-}
-
-
-.grid3 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  text-align: center;
-  margin-top: 5%;
-  margin-left: 8%;
-
-  .grid3-forme {
-    background-color: #D9D9D9;
-    padding: 20px;
-    width: 60%;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 15px;
-
-    h3 {
-      font-size: 16px;
+    .partieinfo {
+      margin-top: 5%;
+      text-align: center;
     }
 
-    p {
-      font-size: 10px;
+    .grid {
+      @extend %info_box_displayflex;
+      .grid-forme {
+        background-color: $primary-color2;
+        @extend %info_box;
+      }
+    }
+
+    .grid2 {
+      @extend %info_box_displayflex;
+      .grid2-forme {
+        background-color: #D9D9D9;
+        @extend %info_box;
+        @extend %display_flex2;
+        border-radius: 15px;
+      }
+    }
+
+
+    .grid3 {
+      @extend %info_box_displayflex;
+      .grid3-forme {
+        background-color: #D9D9D9;
+        @extend %info_box;
+      }
+    }
+
+    .banniere_quete1 {
+      background-image: url("../../public/photo/deforestation.jpg");
+      @extend %banniere;
+    }
+    .banniere_quete2 {
+      background-image: url("../../public/photo/rechauffement_climatique.jpg");
+      @extend %banniere;
+    }
+    .banniere_quete3 {
+      background-image: url("../../public/photo/riques_climatique.jpg");
+      @extend %banniere;
+    }
+    .banniere_quete4 {
+      background-image: url("../../public/photo/especes_disparition.jpg");
+      @extend %banniere;
+    }
+    .banniere_quete5 {
+      background-image: url("../../public/photo/epuisment_des_sols.jpg");
+      @extend %banniere;
+    }
+
+    .banniere_quete6 {
+      background-image: url("../../public/photo/epuisment_des_sols.jpg");
+      @extend %banniere;
+    }
+    .banniere_quete6 {
+      background-image: url("../../public/photo/polution.jpg");
+      @extend %banniere;
+    }
+    .banniere_quete7 {
+      background-image: url("../../public/photo/atteinte_biodiversité.jpg");
+      @extend %banniere;
+    }
+    .banniere_quete8 {
+      background-image: url("../../public/photo/gestion_des_dechets.jpg");
+      @extend %banniere;
+    }
+
+    .banniere_quete9 {
+      background-image: url("../../public/photo/surexploitation_des_ressources_marines.jpg");
+      @extend %banniere;
+    }
+
+    .banniere_quete10 {
+      background-image: url("../../public/photo/degradation_des_sols.jpg");
+      @extend %banniere;
+    }
+    button {
+      background-color: $secondary-color2;
+      padding: 15px;
+      font-family: $font-primary;
+      font-size: $border-radius-large;
+      border-radius: 30px;
+      border: 0;
+      font-weight: bold;
+      &:hover {
+        background-color: $primary-color2;
+      }
     }
   }
 }

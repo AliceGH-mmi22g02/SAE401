@@ -1,50 +1,42 @@
 <template>
-  <div>
+  <main>
     <section id="info1">
+      <div class="banniere_quete1">
       <div class="titreinfo">
         <h1>{{ $t("info.titre.h1") }}</h1>
       </div>
-      <p>{{ $t("info.titre.p1") }}</p>
+      <div class="intro">
+        <p>{{ $t("info.titre.p1") }}</p>
+      </div>
+      </div>
       <div class="partieinfo">
         <h1>{{ $t("info.partie1.h2") }}</h1>
       </div>
       <div class="grid">
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info.partie1.h3_1") }}</h3>
           <p>{{ $t("info.partie1.p2") }}</p>
           <p>{{ $t("info.partie1.p2suite") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info.partie1.h3_2") }}</h3>
           <p>{{ $t("info.partie1.p3") }}</p>
           <p>{{ $t("info.partie1.p3suite") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info.partie1.h3_3") }}</h3>
           <p>{{ $t("info.partie1.p4") }}</p>
           <p>{{ $t("info.partie1.p4suite") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info.partie1.h3_4") }}</h3>
           <p>{{ $t("info.partie1.p5") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info.partie1.h3_5") }}</h3>
           <p>{{ $t("info.partie1.p6") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info.partie1.h3_6") }}</h3>
           <p>{{ $t("info.partie1.p7") }}</p>
           <p>{{ $t("info.partie1.p7suite") }}</p>
@@ -52,15 +44,11 @@
       </div>
       <div class="grid2">
         <div class="grid2-forme">
-          <div class="grid2-forme-fond">
-          </div>
           <h3>{{ $t("info.partie1.h3_7") }}</h3>
           <p>{{ $t("info.partie1.p8") }}</p>
           <p>{{ $t("info.partie1.p8suite") }}</p>
         </div>
         <div class="grid2-forme">
-          <div class="grid2-forme-fond">
-          </div>
           <h3>{{ $t("info.partie1.h3_8") }}</h3>
           <p>{{ $t("info.partie1.p9") }}</p>
         </div>
@@ -71,8 +59,6 @@
       </div>
       <div class="grid">
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info.partie2.h3_2") }}</h3>
           <p>{{ $t("info.partie2.p1") }}</p>
           <p>{{ $t("info.partie2.p1suite") }}</p>
@@ -80,16 +66,12 @@
           <p>{{ $t("info.partie2.p1suite3") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info.partie2.h3_3") }}</h3>
           <p>{{ $t("info.partie2.p2") }}</p>
           <p>{{ $t("info.partie2.p2suite") }}</p>
           <p>{{ $t("info.partie2.p2suite2") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info.partie2.h3_4") }}</h3>
           <p>{{ $t("info.partie2.p3") }}</p>
           <p>{{ $t("info.partie2.p3suite") }}</p>
@@ -103,15 +85,11 @@
       </div>
       <div class="grid2">
         <div class="grid2-forme">
-          <div class="grid2-forme-fond">
-          </div>
           <h3>{{ $t("info.partie3.h3_2") }}</h3>
           <p>{{ $t("info.partie3.p1") }}</p>
           <p>{{ $t("info.partie3.p1suite") }}</p>
         </div>
         <div class="grid2-forme">
-          <div class="grid2-forme-fond">
-          </div>
           <h3>{{ $t("info.partie3.h3_3") }}</h3>
           <p>{{ $t("info.partie3.p2") }}</p>
           <p>{{ $t("info.partie3.p2suite") }}</p>
@@ -120,7 +98,9 @@
       </div>
       <div class="partieinfo">
         <h1>{{ $t("info.partie4.h2") }}</h1>
-        <p>{{ $t("info.partie4.p1") }}</p>
+      </div>
+      <div class="intro">
+      <p>{{ $t("info.partie4.p1") }}</p>
       </div>
       <div class="grid3">
         <div class="grid3-forme">
@@ -162,6 +142,8 @@
       </div>
       <div class="partieinfo">
         <h1>{{ $t("info.partie5.h2") }}</h1>
+      </div>
+      <div class="intro">
         <p>{{ $t("info.partie5.p") }}</p>
         <p>{{ $t("info.partie5.p2") }}</p>
       </div>
@@ -179,35 +161,31 @@
       </div>
     </section>
     <section id="info2">
+      <div class="banniere_quete2">
       <div class="titreinfo">
         <h1>{{ $t("info2.titre.h1") }}</h1>
       </div>
+      <div class="intro">
       <p>{{ $t("info2.titre.p") }}</p>
+      </div>
+      </div>
       <div class="partieinfo">
         <h1>{{ $t("info2.partie1.h1") }}</h1>
       </div>
       <div class="grid">
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info2.partie1.h3") }}</h3>
           <p>{{ $t("info2.partie1.p") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info2.partie1.h3_2") }}</h3>
           <p>{{ $t("info2.partie1.p2") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info2.partie1.h3_3") }}</h3>
           <p>{{ $t("info2.partie1.p3") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info2.partie1.h3_4") }}</h3>
           <p>{{ $t("info2.partie1.p4") }}</p>
         </div>
@@ -217,32 +195,26 @@
       </div>
       <div class="grid">
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info2.partie2.h3") }}</h3>
           <p>{{ $t("info2.partie2.p") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info2.partie2.h3_2") }}</h3>
           <p>{{ $t("info2.partie2.p2") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info2.partie2.h3_3") }}</h3>
           <p>{{ $t("info2.partie2.p3") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info2.partie2.h3_4") }}</h3>
           <p>{{ $t("info2.partie2.p4") }}</p>
         </div>
       </div>
       <div class="partieinfo">
         <h1>{{ $t("info2.partie3.h1") }}</h1>
+      </div>
+      <div class="intro">
         <p>{{ $t("info2.partie3.p") }}</p>
       </div>
       <div class="grid3">
@@ -267,6 +239,8 @@
       </div>
       <div class="partieinfo">
         <h1>{{ $t("info2.partie4.h1") }}</h1>
+      </div>
+      <div class="intro">
         <p>{{ $t("info2.partie4.p") }}</p>
         <br>
         <p>{{ $t("info2.partie4.p2") }}</p>
@@ -286,35 +260,31 @@
     </section>
 
     <section id="info3">
+      <div class="banniere_quete3">
       <div class="titreinfo">
         <h1>{{ $t("info3.titre.h1") }}</h1>
       </div>
+      <div class="intro">
       <p>{{ $t("info3.titre.p") }}</p>
+      </div>
+      </div>
       <div class="partieinfo">
         <h1>{{ $t("info3.partie1.h1") }}</h1>
       </div>
       <div class="grid">
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info3.partie1.h3") }}</h3>
           <p>{{ $t("info3.partie1.p") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info3.partie1.h3_2") }}</h3>
           <p>{{ $t("info3.partie1.p2") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info3.partie1.h3_3") }}</h3>
           <p>{{ $t("info3.partie1.p3") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info3.partie1.h3_4") }}</h3>
           <p>{{ $t("info3.partie1.p4") }}</p>
         </div>
@@ -324,32 +294,26 @@
       </div>
       <div class="grid">
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info3.partie2.h3") }}</h3>
           <p>{{ $t("info3.partie2.p") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info3.partie2.h3_2") }}</h3>
           <p>{{ $t("info3.partie2.p2") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info3.partie2.h3_3") }}</h3>
           <p>{{ $t("info3.partie2.p3") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info3.partie2.h3_4") }}</h3>
           <p>{{ $t("info3.partie2.p4") }}</p>
         </div>
       </div>
       <div class="partieinfo">
         <h1>{{ $t("info3.partie3.h1") }}</h1>
+      </div>
+      <div class="intro">
         <p>{{ $t("info3.partie3.p") }}</p>
       </div>
       <div class="grid3">
@@ -376,6 +340,8 @@
       </div>
       <div class="partieinfo">
         <h1>{{ $t("info3.partie4.h1") }}</h1>
+      </div>
+      <div class="intro">
         <p>{{ $t("info3.partie4.p") }}</p>
         <br>
         <p>{{ $t("info3.partie4.p2") }}</p>
@@ -395,41 +361,35 @@
     </section>
 
     <section id="info4">
+      <div class="banniere_quete4">
       <div class="titreinfo">
         <h1>{{ $t("info4.titre.h1") }}</h1>
       </div>
-      <p>{{ $t("info4.titre.p") }}</p>
+      <div class="intro">
+        <p>{{ $t("info4.titre.p") }}</p>
+      </div>
+      </div>
       <div class="partieinfo">
         <h1>{{ $t("info4.partie1.h1") }}</h1>
       </div>
       <div class="grid">
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info4.partie1.h3") }}</h3>
           <p>{{ $t("info4.partie1.p") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info4.partie1.h3_2") }}</h3>
           <p>{{ $t("info4.partie1.p2") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info4.partie1.h3_3") }}</h3>
           <p>{{ $t("info4.partie1.p3") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info4.partie1.h3_4") }}</h3>
           <p>{{ $t("info4.partie1.p4") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info4.partie1.h3_5") }}</h3>
           <p>{{ $t("info4.partie1.p5") }}</p>
         </div>
@@ -439,32 +399,26 @@
       </div>
       <div class="grid">
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info4.partie2.h3") }}</h3>
           <p>{{ $t("info4.partie2.p") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info4.partie2.h3_2") }}</h3>
           <p>{{ $t("info4.partie2.p2") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info4.partie2.h3_3") }}</h3>
           <p>{{ $t("info4.partie2.p3") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info4.partie2.h3_4") }}</h3>
           <p>{{ $t("info4.partie2.p4") }}</p>
         </div>
       </div>
       <div class="partieinfo">
         <h1>{{ $t("info4.partie3.h1") }}</h1>
+      </div>
+      <div class="intro">
         <p>{{ $t("info4.partie3.p") }}</p>
       </div>
       <div class="grid3">
@@ -495,6 +449,8 @@
       </div>
       <div class="partieinfo">
         <h1>{{ $t("info4.partie4.h1") }}</h1>
+      </div>
+      <div class="intro">
         <p>{{ $t("info4.partie4.p") }}</p>
         <br>
         <p>{{ $t("info4.partie4.p2") }}</p>
@@ -514,37 +470,33 @@
     </section>
 
     <section id="info5">
+      <div class="banniere_quete5">
       <div class="titreinfo">
         <h1>{{ $t("info5.titre.h1") }}</h1>
       </div>
+      <div class="intro">
       <p>{{ $t("info5.titre.p") }}</p>
+      </div>
+      </div>
       <div class="partieinfo">
         <h1>{{ $t("info5.partie1.h1") }}</h1>
       </div>
       <div class="grid">
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info5.partie1.h3") }}</h3>
           <p>{{ $t("info5.partie1.p") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info5.partie1.h3_2") }}</h3>
           <p>{{ $t("info5.partie1.p2") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info5.partie1.h3_3") }}</h3>
           <p>{{ $t("info5.partie1.p3") }}</p>
         </div>
       </div>
       <div class="grid">
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info5.partie1.h3_4") }}</h3>
           <p>{{ $t("info5.partie1.p4") }}</p>
         </div>
@@ -554,32 +506,26 @@
       </div>
       <div class="grid">
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info5.partie2.h3") }}</h3>
           <p>{{ $t("info5.partie2.p") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info5.partie2.h3_2") }}</h3>
           <p>{{ $t("info5.partie2.p2") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info5.partie2.h3_3") }}</h3>
           <p>{{ $t("info5.partie2.p3") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info5.partie2.h3_4") }}</h3>
           <p>{{ $t("info5.partie2.p4") }}</p>
         </div>
       </div>
       <div class="partieinfo">
         <h1>{{ $t("info5.partie3.h1") }}</h1>
+      </div>
+      <div class="intro">
         <p>{{ $t("info5.partie3.p") }}</p>
       </div>
       <div class="grid3">
@@ -614,6 +560,8 @@
       </div>
       <div class="partieinfo">
         <h1>{{ $t("info5.partie4.h1") }}</h1>
+      </div>
+      <div class="intro">
         <p>{{ $t("info5.partie4.p") }}</p>
         <br>
         <p>{{ $t("info5.partie4.p2") }}</p>
@@ -633,37 +581,36 @@
     </section>
 
     <section id="info6">
+      <div class="banniere_quete6">
       <div class="titreinfo">
         <h1>{{ $t("info6.titre.h1") }}</h1>
       </div>
+      <div class="intro">
       <p>{{ $t("info6.titre.p") }}</p>
+      </div>
+      </div>
       <div class="partieinfo">
         <h1>{{ $t("info6.partie1.h1") }}</h1>
       </div>
       <div class="grid">
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info6.partie1.h3") }}</h3>
           <p>{{ $t("info6.partie1.p") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info6.partie1.h3_2") }}</h3>
           <p>{{ $t("info6.partie1.p2") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info6.partie1.h3_3") }}</h3>
           <p>{{ $t("info6.partie1.p3") }}</p>
         </div>
       </div>
       <div class="grid">
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info6.partie1.h3_4") }}</h3>
           <p>{{ $t("info6.partie1.p4") }}</p>
         </div>
@@ -673,44 +620,39 @@
       </div>
       <div class="grid">
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info6.partie2.h3") }}</h3>
           <p>{{ $t("info6.partie2.p") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info6.partie2.h3_2") }}</h3>
           <p>{{ $t("info6.partie2.p2") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info6.partie2.h3_3") }}</h3>
           <p>{{ $t("info6.partie2.p3") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info6.partie2.h3_4") }}</h3>
           <p>{{ $t("info6.partie2.p4") }}</p>
         </div>
       </div>
       <div class="grid-forme">
-        <div class="grid-forme-fond">
-        </div>
+
         <h3>{{ $t("info6.partie2.h3_5") }}</h3>
         <p>{{ $t("info6.partie2.p5") }}</p>
       </div>
       <div class="grid-forme">
-        <div class="grid-forme-fond">
-        </div>
+
         <h3>{{ $t("info6.partie2.h3_6") }}</h3>
         <p>{{ $t("info6.partie2.p6") }}</p>
       </div>
       <div class="partieinfo">
         <h1>{{ $t("info6.partie3.h1") }}</h1>
+      </div>
+      <div class="intro">
         <p>{{ $t("info6.partie3.p") }}</p>
       </div>
       <div class="grid3">
@@ -747,6 +689,8 @@
       </div>
       <div class="partieinfo">
         <h1>{{ $t("info6.partie4.h1") }}</h1>
+      </div>
+      <div class="intro">
         <p>{{ $t("info6.partie4.p") }}</p>
         <br>
         <p>{{ $t("info6.partie4.p2") }}</p>
@@ -766,51 +710,48 @@
     </section>
 
     <section id="info7">
+      <div class="banniere_quete7">
       <div class="titreinfo">
         <h1>{{ $t("info7.titre.h1") }}</h1>
       </div>
-      <p>{{ $t("info7.titre.p") }}</p>
+      <div class="intro">
+        <p>{{ $t("info7.titre.p") }}</p>
+      </div>
+      </div>
       <div class="partieinfo">
         <h1>{{ $t("info7.partie1.h1") }}</h1>
       </div>
       <div class="grid">
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info7.partie1.h3") }}</h3>
           <p>{{ $t("info7.partie1.p") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info7.partie1.h3_2") }}</h3>
           <p>{{ $t("info7.partie1.p2") }}</p>
           <p>{{ $t("info7.partie1.p2suite") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info7.partie1.h3_3") }}</h3>
           <p>{{ $t("info7.partie1.p3") }}</p>
           <p>{{ $t("info7.partie1.p3suite") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info7.partie1.h3_4") }}</h3>
           <p>{{ $t("info7.partie1.p4") }}</p>
           <p>{{ $t("info7.partie1.p4suite") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info7.partie1.h3_5") }}</h3>
           <p>{{ $t("info7.partie1.p5") }}</p>
           <p>{{ $t("info7.partie1.p5suite") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info7.partie1.h3_6") }}</h3>
           <p>{{ $t("info7.partie1.p6") }}</p>
           <p>{{ $t("info7.partie1.p6suite") }}</p>
@@ -821,38 +762,35 @@
       </div>
       <div class="grid">
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info7.partie2.h3") }}</h3>
           <p>{{ $t("info7.partie2.p") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info7.partie2.h3_2") }}</h3>
           <p>{{ $t("info7.partie2.p2") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info7.partie2.h3_3") }}</h3>
           <p>{{ $t("info7.partie2.p3") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info7.partie2.h3_4") }}</h3>
           <p>{{ $t("info7.partie2.p4") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info7.partie2.h3_5") }}</h3>
           <p>{{ $t("info7.partie2.p5") }}</p>
         </div>
       </div>
       <div class="partieinfo">
         <h1>{{ $t("info7.partie3.h1") }}</h1>
+      </div>
+      <div class="">
         <p>{{ $t("info7.partie3.p") }}</p>
       </div>
       <div class="grid3">
@@ -884,6 +822,8 @@
       </div>
       <div class="partieinfo">
         <h1>{{ $t("info7.partie4.h1") }}</h1>
+      </div>
+      <div class="intro">
         <p>{{ $t("info7.partie4.p") }}</p>
         <br>
         <p>{{ $t("info7.partie4.p2") }}</p>
@@ -903,39 +843,39 @@
     </section>
 
     <section id="info8">
+      <div class="banniere_quete8">
       <div class="titreinfo">
         <h1>{{ $t("info8.titre.h1") }}</h1>
       </div>
-      <p>{{ $t("info8.titre.p") }}</p>
+      <div class="intro">
+        <p>{{ $t("info8.titre.p") }}</p>
+      </div>
+      </div>
       <div class="partieinfo">
         <h1>{{ $t("info8.partie1.h1") }}</h1>
       </div>
       <div class="grid">
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info8.partie1.h3") }}</h3>
           <p>{{ $t("info8.partie1.p") }}</p>
           <p>{{ $t("info8.partie1.psuite") }}</p>
           <p>{{ $t("info8.partie1.psuite2") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info8.partie1.h3_2") }}</h3>
           <p>{{ $t("info8.partie1.p2") }}</p>
           <p>{{ $t("info8.partie1.p2suite") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info8.partie1.h3_3") }}</h3>
           <p>{{ $t("info8.partie1.p3") }}</p>
           <p>{{ $t("info8.partie1.p3suite") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info8.partie1.h3_4") }}</h3>
           <p>{{ $t("info8.partie1.p4") }}</p>
           <p>{{ $t("info8.partie1.p4suite") }}</p>
@@ -946,35 +886,30 @@
       </div>
       <div class="grid">
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info8.partie2.h3") }}</h3>
           <p>{{ $t("info8.partie2.p") }}</p>
           <p>{{ $t("info8.partie2.psuite") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info8.partie2.h3_2") }}</h3>
           <p>{{ $t("info8.partie2.p2") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info8.partie2.h3_3") }}</h3>
           <p>{{ $t("info8.partie2.p3") }}</p>
           <p>{{ $t("info8.partie2.p3suite") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info8.partie2.h3_4") }}</h3>
           <p>{{ $t("info8.partie2.p4") }}</p>
           <p>{{ $t("info8.partie2.p4suite") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info8.partie2.h3_5") }}</h3>
           <p>{{ $t("info8.partie2.p5") }}</p>
           <p>{{ $t("info8.partie2.p5suite") }}</p>
@@ -982,6 +917,8 @@
       </div>
       <div class="partieinfo">
         <h1>{{ $t("info8.partie3.h1") }}</h1>
+      </div>
+      <div class="intro">
         <p>{{ $t("info8.partie3.p") }}</p>
       </div>
       <div class="grid3">
@@ -1022,6 +959,8 @@
       </div>
       <div class="partieinfo">
         <h1>{{ $t("info8.partie4.h1") }}</h1>
+      </div>
+      <div class="intro">
         <p>{{ $t("info8.partie4.p") }}</p>
         <br>
         <p>{{ $t("info8.partie4.p2") }}</p>
@@ -1041,70 +980,66 @@
     </section>
 
     <section id="info9">
+      <div class="banniere_quete9">
       <div class="titreinfo">
         <h1>{{ $t("info9.titre.h1") }}</h1>
       </div>
-      <p>{{ $t("info9.titre.p") }}</p>
+      <div class="intro">
+        <p>{{ $t("info9.titre.p") }}</p>
+      </div>
+      </div>
       <div class="partieinfo">
         <h1>{{ $t("info9.partie1.h1") }}</h1>
       </div>
       <div class="grid">
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info9.partie1.h3") }}</h3>
           <p>{{ $t("info9.partie1.p") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info9.partie1.h3_2") }}</h3>
           <p>{{ $t("info9.partie1.p2") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info9.partie1.h3_3") }}</h3>
           <p>{{ $t("info9.partie1.p3") }}</p>
         </div>
-      </div>s
+      </div>
       <div class="partieinfo">
         <h1>{{ $t("info9.partie2.h1") }}</h1>
       </div>
       <div class="grid">
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info9.partie2.h3") }}</h3>
           <p>{{ $t("info9.partie2.p") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info9.partie2.h3_2") }}</h3>
           <p>{{ $t("info9.partie2.p2") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info9.partie2.h3_3") }}</h3>
           <p>{{ $t("info9.partie2.p3") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info9.partie2.h3_4") }}</h3>
           <p>{{ $t("info9.partie2.p4") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
           <h3>{{ $t("info9.partie2.h3_5") }}</h3>
           <p>{{ $t("info9.partie2.p5") }}</p>
         </div>
       </div>
       <div class="partieinfo">
         <h1>{{ $t("info9.partie3.h1") }}</h1>
+      </div>
+      <div class="intro">
         <p>{{ $t("info9.partie3.p") }}</p>
       </div>
       <div class="grid3">
@@ -1139,6 +1074,8 @@
       </div>
       <div class="partieinfo">
         <h1>{{ $t("info9.partie4.h1") }}</h1>
+      </div>
+      <div class="intro">
         <p>{{ $t("info9.partie4.p") }}</p>
         <p>{{ $t("info9.partie4.p2") }}</p>
       </div>
@@ -1157,41 +1094,40 @@
     </section>
 
     <section id="info10">
+      <div class="banniere_quete10">
       <div class="titreinfo">
         <h1>{{ $t("info10.titre.h1") }}</h1>
       </div>
-      <p>{{ $t("info10.titre.p") }}</p>
+      <div class="intro">
+        <p>{{ $t("info10.titre.p") }}</p>
+      </div>
+      </div>
       <div class="partieinfo">
         <h1>{{ $t("info10.partie1.h1") }}</h1>
       </div>
       <div class="grid">
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info10.partie1.h3") }}</h3>
           <p>{{ $t("info10.partie1.p") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info10.partie1.h3_2") }}</h3>
           <p>{{ $t("info10.partie1.p2") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info10.partie1.h3_3") }}</h3>
           <p>{{ $t("info10.partie1.p3") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info10.partie1.h3_4") }}</h3>
           <p>{{ $t("info10.partie1.p4") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info10.partie1.h3_5") }}</h3>
           <p>{{ $t("info10.partie1.p5") }}</p>
         </div>
@@ -1201,44 +1137,40 @@
       </div>
       <div class="grid">
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info10.partie2.h3") }}</h3>
           <p>{{ $t("info10.partie2.p") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info10.partie2.h3_2") }}</h3>
           <p>{{ $t("info10.partie2.p2") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info10.partie2.h3_3") }}</h3>
           <p>{{ $t("info10.partie2.p3") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info10.partie2.h3_4") }}</h3>
           <p>{{ $t("info10.partie2.p4") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info10.partie2.h3_5") }}</h3>
           <p>{{ $t("info10.partie2.p5") }}</p>
         </div>
         <div class="grid-forme">
-          <div class="grid-forme-fond">
-          </div>
+
           <h3>{{ $t("info10.partie2.h3_6") }}</h3>
           <p>{{ $t("info10.partie2.p6") }}</p>
         </div>
       </div>
       <div class="partieinfo">
         <h1>{{ $t("info10.partie3.h1") }}</h1>
+      </div>
+      <div class="intro">
         <p>{{ $t("info10.partie3.p") }}</p>
       </div>
       <div class="grid3">
@@ -1290,6 +1222,8 @@
       </div>
       <div class="partieinfo">
         <h1>{{ $t("info10.partie4.h1") }}</h1>
+      </div>
+      <div class="intro">
         <p>{{ $t("info10.partie4.p") }}</p>
         <br>
         <p>{{ $t("info10.partie4.p2") }}</p>
@@ -1309,7 +1243,7 @@
     </section>
 
     <RouterLink v-if="questionnaireCompleted(1) && questionnaireCompleted(2) && questionnaireCompleted(3) && questionnaireCompleted(4) && questionnaireCompleted(5) && questionnaireCompleted(6) && questionnaireCompleted(7) && questionnaireCompleted(8) && questionnaireCompleted(9) && questionnaireCompleted(10)" to="/Resultat">Voir le Résultat</RouterLink>
-  </div>
+  </main>
 
 </template>
 

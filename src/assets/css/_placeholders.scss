@@ -40,3 +40,38 @@
 %strong2{
   font-weight: $font-bold;
 }
+
+%hover_dark_background {
+  color: $primary-color2;
+}
+
+%info_box{
+  padding: 20px;
+  flex: 1 0 30%;
+  @extend %display_flex2;
+  gap: 16px;
+  border-radius: 15px;
+  h3 {
+    font-size: $font-size-medium;
+  }
+
+  p {
+    font-size: $font-size-small;
+  }
+}
+
+%info_box_displayflex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 50px;
+}
+
+%banniere {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+  @extend %display_flex1;
+  @extend %text_dark_background;
+}

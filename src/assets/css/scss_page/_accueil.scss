@@ -5,7 +5,7 @@ main {
   @extend %text_light_background;
 
   .banniere{
-
+    width: 100%;
     margin-bottom: 30px;
   }
 
@@ -13,12 +13,7 @@ main {
     @extend %display_flex1;
     .wellcome {
       background-image: url("../../public/photo/globe.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      width: 100%;
-      height: 600px;
-      @extend %display_flex1;
-      @extend %text_dark_background;
+      @extend %banniere;
       gap: 30px;
       p {
         max-width: 800px;
