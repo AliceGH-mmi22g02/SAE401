@@ -26,7 +26,10 @@
     </div>
 
     <div v-if="score >= 4">
-      <p>Vous avez gagné ces codes promo :</p>
+      <p>
+        “Félicitations ! Vous avez gagné ces code promo pour le jeu Terra Nil !<br>
+        Rétablissez l'équilibre écologique en reconstruisant des écosystèmes dans ce jeu de stratégie environnementale sur PC.”
+      </p>
     </div>
 
     <div v-for="(promo, index) in promos" :key="index">
@@ -34,7 +37,7 @@
         <p v-if="promo.code">{{ promo.code }}</p>
       </div>
       <div v-else-if="index === getNextPromoIndex()">
-        <p>Il vous manque {{ promo.requiredScore - score }} point(s) pour obtenir ce code promo ainsi qu'un nouveau badge. Soit un Score de : {{ promo.requiredScore }}</p>
+        <p>Bien joué ! Il vous manque seulement  {{ promo.requiredScore - score }} point(s) pour obtenir ce code promo ainsi qu'un nouveau badge. Soit un Score de : {{ promo.requiredScore }}</p>
       </div>
     </div>
 
@@ -47,7 +50,7 @@ import { ref } from 'vue';
 import store from '../store.js';
 
 const route = useRoute();
-const score = 40;
+const score = store.state.score;
 
 const promos = [
   { requiredScore: 4, code: generatePromoCode() },
