@@ -39,8 +39,8 @@ const router = createRouter({
         },
 
         {
-            path: "/Mention",
-            name: 'Mention',
+            path: "/Mentions",
+            name: 'Mentions',
             component: MentionView,
         },
 
