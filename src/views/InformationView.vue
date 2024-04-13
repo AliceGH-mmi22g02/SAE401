@@ -1274,21 +1274,21 @@ let userResponses = [];
 
 const questionsInfo1 = [
   {
-    title: "Quête 1/4",
+    title: "Question 1/40",
     description: "1. Quelle est la principale cause de la déforestation ?",
     options: ["A. La culture biologique", "B. L'expansion agricole", "C. La construction de parcs éoliens", "D. Toutes les réponses ci-dessus"],
     correctAnswer: "B. L'expansion agricole",
     answered: false
   },
   {
-    title: "Quête 2/4",
+    title: "Question 2/40",
     description: "2. Quelle conséquence de la déforestation affecte directement les populations locales ?",
     options: ["A. Amélioration des services écosystémiques", "B. Augmentation de la production de biocarburants", "C. Perte de ressources naturelles", "D. Toutes les réponses ci-dessus"],
     correctAnswer: "C. Perte de ressources naturelles",
     answered: false
   },
   {
-    title: "Quête 3/4",
+    title: "Question 3/40",
     description: "3. Quelle solution est proposée pour lutter contre la déforestation ?",
     options: ["A. Pratiques agricoles durables", "B. Augmenter les surfaces de monoculture", "C. Exploitation forestière accrue", "D. Toutes les réponses ci-dessus"],
     correctAnswer: "A. Pratiques agricoles durables",
@@ -1296,7 +1296,7 @@ const questionsInfo1 = [
 
   },
   {
-    title: "Quête 4/4",
+    title: "Question 4/40",
     description: "4. Comment pouvez-vous contribuer à la protection des forêts ?",
     options: ["A. Réduire ma consommation de produits liés à la déforestation", "B. Utiliser plus de papier et de bois", "C. Ignorer les labels environnementaux", "D. Toutes les réponses ci-dessus"],
     correctAnswer: "A. Réduire ma consommation de produits liés à la déforestation",
@@ -1307,25 +1307,25 @@ const questionsInfo1 = [
 
 const questionsInfo2 = [
   {
-    title: "Quête 1/8",
+    title: "Question 5/40",
     description: "1. Quel facteur contribue le plus au changement climatique ?",
     options: ["A. L'énergie solaire", "B. Les émissions de gaz à effet de serre", "C. La plantation d'arbres", "D. Toutes les réponses ci-dessus"],
     correctAnswer: "B. Les émissions de gaz à effet de serre"
   },
   {
-    title: "Quête 2/8",
+    title: "Question 6/40",
     description: "2. Quelle est une conséquence directe des risques climatiques sur l'environnement ?",
     options: ["A. Diminution des phénomènes météorologiques extrêmes", "B. Augmentation de la diversité des espèces", "C. Perte de biodiversité", "D. Toutes les réponses ci-dessus"],
     correctAnswer: "C. Perte de biodiversité"
   },
   {
-    title: "Quête 3/8",
+    title: "Question 7/40",
     description: "3. Quelle mesure est recommandée pour réduire les risques climatiques ?",
     options: ["A. Augmentation de l'utilisation des énergies fossiles", "B. Pratiques agricoles durables", "C. Déforestation accrue pour l'urbanisation", "D. Toutes les réponses ci-dessus"],
     correctAnswer: "B. Pratiques agricoles durables"
   },
   {
-    title: "Quête 4/8",
+    title: "Question 8/40",
     description: "4. Comment pouvez-vous personnellement contribuer à la lutte contre les risques climatiques ?",
     options: ["A. Augmenter ma consommation d'énergies renouvelables", "B. Utiliser des véhicules à haute consommation de carburant", "C. Ignorer les recommandations sur l'économie d'énergie", "D. Toutes les réponses ci-dessus"],
     correctAnswer: "A. Augmenter ma consommation d'énergies renouvelables"
@@ -1334,25 +1334,25 @@ const questionsInfo2 = [
 
 const questionsInfo3 = [
   {
-    title: "Quête 1/12",
+    title: "Question 9/40",
     description: "1. Quelle est la principale source d'émission des gaz à effet de serre contribuant au réchauffement climatique ?",
     options: ["A. L'énergie solaire", "B. La combustion des combustibles fossiles", "C. La photosynthèse", "D. Toutes les réponses ci-dessus"],
     correctAnswer: "B. La combustion des combustibles fossiles"
   },
   {
-    title: "Quête 2/12",
+    title: "Question 10/40",
     description: "2. Quel impact le réchauffement climatique a-t-il sur le niveau des mers ?",
     options: ["A. Diminution constante du niveau des mers", "B. Aucun impact significatif", "C. Augmentation du niveau des mers", "D. Toutes les réponses ci-dessus"],
     correctAnswer: "C. Augmentation du niveau des mers"
   },
   {
-    title: "Quête 3/12",
+    title: "Question 11/40",
     description: "3. Quelle stratégie est efficace pour lutter contre le réchauffement climatique ?",
     options: ["A. Augmenter la production de charbon", "B. Réduire la consommation de viande", "C. Diminuer les efforts de recyclage", "D. Toutes les réponses ci-dessus"],
     correctAnswer: "B. Réduire la consommation de viande"
   },
   {
-    title: "Quête 4/12",
+    title: "Question 12/40",
     description: "4. Comment pouvez-vous personnellement contribuer à réduire le réchauffement climatique ?",
     options: ["A. Utiliser les transports en commun au lieu de votre voiture", "B. Augmenter votre consommation d'énergies fossiles", "C. Réduire le recyclage et la réutilisation des produits", "D. Toutes les réponses ci-dessus"],
     correctAnswer: "A. Utiliser les transports en commun au lieu de votre voiture"
@@ -1361,25 +1361,25 @@ const questionsInfo3 = [
 
 const questionsInfo4 = [
   {
-    title: "Quête 1/16",
+    title: "Question 13/40",
     description: "1. Quels sont les facteurs qui contribuent à l'augmentation du nombre d'espèces en voie de disparition ?",
     options: ["A. La croissance démographique mondiale", "B. L'urbanisation et la déforestation", "C. Le changement climatique et la pollution", "D. Toutes les réponses ci-dessus"],
     correctAnswer: "D. Toutes les réponses ci-dessus"
   },
   {
-    title: "Quête 2/16",
+    title: "Question 14/40",
     description: "2. Quelles sont les conséquences écologiques de l'augmentation du nombre d'espèces en voie de disparition ?",
     options: ["A. Augmentation de la biodiversité", "B. Perturbation des chaînes alimentaires", "C. Amélioration des habitats naturels", "D. Toutes les réponses ci-dessus"],
     correctAnswer: "B. Perturbation des chaînes alimentaires"
   },
   {
-    title: "Quête 3/16",
+    title: "Question 15/40",
     description: "3. Quelle recommandation est proposée pour lutter contre l'augmentation du nombre d'espèces en voie de disparition ?",
     options: ["A. Encourager la déforestation", "B. Renforcer les lois sur la chasse excessive", "C. Augmenter les émissions de gaz à effet de serre", "D. Toutes les réponses ci-dessus"],
     correctAnswer: "B. Renforcer les lois sur la chasse excessive"
   },
   {
-    title: "Quête 4/16",
+    title: "Question 16/40",
     description: "4. Comment pouvez-vous contribuer à la protection de la biodiversité selon les recommandations ?",
     options: ["A. Réduire sa consommation de ressources naturelles", "B. Encourager la déforestation", "C. Ignorer les problèmes environnementaux", "D. Toutes les réponses ci-dessus"],
     correctAnswer: "A. Réduire sa consommation de ressources naturelles"
@@ -1388,25 +1388,25 @@ const questionsInfo4 = [
 
 const questionsInfo5 = [
   {
-    title: "Quête 1/20",
+    title: "Question 17/40",
     description: "1. Quelles sont les principales causes de la surconsommation des ressources naturelles ?",
     options: ["A. Diminution de la demande en ressources due à la croissance démographique.", "B. Expansion des zones urbaines.", "C. Promotion des modes de vie durables.", "D. Toutes les réponses ci-dessus."],
     correctAnswer: "D. Toutes les réponses ci-dessus."
   },
   {
-    title: "Quête 2/20",
+    title: "Question 18/40",
     description: "2. Quel est l'impact de la surconsommation des ressources naturelles sur les écosystèmes ?",
     options: ["A. Augmentation de la biodiversité.", "B. Régénération accrue des habitats naturels.", "C. Surexploitation des écosystèmes.", "D. Toutes les réponses ci-dessus."],
     correctAnswer: "C. Surexploitation des écosystèmes."
   },
   {
-    title: "Quête 3/20",
+    title: "Question 19/40",
     description: "3. Quelle recommandation est proposée pour lutter contre la surconsommation des ressources naturelles ?",
     options: ["A. Favoriser l'expansion des zones urbaines.", "B. Adopter des modes de vie durables.", "C. Promouvoir l'utilisation intensive des ressources naturelles.", "D. Ignorer les politiques environnementales."],
     correctAnswer: "B. Adopter des modes de vie durables."
   },
   {
-    title: "Quête 4/20",
+    title: "Question 20/40",
     description: "4. Comment pouvez-vous contribuer à la protection des ressources naturelles ?",
     options: ["A. Augmenter ma consommation de produits jetables.", "B. Utiliser davantage de ressources non renouvelables.", "C. Adopter des pratiques de consommation responsables.", "D. Toutes les réponses ci-dessus."],
     correctAnswer: "C. Adopter des pratiques de consommation responsables."
@@ -1415,25 +1415,25 @@ const questionsInfo5 = [
 
 const questionsInfo6 = [
   {
-    title: "Quête 1/24",
+    title: "Question 21/40",
     description: "1. Quelles sont les principales activités humaines responsables de la crise de la pollution ?",
     options: ["A. L'exploitation minière", "B. La construction de parcs naturels", "C. L'agriculture intensive", "D. Toutes les réponses ci-dessus"],
     correctAnswer: "C. L'agriculture intensive"
   },
   {
-    title: "Quête 2/24",
+    title: "Question 22/40",
     description: "2. Quel est l'impact de la pollution sur la santé humaine ?",
     options: ["A. Augmentation de la fertilité", "B. Réduction du risque de maladies respiratoires", "C. Accroissement du risque de cancer", "D. Toutes les réponses ci-dessus"],
     correctAnswer: "C. Accroissement du risque de cancer"
   },
   {
-    title: "Quête 3/24",
+    title: "Question 23/40",
     description: "3. Comment peut-on réduire les émissions industrielles pour lutter contre la pollution ?",
     options: ["A. En renforçant les normes environnementales et en adoptant des technologies propres", "B. En augmentant la production industrielle sans contrainte", "C. En ignorant les réglementations environnementales", "D. Aucune des réponses ci-dessus"],
     correctAnswer: "A. En renforçant les normes environnementales et en adoptant des technologies propres"
   },
   {
-    title: "Quête 4/24",
+    title: "Question 24/40",
     description: "4. Quelle mesure peut contribuer à promouvoir une agriculture durable ?",
     options: ["A. L'utilisation excessive de pesticides et d'engrais chimiques", "B. L'adoption de pratiques agricoles respectueuses de l'environnement", "C. La déforestation massive", "D. Aucune des réponses ci-dessus"],
     correctAnswer: "B. L'adoption de pratiques agricoles respectueuses de l'environnement"
@@ -1442,25 +1442,25 @@ const questionsInfo6 = [
 
 const questionsInfo7 = [
   {
-    title: "Quête 1/28",
+    title: "Question 25/40",
     description: "1. Quelles sont les principales causes des menaces sur la biodiversité ?",
     options: ["A. La promotion de la sensibilisation et de l'éducation", "B. L'urbanisation", "C. La conservation des habitats naturels", "D. Toutes les réponses ci-dessus"],
     correctAnswer: "B. L'urbanisation"
   },
   {
-    title: "Quête 2/28",
+    title: "Question 26/40",
     description: "2. Quelle mesure peut contribuer à une gestion durable des ressources naturelles ?",
     options: ["A. Favoriser une exploitation raisonnée des ressources forestières, halieutiques et fauniques en mettant en place des quotas et des réglementations strictes.", "B. Encourager l'adoption de pratiques agricoles non respectueuses de la biodiversité.", "C. Ignorer les espèces invasives pour minimiser leur impact.", "D. Aucune des réponses ci-dessus"],
     correctAnswer: "A. Favoriser une exploitation raisonnée des ressources forestières, halieutiques et fauniques en mettant en place des quotas et des réglementations strictes."
   },
   {
-    title: "Quête 3/28",
+    title: "Question 27/40",
     description: "3. Quel est l'impact de la perte de biodiversité sur la sécurité alimentaire ?",
     options: ["A. Augmentation de la disponibilité des ressources alimentaires", "B. Aucun impact sur la sécurité alimentaire", "C. Diminution de la disponibilité des ressources alimentaires", "D. Toutes les réponses ci-dessus"],
     correctAnswer: "C. Diminution de la disponibilité des ressources alimentaires"
   },
   {
-    title: "Quête 4/28",
+    title: "Question 28/40",
     description: "4. Quelle est l'une des recommandations pour lutter contre les espèces invasives ?",
     options: ["A. Encourager leur propagation dans les écosystèmes indigènes", "B. Mettre en œuvre des programmes d'éradication ciblés pour limiter leur propagation", "C. Ignorer leur présence pour éviter toute intervention", "D. Aucune des réponses ci-dessus"],
     correctAnswer: "B. Mettre en œuvre des programmes d'éradication ciblés pour limiter leur propagation"
@@ -1469,25 +1469,25 @@ const questionsInfo7 = [
 
 const questionsInfo8 = [
   {
-    title: "Quête 1/32",
+    title: "Question 29/40",
     description: "1. Quelles sont les principales causes de la surproduction de déchets ?",
     options: ["A. La promotion de la sensibilisation et de l'éducation", "B. L'utilisation généralisée d'emballages jetables", "C. L'investissement dans les infrastructures de gestion des déchets", "D. Toutes les réponses ci-dessus"],
     correctAnswer: "B. L'utilisation généralisée d'emballages jetables"
   },
   {
-    title: "Quête 2/32",
+    title: "Question 30/40",
     description: "2. Comment la mauvaise gestion des déchets peut-elle affecter la santé publique ?",
     options: ["A. En améliorant la qualité de l'air", "B. En contribuant à la propagation des maladies infectieuses", "C. En favorisant la sécurité alimentaire", "D. Aucune des réponses ci-dessus"],
     correctAnswer: "B. En contribuant à la propagation des maladies infectieuses"
   },
   {
-    title: "Quête 3/32",
+    title: "Question 31/40",
     description: "3. Quelle mesure peut contribuer à réduire la quantité de déchets destinés à l'enfouissement ?",
     options: ["A. Encourager la valorisation énergétique des déchets non recyclables", "B. Promouvoir le dépôt sauvage des déchets", "C. Ignorer le tri sélectif", "D. Aucune des réponses ci-dessus"],
     correctAnswer: "A. Encourager la valorisation énergétique des déchets non recyclables"
   },
   {
-    title: "Quête 4/32",
+    title: "Question 32/40",
     description: "4. Pourquoi la sensibilisation du public est-elle importante dans la gestion des déchets ?",
     options: ["A. Pour encourager le dépôt sauvage des déchets", "B. Pour promouvoir la réduction à la source et le recyclage", "C. Pour limiter l'accès aux points de collecte appropriés", "D. Aucune des réponses ci-dessus"],
     correctAnswer: "B. Pour promouvoir la réduction à la source et le recyclage"
@@ -1496,25 +1496,25 @@ const questionsInfo8 = [
 
 const questionsInfo9 = [
   {
-    title: "Quête 1/36",
+    title: "Question 33/40",
     description: "1. Qu'est-ce que la surexploitation des ressources marines ?",
     options: ["A. La pratique de prélever des ressources marines à un rythme inférieur à leur capacité de régénération naturelle.", "B. La pratique de prélever des ressources marines à un rythme supérieur à leur capacité de régénération naturelle.", "C. La pratique de prélever des ressources marines uniquement à des fins de recherche scientifique.", "D. Aucune des réponses ci-dessus."],
     correctAnswer: "B. La pratique de prélever des ressources marines à un rythme supérieur à leur capacité de régénération naturelle."
   },
   {
-    title: "Quête 2/36",
+    title: "Question 34/40",
     description: "2. Quelle est l'une des principales causes de la surexploitation des ressources marines ?",
     options: ["A. La mise en place de quotas de pêche durables.", "B. L'utilisation de techniques de pêche respectueuses de l'environnement.", "C. La surpêche due à une demande croissante de produits de la mer.", "D. La création de zones marines protégées."],
     correctAnswer: "C. La surpêche due à une demande croissante de produits de la mer."
   },
   {
-    title: "Quête 3/36",
+    title: "Question 35/40",
     description: "3. Quelle est l'une des conséquences de la surexploitation des ressources marines ?",
     options: ["A. La préservation de la biodiversité marine.", "B. L'augmentation des populations de poissons.", "C. La réduction des répercussions socio-économiques sur les communautés de pêcheurs.", "D. L'effondrement des stocks de poissons."],
     correctAnswer: "D. L'effondrement des stocks de poissons."
   },
   {
-    title: "Quête 4/36",
+    title: "Question 36/40",
     description: "4. Quelle mesure pourrait contribuer à prévenir la surexploitation des ressources marines ?",
     options: ["A. Encourager l'utilisation de techniques de pêche destructrices.", "B. Établir des quotas de pêche durables.", "C. Réduire la surveillance et l'application des lois concernant la pêche.", "D. Ignorer les impacts de la surexploitation des ressources marines."],
     correctAnswer: "B. Établir des quotas de pêche durables."
@@ -1523,25 +1523,25 @@ const questionsInfo9 = [
 
 const questionsInfo10 = [
   {
-    title: "Quête 1/40",
+    title: "Question 37/40",
     description: "1. Qu'est-ce que la dégradation et l'épuisement des sols ?",
     options: ["A. Le processus par lequel la qualité et la fertilité des sols augmentent progressivement.", "B. Le processus par lequel la qualité et la fertilité des sols diminuent progressivement.", "C. La pratique de restaurer les écosystèmes naturels.", "D. Aucune des réponses ci-dessus."],
     correctAnswer: "B. Le processus par lequel la qualité et la fertilité des sols diminuent progressivement."
   },
   {
-    title: "Quête 2/40",
+    title: "Question 38/40",
     description: "2. Quelle est l'une des principales causes de la dégradation et de l'épuisement des sols ?",
     options: ["A. La promotion de pratiques agricoles durables.", "B. La gestion durable des terres.", "C. L'éducation et la sensibilisation.", "D. La pollution agricole et industrielle."],
     correctAnswer: "D. La pollution agricole et industrielle."
   },
   {
-    title: "Quête 3/40",
+    title: "Question 39/40",
     description: "3. Quelle est l'une des conséquences de la dégradation et de l'épuisement des sols ?",
     options: ["A. Augmentation de la productivité agricole.", "B. Désertification des terres fertiles.", "C. Réduction des coûts de production agricole.", "D. Amélioration de la qualité de l'eau."],
     correctAnswer: "B. Désertification des terres fertiles."
   },
   {
-    title: "Quête 4/40",
+    title: "Question 40/40",
     description: "4. Quelle mesure pourrait contribuer à prévenir la dégradation et l'épuisement des sols ?",
     options: ["A. Encourager l'usage intensif de pesticides.", "B. Favoriser la rotation des cultures et la couverture végétale permanente.", "C. Augmenter l'utilisation de produits chimiques toxiques.", "D. Ignorer les pratiques agricoles non durables."],
     correctAnswer: "B. Favoriser la rotation des cultures et la couverture végétale permanente."
