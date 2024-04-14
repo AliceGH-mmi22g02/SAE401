@@ -22,12 +22,14 @@ export default {
 
 <template>
   <header>
+    <div class="main_menue">
       <img :src="logo" alt="Logo">
+      <LocaleChanger/>
+    </div>
     <nav class="sub_menue">
       <RouterLink to="/">Accueil</RouterLink>
       <RouterLink to="/TableauQuete">Quêtes</RouterLink>
     </nav>
-    <LocaleChanger/>
   </header>
 
   <RouterView/>
@@ -35,7 +37,7 @@ export default {
   <footer>
     <img :src="logo2" alt="Logo">
     <p>©2023 - 2024 MMI Troyes | SAE401</p>
-    <RouterLink to="/Mentions">Mentions légales</RouterLink>
+    <RouterLink to="/Mentions">Mentions légals</RouterLink>
   </footer>
 </template>
 

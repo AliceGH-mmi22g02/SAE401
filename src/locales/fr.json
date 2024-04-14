@@ -691,16 +691,16 @@
         "7": "<img src=\"../../public/picto/pollution.svg\" alt=\"picto pollution\"/>"
       },
       "quetes": {
-        "1": "<img src=\"/public/quete1.png\" alt=\"Quête 1\" data-quete=\"0\" >",
-        "2": "<img src=\"/public/quete2.png\" alt=\"Quête 2\" data-quete=\"1\">",
-        "3": "<img src=\"/public/quete3.png\" alt=\"Quête 3\" data-quete=\"2\">",
-        "4": "<img src=\"/public/quete4.png\" alt=\"Quête 4\" data-quete=\"3\">",
-        "5": "<img src=\"/public/quete5.png\" alt=\"Quête 5\" data-quete=\"4\">",
-        "6": "<img src=\"/public/quete6.png\" alt=\"Quête 6\" data-quete=\"5\">",
-        "7": "<img src=\"/public/quete7.png\" alt=\"Quête 7\" data-quete=\"6\">",
-        "8": "<img src=\"/public/quete8.png\" alt=\"Quête 8\" data-quete=\"7\">",
-        "9": "<img src=\"/public/quete9.png\" alt=\"Quête 9\" data-quete=\"8\">",
-        "10": "<img src=\"/public/quete10.png\" alt=\"Quête 10\" data-quete=\"9\">"
+        "1": "<img src=\"quete1.png\" alt=\"Quête 1\" data-quete=\"0\" >",
+        "2": "<img src=\"quete2.png\" alt=\"Quête 2\" data-quete=\"1\">",
+        "3": "<img src=\"quete3.png\" alt=\"Quête 3\" data-quete=\"2\">",
+        "4": "<img src=\"quete4.png\" alt=\"Quête 4\" data-quete=\"3\">",
+        "5": "<img src=\"quete5.png\" alt=\"Quête 5\" data-quete=\"4\">",
+        "6": "<img src=\"quete6.png\" alt=\"Quête 6\" data-quete=\"5\">",
+        "7": "<img src=\"quete7.png\" alt=\"Quête 7\" data-quete=\"6\">",
+        "8": "<img src=\"quete8.png\" alt=\"Quête 8\" data-quete=\"7\">",
+        "9": "<img src=\"quete9.png\" alt=\"Quête 9\" data-quete=\"8\">",
+        "10": "<img src=\"quete10.png\" alt=\"Quête 10\" data-quete=\"9\">"
       }
     },
   "result": {
