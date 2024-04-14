@@ -27,8 +27,8 @@ export default {
       <LocaleChanger/>
     </div>
     <nav class="sub_menue">
-      <RouterLink to="/">Accueil</RouterLink>
-      <RouterLink to="/TableauQuete">Quêtes</RouterLink>
+      <RouterLink to="/">{{ $t("app.home") }}</RouterLink>
+      <RouterLink to="/TableauQuete">{{ $t("app.quetes") }}</RouterLink>
     </nav>
   </header>
 
@@ -37,7 +37,7 @@ export default {
   <footer>
     <img :src="logo2" alt="Logo">
     <p>©2023 - 2024 MMI Troyes | SAE401</p>
-    <RouterLink to="/Mentions">Mentions légals</RouterLink>
+    <RouterLink to="/Mentions">{{ $t("app.mentions") }}</RouterLink>
   </footer>
 </template>
 

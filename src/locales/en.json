@@ -27,8 +27,10 @@
     "more": "Beyond the virtual rewards, your participation makes a real contribution to environmental protection.",
     "p13": "Join the GREENPLAY adventure! Learn, act, and be rewarded :)"
   },
-  "img": {
-    "risques_climatiques": "consommation_des_ressources"
+  "app": {
+    "home": "Home",
+    "quetes": "Quests",
+    "mentions": "Legal notice"
   },
   "special": {
     "gp": "GREENPLAY",

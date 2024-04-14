@@ -25,6 +25,11 @@
     "more": "Au-delà des récompenses virtuelles, votre participation contribue réellement à la protection de l'environnement.",
     "p13": "Rejoignez l'aventure GREENPLAY ! Apprenez, agissez, et soyez récompensés :)"
   },
+  "app": {
+    "home": "Accueil",
+    "quetes": "Quêtes",
+    "mentions": "Mentions légales"
+  },
   "special": {
     "gp": "GREENPLAY",
     "exclam": " !"
