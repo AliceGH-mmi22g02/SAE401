@@ -17,12 +17,12 @@
 
       <div class="why">
         <div class="why-sign">
-          <img src="../../public/icon.png" alt="pictogramme s'inscrire"/>
+          <img class="icon" src="../../public/participer.svg" alt="pictogramme s'inscrire"/>
           <h2>{{ $t("main.why") }}</h2>
           <p>{{ $t("main.p2") }}</p>
         </div>
         <div class="why-play">
-          <img src="../../public/icon.png" alt="pictogramme jouer"/>
+          <img class="icon" src="../../public/jouer.svg" alt="pictogramme jouer"/>
           <h2>{{ $t("main.whyplay") }}</h2>
           <p>{{ $t("main.p3") }}</p>
         </div>
