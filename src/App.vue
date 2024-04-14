@@ -22,14 +22,12 @@ export default {
 
 <template>
   <header>
-    <div class="main_menue">
       <img :src="logo" alt="Logo">
-      <LocaleChanger/>
-    </div>
     <nav class="sub_menue">
       <RouterLink to="/">{{ $t("app.home") }}</RouterLink>
       <RouterLink to="/TableauQuete">{{ $t("app.quetes") }}</RouterLink>
     </nav>
+    <LocaleChanger/>
   </header>
 
   <RouterView/>
