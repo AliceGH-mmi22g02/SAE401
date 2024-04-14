@@ -36,7 +36,7 @@ main {
     .grid2 {
       @extend %info_box_displayflex;
       .grid2-forme {
-        background-color: #D9D9D9;
+        background-color: $primary-color2;
         @extend %info_box;
         @extend %display_flex2;
         border-radius: 15px;
@@ -47,7 +47,7 @@ main {
     .grid3 {
       @extend %info_box_displayflex;
       .grid3-forme {
-        background-color: #D9D9D9;
+        background-color: $primary-color2;
         @extend %info_box;
       }
     }

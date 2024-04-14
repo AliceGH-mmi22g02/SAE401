@@ -33,11 +33,11 @@
       <h2>{{ $t("main.how") }}</h2>
       <div class="how-container">
         <div class="how">
-          <img src="../../public/screenshot.png" alt="tuto selectionner une quête">
+          <img class="screenshot" src="../../public/screenshot1.png" alt="tuto selectionner une quête">
           <p>{{ $t("main.p4-2") }}</p>
         </div>
         <div class="how">
-          <img src="../../public/screenshot.png" alt="tuto objectifs de la quête">
+          <img class="screenshot" src="../../public/screenshot2.png" alt="tuto objectifs de la quête">
           <p>{{ $t("main.p4-3") }}</p>
         </div>
       </div>
@@ -45,15 +45,15 @@
       <h2>{{ $t("main.what") }}</h2>
       <div class="how-container">
         <div class="how">
-          <img src="../../public/screenshot.png" alt="capture pop-up quête">
+          <img class="screenshot" src="../../public/screenshot1.png" alt="capture pop-up quête">
           <p>{{ $t("main.p5") }}</p>
         </div>
         <div class="how">
-          <img src="../../public/screenshot.png" alt="capture quête">
+          <img class="screenshot" src="../../public/screenshot3.png" alt="capture quête">
           <p>{{ $t("main.p6") }}</p>
         </div>
         <div class="how">
-          <img src="../../public/screenshot.png" alt="capture valider quête">
+          <img class="screenshot" src="../../public/screenshot4.png" alt="capture valider quête">
           <p>{{ $t("main.p7") }}</p>
         </div>
       </div>
