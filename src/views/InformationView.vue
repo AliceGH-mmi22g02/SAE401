@@ -1243,7 +1243,7 @@
       </div>
     </section>
     <p>{{$t ("info2.p")}}</p>
-    <div>
+    <div class="bouton">
       <RouterLink class="router" v-if="questionnaireCompleted(1) && questionnaireCompleted(2) && questionnaireCompleted(3) && questionnaireCompleted(4) && questionnaireCompleted(5) && questionnaireCompleted(6) && questionnaireCompleted(7) && questionnaireCompleted(8) && questionnaireCompleted(9) && questionnaireCompleted(10)" to="/Resultat">Voir le Résultat</RouterLink>
     </div>
   </main>
