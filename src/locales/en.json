@@ -167,6 +167,7 @@
     }
   },
   "info2": {
+    "p" : "Keep completing the questionnaires to get your final score and unlock rewards!",
     "titre": {
       "h1": "The dangers of climate risks",
       "p": "Climate risks, exacerbated by anthropogenic changes in the composition of the Earth's atmosphere, represent a growing threat to our planet. Increasing greenhouse gas emissions, mainly from fossil fuel combustion, deforestation and intensive agriculture, have significantly altered global climate patterns. These disruptions are leading to an increased frequency and intensity of extreme weather events, such as violent storms, devastating floods, unbearable heatwaves and prolonged droughts. These extreme weather events endanger vital ecosystems, threaten homes and infrastructure, and compromise global food security."
@@ -709,6 +710,11 @@
       "10": "<img src=\"quete10en.png\" alt=\"Quest 10\" data-quete=\"9\">"
     }
   },
+  "tableauquete" : {
+    "h1": "Choose a quest",
+    "p" : "For a better experience, we recommend not returning to the quest board until all quests are completed, as it will reset your progress."
+  },
+
   "result": {
     "h1": "Result",
     "p": "Your score is: ",
