@@ -688,12 +688,12 @@
   },
   "images": {
     "accueil": {
-      "1": "<img src=\"picto/risques_climatique_en.svg\" alt=\"picto risques climatiques\"/>",
-      "2": "<img src=\"picto/consommation_des_ressources_en.svg\" alt=\"picto consommation des ressources\"/>",
-      "3": "<img src=\"picto/deforestation_en.svg\" alt=\"picto déforestation\"/>",
-      "4": "<img src=\"picto/especes_en_voie_de_disparition_en.svg\" alt=\"picto espèce en voie de disparition\"/>",
-      "5": "<img src=\"picto/atteinte_a_la_biodiversite_en.svg\" alt=\"picto atteinte à la biodiversité\"/>",
-      "6": "<img src=\"picto/rechauffement_climatique_en.svg\" alt=\"picto réchauffement climatique\"/>",
+      "1": "<img src=\"picto/risques_climatique_en.svg\" alt=\"picto climate risks\"/>",
+      "2": "<img src=\"picto/consommation_des_ressources_en.svg\" alt=\"picto resources depletion\"/>",
+      "3": "<img src=\"picto/deforestation_en.svg\" alt=\"picto deforestation\"/>",
+      "4": "<img src=\"picto/especes_en_voie_de_disparition_en.svg\" alt=\"picto species at risk\"/>",
+      "5": "<img src=\"picto/atteinte_a_la_biodiversite_en.svg\" alt=\"picto harm to biodiversity\"/>",
+      "6": "<img src=\"picto/rechauffement_climatique_en.svg\" alt=\"picto global warming\"/>",
       "7": "<img src=\"picto/pollution_en.svg\" alt=\"picto pollution\"/>"
     },
     "quetes": {
