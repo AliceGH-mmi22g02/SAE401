@@ -10,7 +10,7 @@
     <main id="main-badges">
       <div class="badge-container">
         <div v-for="(badge, index) in getBadgeCount()" :key="index" class="rounded-box">
-          <img class="rounded-image" :src="`../../public/badge/Badge${index + 1}.svg`" alt="Image">
+          <img class="rounded-image" :src="`badge/Badge${index + 1}.svg`" alt="Image">
           <p class="text">{{ badgeTitles[index] }}</p>
           <p class="text">{{ badgeDescriptions[index] }}</p>
         </div>
