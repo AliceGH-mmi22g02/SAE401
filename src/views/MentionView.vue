@@ -14,3 +14,6 @@
 </template>
 <script>
 </script>
+<style lang="scss">
+@import "src/assets/css/scss_page/mentions";
+</style>
