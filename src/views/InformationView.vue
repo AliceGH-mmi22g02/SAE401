@@ -160,6 +160,7 @@
         <button @click="envoyerScore" :disabled="!selectedOption">Envoyer</button>
       </div>
     </section>
+    <p>{{$t ("info2.p")}}</p>
     <section id="info2">
       <div class="banniere_quete2">
       <div class="titreinfo">
@@ -258,7 +259,7 @@
         <button @click="envoyerScore" :disabled="!selectedOption">Envoyer</button>
       </div>
     </section>
-
+    <p>{{$t ("info2.p")}}</p>
     <section id="info3">
       <div class="banniere_quete3">
       <div class="titreinfo">
@@ -359,7 +360,7 @@
         <button @click="envoyerScore" :disabled="!selectedOption">Envoyer</button>
       </div>
     </section>
-
+    <p>{{$t ("info2.p")}}</p>
     <section id="info4">
       <div class="banniere_quete4">
       <div class="titreinfo">
@@ -468,7 +469,7 @@
         <button @click="envoyerScore" :disabled="!selectedOption">Envoyer</button>
       </div>
     </section>
-
+    <p>{{$t ("info2.p")}}</p>
     <section id="info5">
       <div class="banniere_quete5">
       <div class="titreinfo">
@@ -579,7 +580,7 @@
         <button @click="envoyerScore" :disabled="!selectedOption">Envoyer</button>
       </div>
     </section>
-
+    <p>{{$t ("info2.p")}}</p>
     <section id="info6">
       <div class="banniere_quete6">
       <div class="titreinfo">
@@ -708,7 +709,7 @@
         <button @click="envoyerScore" :disabled="!selectedOption">Envoyer</button>
       </div>
     </section>
-
+    <p>{{$t ("info2.p")}}</p>
     <section id="info7">
       <div class="banniere_quete7">
       <div class="titreinfo">
@@ -841,7 +842,7 @@
         <button @click="envoyerScore" :disabled="!selectedOption">Envoyer</button>
       </div>
     </section>
-
+    <p>{{$t ("info2.p")}}</p>
     <section id="info8">
       <div class="banniere_quete8">
       <div class="titreinfo">
@@ -978,7 +979,7 @@
         <button @click="envoyerScore" :disabled="!selectedOption">Envoyer</button>
       </div>
     </section>
-
+    <p>{{$t ("info2.p")}}</p>
     <section id="info9">
       <div class="banniere_quete9">
       <div class="titreinfo">
@@ -1092,7 +1093,7 @@
         <button @click="envoyerScore" :disabled="!selectedOption">Envoyer</button>
       </div>
     </section>
-
+    <p>{{$t ("info2.p")}}</p>
     <section id="info10">
       <div class="banniere_quete10">
       <div class="titreinfo">
@@ -1241,6 +1242,7 @@
         <button @click="envoyerScore" :disabled="!selectedOption">Envoyer</button>
       </div>
     </section>
+    <p>{{$t ("info2.p")}}</p>
     <div>
       <RouterLink class="router" v-if="questionnaireCompleted(1) && questionnaireCompleted(2) && questionnaireCompleted(3) && questionnaireCompleted(4) && questionnaireCompleted(5) && questionnaireCompleted(6) && questionnaireCompleted(7) && questionnaireCompleted(8) && questionnaireCompleted(9) && questionnaireCompleted(10)" to="/Resultat">Voir le Résultat</RouterLink>
     </div>

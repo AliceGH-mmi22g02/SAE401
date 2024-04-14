@@ -166,6 +166,7 @@
       }
     },
     "info2": {
+      "p" : "Continuez à compléter les questionnaires pour obtenir votre score final et débloquer des récompenses !",
       "titre": {
         "h1": "Les dangers des risques climatiques",
         "p": "Les risques climatiques, exacerbés par les changements anthropogéniques dans la composition de l'atmosphère terrestre, représentent une menace croissante pour notre planète. L'accroissement des émissions de gaz à effet de serre, issus principalement de la combustion des énergies fossiles, de la déforestation, et de l'agriculture intensive, a modifié de manière significative les modèles climatiques globaux. Ces perturbations entraînent une fréquence et une intensité accrues de phénomènes météorologiques extrêmes, tels que des tempêtes violentes, des inondations dévastatrices, des canicules insoutenables, et des sécheresses prolongées. Ces événements climatiques extrêmes mettent en danger les écosystèmes vitaux, menacent les habitations et les infrastructures, et compromettent la sécurité alimentaire mondiale."
@@ -708,6 +709,10 @@
         "10": "<img src=\"quete10.png\" alt=\"Quête 10\" data-quete=\"9\">"
       }
     },
+  "tableauquete" : {
+    "h1": "Choisissez une quête",
+    "p" : "Pour une meilleure expérience, nous vous recommandons de ne pas revenir au tableau des quêtes avant de les avoir toutes complétées, car cela réinitialisera votre progression."
+  },
   "result": {
     "h1": "Résultat",
     "p": "Votre score est : ",
