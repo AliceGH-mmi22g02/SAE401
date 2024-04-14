@@ -33,6 +33,9 @@ body {
         font-family: $font-primary;
         text-decoration: none;
         font-size: 23px;
+        &:hover{
+          @extend %hover_dark_background;
+        }
       }
     }
   }
