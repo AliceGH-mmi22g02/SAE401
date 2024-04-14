@@ -112,5 +112,21 @@ main {
       }
     }
   }
+
+  .router {
+    background-color: $secondary-color2;
+    padding: 10px;
+    font-family: $font-primary;
+    font-size: $border-radius-large;
+    border-radius: 30px;
+    border: 0;
+    font-weight: bold;
+    color: $color-black;
+    text-decoration: none;
+    &:hover {
+      background-color: $primary-color2;
+    }
+  }
+
 }
 
