@@ -66,6 +66,10 @@ main {
     border-radius: 10px;
   }
 
+  .screen5 {
+    max-width: 900px;
+  }
+
   .questsubject {
     @extend %display_flex2;
     margin-top: 100px;
