@@ -1,7 +1,7 @@
 <template>
   <main @click="handleClick">
     <h1>{{ $t("tableauquete.h1") }}</h1>
-    <p>{{ $t("tableauquete.p") }}Pour une meilleure expérience, nous vous recommandons de ne pas revenir au tableau des quêtes avant de les avoir toutes complétées, car cela réinitialisera votre progression.</p>
+    <p>{{ $t("tableauquete.p") }}</p>
     <div class="feuille-container">
     <a href="Information#info1" id="quete1" v-html="$t('images.quetes.1')" @click="handleClick($event.target)"></a>
     <a href="Information#info2" id="quete2" v-html="$t('images.quetes.2')" @click="handleClick($event.target)"></a>
